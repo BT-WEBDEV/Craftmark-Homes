@@ -17,7 +17,7 @@
             "mapImg": "listingImg-v2.jpg",
             "frameV2": "frame-v2.png",
             "brandStyle": {
-                "background": "G_Clarksburg_1.jpg",
+                "background": "G_Clarksburg_1.png",
                 "colors": ["#168EBB", "#091735"],
                 "mainColor": "#168EBB",
                 "textColor": "black",
