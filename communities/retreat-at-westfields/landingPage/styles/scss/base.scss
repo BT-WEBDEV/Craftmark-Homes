@@ -1,0 +1,109 @@
+.margin-top {
+}
+/* Typography */
+html {
+  width: 100%;
+}
+body {
+  background: $blue;
+  @include background-center('/communities/RetreatAtWestfields/images/background.png');
+  color: $white;
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+h1,
+.h1 {
+  font-family: elido, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h2,
+.h2 {
+}
+h3,
+.h3 {
+}
+h4,
+.h4 {
+}
+h5,
+.h5 {
+}
+h6,
+.h6 {
+}
+p {
+}
+.outline {
+  display: none;
+}
+a {
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition: color 300ms, background-color 300ms;
+  transition: color 300ms, background-color 300ms;
+}
+p.small {
+  font-variant: small-caps;
+}
+.vh-100 {
+  height: 100vh;
+}
+
+.text-gold {
+  color: $gold;
+}
+
+// Background
+.bg-center {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+// Contact
+#success_message {
+  display: none;
+  h3 {
+    line-height: 1.5;
+    font-size: 22px;
+  }
+}
+
+/* IE Version update TAB */
+#VersionTab {
+  z-index: 99999;
+  position: absolute;
+  top: 100px;
+  color: red;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  background-color: yellow;
+  height: 100px;
+  line-height: 100px;
+  a {
+    color: blue;
+  }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

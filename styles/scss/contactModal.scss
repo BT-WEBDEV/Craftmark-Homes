@@ -1,0 +1,30 @@
+#contactToday, #contactPopupModal {
+    .modal-dialog {
+        top: 0;
+        margin: 0px;
+    }
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+    .modal-content {
+        height: calc(100vh - 74px);
+    }
+}
+
+
+@media (min-width: $screen-sm) {
+    #contactToday, #contactPopupModal {
+        .modal-dialog {
+            top: 15%;
+            margin: 0 auto;
+        }
+        .modal-content {
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,373 @@
+#home-who-we-are {
+    @include background-overlay("/images/bg-who-we-are.jpg", center center, 229, 242, 248, 0.67);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .content {
+        padding: 40px 0;
+    }
+}
+
+.custom-properties {
+    @include background-overlay("/images/bg-custom-properties.jpg", center center, 0, 0, 0, 0.4);
+    // background-image: url("/images/bg-custom-properties.jpg");
+}
+
+.we-buy-land {
+    @include background-overlay("/images/bg-we-buy-land.jpg", center center, 0, 0, 0, 0.4);
+    // background-image: url("/images/bg-we-buy-land.jpg");
+}
+
+// Swiper Listings
+.featured-list {
+    .image {
+        .logo {
+            position: absolute;
+            z-index: 10;
+        }
+    }
+
+    .play_btn_wrap {
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        width: 40px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        border-radius: 50%;
+        opacity: 0.8;
+        padding: 7px;
+        @include vertical-align(absolute, 37%);
+
+        .play_btn {
+
+            opacity: 0.8;
+            width: 100%;
+        }
+
+        .youtube {
+            margin-left: 2px;
+        }
+
+        &:hover {
+            .play_btn {
+                opacity: 1;
+            }
+        }
+    }
+
+    .tour_btn_wrap {
+        padding: 5px;
+    }
+
+}
+.featured-listV2 {
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .play_btn_wrap {
+        width: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        @include vertical-align(absolute, 37%);
+
+        .play_btn {
+            opacity: 0.8;
+            width: 100%;
+        }
+
+        &:hover {
+            .play_btn {
+                opacity: 1;
+            }
+        }
+    }
+    .desc {
+        line-height: 1.2;
+        text-align: center;
+        position: relative;
+        margin-top: -20px;
+        font-size: 14px;
+        font-style: italic;
+    }
+}
+
+#home-featured-list {
+    .featured-swiper-container {
+        position: static !important;
+    }
+}
+
+.notify {
+    position: absolute;
+    top: -185px;
+    left: 7.5%;
+    height: 200px;
+    z-index: 102;
+    // animation: bounce 1.7s infinite;
+
+    img {
+        width: 70px;
+    }
+
+    .text {
+        background-color: rgba($color: black, $alpha: 0.8);
+        padding: 25px 30px;
+        border-top: 3px solid #ffde28;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    h3 {
+        font-weight: bold;
+        margin-bottom: 0px;
+        font-size: 26px;
+    }
+
+    .close {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        width: 15px;
+    }
+}
+
+#notifyModal {
+    position: absolute;
+    top: 200px;
+    width: 180px;
+    right: 0;
+    z-index: 1041;
+    background-color: rgba($color: black, $alpha: 0.8);
+    border-top: 5px solid #ffde28;
+    padding: 15px 15px 15px 30px;
+
+    h3 {
+        font-weight: bold;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    .close {
+        position: absolute;
+        top: 0px;
+        left: 7px;
+        width: 10px;
+    }
+}
+
+.gallery-list {
+    .cover {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        bottom: auto;
+        height: 45px;
+    }
+}
+
+#home-galery .swiper-slide:nth-child(2n) {
+    .cover {
+        bottom: 0px;
+        top: auto;
+    }
+}
+
+
+
+#home-floorplans-listings {
+    .global-list-style {
+        .header {
+            h6 {
+                margin-bottom: 0px;
+            }
+        }
+
+        .spec-icon {
+            margin-top: 0px;
+
+            .icon,
+            .sqfeet,
+            .garage {
+                display: none !important;
+            }
+
+            .item-wrap {
+                flex: calc(50% - 17px);
+                margin-bottom: 0px;
+
+                p {
+                    font-size: 10px;
+                    margin-left: 0px;
+                }
+            }
+
+            .baths {
+                justify-content: flex-end;
+            }
+
+            .seperator {
+                margin: 0 3px;
+            }
+        }
+    }
+}
+
+.home-callout-section {
+    height: 200px;
+    border-radius: 30px;
+    padding: 15px;
+    @extend .bg-center;
+
+    .content {
+        margin-right: 20px;
+
+        h1 {
+            font-family: 'Univers59UltraCondensed', sans-serif;
+            border-bottom: 2px solid red;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        h1,
+        p {
+            color: white;
+        }
+
+        p {
+            line-height: 1.1;
+        }
+    }
+
+    .custom-btn {
+        background-color: $red;
+        height: 100%;
+        padding: 0 12px;
+        display: flex;
+
+        i {
+            font-size: 35px;
+            align-self: center;
+        }
+    }
+}
+
+
+@media (min-width: $screen-sm) {
+
+    #home-who-we-are {
+        margin-top: -20px;
+        padding-top: 40px;
+        @include background-overlay("/images/bg-who-we-are-desktop.jpg", top 30% right, 229, 242, 248, 0.3);
+
+        .content {
+            width: 60%;
+            padding: 50px 0;
+        }
+    }
+
+    #home-floorplans-listings .global-list-style .spec-icon .item-wrap p {
+        font-size: 12px;
+    }
+
+    .home-callout-section {
+        height: 300px;
+        padding-right: 30px;
+        padding-left: 30px;
+
+        .content-wrap {}
+
+        .custom-btn {
+            border-radius: 50%;
+            padding: 0px;
+            width: 50px;
+            height: 50px;
+            justify-content: center;
+
+            i {
+                font-size: 35px;
+                align-self: center;
+            }
+        }
+    }
+
+    .featured-list {
+        .play_btn_wrap {
+            width: 60px;
+            padding: 15px;
+        }
+
+        .tour_btn_wrap {
+            padding: 10px;
+        }
+    }
+}
+
+
+@media (min-width: $screen-md) {
+    .home-callout-section {
+        height: 350px;
+
+        .content-wrap {
+            .content {
+                padding-right: 40%;
+
+                p {
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+    .gallery-list .cover {
+        height: 60px;
+    }
+
+    #home-floorplans-listings .global-list-style .spec-icon .item-wrap p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: $screen-lg) {
+
+    #home-custom-properties,
+    #home-we-buy-land {
+        .container-fluid {
+            max-width: 1360px;
+        }
+    }
+
+    .home-callout-section {
+        height: 400px;
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+    #notifyModal {
+        display: none;
+    }
+    .featured-listV2 {
+        padding-right: 15px;
+    }
+    
+}
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+  
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {
+  
+}

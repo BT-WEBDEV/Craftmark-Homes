@@ -1,0 +1,6 @@
+<h1 class="font-weight-bold">WELCOME</h1>
+<p class="mt-2">Don't Miss Your Chance at The Area's Sophisticated Option!</p>
+<p class="mt-2">Secluded enclave of 25 new luxury homes conveniently located in the City of Annapolis. The homes here are tucked away on a private drive, nestled in a beautiful natural setting, and well situated atop the City’s highest ground. Downtown Annapolis and Eastport are 5-minute destinations, while affording easy access to routes 50 and 97.</p>
+<p class="mt-2">Truxtun Park, Annapolis’ main city park and a flagship recreational facility, is a short stroll. The community’s grand namesake manor house, one of the oldest homes in the region, is in historic preservation. Discover Primrose Hill – where history, charm and extraordinary privacy meet modern-day luxury in a one-of-a-kind location.</p>
+
+<!-- <h4 class="mt-3 text-black font-weight-bold"><a href="/communities/primrose-hill-sf" class="text-black">Final Single Family Home Available NOW - Learn More!</a></h4> -->

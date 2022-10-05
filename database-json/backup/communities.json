@@ -1,0 +1,2547 @@
+{
+    "communities": [{
+            "id": 0,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "live",
+            "formId": 3229,
+            "name": "Clarksburg Town Center",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "clarksburg-town-center",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New 2-Car Garage Townhomes in Montgomery County, Clarksburg, MD",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-v2.png",
+            "brandStyle": {
+                "background": "G_Clarksburg_1.jpg",
+                "colors": ["#168EBB", "#091735"],
+                "mainColor": "#168EBB",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "New Luxury Townhomes from the Upper $600s",
+            "gallery": [
+                [1, "2-Car Garage Townhomes", "2-Car Garage Townhomes in Montgomery County, MD, Clarksburg Town Center by Craftmark Homes"],
+                [2, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [3, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [4, "Powder Room Features", "Powder Room Features, Townhomes, Clarksburg MD"],
+                [5, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [6, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [7, "Living Room", "Living Room, Townhomes, Clarksburg MD"],
+                [8, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
+                [9, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
+                [10, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
+                [11, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
+                [12, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
+                [13, "Dining Room", "Dining Room, Townhomes, Clarksburg MD"],
+                [14, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
+                [15, "Bathroom", "Bathroom, Townhomes, Clarksburg MD"],
+                [16, "Bedroom", "Bedroom, Townhomes, Clarksburg MD"],
+                [17, "Bedroom", "Bedroom, Townhomes, Clarksburg MD"],
+                [18, "Bathroom", "Bathroom, Townhomes, Clarksburg MD"],
+                [19, "Laundry", "Laundry, Townhomes, Clarksburg MD"],
+                [20, "Master Bedroom", "Master Bedroom, Townhomes, Clarksburg MD"],
+                [21, "Master Closet", "Master Closet, Townhomes, Clarksburg MD"],
+                [22, "Master Bedroom", "Master Bedroom, Townhomes, Clarksburg MD"],
+                [23, "Owner's Bathroom", "Owner's Bathroom, Townhomes, Clarksburg MD"],
+                [24, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [25, "Bathroom", "Bathroom, Townhomes, Clarksburg MD"],
+                [26, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [27, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [28, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [29, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
+                [30, "Dining Room", "Dining Room, Townhomes, Clarksburg MD"],
+                [31, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
+                [32, "Patio", "Patio, Townhomes, Clarksburg MD"],
+                [33, "Exteriors", "Exteriors, Townhomes, Clarksburg MD"],
+                [34, "Community Outdoor Pool", "Community Outdoor Pool, Townhomes, Clarksburg MD"],
+                [35, "Clarksburg Town Shopping Center", "Clarksburg Town Shopping Center, Townhomes, Clarksburg MD"],
+                [36, "Community Park", "Community Park, Townhomes, Clarksburg MD"],
+                [37, "Community Park", "Community Park, Townhomes, Clarksburg MD"],
+                [38, "Walking and Biking Trails", "Walking and Biking Trails, Townhomes, Clarksburg MD"],
+                [39, "The Residents Club", "The Residents Club, Townhomes, Clarksburg MD"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 4,
+                "neighborhood": 2,
+                "quick-move-ins": 3,
+                "siteplan": 6,
+                "features": 5,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Amenities", "amenities"],
+                ["Schools", "schools"],
+                ["Retail", "retail"]
+            ],
+            "features": ["exteriors", "interiors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "*Selling Off-Site. Personal Appointments Required. Please Contact to Schedule!"
+            },
+            "priceInfo": {
+                "label": "From the Upper",
+                "price": 600
+            },
+            "address": {
+                "county": "Montgomery Co., MD",
+                "coords": ["39.245833", "-77.2703257"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "12889 Clarksburg Square Rd",
+                        "street2": "",
+                        "city": "Clarksburg",
+                        "state": "MD",
+                        "zip": "20871"
+                    },
+                    "direction": "https://goo.gl/maps/HnVt9YEMhS2wUwKf9"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Selling Off-Site. Personal Appointments Required. Please Contact&nbsp;to&nbsp;Schedule!",
+                "agents": [{
+                    "agentName": "Lou Kalra",
+                    "phone": "3019105770",
+                    "email": "lkalra@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [{
+                "fpName": "The Richmond",
+                "fpUrl": "richmond",
+                "model": false
+            }],
+            "sitePlans": [
+                ["siteplan-3.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"],
+                ["siteplan-4.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "Montgomery County Public Schools",
+                    "Elementary": "Little Bennett Elementary School",
+                    "Middle": "Rocky Hill Middle School",
+                    "High": "Clarksburg High School"
+                },
+                "SubAmenity": ["Park", "Pool", "Views", "Trails", "Playground", "Clubhouse", "CommunityCenter", "Pond"],
+                "OpenAmenity": [
+                    ["HealthAndFitness", "Fitness Center"],
+                    ["Education", "New Elementary School"],
+                    ["LocalAreaAmenities", "Clarksburg Outlets"]
+                ],
+                "Service": [
+                    ["Security", "Interior Hallways"]
+                ],
+                "SubDescription": "Craftmark Homes is excited to bring a new community of gorgeous townhomes to Germantown, Maryland. Live convenient to I-270 Biotech Corridor and just minutes away from the fantastic shopping and dining of Clarksburg Village Center. With unique detailing and access to an abundance of amenities, these homes provide the perfect combination of design and location.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.craftmarkhomes.com/communities/clarksburg-town-center/#highlight-clarksburg-town-center"
+                },
+                "SubVideoTour": {
+                    "Title": "360º tour of Clarksburg Town Center",
+                    "URL": "https://my.matterport.com/show/?m=szHLQHefjsN"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 1,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "soldLabel",
+            "formId": 4148,
+            "name": "Crown",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "crown",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Elevator Townhomes in Gaithersburg, MD",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-v2.png",
+            "brandStyle": {
+                "background": "G_Crown.png",
+                "colors": ["#00B46B", "#C31230"],
+                "mainColor": "#C31230",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "<b>SOLD OUT</b>",
+            "headerInput2": "",
+            "gallery": [
+                [1, "Elevator Townhomes", "Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [2, "Exteriors", "Exteriors, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [3, "Exteriors", "2-Car Garage, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [4, "Exteriors", "Exteriors, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [5, "Interior", "Interior, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [6, "Living Space", "Living Space, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [7, "Gourmet Kitchens", "Gourmet Kitchens, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [8, "Gourmet Kitchens", "Gourmet Kitchens, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [9, "Gourmet Kitchens", "Gourmet Kitchens, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [10, "Gourmet Kitchens", "Gourmet Kitchens, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [11, "Living Space", "Living Space, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [12, "Living Space", "Living Space, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [13, "Elevator", "Elevator, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [14, "Bedrooms", "Bedrooms, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [15, "Bedrooms", "Bathroom, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [16, "Walk-in Closet", "Walk-in Closet, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [17, "Living Space", "Living Space, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [18, "Living Space", "Living Space, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [19, "Outdoor Patio", "Outdoor Patio, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [20, "Powder Room", "Powder Room, Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes"],
+                [21, "Exteriors", "Exteriors, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"],
+                [22, "Exteriors", "Exteriors, Elevator Townhomes, Gaithersburg MD, Crown by Craftmark Homes"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Amenities", "amenities"],
+                ["Dining", "dining"],
+                ["Shopping", "shopping"],
+                ["Entertainment", "entertainment"],
+                ["Transportation", "transportation"]
+            ],
+            "features": ["exteriors", "baths", "kitchens", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "From the upper",
+                "price": 920
+            },
+            "address": {
+                "county": "Montgomery Co., MD",
+                "coords": ["39.110886", "-77.2010762"],
+                "addresses": [{
+                        "label": "Community Address:",
+                        "outOfCommunity": false,
+                        "address": {
+                            "street1": "",
+                            "street2": "",
+                            "city": "Gaithersburg",
+                            "state": "MD",
+                            "zip": "20878"
+                        },
+                        "direction": "https://goo.gl/maps/hdURRXMjnU62YGoN9"
+                    },
+                    {
+                        "label": "GPS Coordinates:",
+                        "outOfCommunity": false,
+                        "address": {
+                            "street1": "",
+                            "street2": "",
+                            "city": "39.1109305",
+                            "state": "-77.2025233",
+                            "zip": ""
+                        },
+                        "direction": "https://goo.gl/maps/Rpk2jGj7QDFvkK3W8"
+                    }
+                ]
+            },
+            "salesAgent": {
+                "label": "Sold Out!",
+                "agents": [
+                    {
+                        "agentName": "Eric Yakuchev",
+                        "phone": "",
+                        "email": "eyakuchev@craftmarkhomes.com"
+                    }
+                ]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Crown Homesite 1", "Crown Community Site Plan, Gaithersburg MD, Craftmark Homes"],
+                ["siteplan-2.jpg", "Crown Homesite 2", "Crown Community Site Plan, Gaithersburg MD, Craftmark Homes"],
+                ["siteplan-3.jpg", "Crown Area Map", "Crown Community Site Plan, Gaithersburg MD, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "",
+                    "Elementary": "",
+                    "Middle": "",
+                    "High": ""
+                },
+                "SubAmenity": ["Playground", "Pool", "Views", "Park", "Trails", "Clubhouse", "CommunityCenter"],
+                "OpenAmenity": [
+                    ["HealthAndFitness", "Rock Climbing Wall, Fitness Center"],
+                    ["LocalAreaAmenities", "Downtown Crown, RIO"]
+                ],
+                "SubDescription": "WELCOME \n Craftmark Homes is eager to bring a brand new, beautifully designed, 24-foot elevator townhome floor plan to a lively Montgomery County community. \n\n From its captivating brick and stone exterior to a spacious layout that lives like a single-family home, our smartly-designed Bellevue townhome emphasizes modern luxury. \n\n Indulge in a wealth of on-site amenities at The Retreat, offering a rock climbing wall, swimming pool, outdoor fireplace, and so much more. Visit Downtown Crown for a variety of dining and retail options, exciting events, and idyllic outdoor parks. Take advantage of the Metro Shuttle that operates between the community and Shady Grove Metro Station for easy access to all the area has to offer.",
+                "SubVideoFile": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "SubVideoTour": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "Promotion": {
+                    "PromoDescription": ""
+                }
+            }
+        },
+        {
+            "id": 2,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 2880,
+            "name": "Fillmore Place of West Alexandria",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "fillmore-place-of-west-alexandria",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Luxury Townhomes in West Alexandria, VA",
+            "mapImg": "listingImg-v3.jpg",
+            "frameV2": "frame-v2.png",
+            "brandStyle": {
+                "background": "G_Fillmore_Place.jpg",
+                "colors": ["#1c262e", "#003a5d", "#238dc1", "#d6b529"],
+                "mainColor": "#1c262e",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "SOLD OUT!",
+            "gallery": [
+                [1, ""],
+                [2, ""],
+                [3, ""],
+                [4, ""],
+                [5, ""],
+                [6, ""],
+                [7, ""],
+                [8, ""],
+                [9, ""]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [],
+            "headerInput2": "Urban Rooftop Terrace Townhomes <br> Quick & Spring/Summer Move-Ins!<br>Close-in Location!",
+            "features": ["exteriors", "interiors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "SOLD OUT!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "City of Alexandria, VA",
+                "coords": ["38.838047", "-77.115428"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Alexandria",
+                        "state": "VA",
+                        "zip": "22311"
+                    },
+                    "direction": ""
+                }]
+            },
+            "salesAgent": {
+                "label": "*Personal Appointments Encouraged. Please Call to Schedule!",
+                "agents": [{
+                    "agentName": "Bethany Stewart",
+                    "phone": "2406789365",
+                    "email": "bstewart@mcwb.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["community.jpg", "Fillmore Place Homesite", "Fillmore Place Site Plan, 4-Level Townhomes in West Alexandria VA, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "",
+                    "Elementary": "John Adams Elementary School",
+                    "Middle": "Francis C Hammond Middle",
+                    "High": "T.C. Williams High School"
+                },
+                "SubAmenity": ["Views"],
+                "SubDescription": "In 1837, Hachaliah Bailey packed up from New York and made the move to Northern Virginia, right around the corner from Fillmore Place. He brought with him North America's first exotic animals, ambition, a sense of adventure, and a unique flair for presentation. At Fillmore Place, we've created more than a new, luxurious community. We've crafted a life-changing story we invite you to partake in. This is your chance to discover a community that will take you on an adventure. Join something extraordinary and indulge in the remarkable lifestyle that awaits you at Fillmore Place. Deeply rooted in our location, we've embraced our city's evolving landscape and created a community that raises the bar for day-to-day living. Find your balance at Fillmore Place, and relax a world away from the rigors of everyday life. Let luxury ensconce you and a sense of renewal invigorate you. Rediscover old passions and explore new possibilities.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.youtube.com/watch?v=VUed94TpKJw&feature=emb_title"
+                },
+                "SubVideoTour": {
+                    "Title": "Watch Video Tour",
+                    "URL": "https://www.craftmarkhomes.com/communities/fillmore-place-of-west-alexandria/?autoplay=1"
+                },
+                "Promotion": {
+                    "PromoDescription": "New Section Now Selling! You'll want to hurry in to reserve your homesite at this stunning luxury townhome community, just minutes from the best of Old Town Alexandria, Washington D.C., and charming Shirlington. Walk to shopping, dining, and public transportation, and enjoy your own private rooftop terrace."
+                }
+            }
+        },
+        {
+            "id": 3,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 4149,
+            "name": "Liberty",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "liberty",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Elevator Townhomes with 2-Car Garage in Fairfax County, VA",
+            "mapImg": "listingImg-v3.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Liberty.jpg",
+                "colors": ["#1178BC", "#1178BC", "#091735", "#091735"],
+                "mainColor": "white",
+                "textColor": "white",
+                "btnText": "black"
+            },
+            "headerInput1": "SOLD OUT!",
+            "gallery": [
+                [1, ""],
+                [2, ""],
+                [3, ""],
+                [4, ""],
+                [5, ""],
+                [6, ""],
+                [7, ""],
+                [8, ""],
+                [9, ""],
+                [10, ""],
+                [11, ""],
+                [12, ""],
+                [13, ""],
+                [14, ""],
+                [15, ""],
+                [16, ""],
+                [17, ""]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [],
+            "headerInput2": "New Urban Elevator Towns <br>Quick & Spring/Summer Move-Ins!<br>New Amenities & Walkable Retail",
+            "features": ["exteriors", "interiors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Open: Mon, 1 - 5 pm, Tue-Sun, 11am - 5pm"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Fairfax Co., VA",
+                "coords": ["38.714898", "-77.232804"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Lorton",
+                        "state": "VA",
+                        "zip": "22079"
+                    },
+                    "direction": "https://goo.gl/maps/mdpDs7N4sBUYto6QA"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Personal Appointments Encouraged. Please Call to Schedule!",
+                "agents": [{
+                        "agentName": "Lori Windsor",
+                        "phone": "7035076882",
+                        "email": "lwindsor@craftmarkhomes.com"
+                    },
+                    {
+                        "agentName": "Eric Yakuchev",
+                        "phone": "7039896662",
+                        "email": "eyakuchev@craftmarkhomes.com"
+                    }
+                ]
+            },
+            "floorplans": [{
+                "fpName": "The Ashford",
+                "fpUrl": "ashford",
+                "model": true
+            }],
+            "sitePlans": [
+                ["siteplan2.jpg", "Liberty Site Plan", "Liberty Site Plan, Elevator Townhomes in Lorton VA, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "",
+                    "Elementary": "Laurel Hill Elementary School",
+                    "Middle": "South County Middle School",
+                    "High": "South County High School"
+                },
+                "SubAmenity": ["Pool", "CommunityCenter", "Park", "Playground", "Trails"],
+                "SubDescription": "Craftmark Homes is bringing their award-winning designs, legendary quality, and incredible included features to Liberty. Introducing brand new elevator townhomes ? with spacious floor plans, beautiful craftsmanship, and details like 5\" hardwood floors. Indulge in a fully-accessorized gourmet kitchen with Bosch stainless steel appliances, a great room with a gas fireplace as the focal point, deluxe baths, and so much more. Select your designer Vision Package and Green Space landscaping package for a unique touch!",
+                "SubVideoFile": {
+                    "Title": "Watch Highlight",
+                    "URL": "https://www.youtube.com/watch?v=MeQUjj-qeSg&feature=youtu.be"
+                },
+                "SubVideoTour": {
+                    "Title": "Take a video tour",
+                    "URL": "https://my.matterport.com/show/?m=9bMo6LUWR7m"
+                },
+                "Promotion": {
+                    "PromoDescription": "Go GRAND with the grandest townhomes of all, and hurry in for summer move-in! With a private in-home elevator and EnergyStar® certified construction, The Ashford is 1/3+ larger and the best price/sq. ft. townhome in Liberty. You'll love our industry-leading included features, and living in a stunning home that truly lives like a single-family home - without the maintenance!"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 1163,
+            "name": "Georgia Row at Walter Reed",
+            "homeType": "condominiums",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "georgia-row-at-walter-reed",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Condos, Townhomes in Northwest D.C.",
+            "mapImg": "listingImg-v3.jpg",
+            "frameV2": "frame-v2.png",
+            "brandStyle": {
+                "background": "G_Georgia_Row.jpg",
+                "colors": ["#1178BC", "#1178BC", "#091735", "#091735"],
+                "mainColor": "#091735",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "SOLD OUT!",
+            "gallery": [
+                [1, "Georgia Row by Craftmark Homes", "Condos in Northwest D.C., Georgia Row by Craftmark Homes"],
+                [2, "Shopping Center", "Shopping Center, Urban Condos, Townhomes, NW DC"],
+                [3, "Bedroom", "Bedroom, Urban Condos, Townhomes, NW DC"],
+                [4, "Exteriors", "Exteriors, Urban Condos, Townhomes, NW DC"],
+                [5, "Bathroom", "Bathroom, Urban Condos, Townhomes, NW DC"],
+                [6, "Living Space", "Living Space, Urban Condos, Townhomes, NW DC"],
+                [7, "Living Space", "Living Space, Urban Condos, Townhomes, NW DC"],
+                [8, "Bedroom", "Bedroom, Urban Condos, Townhomes, NW DC"],
+                [9, "Private Rooftop Terrace", "Private Rooftop Terrace, Urban Condos, Townhomes, NW DC"],
+                [10, "Living Room", "Living Room, Urban Condos, Townhomes, NW DC"],
+                [11, "Living Room", "Living Room, Urban Condos, Townhomes, NW DC"],
+                [12, "Bedroom", "Bedroom, Urban Condos, Townhomes, NW DC"],
+                [13, "Bedroom", "Bedroom, Urban Condos, Townhomes, NW DC"],
+                [14, "Open Kitchen & Dining Room", "Open Kitchen & Dining Room, Urban Condos, Townhomes, NW DC"],
+                [15, "Kitchen", "Kitchen, Urban Condos, Townhomes, NW DC"],
+                [16, "Dining Room", "Dining Room, Urban Condos, Townhomes, NW DC"],
+                [17, "Kitchen", "Kitchen, Urban Condos, Townhomes, NW DC"],
+                [18, "Kitchen & Dining Room", "Kitchen & Dining Room, Urban Condos, Townhomes, NW DC"],
+                [19, "Living Room", "Living Room, Urban Condos, Townhomes, NW DC"],
+                [20, "Kitchen", "Kitchen, Urban Condos, Townhomes, NW DC"],
+                [21, "Bedroom", "Bedroom, Urban Condos, Townhomes, NW DC"],
+                [22, "Bedroom", "Bedroom, Urban Condos, Townhomes, NW DC"],
+                [23, "Exteriors", "Exteriors, Urban Condos, Townhomes, NW DC"],
+                [24, "Private Rooftop Terrace", "Private Rooftop Terrace, Urban Condos, Townhomes, NW DC"],
+                [25, "Living Room", "Living Room, Urban Condos, Townhomes, NW DC"],
+                [26, "Bedroom", "Bedroom, Urban Condos, Townhomes, NW DC"],
+                [27, "Kitchen", "Kitchen, Urban Condos, Townhomes, NW DC"],
+                [28, "Living Room", "Living Room, Urban Condos, Townhomes, NW DC"],
+                [29, "Living Room", "Living Room, Urban Condos, Townhomes, NW DC"],
+                [30, "Exteriors", "Exteriors, Urban Condos, Townhomes, NW DC"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Play", "play"],
+                ["Work", "work"],
+                ["Refresh", "refresh"],
+                ["Travel", "travel"],
+                ["Grocery", "grocery"]
+            ],
+            "headerInput2": "",
+            "features": ["interiors", "baths", "kitchens", "energy", "community", "neighborhood"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Washington, D.C.",
+                "coords": ["38.977428", "-77.025999"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Washington",
+                        "state": "DC",
+                        "zip": "20012"
+                    },
+                    "direction": "https://goo.gl/maps/pAbu21SJpqv2qquu7"
+                }]
+            },
+            "salesAgent": {
+                "label": "Sold Out!",
+                "agents": [{
+                    "agentName": "Christa Hodge",
+                    "phone": "2402868743",
+                    "email": "chodge@mcwb.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Craftmark Homes at Georgia Row at Walter Reed Site Plan", "Georgia Row Site Plan, Urban Condos in DC, Craftmark Homes"],
+                ["siteplan-2.jpg", "Craftmark Homes at Georgia Row at Walter Reed Area Map", "Georgia Row Site Plan, Urban Condos in DC, Craftmark Homes"],
+                ["siteplan-3.jpg", "Georgia Row Site Plan", "Georgia Row Site Plan, Urban Condos in DC, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Urban",
+                "ByAppointment": true,
+                "DrivingDirections": "To Visit from the Beltway: Take I-495 N/I-95 to Exit 30 (US-29 S/Colesville Road/Columbia Pike) in Silver Spring. Continue on US-29 to Fern Place on the left. To Visit from Downtown Washington, D.C.: Take 16th Street north approximately 4 miles. Turn right onto Alaska Avenue. Turn right onto Fern Street NW. Turn left onto Georgia Avenue to end at Georgia Avenue & Fern Place. To Visit from Virginia: Cross Memorial Bridge and take the exit toward Rock Creek Parkway. Keep right to continue on Beach Drive, then turn right on Piney Branch Parkway NW. Take a slight right on Arkansas Avenue NW. Turn left onto Georgia Avenue NW. Note: The parkway follows one-way closures during rush hour.",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "",
+                    "Elementary": "Takoma Education Campus",
+                    "Middle": "",
+                    "High": "Coolidge High School"
+                },
+                "SubAmenity": ["Views", "Baseball", "Park"],
+                "OpenAmenity": [
+                    ["LocalAreaAmenities", "Minutes to Silver Spring"],
+                    ["LocalAreaAmenities", "Walk to Red Line Metro"],
+                    ["HealthAndFitness", "Close to Downtown DC"],
+                    ["HealthAndFitness", "Walk to Takoma Park, MD"],
+                    ["LocalAreaAmenities", "Walter Reed Redevelopment"]
+                ],
+                "Service": [
+                    ["Security", "Interior Hallways"]
+                ],
+                "SubDescription": "The unique and innovative townhome-style residences of Georgia Row at Walter Reed make a resounding statement in the northern Washington, D.C. corridor. Arrive home every day to the sight of full brick facades with natural stone accents and the anticipation of enjoying your rooftop terrace overlooking the city. Inside residents are indulged with Craftmark Homes' interior highlights, from spacious living areas to luxury touches like contemporary lighting, distinctive molding, and beyond. Include the comfort of Craftmark's low HERS energy efficiency ratings and every day will feel like a staycation in the middle of town.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.craftmarkhomes.com/communities/georgia-row-at-walter-reed/#highlight-georgia-row"
+                },
+                "SubVideoTour": {
+                    "Title": "Blair Floor Plan 3D Tour",
+                    "URL": "https://my.matterport.com/show/?m=uvqdn4YWQpr"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 2877,
+            "name": "Mateny Hill",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "mateny-hill",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Luxury Townhomes in Germantown, MD",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Mateny_Hill-3.jpg",
+                "colors": ["#1c262e", "#001436"],
+                "mainColor": "white",
+                "textColor": "white",
+                "btnText": "black"
+            },
+            "headerInput1": "SOLD OUT!",
+            "gallery": [
+                [1, "Luxury Townhomes in Germantown, MD, Mateny Hill by Craftmark Homes"],
+                [2, "Open Kitchen", "Open Kitchen, Townhomes, Germantown MD"],
+                [3, "Townhomes near Tog Golf", "Townhomes near Tog Golf, Germantown MD"],
+                [4, "Exteriors", "Exteriors, Townhomes, Germantown MD"],
+                [5, "Exteriors", "Exteriors, Townhomes, Germantown MD"],
+                [6, "Bedroom", "Bedroom, Townhomes, Germantown MD"],
+                [7, "Bathroom", "Bathroom, Townhomes, Germantown MD"],
+                [8, "Bathroom", "Bathroom, Townhomes, Germantown MD"],
+                [9, "Bedroom", "Bedroom, Townhomes, Germantown MD"],
+                [10, "Bathroom", "Bathroom, Townhomes, Germantown MD"],
+                [11, "Living Room", "Living Room, Townhomes, Germantown MD"],
+                [12, "Kitchen & Dining Space", "Kitchen & Dining Space, Townhomes, Germantown MD"],
+                [13, "Living Room", "Living Room, Townhomes, Germantown MD"],
+                [14, "Kitchen & Dining Space", "Kitchen & Dining Space, Townhomes, Germantown MD"],
+                [15, "Living Room", "Living Room, Townhomes, Germantown MD"],
+                [16, "Exteriors, 2-Car Garage", "Exteriors, 2-Car Garage, Townhomes, Germantown MD"],
+                [17, "Exteriors, 2-Car Garage", "Exteriors, 2-Car Garage, Townhomes, Germantown MD"],
+                [18, "Townhomes near Shopping Market", "Townhomes near Shopping Market, Germantown MD"],
+                [19, "Townhomes near MARC Station", "Townhomes near MARC Station, Germantown MD"],
+                [20, "Bedroom", "Bedroom, Townhomes, Germantown MD"],
+                [21, "Bedroom", "Bedroom, Townhomes, Germantown MD"],
+                [22, "Living Room", "Living Room, Townhomes, Germantown MD"],
+                [23, "Living Room", "Living Room, Townhomes, Germantown MD"],
+                [24, "Open Kitchen & Dining Room", "Open Kitchen & Dining Room, Urban Condos, Townhomes, NW DC"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "features": ["exteriors", "interiors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Montgomery Co., MD",
+                "coords": ["39.169424", "-77.270783"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Germantown",
+                        "state": "MD",
+                        "zip": "20874"
+                    },
+                    "direction": "https://goo.gl/maps/ZZFiMi4hMB6SPwRL7"
+                }]
+            },
+            "salesAgent": {
+                "label": "",
+                "agents": [{
+                    "agentName": "Madeline Stackman",
+                    "phone": "7034001642",
+                    "email": "MStackman@CraftmarkHomes.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Mateny Hill Site Plan", "Mateny Hill Site Plan, Townhomes in Germantown MD, Craftmark Homes"],
+                ["siteplan-2.jpg", "Mateny Hill Site Plan", "Mateny Hill Site Plan, Townhomes in Germantown MD, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "FROM POINTS NORTH: \n 1. Take I-270 S to Exit 15A-15B \n 2. Merge onto MD-118 S/Germantown Rd. toward Germantown. Continue for 1.6 miles. \n 3. Turn left onto Dawson Farm Rd. Continue for .4 miles. \n 4. Turn left onto Mateny Hill Rd. \n Model home will be on your right, at 19105 Mateny Hill Rd, Germantown, MD 20874 \n\n FROM POINTS SOUTH: \n 1. Take I-495 N to I-270 Spur N, follow signs for Interstate 270. Continue for 11.3 miles. \n 2. Take Exit 13B for Middlebrook Road W. Merge onto Middlebrook Road and continue for .8 miles. \n 3. Use the left two lanes to turn onto MD-119 S. Continue for .8 miles. \n 4. Turn right onto Dawson Farm Rd. Continue for .1 mile. \n 5. Turn right onto Mateny Hill Rd. \n Model home will be on your right, at 19105 Mateny Hill Rd, Germantown, MD 20874",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "Montgomery County Public Schools",
+                    "Elementary": "Great Seneca Creek Elementary",
+                    "Middle": "Kingsview Middle",
+                    "High": "Northwest High"
+                },
+                "SubAmenity": ["Views", "Park"],
+                "OpenAmenity": [
+                    ["LocalAreaAmenities", "Germantown MARC Station"]
+                ],
+                "Service": [],
+                "SubDescription": "Now Selling! Craftmark Homes is excited to bring a new community of luxury townhomes and one single family home to Montgomery County, Maryland. Located in Germantown and a short walk to the Germantown MARC Station, the community offers easy access to I-270 and a host of shops and restaurants. Craftmark Townhomes: Brick, Stone & HardiePanel Facades ? 2-Car Garages ? Gourmet Kitchen With Quartz Countertops & GE Stainless Steel Appliance Package ? Deluxe Baths ? Many Energy Saving Features",
+                "SubVideoFile": {
+                    "Title": "Watch Highlight",
+                    "URL": "https://www.craftmarkhomes.com/communities/mateny-hill/#highlight-mateny-hill"
+                },
+                "SubVideoTour": {
+                    "Title": "Take a video tour",
+                    "URL": "https://www.craftmarkhomes.com/communities/mateny-hill/#highlight-mateny-hill"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 6,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 2873,
+            "name": "Preserve at Westfields",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "preserve-at-westfields",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Townhomes in Chantilly, VA",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Preserve_at_Westfield.jpg",
+                "colors": ["#212945", "#FFDC00", "#FCBA00"],
+                "mainColor": "#FFDC00",
+                "textColor": "white",
+                "btnText": "black"
+            },
+            "headerInput1": "SOLD OUT!",
+            "gallery": [
+                [1, "Townhomes in Chantilly VA", "Quick Move-In Townhomes in Chantilly VA, Preserve at Westfield by Craftmark Homes"],
+                [2, "Bedroom", "Bedroom, Townhomes in Chantilly VA"],
+                [3, "Bedroom", "Bedroom, Townhomes in Chantilly VA"],
+                [4, "Bathroom", "Bathroom, Townhomes in Chantilly VA"],
+                [5, "Kitchen & Dining Space", "Kitchen & Dining Space, Townhomes in Chantilly VA"],
+                [6, "Living Room", "Living Room, Townhomes in Chantilly VA"],
+                [7, "Living Room", "Living Room, Townhomes in Chantilly VA"],
+                [8, "Living Room", "Living Room, Townhomes in Chantilly VA"],
+                [9, "Exteriors, 1-Car Garage", "Exteriors, 1-Car Garage, Townhomes in Chantilly VA"],
+                [10, "Roof Terrace", "Roof Terrace, Townhomes in Chantilly VA"],
+                [11, "Roof Terrace", "Roof Terrace, Townhomes in Chantilly VA"],
+                [12, "Living Room", "Living Room, Townhomes in Chantilly VA"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "features": ["interiors", "baths", "kitchens", "energy", "community", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Fairfax Co., VA",
+                "coords": ["38.871809", "-77.451010"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Chantilly",
+                        "state": "VA",
+                        "zip": "20151"
+                    },
+                    "direction": "https://goo.gl/maps/xmXAQDjtAMrLhpmo9"
+                }]
+            },
+            "salesAgent": {
+                "label": "",
+                "agents": [{
+                    "agentName": "Bethany Stewart",
+                    "phone": "2406789365",
+                    "email": "bstewart@mcwb.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Preserve at Westfields Site Plan", "Preserve at Westfields Site Plan, Townhomes in Chantilly VA, Craftmark Homes"],
+                ["siteplan-2.jpg", "Preserve at Westfields Site Plan", "Preserve at Westfields Site Plan, Townhomes in Chantilly VA, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "FROM I-66 W: Take exit 53B to merge onto VA-28 N/Sully Rd. Continue on VA-28 N/Sully Rd. Drive to Stonecroft Blvd in Centreville. Merge onto VA-28 N/Sully Rd. Take the Westfields Blvd exit toward Co Rd 662. Keep left at the fork, follow signs for VA-662 W/Westfields Blvd W and merge onto Westfields Blvd. Turn right onto Stonecroft Blvd. Turn right into community entrance, and take a left. Turn right onto Trail Vista Lane, follow directionals to Craftmark Homes model parking.",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "Fairfax Co Pblc Schs",
+                    "Elementary": "Cub Run Elementary School",
+                    "Middle": "Stone Middle School",
+                    "High": "Westfield High School"
+                },
+                "SubAmenity": ["Trails", "Playground", "Views", "Park", "Lake"],
+                "OpenAmenity": [
+                    ["", ""]
+                ],
+                "Service": [
+                    ["", ""]
+                ],
+                "SubDescription": "Craftmark Homes is excited to bring a new community of luxury townhomes to Fairfax County, Virginia. Set in Chantilly and centrally located to Dulles Tech Corridor, the community offers easy access to I-66 & Route 50 and a host of shops and restaurants. Craftmark Townhomes: New Contemporary Designs ? 1 Car Garage ? 4 Levels ? Roof Terraces & Lofts ? Gourmet Kitchens With Quartz Countertops & GE® Stainless Steel Appliances ? Final buildings are under construction ? You can choose your selection for late Summer/early Fall delivery!",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.craftmarkhomes.com/communities/preserve-at-westfields/#highlight-preserve-at-westfields"
+                },
+                "SubVideoTour": {
+                    "Title": "Virtual Tour",
+                    "URL": "https://my.matterport.com/show/?m=e7i9KjD264Y"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 7,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 2878,
+            "name": "Primrose Hill (Single Family)",
+            "homeType": "singleFamily",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "primrose-hill-sf",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Secluded Enclave of Luxury Townhomes in Annapolis, MD",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Primerose_Hill.jpg",
+                "colors": ["#000a36", "#7abcff", "#0089ff", "#289bff"],
+                "mainColor": "#000a36",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "Private Enclave of Single Family Homes",
+            "gallery": [
+                [1, ""],
+                [2, ""],
+                [3, ""],
+                [4, ""],
+                [5, ""],
+                [6, ""],
+                [7, ""],
+                [8, ""],
+                [9, ""],
+                [10, ""],
+                [11, ""],
+                [12, ""],
+                [13, ""],
+                [14, ""],
+                [15, ""],
+                [16, ""],
+                [17, ""],
+                [18, ""],
+                [19, ""],
+                [20, ""],
+                [21, ""],
+                [22, ""],
+                [23, ""],
+                [24, ""],
+                [25, ""]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "features": ["exteriors", "interiors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Open: Mon, 1 - 5 pm, Tue-Sun, 11am - 5pm"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Anne Arundel Co., MD",
+                "coords": ["38.960882", "-76.502789"],
+                "addresses": [{
+                    "label": "Sales Center:",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "52 Primrose Hill Lane (Private Drive)",
+                        "street2": "",
+                        "city": "Annapolis",
+                        "state": "MD",
+                        "zip": "21403"
+                    },
+                    "direction": "https://goo.gl/maps/EnUmixwYAtuXD3LJ6"
+                }, {
+                    "label": "Community Address:",
+                    "address": {
+                        "street1": "3 Milkshake Lane (Private Drive Entrance)",
+                        "street2": "",
+                        "city": "Annapolis",
+                        "state": "MD",
+                        "zip": "21403"
+                    },
+                    "direction": "https://goo.gl/maps/YkBihWPssMHemZUK9"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Personal Appointments Encouraged. Please Call to Schedule!",
+                "agents": [{
+                    "agentName": "Shawn Whitehead",
+                    "phone": "4102740606",
+                    "email": "swhitehead@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [{
+                "fpName": "The Middletown",
+                "fpUrl": "middletown",
+                "model": false
+            }],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Homesite 1", "Single Family Homes with Virtual Model Tour in Annapolis MD"],
+                ["siteplan-2.jpg", "Homesite 2", "Single Family Homes with Virtual Model Tour in Annapolis MD"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "",
+                    "Elementary": "Tyler Heights Elementary School",
+                    "Middle": "Annapolis Middle School",
+                    "High": "Annapolis High School"
+                },
+                "SubAmenity": ["Views", "Trails", "Park"],
+                "OpenAmenity": [
+                    ["", ""]
+                ],
+                "Service": [
+                    ["", ""]
+                ],
+                "SubDescription": "WELCOME \n Craftmark Homes is excited to bring a new community of luxury townhomes to Fairfax County, Virginia. Set in Chantilly and centrally located to Dulles Tech Corridor, the community offers easy access to I-66 & Route 50 and a host of shops and restaurants.",
+                "SubVideoFile": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "SubVideoTour": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 8,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 2879,
+            "name": "Primrose Hill",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "primrose-hill-th",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Secluded Enclave of Luxury Townhomes in Annapolis, MD",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Primrose_Hill_Towns.jpg",
+                "colors": ["#060935", "#E5DC00"],
+                "mainColor": "#060935",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "Sold Out!",
+            "gallery": [
+                [1, "Luxury Townhomes in Annapolis", "Luxury Townhomes in Annapolis, MD, Primrose Hill by Craftmark Homes"],
+                [2, "Bathroom", "Bathroom, Townhomes in Annapolis MD"],
+                [3, "Kitchen & Dining Space", "Kitchen & Dining Space, Townhomes in Annapolis MD"],
+                [4, "Dining Space", "Dining Space, Townhomes in Annapolis MD"],
+                [5, "Dining Space", "Dining Space, Townhomes in Annapolis MD"],
+                [6, "Living Room", "Living Room, Townhomes in Annapolis MD"],
+                [7, "Bedroom", "Bedroom, Townhomes in Annapolis MD"],
+                [8, "Dining Space", "Dining Space, Townhomes in Annapolis MD"],
+                [9, "Living Room", "Living Room, Townhomes in Annapolis MD"],
+                [10, "Exteriors", "Exteriors, Townhomes in Annapolis MD"],
+                [11, "Bedroom", "Bedroom, Townhomes in Annapolis MD"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 3,
+                "neighborhood": 2,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "features": ["exteriors", "interiors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Anne Arundel Co., MD",
+                "coords": ["38.961233", "-76.503523"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Annapolis",
+                        "state": "MD",
+                        "zip": "21403"
+                    },
+                    "direction": "https://goo.gl/maps/EnUmixwYAtuXD3LJ6"
+                }]
+            },
+            "salesAgent": {
+                "label": "",
+                "agents": [{
+                    "agentName": "Shawn Whitehead",
+                    "phone": "4102740606",
+                    "email": "swhitehead@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Primrose Hill Site Plan", "Primrose Hill Site Plan, Townhomes in Annapolis MD, Craftmark Homes"],
+                ["siteplan-2.jpg", "Primrose Hill Area Map", "Primrose Hill Area Map, Townhomes in Annapolis MD, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "Driving Directions to the Sales Center at Village Greens of Annapolis: I-495 to Exit 19A Route 50 E. towards Annapolis. Take Exit 22 (Route 665 E.) Aris T. Allen Blvd./Riva Rd. and remain on 665 E. (go past Riva Rd. exit) as it turns into Forest Dr. E. Take a right on South Cherry Grove Ave. Proceed two blocks to Model Home on left at 627 South Cherry Grove Avenue, Annapolis, MD 21401. Monday: By Appointment. Tuesday - Thursday 11am - 6pm. Friday: Closed. Saturday and Sunday 11am - 6pm.",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "Anne Arundel County Public Schools",
+                    "Elementary": "Tyler Heights Elementary School",
+                    "Middle": "Annapolis Middle School",
+                    "High": "Annapolis High School"
+                },
+                "SubAmenity": ["Views", "Trails", "Park"],
+                "OpenAmenity": [
+                    ["", ""]
+                ],
+                "Service": [
+                    ["", ""]
+                ],
+                "SubDescription": "Welcome to Craftmark Homes at Primrose Hill, a secluded enclave of 25 new luxury homes conveniently located in the City of Annapolis. The homes at Primrose Hill will be accessed via a private drive, nestled in a beautiful natural setting and well situated atop some of the city's highest ground. Truxtun Park, Annapolis's main city park and a flagship recreational destination, is a mere stone's throw. Downtown Annapolis is less than a five-minute drive, and Eastport - with its renowned Restaurant Row of waterfront fine dining - is but one minute away. Primrose Hill will be developed around its existing namesake manor home built in the 1760s, which will carefully be restored to its original grandeur. This historic landmark residence will create the community's stately first impression; the high architectural standards and timeless Craftsman style of the new homes at Primrose Hill will leave a lasting one. To be built exclusively by Craftmark Homes, the Washington, D.C.-Baltimore region's preeminent private builder of luxury homes for more than 25 years, Primrose Hill is truly the hidden gem that new construction rarely ever offers. As such, this fine planned community in Maryland's historic state capital will be treasured for generations to come. Craftmark Townhomes: 3-4 Bedrooms 2-3 Full & 1-2 Half Baths 2-Car Garage Up to 4 finished levels 9' Volume ceilings Gourmet kitchen",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.craftmarkhomes.com/communities/primrose-hill-th/#highlight-primrose-hill-th"
+                },
+                "SubVideoTour": {
+                    "Title": "The Annapolis - 3D Tour",
+                    "URL": "https://my.matterport.com/show/?m=HDcEFiEjciv"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 9,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 457,
+            "name": "The Reserve at Black Rock",
+            "homeType": "singleFamily",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "reserve-at-black-rock",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New Custom Properties in Montgomery County, MD",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_The_Reserve_at_Black_Rock.jpg",
+                "colors": ["#FFD701", ""],
+                "mainColor": "black",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "",
+            "gallery": [
+                [1, "Custom Homesites in Montgomery County, MD, The Reserve at Black Rock by Craftmark Homes"],
+                [2, "Living Space, Custom Single Family Homes in Montgomery County MD"],
+                [3, "Kitchen & Dining Space, Custom Single Family Homes in Montgomery County MD"],
+                [4, "Living Space, Custom Single Family Homes in Montgomery County MD"],
+                [5, "Living Space, Custom Single Family Homes in Montgomery County MD"],
+                [6, "Gourmet Kitchen, Custom Single Family Homes in Montgomery County MD"],
+                [7, "Bedroom, Custom Single Family Homes in Montgomery County MD"],
+                [8, "Exteriors, Custom Single Family Homes in Montgomery County MD"],
+                [9, "Living Room, Custom Single Family Homes in Montgomery County MD"],
+                [10, "Bedroom, Custom Single Family Homes in Montgomery County MD"],
+                [11, "Exteriors, Custom Single Family Homes in Montgomery County MD"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "features": ["exteriors", "interiors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "*Sales by Personal Appointment Only. Please Call to Schedule!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Montgomery Co., MD",
+                "coords": ["39.1177559", "-77.3192888"],
+                "addresses": [{
+                    "label": "Selling from:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "Our Custom Properties Division",
+                        "street2": "",
+                        "city": "",
+                        "state": "",
+                        "zip": ""
+                    },
+                    "direction": "https://goo.gl/maps/zxA7Nvz89542"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Sales by Personal Appointment Only. Please Call to Schedule!",
+                "agents": [{
+                    "agentName": "Dave Pastva",
+                    "phone": "7037485866",
+                    "email": "dpastva@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [{
+                "fpName": "The Chevy Chase II",
+                "fpUrl": "chevy-chase2",
+                "model": false
+            }, {
+                "fpName": "The Clifton",
+                "fpUrl": "clifton",
+                "model": false
+            }, {
+                "fpName": "The Edgemoor",
+                "fpUrl": "edgemoor",
+                "model": false
+            }, {
+                "fpName": "The Kenwood",
+                "fpUrl": "kenwood",
+                "model": false
+            }, {
+                "fpName": "The Kenwood II",
+                "fpUrl": "kenwood2",
+                "model": false
+            }, {
+                "fpName": "The Oakmont",
+                "fpUrl": "oakmont",
+                "model": false
+            }, {
+                "fpName": "The Oakton",
+                "fpUrl": "oakton",
+                "model": false
+            }, {
+                "fpName": "The Westchester",
+                "fpUrl": "westchester",
+                "model": false
+            }],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Homesite 1", "The Reserve at Black Rock Site Plan, Custom Single Family Homes in Montgomery County MD, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "DistrictName": "",
+                    "Elementary": "Wilson Wims Elementary School",
+                    "Middle": "Hallie Wells Middle School",
+                    "High": "Clarksburg High School"
+                },
+                "SubAmenity": [],
+                "OpenAmenity": [
+                    ["", ""]
+                ],
+                "Service": [
+                    ["", ""]
+                ],
+                "SubDescription": "Luxury Estate Homes in Darnestown, Maryland. Now Selling out of Clarksburg Village. Peaceful hills and rural charm is the setting for The Reserve at Black Rock and your ticket to the prestige and elegance of a Craftmark home. Lavish wooded homesites provide the privacy and quality you seek in an idyllic location within reach of Montgomery County's excellent amenities. Trademark stone & brick architecture 2-car garages 7 homestyles Up to 6 BR & 6 1/2 BA Brick or stone stoops Gourmet kitchens Masonry fireplaces Hand-finished hardwood floors Ceramic tile in bathrooms 4th level bonus suites Elaborate detailing throughout Much more.",
+                "SubVideoFile": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "SubVideoTour": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 10,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "sold",
+            "formId": 2874,
+            "name": "Towns at South Alex®",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "towns-at-south-alex",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "New 4-Level Townhomes in South Alexandria, VA",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_South_Alex.jpg",
+                "colors": ["#131A32", "#FFDE28"],
+                "mainColor": "#FFDE28",
+                "textColor": "white",
+                "btnText": "#131A32"
+            },
+            "headerInput1": "SOLD OUT!",
+            "gallery": [
+                [1, "Urban Townhomes in Alexandria VA", "Urban Townhomes in Alexandria VA, Towns at South Alex by Craftmark Homes"],
+                [2, "Kitchen & Dining Space", "Kitchen & Dining Space, Urban Townhomes in Alexandria VA"],
+                [3, "Bedroom", "Bedroom, Urban Townhomes in Alexandria VA"],
+                [4, "Alexandria City", "Alexandria City, VA"],
+                [5, "Urban Townhomes near Top Golf", "Urban Townhomes near Top Golf, Alexandria VA"],
+                [6, "Urban Townhomes", "Urban Townhomes"],
+                [7, "Urban Townhomes", "Urban Townhomes"],
+                [8, "Living Space", "Living Space, Urban Townhomes in Alexandria VA"],
+                [9, "Bedroom", "Bedroom, Urban Townhomes in Alexandria VA"],
+                [10, "Bedroom", "Bedroom, Urban Townhomes in Alexandria VA"],
+                [11, "Townhomes in South Alexandria Center", "Townhomes in South Alexandria Center"],
+                [12, "Townhomes in South Alexandria Center", "Townhomes in South Alexandria Center, Alexandria VA"],
+                [13, "Townhomes in South Alexandria Center", "Townhomes in South Alexandria Center, Alexandria VA"],
+                [14, "Bathroom", "Bathroom, Urban Townhomes in Alexandria VA"],
+                [15, "Urban Townhomes near Metro Station", "Urban Townhomes near Metro Station, Alexandria VA"],
+                [16, "Townhomes near South Alex Shopping Center", "Townhomes near South Alex Shopping Center, Alexandria VA"],
+                [17, "Urban Townhomes", "Urban Townhomes"],
+                [18, "Townhomes near South Alex Shopping Center", "Townhomes near South Alex Shopping Center, Alexandria VA"],
+                [19, "Townhomes near South Alex Shopping Center", "Townhomes near South Alex Shopping Center, Alexandria VA"],
+                [20, "Dining Room", "Dining Room, Urban Townhomes in Alexandria VA"],
+                [21, "Living Room", "Living Room, Urban Townhomes in Alexandria VA"],
+                [22, "Living Room", "Living Room, Urban Townhomes in Alexandria VA"],
+                [23, "Rooftop Terrace", "Rooftop Terrace, Urban Townhomes in Alexandria VA"],
+                [24, "Exteriors", "Exteriors, 4-Level Townhomes in Alexandria VA"],
+                [25, "Exteriors", "Exteriors, 4-Level Townhomes in Alexandria VA"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "headerInput2": "Urban Towns with Green Space & Sky Terraces",
+            "features": ["exteriors", "baths", "kitchens", "energy", "community"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Fairfax Co., VA",
+                "coords": ["38.783187", "-77.081263"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Alexandria",
+                        "state": "VA",
+                        "zip": "22303"
+                    },
+                    "direction": "https://goo.gl/maps/acCEP55Kjdk"
+                }]
+            },
+            "salesAgent": {
+                "label": "",
+                "agents": [{
+                    "agentName": "Lori Windsor",
+                    "phone": "7035076882",
+                    "email": "lwindsor@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Towns at South Alex Site Plan", "Towns at South Alex Site Plan, 4-Level Townhomes in Alexandria VA, Craftmark Homes"],
+                ["siteplan-2.jpg", "Towns at South Alex Site Plan", "Towns at South Alex Site Plan, 4-Level Townhomes in Alexandria VA, Craftmark Homes"],
+                ["siteplan-3.jpg", "Towns at South Alex Area Map", "Towns at South Alex Area Map, 4-Level Townhomes in Alexandria VA, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "FROM DC: Take I-395S to 10B for George Washington Memorial Parkway S. Continue on George Washington Memorial Parkway S. to a right toward Slaters Lane (signs for Slaters Lane/Bashford Lane/W Abingdon). Use the right lane to take the ramp onto US-1 S/N Henry Street. Turn right onto State Rte. 633, then right onto N Kings Highway. Turn left onto Poag Street. The Towns at South Alex® will be on your left. \n\n FROM POINTS SOUTH: Take I-95N to I-495 E/I-95 N and follow signs for Alexandria. Take exit 176A for VA-241 S/Telegraph Road/VA-611 S. Merge onto VA-241 S. Take a slight right onto School Street and continue onto N Kings Highway. Turn right onto Poag Street. The Towns at South Alex® will be on your left.",
+                "HoursDetail": [],
+                "Schools": {
+                    "Districtname": "Fairfax Co Pblc Schs",
+                    "Elementary": "Mount Eagle Elementary School",
+                    "Middle": "Twain Middle School",
+                    "High": "Edison High School"
+                },
+                "SubAmenity": ["Park", "Views", "Pond", "Trails", "Playground"],
+                "SubDescription": "Craftmark Homes is excited to bring a new community of 41 luxury townhomes to Alexandria, Virginia. Live less than a 10-minute walk to the Huntington Metro Station and a 10-minute drive to Old Town Alexandria. These homes feature new, contemporary designs with four levels, rooftop terraces and lofts. Live within a vibrant mix of distinctive shops and residences in an art-inspired setting of bright community spaces, all conveniently located in the heart of South Alexandria, Virginia. Enjoy urban conveniences without sacrificing suburban comforts ? on-site shops, restaurants, a grocery & bright outdoor spaces. A transit oriented development, South Alex:registered: offers convenient access to multiple modes of transportation ? a short walk to the Huntington Metrorail station, integrated into regional bike trails, adjacent to a Metrobus stop and a short drive to the Capital Beltway (I-495). It's ideally positioned within a short drive to many of metro D.C.'s major employers and employment hubs ? Old Town Alexandria, The Pentagon, Fort Belvoir, Tysons Corner, Joint Base Andrews and Downtown D.C.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&feature=emb_title"
+                },
+                "SubVideoTour": {
+                    "Title": "The Glendale at Towns at South Alex®",
+                    "URL": "https://www.craftmarkhomes.com/communities/towns-at-south-alex/#highlight-south-alex"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 11,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "soldLabel",
+            "formId": 4760,
+            "name": "Burnt Pine Estates",
+            "homeType": "singleFamily",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "burnt-pine-estates",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Burnt_Pine_Estates.jpg",
+                "colors": ["#00B46B", "#C31230"],
+                "mainColor": "#00B46B",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "SOLD OUT!",
+            "headerInput2": "",
+            "gallery": [
+                [1, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [2, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [3, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [4, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [6, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [7, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [8, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [9, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [10, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [11, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [12, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [13, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [14, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"],
+                [15, "Architecturally Distinctive Single Family Homes in Lincolnia VA", "Architecturally Distinctive Single Family Homes in Lincolnia VA, Burnt Pine Estates by Craftmark Homes"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "features": ["features", "baths", "kitchens", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Fairfax Co., VA",
+                "coords": ["38.8270984", "-77.1491959"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Alexandria",
+                        "state": "VA",
+                        "zip": "22312"
+                    },
+                    "direction": "https://goo.gl/maps/37mHQtEnYS5pzV4U9"
+                }]
+            },
+            "salesAgent": {
+                "label": "Sold Out!",
+                "agents": [{
+                    "agentName": "Lori Windsor",
+                    "phone": "",
+                    "email": "lwindsor@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Burnt Pine Estates", "Burnt Pine Estates Site Plan, Craftmark Homes"],
+                ["siteplan-2.jpg", "Burnt Pine Estates", "Burnt Pine Estates Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "FROM DC: Take I-395S to 10B for George Washington Memorial Parkway S. Continue on George Washington Memorial Parkway S. to a right toward Slaters Lane (signs for Slaters Lane/Bashford Lane/W Abingdon). Use the right lane to take the ramp onto US-1 S/N Henry Street. Turn right onto State Rte. 633, then right onto N Kings Highway. Turn left onto Poag Street. The Towns at South Alex® will be on your left. \n\n FROM POINTS SOUTH: Take I-95N to I-495 E/I-95 N and follow signs for Alexandria. Take exit 176A for VA-241 S/Telegraph Road/VA-611 S. Merge onto VA-241 S. Take a slight right onto School Street and continue onto N Kings Highway. Turn right onto Poag Street. The Towns at South Alex® will be on your left.",
+                "HoursDetail": [],
+                "Schools": {
+                    "Districtname": "Fairfax Co Pblc Schs",
+                    "Elementary": "Mount Eagle Elementary School",
+                    "Middle": "Twain Middle School",
+                    "High": "Edison High School"
+                },
+                "SubAmenity": ["Park", "Views", "Pond", "Trails", "Playground"],
+                "SubDescription": "Craftmark Homes is excited to bring a new community of 41 luxury townhomes to Alexandria, Virginia. Live less than a 10-minute walk to the Huntington Metro Station and a 10-minute drive to Old Town Alexandria. These homes feature new, contemporary designs with four levels, rooftop terraces and lofts. Live within a vibrant mix of distinctive shops and residences in an art-inspired setting of bright community spaces, all conveniently located in the heart of South Alexandria, Virginia. Enjoy urban conveniences without sacrificing suburban comforts ? on-site shops, restaurants, a grocery & bright outdoor spaces. A transit oriented development, South Alex:registered: offers convenient access to multiple modes of transportation ? a short walk to the Huntington Metrorail station, integrated into regional bike trails, adjacent to a Metrobus stop and a short drive to the Capital Beltway (I-495). It's ideally positioned within a short drive to many of metro D.C.'s major employers and employment hubs ? Old Town Alexandria, The Pentagon, Fort Belvoir, Tysons Corner, Joint Base Andrews and Downtown D.C.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&feature=emb_title"
+                },
+                "SubVideoTour": {
+                    "Title": "The Glendale at Towns at South Alex®",
+                    "URL": "https://www.craftmarkhomes.com/communities/towns-at-south-alex/#highlight-south-alex"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "live",
+            "formId": 4969,
+            "name": "Retreat At Westfields",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "retreat-at-westfields",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "",
+            "mapImg": "listingImg-v3.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G.png",
+                "colors": ["#002B3C", "#9AE7F4"],
+                "mainColor": "#002B3C",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "3-Level Townhome from Upper $600s<br>4-Level Townhome from Low $700s<br>Take Advantage of Pre-Construction Prices",
+            "headerInput2": "",
+            "gallery": [
+                [1, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [2, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [3, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [4, "The Ret∂reat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [5, "The Ret∂reat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [6, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [7, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [8, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [9, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [4, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [10, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [11, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [12, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [13, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [14, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Recreation", "entertainment"],
+                ["Transportation", "transportation"]
+            ],
+            "features": ["exteriors", "baths", "kitchens", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Closest Community Intersection: Stonecroft Boulevard and Conference Center Dr.<br><strong>Please Email for Appointment</strong> <br> Open Daily 11am - 5pm"
+            },
+            "priceInfo": {
+                "label": "Upper",
+                "price": 600
+            },
+            "address": {
+                "county": "Fairfax Co., VA",
+                "coords": ["38.872984", "-77.461630"],
+                "addresses": [{
+                    "label": "GPS:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "14900 Conference Center Dr",
+                        "street2": "",
+                        "city": "Chantilly",
+                        "state": "VA",
+                        "zip": "20151"
+                    },
+                    "direction": "https://goo.gl/maps/HEYzMpGioyGQ2mh97"
+                },
+                {
+                    "label": "NEW DECORATED MODEL:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "5286 Ridgeview Retreat Drive",
+                        "street2": "",
+                        "city": "Chantilly",
+                        "state": "VA",
+                        "zip": "20151"
+                    },
+                    "direction": "https://goo.gl/maps/XMbYYxX3Tusyo9ANA"
+                }]
+            },
+            "salesAgent": {
+                "label": "Please Email for Appointment <br>Open Daily 11am - 5pm",
+                "agents": [{
+                    "agentName": "Lori Windsor",
+                    "phone": "7035076882",
+                    "email": "lwindsor@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [{
+                "fpName": "The Richmond at Retreat at Westfields",
+                "fpUrl": "richmond-at-retreat-at-westfields",
+                "model": false
+            }],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Retreat at Westfields", "Retreat at Westfields Site Plan, Craftmark Homes"],
+                ["siteplan-2.jpg", "Retreat at Westfields", "Retreat at Westfields Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": "Active",
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "To View Community: Take I-495 to I-66W Take Exit 53B, Route 28N/Dulles Airport Exit onto Westfields Blvd-stay right Rt. On Stonecroft Blvd Left on Conference Center Drive Continue straight ahead to Craftmark Homes–The Retreat at Westfields",
+                "HoursDetail": [
+                    ["Monday", "13:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Thursday", "11:00", "17:00"],
+                    ["Friday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "Districtname": "",
+                    "Elementary": "Cub Run Elementary School",
+                    "Middle": "Stone Middle School",
+                    "High": "Westfield High School"
+                },
+                "SubAmenity": ["Park", "Pond", "Trails", "Lake"],
+                "SubDescription": "For those who desire modern luxury and convenient connections, welcome to The Retreat at Westfields – your gateway to all that you’ve been searching for this year. It’s time to take a breath of fresh air, embrace endless comfort, and experience a true retreat with Craftmark Homes in Fairfax County. The Richmond floor plan offers a welcoming display of brick and stone exteriors wrapped around a beautiful open layout of luxurious living spaces that seamlessly flow together. Indulge in upscale included features like a gourmet kitchen and grand center island, a private deck for indoor-outdoor living, and even the ability to add custom features. The included features stretch far beyond your expectations, delivering 4 levels of remarkable craftsmanship.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.craftmarkhomes.com/communities/retreat-at-westfields/#highlight-retreat-at-westfields-1"
+                },
+                "SubVideoTour": {
+                    "Title": "Watch Tour",
+                    "URL": "https://www.craftmarkhomes.com/communities/retreat-at-westfields/#highlight-retreat-at-westfields-1"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 13,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "live",
+            "formId": 4971,
+            "name": "The Village at Cabin Branch",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "cabin-branch",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "",
+            "mapImg": "listingImg-v3.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G.png",
+                "colors": ["#00B46B", "#C31230"],
+                "mainColor": "#00B46B",
+                "textColor": "black",
+                "btnText": "white",
+                "welcomeBackground": "bg-cabin-branch.jpg"
+            },
+            "headerInput1": "55+* Elevator Townhomes from the Upper $600s",
+            "headerInput2": "<span class='font-weight-normal disclaimer'><i>*At least one person in the household needs to be 55 years of age</i></span>",
+            "gallery": [
+                [1, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [2, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [3, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [4, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [5, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [6, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [7, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [8, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [9, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [10, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [11, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [12, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [13, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [14, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [15, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"],
+                [16, "The Village at Cabin Branch in Clarksburg, MD", "Elevator Townhomes in Montgomery Co, MD, The Village at Cabin Branch by Craftmark Homes"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Amenities", "amenities"],
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Recreation", "recreation"],
+                ["Transportation", "transportation"]
+            ],
+            "features": ["exteriors", "kitchens", "baths", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Selling from Crown Model Home 104 Bleeker Pl, Gaithersburg, MD 20878 "
+            },
+            "priceInfo": {
+                "label": "Upper",
+                "price": 600
+            },
+            "address": {
+                "county": "Montgomery Co., MD",
+                "coords": ["39.2198716", "-77.2833051"],
+                "addresses": [{
+                    "label": "Future MODEL:",
+                    "outOfCommunity": false,
+                    "address": {
+                        "street1": "22327 Cabin Branch Avenue",
+                        "street2": "",
+                        "city": "Clarksburg",
+                        "state": "MD",
+                        "zip": "20841"
+                    },
+                    "direction": "https://goo.gl/maps/uQFH3yabGEaZ4WhR8"
+                },
+                {
+                    "label": "Selling from Crown Model Home",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "104 Bleeker Pl",
+                        "street2": "",
+                        "city": "Gaithersburg",
+                        "state": "MD",
+                        "zip": "20878"
+                    },
+                    "direction": "https://goo.gl/maps/hrNeTJKzvhR9m9QF9"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Personal Appointments Required. Please Contact to Schedule!",
+                "agents": [{
+                    "agentName": "Lou Kalra",
+                    "phone": "3019105770",
+                    "email": "lkalra@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [{
+                "fpName": "The Seneca",
+                "fpUrl": "seneca",
+                "model": false
+            }],
+            "sitePlans": [
+                ["siteplan-1.jpg", "The Village at Cabin Branch", "The Village at Cabin Branch Site Plan, Craftmark Homes"],
+                ["siteplan-2.jpg", "The Village at Cabin Branch", "The Village at Cabin Branch Site Plan, Craftmark Homes"],
+                ["siteplan-3.jpg", "The Village at Cabin Branch", "The Village at Cabin Branch Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": "Active",
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [
+                    ["Monday", "11:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Thursday", "11:00", "17:00"],
+                    ["Friday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]
+                ],
+                "Schools": {
+                    "Districtname": "",
+                    "Elementary": "",
+                    "Middle": "",
+                    "High": ""
+                },
+                "SubAmenity": ["Park", "Views", "Community Center", "Trails", "Clubhouse"],
+                "SubDescription": "Craftmark Homes is eager to bring brand new elevator townhomes to an exciting active adult community in Clarksburg, Maryland. Indulge in beautiful wooded scenery, stylish living spaces, and a wealth of onsite amenities at your fingertips when you come home to Village at Cabin Branch! Our newest floor plan, The Seneca, has been designed for years of age-in-place luxury, with an included personal elevator allowing you (and your belongings) to flow from one level to the next with ease. You’ll find fabulous living spaces throughout, such as a gourmet kitchen, a spacious great room with access to your own private deck, dreamy bedrooms with incredible features, a lower level with many flexible designs, and the option for an additional loft level. With Craftmark, you don’t have to worry about choosing between your savings and luxury living. The Seneca’s long list of home features, which would be considered options to others, are standard and included in every townhome we build at Village at Cabin Branch. Situated among 540 acres of idyllic views with a wealth of amenities, you’ll find endless adventure all around this active community. With easy access to major commuter routes such as I-270 and the MARC Train Station, venturing out to popular dining, retail, and area attractions is a breeze! Everything is within reach when you come home to one of our new elevator townhomes in Montgomery County, MD.",
+                "SubVideoFile": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "SubVideoTour": {
+                    "Title": "",
+                    "URL": ""
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 14,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "live",
+            "formId": 4987,
+            "name": "Darnestown Station",
+            "homeType": "singleFamily",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "darnestown-station",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G.png",
+                "colors": ["#00B46B", "#C31230"],
+                "mainColor": "#00B46B",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "New Single Family Estate Home - $1,561,832",
+            "headerInput2": "Final Opportunity - 1 Home Remains!",
+            "gallery": [
+                [1, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [2, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [3, "Darnestown Station, Optional 3 car garage in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [4, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [5, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [6, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [7, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [8, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [9, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [10, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [11, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [12, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [13, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"],
+                [14, "Darnestown Station in Gaithersburg, MD", "New Single Family Estate Homes from sale in Gaithersburg, MD"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "recreation"],
+                ["Transportation", "transportation"]
+            ],
+            "features": ["exteriors", "kitchens", "baths", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Please Email for Information - By Appointment Off-Site!"
+            },
+            "priceInfo": {
+                "label": "from ",
+                "price": "1,561,832",
+                "priceTag": " "
+            },
+            "address": {
+                "county": "Montgomery Co., MD",
+                "coords": ["39.106381", "-77.282502"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "13610 Darnestown Rd",
+                        "street2": "",
+                        "city": "Gaithersburg",
+                        "state": "MD",
+                        "zip": "20878"
+                    },
+                    "direction": "https://goo.gl/maps/UEmmqiwKbu6Mctr99"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Please Email for Information - By Appointment Off-Site",
+                "agents": [{
+                    "agentName": "Lori Windsor",
+                    "phone": "7035076882",
+                    "email": "lwindsor@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [
+                {
+                    "fpName": "The Oakton at Darnestown Station",
+                    "fpUrl": "oakton-at-darnestown-station",
+                    "model": false
+                }
+            ],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Darnestown Station in Gaithersburg, MD", "Darnestown Station Site Plan, Craftmark Homes"],
+                ["siteplan-2.jpg", "Darnestown Station in Gaithersburg, MD", "Darnestown Station Site Plan, Craftmark Homes"],
+                ["siteplan-3.jpg", "Darnestown Station in Gaithersburg, MD", "Darnestown Station Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": "Active",
+                "CommunityStyle": "Urban",
+                "ByAppointment": true,
+                "DrivingDirections": "",
+                "HoursDetail": [],
+                "Schools": {
+                    "Districtname": "Montgomery Co Pblc Schs",
+                    "Elementary": "Darnestown Elementary School",
+                    "Middle": "Lakelands Park Middle School",
+                    "High": "Northwest High School"
+                },
+                "SubAmenity": ["Park", "Views", "Trails", "Greenbelt"],
+                "SubDescription": "Darnestown Station by Craftmark Homes presents a unique opportunity for comfortable estate living in a stunning community of new homes in Montgomery County, MD. Our luxuriously modern floor plans are crafted with breathtaking designs and high-end features that are so exceptional you won’t believe they’re standard inclusions in your home! Immerse yourself in the rare luxury of this Montgomery County neighborhood whose homes feature striking spaces like a grand split-level foyer, a gourmet kitchen with designer features and open breakfast area, a dedicated home office, a spacious owner’s suite with an adjacent sitting room, a large recreation room with an optional gas fireplace – and so much more. Nestled into a quaint Darnestown neighborhood, the generously sized homesites range from 1-2 acres. Surrounded by dense greenery with plenty of yard space, you can finally enjoy connecting with the great outdoors, hosting friends for an al fresco dinner, or joining in your favorite backyard games with family – all part of the comfort of home. The lifestyle perks of a Montgomery County address are endless at Darnestown Station. These new homes near I-270 offer convenient commuter connections, a refreshing escape with many nearby parks, and incredible Gaithersburg amenities just moments away. Come home to rare estate living with Craftmark Homes in Darnestown, Maryland. Act now to reserve your homesite and own one of our few single family homes for sale in Gaithersburg, MD.",
+                "SubVideoFile": {},
+                "SubVideoTour": {},
+                "Promotion": {}
+            }
+        },
+        {
+            "id": 15,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "comingsoon",
+            "formId": 0,
+            "name": "The Strand at Fell's Point",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "coming-soon",
+            "listingImgV1": ["listingImg-v1.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "",
+            "mapImg": "listingImg-v3.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Burnt_Pine_Estates.jpg",
+                "colors": ["#00B46B", "#C31230"],
+                "mainColor": "#00B46B",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "New Waterfront Townhomes, Coming in 2023",
+            "headerInput2": "",
+            "gallery": [],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Schools", "schools"],
+                ["Culture Recreation", "culture-recreation"]
+            ],
+            "features": ["features", "baths", "kitchens", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "Sold Out!"
+            },
+            "priceInfo": {
+                "label": "",
+                "price": 0
+            },
+            "address": {
+                "county": "Baltimore Co., MD",
+                "coords": ["39.283499", "-76.587430"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "",
+                        "street2": "Fell’s Point",
+                        "city": "Baltimore",
+                        "state": "MD",
+                        "zip": ""
+                    },
+                    "direction": "https://goo.gl/maps/37mHQtEnYS5pzV4U9"
+                }]
+            },
+            "salesAgent": {
+                "label": "Sold Out!",
+                "agents": [{
+                    "agentName": "Lori Windsor",
+                    "phone": "",
+                    "email": "lwindsor@craftmarkhomes.com"
+                }]
+            },
+            "floorplans": [],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Burnt Pine Estates", "Burnt Pine Estates Site Plan, Craftmark Homes"],
+                ["siteplan-2.jpg", "Burnt Pine Estates", "Burnt Pine Estates Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "FROM DC: Take I-395S to 10B for George Washington Memorial Parkway S. Continue on George Washington Memorial Parkway S. to a right toward Slaters Lane (signs for Slaters Lane/Bashford Lane/W Abingdon). Use the right lane to take the ramp onto US-1 S/N Henry Street. Turn right onto State Rte. 633, then right onto N Kings Highway. Turn left onto Poag Street. The Towns at South Alex® will be on your left. \n\n FROM POINTS SOUTH: Take I-95N to I-495 E/I-95 N and follow signs for Alexandria. Take exit 176A for VA-241 S/Telegraph Road/VA-611 S. Merge onto VA-241 S. Take a slight right onto School Street and continue onto N Kings Highway. Turn right onto Poag Street. The Towns at South Alex® will be on your left.",
+                "HoursDetail": [],
+                "Schools": {
+                    "Districtname": "Fairfax Co Pblc Schs",
+                    "Elementary": "Mount Eagle Elementary School",
+                    "Middle": "Twain Middle School",
+                    "High": "Edison High School"
+                },
+                "SubAmenity": ["Park", "Views", "Pond", "Trails", "Playground"],
+                "SubDescription": "Craftmark Homes is excited to bring a new community of 41 luxury townhomes to Alexandria, Virginia. Live less than a 10-minute walk to the Huntington Metro Station and a 10-minute drive to Old Town Alexandria. These homes feature new, contemporary designs with four levels, rooftop terraces and lofts. Live within a vibrant mix of distinctive shops and residences in an art-inspired setting of bright community spaces, all conveniently located in the heart of South Alexandria, Virginia. Enjoy urban conveniences without sacrificing suburban comforts ? on-site shops, restaurants, a grocery & bright outdoor spaces. A transit oriented development, South Alex:registered: offers convenient access to multiple modes of transportation ? a short walk to the Huntington Metrorail station, integrated into regional bike trails, adjacent to a Metrobus stop and a short drive to the Capital Beltway (I-495). It's ideally positioned within a short drive to many of metro D.C.'s major employers and employment hubs ? Old Town Alexandria, The Pentagon, Fort Belvoir, Tysons Corner, Joint Base Andrews and Downtown D.C.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&feature=emb_title"
+                },
+                "SubVideoTour": {
+                    "Title": "The Glendale at Towns at South Alex®",
+                    "URL": "https://www.craftmarkhomes.com/communities/towns-at-south-alex/#highlight-south-alex"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 16,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "live",
+            "formId": 5210,
+            "name": "Watershed",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "watershed",
+            "listingImgV1": ["listingImg-v2.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Burnt_Pine_Estates.jpg",
+                "colors": ["#00B46B", "#C31230"],
+                "mainColor": "#00B46B",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "New Luxury Townhomes from the $500s",
+            "headerInput2": "",
+            "gallery": [
+                [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [3, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [4, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [5, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [6, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [7, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [8, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [9, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [10, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [11, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [12, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [13, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [14, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [15, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [16, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [17, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [18, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [19, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                [20, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"]
+            ],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Amenities", "amenities"],
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Recreation", "recreation"],
+                ["Transportation", "transportation"],
+                ["Schools", "schools"]
+            ],
+            "features": ["exteriors", "interiors", "kitchens", "baths", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "*Personal Appointments Required. Please Contact to Schedule!"
+            },
+            "priceInfo": {
+                "label": "from the",
+                "price": 500
+            },
+            "address": {
+                "county": "Laurel, MD",
+                "coords": ["39.091690", "-76.778633"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "3277 MD-198",
+                        "street2": "",
+                        "city": "Laurel",
+                        "state": "MD",
+                        "zip": ""
+                    },
+                    "direction": "https://goo.gl/maps/4XEzwCMhR53zbzvZ6"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Personal Appointments Required. Please Contact to Schedule!",
+                "agents": [{
+                    "agentName": "Eric Yakuchev",
+                    "phone": "(703) 989-6662",
+                    "email": "eyakuchev@craftmarkhomes.com "
+                }]
+            },
+            "floorplans": [{
+                "fpName": "The Bluemont",
+                "fpUrl": "bluemont",
+                "model": false
+            },
+            {
+                "fpName": "The Fairland",
+                "fpUrl": "fairland",
+                "model": false
+            }],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Watershed Area Map - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "FROM DC: Take I-395S to 10B for George Washington Memorial Parkway S. Continue on George Washington Memorial Parkway S. to a right toward Slaters Lane (signs for Slaters Lane/Bashford Lane/W Abingdon). Use the right lane to take the ramp onto US-1 S/N Henry Street. Turn right onto State Rte. 633, then right onto N Kings Highway. Turn left onto Poag Street. The Towns at South Alex® will be on your left. \n\n FROM POINTS SOUTH: Take I-95N to I-495 E/I-95 N and follow signs for Alexandria. Take exit 176A for VA-241 S/Telegraph Road/VA-611 S. Merge onto VA-241 S. Take a slight right onto School Street and continue onto N Kings Highway. Turn right onto Poag Street. The Towns at South Alex® will be on your left.",
+                "HoursDetail": [],
+                "Schools": {
+                    "Districtname": "Fairfax Co Pblc Schs",
+                    "Elementary": "Mount Eagle Elementary School",
+                    "Middle": "Twain Middle School",
+                    "High": "Edison High School"
+                },
+                "SubAmenity": ["Park", "Views", "Pond", "Trails", "Playground"],
+                "SubDescription": "Craftmark Homes is excited to bring a new community of 41 luxury townhomes to Alexandria, Virginia. Live less than a 10-minute walk to the Huntington Metro Station and a 10-minute drive to Old Town Alexandria. These homes feature new, contemporary designs with four levels, rooftop terraces and lofts. Live within a vibrant mix of distinctive shops and residences in an art-inspired setting of bright community spaces, all conveniently located in the heart of South Alexandria, Virginia. Enjoy urban conveniences without sacrificing suburban comforts ? on-site shops, restaurants, a grocery & bright outdoor spaces. A transit oriented development, South Alex:registered: offers convenient access to multiple modes of transportation ? a short walk to the Huntington Metrorail station, integrated into regional bike trails, adjacent to a Metrobus stop and a short drive to the Capital Beltway (I-495). It's ideally positioned within a short drive to many of metro D.C.'s major employers and employment hubs ? Old Town Alexandria, The Pentagon, Fort Belvoir, Tysons Corner, Joint Base Andrews and Downtown D.C.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&feature=emb_title"
+                },
+                "SubVideoTour": {
+                    "Title": "The Glendale at Towns at South Alex®",
+                    "URL": "https://www.craftmarkhomes.com/communities/towns-at-south-alex/#highlight-south-alex"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        },
+        {
+            "id": 17,
+            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+            "status": "comingsoon",
+            "formId": 5420,
+            "name": "Rainwater Run",
+            "homeType": "townhomes",
+            "landingPage": "",
+            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+            "url": "rainwater-run",
+            "listingImgV1": ["listingImg-v2.png"],
+            "selectedListingImgV1": false,
+            "listingImgV2": ["listingImg-v2.jpg"],
+            "selectedListingImgV2": false,
+            "imgAlt": "",
+            "mapImg": "listingImg-v2.jpg",
+            "frameV2": "frame-V2.png",
+            "brandStyle": {
+                "background": "G_Burnt_Pine_Estates.jpg",
+                "colors": ["#00B46B", "#C31230"],
+                "mainColor": "#00B46B",
+                "textColor": "black",
+                "btnText": "white"
+            },
+            "headerInput1": "New Luxury Single Family Homes from the Upper $1Ms",
+            "headerInput2": "",
+            "gallery": [],
+            "sectionOrder": {
+                "overview": 1,
+                "floorplans": 2,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 5,
+                "features": 6,
+                "map": 7
+            },
+            "neighborhood": [
+                ["Amenities", "amenities"],
+                ["Shopping", "shopping"],
+                ["Dining", "dining"],
+                ["Recreation", "recreation"],
+                ["Transportation", "transportation"],
+                ["Schools", "schools"]
+            ],
+            "features": ["exteriors", "interiors", "kitchens", "baths", "energy", "quality"],
+            "openHours": {
+                "label": "Visit Us",
+                "hours": "*Personal Appointments Required. Please Contact to Schedule!"
+            },
+            "priceInfo": {
+                "label": "from the upper",
+                "price": "1M"
+            },
+            "address": {
+                "county": "Oakton, VA",
+                "coords": ["38.8967897", "-77.3312458"],
+                "addresses": [{
+                    "label": "Community Location:",
+                    "outOfCommunity": true,
+                    "address": {
+                        "street1": "",
+                        "street2": "",
+                        "city": "Oakton",
+                        "state": "VA",
+                        "zip": ""
+                    },
+                    "direction": "https://goo.gl/maps/YR5Lr8kPJBui9rHG7"
+                }]
+            },
+            "salesAgent": {
+                "label": "*Personal Appointments Required. Please Contact to Schedule!",
+                "agents": [{
+                    "agentName": "Eric Yakuchev",
+                    "phone": "(703) 989-6662",
+                    "email": "eyakuchev@craftmarkhomes.com "
+                }]
+            },
+            "floorplans": [{
+                "fpName": "The Bluemont",
+                "fpUrl": "bluemont",
+                "model": false
+            },
+            {
+                "fpName": "The Fairland",
+                "fpUrl": "fairland",
+                "model": false
+            }],
+            "sitePlans": [
+                ["siteplan-1.jpg", "Watershed Area Map - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"]
+            ],
+            "zillow": {
+                "Status": false,
+                "CommunityStyle": "Townhomes",
+                "ByAppointment": true,
+                "DrivingDirections": "FROM DC: Take I-395S to 10B for George Washington Memorial Parkway S. Continue on George Washington Memorial Parkway S. to a right toward Slaters Lane (signs for Slaters Lane/Bashford Lane/W Abingdon). Use the right lane to take the ramp onto US-1 S/N Henry Street. Turn right onto State Rte. 633, then right onto N Kings Highway. Turn left onto Poag Street. The Towns at South Alex® will be on your left. \n\n FROM POINTS SOUTH: Take I-95N to I-495 E/I-95 N and follow signs for Alexandria. Take exit 176A for VA-241 S/Telegraph Road/VA-611 S. Merge onto VA-241 S. Take a slight right onto School Street and continue onto N Kings Highway. Turn right onto Poag Street. The Towns at South Alex® will be on your left.",
+                "HoursDetail": [],
+                "Schools": {
+                    "Districtname": "Fairfax Co Pblc Schs",
+                    "Elementary": "Mount Eagle Elementary School",
+                    "Middle": "Twain Middle School",
+                    "High": "Edison High School"
+                },
+                "SubAmenity": ["Park", "Views", "Pond", "Trails", "Playground"],
+                "SubDescription": "Craftmark Homes is excited to bring a new community of 41 luxury townhomes to Alexandria, Virginia. Live less than a 10-minute walk to the Huntington Metro Station and a 10-minute drive to Old Town Alexandria. These homes feature new, contemporary designs with four levels, rooftop terraces and lofts. Live within a vibrant mix of distinctive shops and residences in an art-inspired setting of bright community spaces, all conveniently located in the heart of South Alexandria, Virginia. Enjoy urban conveniences without sacrificing suburban comforts ? on-site shops, restaurants, a grocery & bright outdoor spaces. A transit oriented development, South Alex:registered: offers convenient access to multiple modes of transportation ? a short walk to the Huntington Metrorail station, integrated into regional bike trails, adjacent to a Metrobus stop and a short drive to the Capital Beltway (I-495). It's ideally positioned within a short drive to many of metro D.C.'s major employers and employment hubs ? Old Town Alexandria, The Pentagon, Fort Belvoir, Tysons Corner, Joint Base Andrews and Downtown D.C.",
+                "SubVideoFile": {
+                    "Title": "Watch highlights",
+                    "URL": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&feature=emb_title"
+                },
+                "SubVideoTour": {
+                    "Title": "The Glendale at Towns at South Alex®",
+                    "URL": "https://www.craftmarkhomes.com/communities/towns-at-south-alex/#highlight-south-alex"
+                },
+                "Promotion": {
+                    "PromoType": "",
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+                }
+            }
+        }
+    ]
+}

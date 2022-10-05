@@ -1,0 +1,2 @@
+<h1 class="font-weight-bold">A HISTORIC LOCATION</h1>
+<p class="mt-2">Craftmark Homes is building brand new elevator townhomes at Liberty, a one-of-a-kind community in Fairfax County. While embracing the community’s historic blueprint, each of our homes offers legendary Craftmark quality and design, featuring timeless elegance you’ll admire for years.</p>

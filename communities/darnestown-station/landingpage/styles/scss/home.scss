@@ -1,0 +1,161 @@
+.main-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+
+    .container {
+        z-index: 100;
+    }
+
+    .main-logo {
+        height: 50px;
+    }
+
+    h1 {
+        font-size: 65px;
+        font-weight: normal;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 22px;
+        margin-bottom: 50px;
+
+        strong {
+            font-weight: 600;
+        }
+    }
+
+    form {
+        .form-control {
+            background-color: transparent;
+            border: 1px solid #F1BC7C;
+            border-radius: 0;
+        }
+
+        .custom-btn {
+            background-color: #C0E6EF;
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 20px;
+            padding: 10px 60px;
+            color: $blue;
+
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+
+    .eho {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+
+        img {
+            width: 40px;
+            height: auto;
+        }
+    }
+
+    .background-right {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        z-index: -1;
+        img {
+            width: 400px;
+            height: auto;
+        }
+    }
+
+    .background-left {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+    }
+}
+
+
+@media (max-height: 950px) {
+    .main-section {
+        height: auto;
+    }
+}
+
+
+// SMALL DESKTOP
+/*$screen-md:991px;$screen-lg:1200px;*/
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+    .main-section {
+        h1 {
+            font-size: 55px;
+        }
+        .background-right {
+            img {
+                width: 350px;
+            }
+        }
+    
+        .background-left {
+    
+            img {
+                width: 250px;
+            }
+        }
+    }
+}
+
+// TABLET
+/*$screen-sm:767px; $screen-md:991px;*/
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+    .main-section {
+        h1 {
+            font-size: 50px;
+        }
+        .background-right {
+            img {
+                width: 250px;
+            }
+        }
+    
+        .background-left {
+    
+            img {
+                width: 200px;
+            }
+        }
+    }
+}
+
+// MOBILE
+/*$screen-sm:767px;*/
+@media (max-width: $screen-sm) {
+    .main-section {
+        h1 {
+            font-size: 50px;
+        }
+        .background-right {
+            img {
+                width: 150px;
+            }
+        }
+    
+        .background-left {
+    
+            img {
+                width: 200px;
+            }
+        }
+    }
+}

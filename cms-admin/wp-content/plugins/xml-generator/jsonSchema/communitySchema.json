@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-01/schema",
+	"id": "#",
+    "required":false,
+    "properties:": {
+        "communities": {
+            "type": "array",
+            "id": "communities",
+            "items": {
+                "type": "object",
+                "id": "0",
+                "items": {
+                    "type": "object",
+                    "id": "0",
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "id": "name",
+                            "Description": "Community name"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+<Elevations>
+<chevychase>
+<Elev1>Elevation 3</Elev1>
+<Elev2>Base Elevation 4: Brick Front and Bowed Bay Windows</Elev2>
+<Elev3>Elevation 10: Stone Accent</Elev3>
+<Elev4>Elevation 7: Stone Front</Elev4>
+<Elev5>Elevation 8: Living Room Fireplace</Elev5>
+<Elev6>Elevation 9: Brick Front</Elev6>
+</chevychase>
+<clifton>
+<Elev1>Elevation 2: Brick Front and Sideload Garage</Elev1>
+<Elev2>Base Elevation 1: Living Room Masonry Fireplace</Elev2>
+<Elev3>Elevation 3: Brick Front</Elev3>
+<Elev4>Elevation 4: Full Stone Front</Elev4>
+<Elev5>Elevation 5: Brick Front and Living Room Masonry Fireplace</Elev5>
+<Elev6>Elevation 6: Full Stone Front</Elev6>
+</clifton>
+<edgemoor>
+<Elev1>Elevation 4:</Elev1>
+<Elev2>Elevation 1: Brick Front and Dormers</Elev2>
+<Elev3>Elevation 2: Brick Front</Elev3>
+<Elev4>Base Elevation 3: Stone Front and Alternate Second Floor</Elev4>
+<Elev5>Elevation 7: Stone Accent</Elev5>
+</edgemoor>
+<oakton>
+<Elev1>Elevation 8: Brick Front and Brick Stoop</Elev1>
+<Elev2>Elevation 1: Brick Front</Elev2>
+<Elev3>Elevation 2: Stone Front </Elev3>
+<Elev4>Elevation 3</Elev4>
+<Elev5>Elevation 4</Elev5>
+<Elev6>Elevation 6: Sideload Garage</Elev6>
+<Elev7>Base Elevation 7: Side Conservatory</Elev7>
+
+</oakton>
+<oakmont>
+<Elev1>Elevation 1: Hip Roof, Brick Front, Brick Stoop</Elev1>
+<Elev2>Base Elevation 2: Stone and Shake Front</Elev2>
+<Elev3>Elevation 3: Brick Frotn</Elev3>
+<Elev4>Elevation 4: Stone Front and Masonry Porch</Elev4>
+<Elev5>Elevation 5: Brick Front, Brick Stoop, Bow Bay Windows</Elev5>
+<Elev6>Elevation 6: Stone Front</Elev6>
+<Elev7>Elevation 7: Stone and Shake Front</Elev7>
+</oakmont>
+<kenwood>
+<Elev1>Elevation 10: Brick Front and Side Conservatory</Elev1>
+<Elev2>Elevation 2: Stone Front and Side Conservatory</Elev2>
+<Elev3>Elevation 3: Brick Front, Stone Accent, and Living Room Fireplace</Elev3>
+<Elev4>Elevation 4: Brick Front and Side Sunroom </Elev4>
+<Elev5>Base Elevation 5: Brick Front, Stone Accent and Living Room Fireplace</Elev5>
+</kenwood>
+
+<II-kenwood>
+<Elev1>Elevation 12: Brick Front and Living Room Fireplace</Elev1>
+<Elev2>Elevation 11: Brick Front and Living Room Fireplace</Elev2>
+<Elev3>Elevation 14: Stone Front and Living Room Fireplace</Elev3>
+<Elev4>Base Elevation 6: Stone Front and Living Room Fireplace</Elev4>
+<Elev5>Elevation 9: Brick Front, Living Room Fireplace and Hipped Roof</Elev5>
+</II-kenwood>
+
+<westchester>
+<Elev1>Elevation 2: Stone Accent and Living Room Fireplace</Elev1>
+<Elev2>Elevation 3: Stone Front</Elev2>
+<Elev3>Elevation 1: Brick Front and Living Room Fireplace</Elev3>
+<Elev4>Base Elevation 4: Brick & Shake Front Living Room Fireplace</Elev4>
+<Elev5>Elevation 6: Hip Roof, Brick Front with Stone Accent and Living Room Fireplace</Elev5>
+</westchester>
+
+<hamilton>
+<Elev1>Elevation 1: Brick Water Table w/Dormers</Elev1>
+<Elev2>Elevation 3: Stone Water Table</Elev2>
+<Elev3>Elevation 4: Brick Front and Brick Stoop</Elev3>
+<Elev4>Elevation 5: Stone Accent and Stone Water Table</Elev4>
+<Elev5>Elevation 6: Brick Front, Brick Porch and Dormers</Elev5>
+</hamilton>
+<wakefield>
+<Elev1>Elevation 1: Stone Front</Elev1>
+<Elev2>Elevation 2: Brick Front</Elev2>
+<Elev3>Elevation 3: Brick to Grade Front</Elev3>
+<Elev4>Elevation 4: Stone Accent</Elev4>
+<Elev5>Elevation 5: Brick Front and Hip Roof</Elev5>
+</wakefield>
+
+</Elevations>

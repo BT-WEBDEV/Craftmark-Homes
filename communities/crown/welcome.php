@@ -1,0 +1,6 @@
+<h1 class="font-weight-bold">WELCOME</h1>
+<p class="mt-2">This community is Sold Out. </p>
+<p class="mt-2">Craftmark Homes is excited to introduce a strategically designed modern 24’ Grand Elevator Townhome, The Bellevue, specifically designed for Crown East, a new lively Montgomery County community.</p>
+<p class="mt-2">The Bellevue’s captivating brick and genuine stone exteriors and spacious open floor plan that lives like a single family home –without the costs, nor the maintenance– makes this a modern must-have! This stunning new Craftmark design features high-end luxuries and features that no one should live without.</p>
+<p class="mt-2">Indulge in a wealth of on-site amenities just outside your doorstep at The Retreat, offering a rock climbing wall, swimming pool, outdoor fireplace, and so much more. Visit Downtown Crown for a variety of dining and retail options, exciting events, and idyllic outdoor parks. Take advantage of the Metro Shuttle that operates between the community and Shady Grove Metro Station for easy access to all the area has to offer.</p>
+<p class="mt-2">The fun has just begun! Let’s get started!</p>

@@ -1,0 +1,2 @@
+<h4 class="font-weight-normal mt-2">Ready to invest?</h4>
+<p>The new Walter Reed redevelopment will be one of D.C.'s most dynamic destinations, with $6.2 Billion of economic impact. Plans include a 200-room hotel and conference center, 325,000 SF of new office space, 2,000+ new jobs at the State Department, and as many as 2,100+ new jobs at the Children’s National Research and Innovation Campus. Two leading language immersion charter schools will be part of the redevelopment, and foreign chanceries developed by the State Department.ß</p>

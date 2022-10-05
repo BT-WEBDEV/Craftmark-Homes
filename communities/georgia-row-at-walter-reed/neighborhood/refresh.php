@@ -1,0 +1,2 @@
+<h4 class="font-weight-normal mt-2">Downtown lifestyle, outdoor relaxation.</h4>
+<p>The great green outdoors are just across the street. The new Walter Reed development will include nearly 20 acres of open space to include community parks and plazas like The Great Lawn and Pershing Park, and a public swimming pool and dog park. You'll love catching farmers markets, concerts, and other events at the 20,000 sq. ft. of space designated for arts and cultural uses. Need a deeper dose of nature? Rock Creek Park and its extensive trail network are just blocks away.</p>

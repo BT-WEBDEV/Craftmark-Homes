@@ -1,0 +1,50 @@
+.liked-container {
+    .list-card-save {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .list-saved {
+        svg path {
+            fill: #ef1212;
+            stroke: #ef1212 ;
+        }
+    }
+}
+
+#saved-items-container {
+    position: relative;
+    a {
+        overflow: visible;
+    }
+    svg {
+        margin-bottom: 3px;
+    }
+    #saved-total {
+        font-weight: bold;
+        color: white;
+        z-index: 9999999;
+    }
+}
+
+
+#savedItems {
+    .modal-dialog {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 80%;
+    }
+    .modal-content {
+        border-radius: 15px;
+        margin-top: 100px;
+        max-height: 80%;
+        overflow: scroll;
+        padding: 20px 0;
+    }
+    // .savedItem {
+    //     display: none;
+    // }
+    // .liked-container {
+    //     display: none;
+    // }
+}

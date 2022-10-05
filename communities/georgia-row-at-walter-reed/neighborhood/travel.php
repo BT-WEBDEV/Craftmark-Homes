@@ -1,0 +1,2 @@
+<h4 class="font-weight-normal mt-2">Ready to ditch the car?</h4>
+<p>At Georgia Row, you'll enjoy the ultimate D.C. luxury of living half a mile to a Northwest Red Line Metro station. Running late in the morning? Bus stops traveling across the city are right outside. With bike lockers and easy access to the Beltway and 16th Street, Georgia Row puts D.C. at your fingertips.</p>

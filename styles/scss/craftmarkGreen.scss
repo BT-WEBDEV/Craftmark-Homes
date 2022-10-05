@@ -1,0 +1,87 @@
+.craftmark-green-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .image {
+        flex: 0 0 calc(16.666% - 10px);
+        max-width: calc(16.666% - 10px);
+        border-radius: 1em;
+        margin: 0 5px;
+        overflow: hidden;
+    }
+}
+
+#craftmark-green-accordion {
+    .card-header {
+        padding: 8px 0px;
+    }
+}
+
+#craftmark-green-pills {
+    .custom-pills {
+        a {
+            font-weight: bold;
+            font-size: 12px;
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) {
+    #green-desc {
+
+        .content-wrap {
+            padding: 50px 15px;
+            margin-left: -15px;
+            margin-right: -15px;
+            @include background-gradient('/craftmark-green/images/bg-desc.jpg', left, 255, 255, 255, 0, 255, 255, 255, 0, 40%, right center);
+
+            .content {
+                padding-right: 40%;
+            }
+        }
+    }
+
+    #green-item-wrap {
+        background-color: #EBEBED;
+    }
+
+    #green-home-type {
+        .content-wrap {
+            @include background-gradient('/craftmark-green/images/bg-father-daughter.jpg', left, 255, 255, 255, 0, 255, 255, 255, .3, 40%, right center);
+            .content {
+                padding-left: 35% !important;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+        }
+    }
+    #craftmark-green-pills {
+        .custom-pills a {
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    .home-type-slider-content {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        background-image: url("/craftmark-green/images/bg-green-mountain.jpg");
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+        .content {
+            padding-right: 35%;
+        }
+    }
+}
+
+@media (min-width: $screen-md) {
+    #green-home-type .content-wrap .content {
+        padding-left: 40% !important;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}

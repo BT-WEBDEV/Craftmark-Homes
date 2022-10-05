@@ -1,0 +1,864 @@
+/* CSS Document */
+/*************************************************
+**************************************************
+Website Name: Craftmark Digital Display
+Website URL: 
+Website Author: GKA Advertising - Amra Narmandahkh
+Copyright 2018. All Rights Reserved.
+*************************************************/
+/************************************************
+*************************************************
+Page Index
+------------------------------------------------
+00. Typography
+01. Bottom Menu
+02. Main Body
+03. Floorplans
+04. Screen Saver
+05. Standard Features & About Craftmark
+06. Siteplan
+07. Side Menu
+AA. Mobile
+BB. Tablet
+CC. Bigger Screen
+*************************************************
+************************************************/
+/* Transition */
+/* Animation */
+/* Background Center image */
+/* Custom Background Positioning */
+/* Vertical align */
+/****************************
+******* 00. Typography ******
+****************************/
+/* line 33, ../sass/styles.scss */
+html, body {
+  height: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/* line 39, ../sass/styles.scss */
+body {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-image: url(/craftmark_digitaldisplay/images/top-bg.svg), url(/craftmark_digitaldisplay/images/bottom-bg.svg);
+  background-size: 200px, 90%;
+  background-position: top left, bottom left;
+  background-repeat: no-repeat;
+}
+
+/* line 51, ../sass/styles.scss */
+section {
+  background-color: transparent;
+}
+
+/* line 54, ../sass/styles.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+/* line 63, ../sass/styles.scss */
+small {
+  font-size: 60%;
+}
+
+/* line 67, ../sass/styles.scss */
+a {
+  color: white;
+}
+
+/* line 71, ../sass/styles.scss */
+a:hover,
+a:focus {
+  color: #FF8373;
+}
+
+/* Amra Library */
+/* IE Version update TAB */
+/* line 78, ../sass/styles.scss */
+#VersionTab {
+  z-index: 99999;
+  position: absolute;
+  top: 100px;
+  color: red;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  background-color: yellow;
+  height: 100px;
+  line-height: 100px;
+}
+/* line 89, ../sass/styles.scss */
+#VersionTab a {
+  color: blue;
+}
+
+/* line 93, ../sass/styles.scss */
+.outline {
+  display: none;
+}
+
+/* line 96, ../sass/styles.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 99, ../sass/styles.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* line 102, ../sass/styles.scss */
+.bg-center {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* line 107, ../sass/styles.scss */
+.add-shadow {
+  -webkit-box-shadow: 0px 0px 16px 0px #000000;
+  -moz-box-shadow: 0px 0px 16px 0px #000000;
+  box-shadow: 0px 0px 16px 0px #000000;
+}
+
+/* End Amra Library */
+/*************************
+******* 01. Bottom Menu ******
+**************************/
+/* line 116, ../sass/styles.scss */
+[data-nav-bg="black"] {
+  background-image: linear-gradient(#383838, #000000 30%);
+}
+
+/* line 122, ../sass/styles.scss */
+[data-bg-color="blue"] {
+  background-color: #5180C4;
+}
+
+/* line 123, ../sass/styles.scss */
+[data-bg-color="yellow"] {
+  background-color: #FF8373;
+}
+
+/* line 125, ../sass/styles.scss */
+.navbar {
+  padding: 0px;
+}
+/* line 129, ../sass/styles.scss */
+.navbar .navbar-nav li a {
+  position: relative;
+  display: block;
+  padding: 16px 78px;
+  border-bottom: 7px solid #5180C4;
+  font-size: 22px;
+}
+/* line 136, ../sass/styles.scss */
+.navbar .navbar-nav li a:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  top: 0;
+  width: 2px;
+  bottom: 1px;
+  background: black;
+}
+/* line 148, ../sass/styles.scss */
+.navbar .navbar-nav .active a {
+  border-bottom: 7px solid #FF8373;
+}
+/* line 153, ../sass/styles.scss */
+.navbar .disclaimer {
+  font-size: 8px;
+  padding-right: 20px;
+}
+
+/*************************
+******* 02. Main Body ******
+**************************/
+/* line 161, ../sass/styles.scss */
+.mainWrap {
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+/* line 165, ../sass/styles.scss */
+.mainWrap .craft_page_logo img {
+  max-width: 164px;
+}
+/* line 169, ../sass/styles.scss */
+.mainWrap .craftmark_logo {
+  position: absolute;
+  width: 17%;
+}
+/* line 172, ../sass/styles.scss */
+.mainWrap .craftmark_logo img {
+  max-width: 164px;
+}
+/* line 176, ../sass/styles.scss */
+.mainWrap .community_name {
+  margin-bottom: 15px;
+}
+/* line 178, ../sass/styles.scss */
+.mainWrap .community_name h1 {
+  font-size: 74.2px;
+  font-weight: 300;
+}
+/* line 182, ../sass/styles.scss */
+.mainWrap .community_name .city_name {
+  color: #5180C4;
+  font-size: 28px;
+}
+/* line 187, ../sass/styles.scss */
+.mainWrap .custom-col-2 {
+  -ms-flex: 0 0 17%;
+  flex: 0 0 17%;
+  max-width: 17%;
+}
+/* line 192, ../sass/styles.scss */
+.mainWrap .custom-col-10 {
+  -ms-flex: 0 0 83%;
+  flex: 0 0 83%;
+  max-width: 83%;
+}
+/* line 197, ../sass/styles.scss */
+.mainWrap .custom-offset-2 {
+  margin-left: 17%;
+}
+
+/* line 202, ../sass/styles.scss */
+.fp-listWrap {
+  margin-bottom: 98px;
+}
+
+/* line 205, ../sass/styles.scss */
+.fp-list {
+  margin-top: 10px;
+  background-color: #333333;
+}
+/* line 208, ../sass/styles.scss */
+.fp-list .fp-image {
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 105px;
+}
+/* line 214, ../sass/styles.scss */
+.fp-list .fp-details {
+  padding: 0 10px 0 10px;
+}
+/* line 216, ../sass/styles.scss */
+.fp-list .fp-details h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+/* line 220, ../sass/styles.scss */
+.fp-list .fp-details p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+/* line 227, ../sass/styles.scss */
+.fp-select-active .fp-list {
+  background-color: #5180C4;
+}
+
+/* line 232, ../sass/styles.scss */
+.fp-detailsWrap .fp-item {
+  display: none;
+}
+/* line 235, ../sass/styles.scss */
+.fp-detailsWrap .fp-active {
+  display: block;
+}
+
+/* line 239, ../sass/styles.scss */
+.main-slider {
+  margin-right: 50px;
+}
+/* line 241, ../sass/styles.scss */
+.main-slider .carousel-item {
+  max-height: 754px;
+  min-height: 754px;
+}
+
+/* line 246, ../sass/styles.scss */
+.carousel-control-prev {
+  justify-content: left;
+  margin-left: -10px;
+}
+
+/* line 250, ../sass/styles.scss */
+.carousel-control-next {
+  justify-content: right;
+  margin-right: -10px;
+}
+
+/* line 254, ../sass/styles.scss */
+.carousel-control-next, .carousel-control-prev {
+  width: auto;
+}
+/* line 256, ../sass/styles.scss */
+.carousel-control-next img, .carousel-control-prev img {
+  width: 80px;
+}
+
+/* line 260, ../sass/styles.scss */
+.buttonWrap {
+  margin-top: -70px;
+}
+/* line 262, ../sass/styles.scss */
+.buttonWrap .fp-button {
+  margin-left: 55px;
+}
+/* line 265, ../sass/styles.scss */
+.buttonWrap .icon-logo {
+  width: 150px;
+  height: 140px;
+  display: inline-block;
+  float: left;
+}
+/* line 270, ../sass/styles.scss */
+.buttonWrap .icon-logo img {
+  width: 80px;
+}
+/* line 274, ../sass/styles.scss */
+.buttonWrap .el-button {
+  margin-right: 18px;
+}
+/* line 277, ../sass/styles.scss */
+.buttonWrap .fp-el-image {
+  display: inline-block;
+  float: left;
+}
+/* line 280, ../sass/styles.scss */
+.buttonWrap .fp-el-image img {
+  height: 140px;
+  width: auto;
+}
+/* line 285, ../sass/styles.scss */
+.buttonWrap p {
+  font-size: 19px;
+}
+
+/* line 289, ../sass/styles.scss */
+.buttonWrapPrimrose {
+  margin-top: -50px !important;
+}
+
+/*************************
+******* 03. Floorplans ******
+**************************/
+/* line 296, ../sass/styles.scss */
+#fp_slider_annapolis-mateny .img-fluid, #fp_slider_arlington-mateny .img-fluid {
+  max-width: 95%;
+}
+
+/* line 300, ../sass/styles.scss */
+.flip {
+  -webkit-perspective: 4000px;
+  perspective: 4000px;
+  position: relative;
+}
+
+/* line 305, ../sass/styles.scss */
+.flip .d-display-card.flipped {
+  -webkit-transform: rotatey(-180deg);
+  transform: rotatey(-180deg);
+}
+
+/* line 309, ../sass/styles.scss */
+.flip .d-display-card {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+/* line 316, ../sass/styles.scss */
+.flip .d-display-card .face {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 323, ../sass/styles.scss */
+.flip .d-display-card .front {
+  top: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 328, ../sass/styles.scss */
+.flip .d-display-card .back {
+  -webkit-transform: rotatey(-180deg);
+  transform: rotatey(-180deg);
+}
+
+/* line 333, ../sass/styles.scss */
+.floorplans_details {
+  background-color: white;
+  height: 100%;
+  max-height: 754px;
+  min-height: 754px;
+  overflow: hidden;
+  padding: 20px 40px;
+  margin-right: 50px;
+  color: black;
+}
+/* line 342, ../sass/styles.scss */
+.floorplans_details h1 {
+  font-size: 25px;
+  margin-bottom: 0px;
+  line-height: 1;
+}
+
+/* line 348, ../sass/styles.scss */
+.fp_accordion {
+  margin-top: 100px;
+}
+/* line 350, ../sass/styles.scss */
+.fp_accordion .card {
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 20px;
+  width: 430px;
+}
+/* line 356, ../sass/styles.scss */
+.fp_accordion .card .card-header {
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 0px;
+  background-color: #5180C4;
+  border: none;
+  border-radius: 0px;
+}
+/* line 365, ../sass/styles.scss */
+.fp_accordion .card .active {
+  background-color: #FF8373;
+}
+/* line 368, ../sass/styles.scss */
+.fp_accordion .card .fp-link {
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  text-transform: none;
+  width: 100%;
+  text-align: left;
+  padding: 10px 20px;
+}
+/* line 377, ../sass/styles.scss */
+.fp_accordion .card .card-body {
+  padding: 1.25rem 1.25rem 0 1.25rem;
+}
+/* line 380, ../sass/styles.scss */
+.fp_accordion .card .card-body ul li {
+  margin: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* line 385, ../sass/styles.scss */
+.fp_accordion .card .card-body ul .active-link {
+  font-weight: bold;
+}
+
+/*************************
+******* 04. Screen Saver ******
+**************************/
+/* line 396, ../sass/styles.scss */
+#screen_saver_wrap {
+  z-index: 150;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 93.2%;
+  width: 100%;
+}
+/* line 404, ../sass/styles.scss */
+#screen_saver_wrap .screen_saver {
+  z-index: 151;
+  height: 100%;
+  width: 100%;
+}
+/* line 409, ../sass/styles.scss */
+#screen_saver_wrap .touch_screen {
+  z-index: 152;
+  position: absolute;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  bottom: 100px;
+}
+/* line 417, ../sass/styles.scss */
+#screen_saver_wrap .touch_screen .ts_button {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+/* line 422, ../sass/styles.scss */
+#screen_saver_wrap .touch_screen .ts_button img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+/*************************
+******* 05. Standard Features & About Craftmark ******
+**************************/
+/* line 432, ../sass/styles.scss */
+.features-and-about {
+  background-color: white;
+  width: 96%;
+  margin: 20px auto 0 auto;
+  border-bottom: 8px solid #5180C4;
+}
+/* line 437, ../sass/styles.scss */
+.features-and-about .list-menu {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+/* line 440, ../sass/styles.scss */
+.features-and-about .list-menu li {
+  background-color: #5180C4;
+  margin: 15px 0;
+  padding: 10px 20px;
+  width: 95%;
+  font-size: 1.3rem;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+/* line 450, ../sass/styles.scss */
+.features-and-about .list-menu .active-link {
+  background-color: #FF8373;
+}
+/* line 454, ../sass/styles.scss */
+.features-and-about .header-img {
+  margin-top: 15px;
+}
+/* line 457, ../sass/styles.scss */
+.features-and-about .feature-list {
+  padding: 20px 0;
+}
+/* line 459, ../sass/styles.scss */
+.features-and-about .feature-list h3 {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+/* line 464, ../sass/styles.scss */
+.features-and-about .feature-list ul {
+  color: black;
+}
+/* line 468, ../sass/styles.scss */
+.features-and-about .about-craftmark {
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: black;
+}
+/* line 473, ../sass/styles.scss */
+.features-and-about .about-craftmark .about-text {
+  padding-right: 40px;
+}
+/* line 476, ../sass/styles.scss */
+.features-and-about .about-craftmark h1 {
+  margin-top: 150px;
+  font-size: 30px;
+}
+/* line 480, ../sass/styles.scss */
+.features-and-about .about-craftmark p {
+  padding-left: 20px;
+  font-size: 18px;
+}
+/* line 484, ../sass/styles.scss */
+.features-and-about .about-craftmark .second-row-image {
+  margin-top: 15px;
+}
+/* line 487, ../sass/styles.scss */
+.features-and-about .about-craftmark .vertical_img {
+  padding-left: 0px;
+  height: 398px;
+}
+
+/*************************
+******* 06. Siteplan ******
+**************************/
+/* line 497, ../sass/styles.scss */
+#image-gallery {
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+  height: 800px;
+  background: transparent;
+}
+
+/* line 504, ../sass/styles.scss */
+#image-gallery .image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+
+/* line 511, ../sass/styles.scss */
+#image-gallery .prev,
+#image-gallery .next {
+  position: absolute;
+  height: 32px;
+  margin-top: -66px;
+  top: 50%;
+}
+
+/* line 518, ../sass/styles.scss */
+#image-gallery .prev {
+  left: 20px;
+}
+
+/* line 521, ../sass/styles.scss */
+#image-gallery .next {
+  right: 20px;
+  cursor: pointer;
+}
+
+/* line 525, ../sass/styles.scss */
+#image-gallery .footer-info {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  line-height: 50px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+/* line 536, ../sass/styles.scss */
+#image-gallery .prev, #image-gallery .next {
+  height: 60px;
+}
+
+/*************************
+******* 07. Side Menu ******
+**************************/
+/* line 542, ../sass/styles.scss */
+#sideNav_menu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 9999999;
+}
+
+/* line 548, ../sass/styles.scss */
+#nav-icon {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  margin: 10px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+/* line 562, ../sass/styles.scss */
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background: #666666;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+/* line 580, ../sass/styles.scss */
+#nav-icon span:nth-child(1) {
+  top: 0px;
+}
+/* line 584, ../sass/styles.scss */
+#nav-icon span:nth-child(2) {
+  top: 12px;
+}
+/* line 588, ../sass/styles.scss */
+#nav-icon span:nth-child(3) {
+  top: 24px;
+}
+
+/* line 594, ../sass/styles.scss */
+.show #nav-icon span:nth-child(1) {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+/* line 601, ../sass/styles.scss */
+.show #nav-icon span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+/* line 605, ../sass/styles.scss */
+.show #nav-icon span:nth-child(3) {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/* line 616, ../sass/styles.scss */
+.custom-sidnav {
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+/* line 620, ../sass/styles.scss */
+.custom-sidnav .google_loc {
+  width: 30px;
+  margin-right: 10px;
+}
+/* line 625, ../sass/styles.scss */
+.custom-sidnav .dropdown-toggle:after {
+  border: none;
+}
+/* line 628, ../sass/styles.scss */
+.custom-sidnav .dropdown-menu {
+  width: 230px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  z-index: 9000;
+  position: absolute;
+  top: 60px !important;
+  right: 0px !important;
+  left: initial !important;
+  -webkit-border-radius: 10px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: 0;
+  -ms-filter: "alpha(opacity=0)";
+  -webkit-filter: alpha(opacity=0);
+  -moz-filter: alpha(opacity=0);
+  -ms-filter: alpha(opacity=0);
+  -o-filter: alpha(opacity=0);
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0) !important;
+  -moz-transform: scale(0) !important;
+  -o-transform: scale(0) !important;
+  -ms-transform: scale(0) !important;
+  transform: scale(0) !important;
+  -webkit-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -moz-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -o-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  -ms-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+  transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+}
+/* line 661, ../sass/styles.scss */
+.custom-sidnav .dropdown-menu li:first-child .dropdown-item {
+  border-radius: 10px 10px 0 0;
+}
+/* line 664, ../sass/styles.scss */
+.custom-sidnav .dropdown-menu li:last-child .dropdown-item {
+  border-radius: 0 0 10px 10px;
+  border-bottom: none;
+}
+/* line 668, ../sass/styles.scss */
+.custom-sidnav .dropdown-menu .dropdown-item {
+  white-space: normal;
+  text-align: left;
+  padding: 11px 20px 11px 25px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #454545;
+  background-color: transparent;
+}
+/* line 675, ../sass/styles.scss */
+.custom-sidnav .dropdown-menu .dropdown-item:hover {
+  background-color: #EEEEEE;
+  color: #333333;
+}
+/* line 681, ../sass/styles.scss */
+.custom-sidnav .dropdown-menu:before {
+  border-bottom: 15px solid rgba(0, 0, 0, 0.2);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: -10px;
+}
+/* line 691, ../sass/styles.scss */
+.custom-sidnav .dropdown-menu:after {
+  border-bottom: 15px solid #FFFFFF;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: -10px;
+}
+/* line 701, ../sass/styles.scss */
+.custom-sidnav .show {
+  -webkit-transform-origin: 150% 50%;
+  -moz-transform-origin: 150% 50%;
+  -o-transform-origin: 150% 50%;
+  -ms-transform-origin: 150% 50%;
+  transform-origin: 150% 50%;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  transform: scale(1) !important;
+  opacity: 1;
+  -ms-filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+}
+
+/*************************
+******* AA. Mobile ******
+**************************/
+/*************************
+******* BB. Tablet ******
+**************************/
+/*************************
+******* CC. Bigger Screen ******
+**************************/

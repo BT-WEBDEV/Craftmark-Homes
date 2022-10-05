@@ -1,0 +1,144 @@
+.round-pills-menu {
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+    .nav-item {
+        .nav-link {
+            border-radius: 20px;
+            font-weight: normal;
+            font-size: 11px;
+            white-space: nowrap;
+            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+
+            span {
+                display: block;
+                font-size: 9px;
+            }
+        }
+
+        .active {
+            background-color: $light-blue;
+        }
+    }
+}
+
+#custom-floorplan {
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+.custom-properties-fp {
+    .floorplan-list-v2 {
+        background-color: transparent !important;
+    }
+
+    h6,
+    p {
+        color: white !important;
+    }
+}
+
+.building-process-pills {
+    margin-top: 10px;
+
+    .nav-item {
+        padding: 0px;
+        margin: 0 3px;
+
+        .nav-link {
+            border-radius: 50%;
+            font-weight: bold;
+            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+        }
+
+        .active {
+            background-color: $light-blue;
+        }
+    }
+}
+
+.building-process-tab-content {
+    .tab-pane {
+        ul {
+            padding-left: 15px;
+            font-size: 13px;
+
+            li {
+                margin: 4px 0;
+            }
+
+            ul {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: $screen-sm) {
+    #custom-desc {
+        @include background-gradient('/custom/images/bg-welcome.jpg', left, 255, 255, 255, 0, 255, 255, 255, 0.5, 40%, right center);
+
+        .container {
+        }
+        .featured-list .image .logo {
+            bottom: 39px !important;
+        }
+    }
+
+    #custom-map {
+        .container {
+            max-width: none;
+        }
+    }
+
+    .building-process-pills .nav-item {
+        margin: 0 13px;
+    }
+
+    #custom-financing {
+        @include background-gradient('/custom/images/bg-financing.jpg', left, 255, 255, 255, 0, 255, 255, 255, 0, 40%, right center);
+    }
+
+    .custom-properties-fp {
+        background-color: white;
+
+        h6,
+        p {
+            color: black !important;
+        }
+    }
+
+    #custom-gallery {
+        .swiper-slide {
+            .content-box {
+                position: absolute;
+                z-index: 6;
+                bottom: 0px;
+                background-color: #ffffff94;
+                width: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                .header {
+                    margin-top: 0px;
+                }
+                h6 {
+                    font-size: 13px;
+                }
+                .content {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $screen-md) {
+    .building-process-tab-content .tab-pane ul {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,2 @@
+[14-Mar-2018 17:33:11 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/cmhwebhosting/public_html/cms-admin/wp-content/plugins/gka-content-management-system/gka-cms-remove-add-new.php on line 12
+[24-Jul-2019 12:39:00 UTC] WordPress database error Query execution was interrupted for query SELECT option_value FROM wp_options WHERE option_name = 'grp_debug' LIMIT 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/google-reviews-business/grp.php'), get_option

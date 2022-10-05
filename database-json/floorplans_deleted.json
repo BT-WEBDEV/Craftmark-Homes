@@ -1,0 +1,1701 @@
+{
+    "name": "The Hamilton",
+    "statusInput": ["live", "sold"],
+    "status": "sold",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "hamilton",
+    "listingImg": ["listingImg.jpg", "The Hamilton Floor Plan, Award-winning Design Home in MD & VA"],
+    "gallery": [
+        [1, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [17, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [18, "The Hamilton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "First Floor", ""],
+        [5, "Second Floor", ""],
+        [6, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Hamilton by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/hamilton-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "3,131+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "A spacious, award-winning home showcasing our finest touches in an exemplary floor plan"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+}
+
+{
+    "name": "The New Windsor",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "new-windsor",                    
+    "listingImg": ["listingImg.jpg", "The New Windsor Floor Plan, Single Family Home in MD & VA"],
+    "gallery": [
+        [1, "The New Windsor Floor Plan, 4-5 BR, 2-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Basement", ""],
+        [3, "First Floor", ""],
+        [4, "Brochure Elevation", ""]
+    ],
+    "exteriorImage": [
+        [1, "New Windsor by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/new-windsor-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "3,056+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "2",
+            "max": "4"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Space where you need it most with gourmet island kitchen, breakfast area, library &amp; more"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+}
+{
+    "name": "The Wakefield",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "wakefield",
+    "listingImg": ["listingImg.jpg", "The Wakefield Floor Plan, Single Family Home in MD & VA"],
+    "gallery": [
+        [1, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [17, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [18, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [19, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [20, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [21, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [22, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [23, "The Wakefield Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "First, Second, Lower Floor", ""]
+    ],
+    "exteriorImage": [
+        [1, "Wakefield by Craftmark", ""],
+        [2, "Wakefield by Craftmark", ""],
+        [3, "Wakefield by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": false,
+    "pdf": "floorPlans.pdf",
+    "specs": {
+        "sqFeetLabel": "Up to",
+        "sqFeet": "4,330",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": ""
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Enjoy a gourmet island kitchen, eat-in breakfast area, large owners suite &amp; more"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom", "DiningRoom", "FamilyRoom", "GuestRoom", "Office"],
+        "Basement": false,
+        "PlanAmenity": ["WalkInClosets", "CoveredPatio", "BreakfastArea"],
+        "PlanOpenAmenity": null,
+        "Description": "Your opportunity at a new stunning single family home in Montgomery County! This is the only single family home being built in Mateny Hill, an enclave of luxury townhomes walkable to MARC.",
+        "ArchitectureStyle": "Modern",
+        "Attic": true,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": ["Stone", "Vinyl"],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": ["GarageAttached"],
+        "Patio": false,
+        "Porch": true,
+        "RoofTypes": ["Asphalt"],
+        "Skylight": false,
+        "SprinklerSystem": true,
+        "Wetbar": false,
+        "Wired": true
+    }
+}
+{
+    "name": "The Patuxent",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "patuxent",
+    "listingImg": ["listingImg.jpg", "The Patuxent Floor Plan, Single Family Home in MD & VA"],
+    "gallery": [
+        [1, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Patuxent Floor Plan, 4-5 BR, 3-4 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Basement", ""],
+        [4, "First Floor", ""]
+    ],
+    "exteriorImage": [
+        [1, "Patuxent by Craftmark", ""],
+        [2, "Patuxent by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/new-windsor-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "3,140+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "4"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Energy efficient homes with maintenance friendly exteriors, gourmet kitchens, 9’–10’ ceilings &amp; more"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Oakton at Burnt Pine Estates",
+    "statusInput": ["live", "sold", "staging"],
+    "status": "live",
+    "basePrice": 1165000,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "oakton-at-burnt-pine-estates",
+    "listingImg": ["listingImg.jpg", "The Oakton at Burnt Pine Estates Floor Plan, Custom Home Available in Fairfax County, VA"],
+    "gallery": [
+        [1, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Oakton at Burnt Pine Estates Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [],
+    "exteriorImage": [
+        [1, "Oakton at Burnt Pine Estates by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "https://my.matterport.com/show/?m=BPkK7A7q7Pn",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "5,832",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "The Oakton presents the perfect setting for your lifestyle in a thoughtful layout. A 2-story foyer and striking staircase impresses through the front door, or take the family entrance through the spacious 2-car garage. A kitchen from chef's dreams flows into a breakfast space open to the back and beyond it a family room where memories will be made. A formal dining room is the perfect spot for hosting dinner parties, while a separate living room is a great space for lessons or morning yoga, across the foyer from a formal work-from-home study. Upstairs, a spacious owner's suite includes a formal double-door entrance through a spacious sitting room, two wardrobe-loving walk-in closets, and a luxurious bath with both a free-standing soaking tub and sit-down shower. Bedroom 3 and 4 have walk-in closets and share a buddy bath, while Bedroom 2 will make a great guest room with an ensuite bath. You'll love the convenience of upstairs laundry. The lower level of The Oakton will entertain for years to come, with a huge recreation room open to the back, and opportunities to expand with an option den, media room, and full bath. <b>Lot Premiums Apply.</b>"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Oakton",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "oakton",                    
+    "listingImg": ["listingImg.jpg", "The Oakton Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [17, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [18, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [19, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [20, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [21, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [22, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [23, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [24, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [25, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [26, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [27, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [28, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [29, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [30, "The Oakton Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "First Floor", ""],
+        [5, "Second Floor", ""],
+        [6, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Oakton by Craftmark", ""],
+        [2, "Oakton by Craftmark", ""],
+        [3, "Oakton by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": false,
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "4,275+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "6"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "6"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Signature architectural details &amp; living space designed to satisfy every taste"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Oakmont",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "oakmont",
+    "listingImg": ["listingImg.jpg", "The Oakmont Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [17, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [18, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [19, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [20, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [21, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [22, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [23, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [24, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [25, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [26, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [27, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [28, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [29, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [30, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [31, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [32, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [33, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [34, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [35, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [36, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [37, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [38, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [39, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [40, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [41, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [42, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [43, "The Oakmont Floor Plan, 4-6 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "First Floor", ""],
+        [5, "Second Floor", ""],
+        [6, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Oakmont by Craftmark", ""],
+        [2, "Oakmont by Craftmark", ""],
+        [3, "Oakmont by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/oakton-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "5,120+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "6"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "6"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Expand with a finished rec room, 1st floor den, side conservatory, 5th bedroom &amp; more"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Oakdale",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "oakdale",
+    "listingImg": ["listingImg.jpg", "The Oakdale Floor Plan, Classic Style Single Family Home in MD & VA"],
+    "gallery": [
+        [1, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Oakdale Floor Plan, 4-5 BR, 3-6 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "First Floor", ""],
+        [5, "Second Floor", ""],
+        [6, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Oakdale by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": false,
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "4,271+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "6"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "A stunning testament to classic Craftmark architecture and contemporary space planning"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+
+{
+    "name": "The Middletown",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 649900,
+    "modelStatus": false,
+    "orderRate": true,
+    "url": "middletown",
+    "listingImg": ["listingImg.jpg", "The Middletown Floor Plan, Single Family Home in MD & VA"],
+    "gallery": [
+        [1, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Middletown Floor Plan, 4 BR, 2-3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "First Floor", ""],
+        [3, "Second Floor", ""],
+        [4, "Basement", ""],
+        [5, "Alt First Floor", ""]
+    ],
+    "exteriorImage": [
+        [1, "Middletown by Craftmark", ""],
+        [2, "Middletown by Craftmark", ""]
+    ],
+    "videoTour": "https://youtu.be/mDrmwf_MvdQ",
+    "3DTour": "https://my.matterport.com/show/?m=niyFw9aa1Xo",
+    "pdf": "floorPlans.pdf",
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "2,928",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": ""
+        },
+        "fullBaths": {
+            "min": "2",
+            "max": "3"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "A classic, comfortable floorplan with smart use of space"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Chevy Chase II",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "chevy-chase2",
+    "listingImg": ["listingImg.jpg", "The Chevy Chase II Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Chevy Chase II Floor Plan, 4-6 BR, 2-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Elevation 4", ""],
+        [3, "Elevation 7,8,9", ""],
+        [4, "First Floor", ""],
+        [5, "Second Floor", ""],
+        [6, "Optional & Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Chevy Chase II by Craftmark", ""],
+        [2, "Chevy Chase II by Craftmark", ""],
+        [3, "Chevy Chase II by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": false,
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "3,714",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "6"
+        },
+        "fullBaths": {
+            "min": "2",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Open, airy floor plan with gourmet island kitchen, huge owners suite, sitting room &amp; more"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Kenwood II",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "kenwood2",
+    "listingImg": ["listingImg.jpg", "The Kenwood II Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Kenwood II Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "Basement", ""],
+        [5, "First Floor", ""],
+        [6, "Second Floor", ""]
+    ],
+    "exteriorImage": [
+        [1, "Kenwood II by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/kenwood2-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "5,571+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "7"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "3",
+            "max": ""
+        }
+    },
+    "details": [
+        "Our largest home with spectacular spiral staircase, first floor study &amp; much more"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Kenwood II at Darnestown Station",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "kenwood2-at-darnestown-station",
+    "listingImg": ["listingImg.jpg", "The Kenwood II at Darnestown Station Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Kenwood II at Darnestown Station Floor Plan, 4 BR, 4-6 BA, 4-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "First Floor", ""],
+        [3, "Second Floor", ""],
+        [4, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "The Kenwood II at Darnestown Station by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "6,457",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": ""
+        },
+        "fullBaths": {
+            "min": "4",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "1",
+            "max": ""
+        },
+        "garage": {
+            "min": "4",
+            "max": ""
+        }
+    },
+    "details": [
+        "The Kenwood II at Darnestown Station"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Kenwood",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "kenwood",
+    "listingImg": ["listingImg.jpg", "The Kenwood Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [17, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [18, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [19, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [20, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [21, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [22, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [23, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [24, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [25, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [26, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [27, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [28, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [29, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [30, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [31, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [32, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [33, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [34, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [35, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [36, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [37, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [38, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [39, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [40, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [41, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [42, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+        [43, "The Kenwood Floor Plan, 4-5 BR, 3-7 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "Basement", ""],
+        [5, "First Floor", ""],
+        [6, "Second Floor", ""]
+    ],
+    "exteriorImage": [
+        [1, "Kenwood by Craftmark", ""],
+        [2, "Kenwood by Craftmark", ""],
+        [3, "Kenwood by Craftmark", ""],
+        [4, "Kenwood by Craftmark", ""],
+        [5, "Kenwood by Craftmark", ""]
+    ],
+    "videoTour": "https://youtu.be/ZEdoRCNgHfI",
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/kenwood-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "5,136+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "7"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "3",
+            "max": ""
+        }
+    },
+    "details": [
+        "Features a grand spiral staircase that sets the tone for this dramatic &amp; elegant residence"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Edgemoor",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "edgemoor",
+    "listingImg": ["listingImg.jpg", "The Edgemoor Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Edgemoor Floor Plan, 4 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "Basement", ""],
+        [5, "First Floor", ""],
+        [6, "Second Floor & Partials", ""]
+    ],
+    "exteriorImage": [
+        [1, "Edgemoor by Craftmark", ""],
+        [2, "Edgemoor by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/edgemoor-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "3,495+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": ""
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Quality crafted living space with 1st floor owners suite, gourmet island kitchen and more"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+}, 
+{
+    "name": "The Clifton",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "clifton",
+    "listingImg": ["listingImg.jpg", "The Clifton Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Clifton Floor Plan, 4-5 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "First Floor", ""],
+        [5, "Second Floor", ""],
+        [6, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Clifton by Craftmark", ""],
+        [2, "Clifton by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": "http://www.omnisightinc.com/virtual-tours/craftmark-homes/clifton-virtual-tour/",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "3,847+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "5"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "Expand by adding a finished recreation room, den, rear morning room or finished attic"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+
+{
+    "name": "The Chevy Chase at Darnestown Station",
+    "statusInput": ["live", "sold", "staging"],
+    "status": "live",
+    "basePrice": 1315000,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "chevy-chase-at-darnestown-station",
+    "listingImg": ["listingImg.jpg", "The Chevy Chase at Darnestown Station Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"],
+        [17, "The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "First Floor", ""],
+        [2, "Second Floor", ""],
+        [3, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Oakton at Darnestown Station by Craftmark", ""]
+    ],
+    "videoTour": "https://youtu.be/ISnQUThdOLw",
+    "3DTour": "https://my.matterport.com/show/?m=BPkK7A7q7Pn",
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "5,369",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": ""
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "4"
+        },
+        "halfBaths": {
+            "min": "1",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": "3"
+        }
+    },
+    "details": [
+        "The Chevy Chase offers you the opportunity to live an upscale lifestyle, both inside and out. Our well-designed spaces such as a spacious home office, a kid's homework spot, and a rec room that you'll love to use as a home gym or movie screening spot include the details that make the difference. And you'll love perfecting your favorite recipes in our gourmet kitchen - with all the right ingredients! Reach out today and discover this amazing new Craftmark floor plan for yourself. <b>Lot Premiums Apply.</b>"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Westchester",
+    "statusInput": ["live", "sold"],
+    "status": "live",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "westchester",
+    "listingImg": ["listingImg.jpg", "The Westchester Floor Plan, Custom Home Available in Montgomery County, MD"],
+    "gallery": [
+        [1, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [2, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [3, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [4, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [5, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [6, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [7, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [8, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [9, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [10, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [11, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [12, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [13, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [14, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [15, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [16, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [17, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [18, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [19, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+        [20, "The Westchester Floor Plan, 4-6 BR, 3-5 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "Brochure Elevation", ""],
+        [3, "Brochure Elevation", ""],
+        [4, "First Floor", ""],
+        [5, "Second Floor", ""],
+        [6, "Basement", ""]
+    ],
+    "exteriorImage": [
+        [1, "Westchester by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": false,
+    "pdf": "floorPlans.pdf",
+    "customProperties": true,
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "4,213+",
+        "stories": null,
+        "beds": {
+            "min": "4",
+            "max": "6"
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": "5"
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "2",
+            "max": ""
+        }
+    },
+    "details": [
+        "A well-designed home with an exciting and efficient use of space"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+},
+{
+    "name": "The Claremont",
+    "statusInput": ["live", "sold"],
+    "status": "sold",
+    "basePrice": 0,
+    "modelStatus": false,
+    "orderRate": false,
+    "url": "claremont",
+    "listingImg": ["listingImg.jpg", ""],
+    "gallery": [
+        [1, "The Claremont Floor Plan, 3 BR, 3 BA, 1-Car Garage, New Homes by Craftmark Homes"]
+    ],
+    "fpImage": [
+        [1, "Brochure Elevation", ""],
+        [2, "", ""],
+        [3, "", ""],
+        [4, "", ""]
+    ],
+    "exteriorImage": [
+        [1, " by Craftmark", ""]
+    ],
+    "videoTour": false,
+    "3DTour": false,
+    "pdf": "floorPlans.pdf",
+    "specs": {
+        "sqFeetLabel": "",
+        "sqFeet": "",
+        "stories": null,
+        "beds": {
+            "min": "3",
+            "max": ""
+        },
+        "fullBaths": {
+            "min": "3",
+            "max": ""
+        },
+        "halfBaths": {
+            "min": "",
+            "max": ""
+        },
+        "garage": {
+            "min": "1",
+            "max": ""
+        }
+    },
+    "details": [
+        "Great room or formal family",
+        "Dining rooms",
+        "4th level loft",
+        "Rooftop terrace"
+    ],
+    "fpVersions": [],
+    "zillow": {
+        "Type": "SingleFamily",
+        "PlanTypeName": "Single Family",
+        "MasterBedLocation": "",
+        "LivingArea": ["LivingRoom"],
+        "Basement": false,
+        "PlanAmenity": [],
+        "PlanOpenAmenity": null,
+        "Description": "",
+        "ArchitectureStyle": "Modern",
+        "Attic": false,
+        "CoolingSystems": ["Central"],
+        "Deck": false,
+        "Dock": false,
+        "DoublePaneWindows": true,
+        "ExteriorTypes": [],
+        "HeatingFuel": ["Gas"],
+        "HeatingSystems": ["ForcedAir"],
+        "ParkingTypes": [],
+        "Patio": false,
+        "Porch": false,
+        "RoofTypes": ["ShakeShingle"],
+        "Skylight": false,
+        "SprinklerSystem": false,
+        "Wetbar": false,
+        "Wired": false
+    }
+}

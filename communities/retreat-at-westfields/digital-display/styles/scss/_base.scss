@@ -1,0 +1,84 @@
+.margin-top {}
+
+/* Typography */
+h1,
+.h1 {
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+h2,
+.h2 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2;
+	margin-bottom: 1.5rem;
+}
+
+h3,
+.h3 {}
+
+h4,
+.h4 {}
+
+h5,
+.h5 {}
+
+h6,
+.h6 {}
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+p.small {
+	font-variant: small-caps;
+}
+
+.vh-100 {
+	height: 100vh;
+}
+
+.h-85 {
+	height: 87%;
+}
+
+.h-75 {
+	height: 75%;
+}
+
+.h-25 {
+	height: 25%;
+}
+
+.pl-6 {
+	padding-left: 4rem;
+}
+
+.text-blue {
+	color: $blue;
+}
+
+.mr-7 {
+	margin-right: 7rem !important;
+}
+
+a {
+	color: $black;
+
+	&:hover {
+		color: $black;
+	}
+
+	&.active {
+		color: $black;
+
+		h2 {
+			text-decoration: underline;
+		}
+	}
+}

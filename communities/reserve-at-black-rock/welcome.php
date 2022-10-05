@@ -1,0 +1,4 @@
+<h1 class="font-weight-bold">WELCOME</h1>
+<p class="mt-2">Peaceful hills and rural charm is the setting for The Reserve at Black Rock and your ticket to the prestige and elegance of a Craftmark home. Lavish wooded homesites provide the privacy and quality you seek in an idyllic location within reach of Montgomery County’s excellent amenities.</p>
+<p class="mt-2 font-weight-bold">Craftmark Luxury Estate Homes:</p>
+<p>Trademark stone & brick architecture • 2-car garages • 8 homestyles • Up to 6 BR & 6 1/2 BA • Brick or stone stoops • Gourmet kitchens • Masonry fireplaces • Hand-finished hardwood floors • Ceramic tile in bathrooms • 4th level bonus suites • Elaborate detailing throughout • Much more.</p>

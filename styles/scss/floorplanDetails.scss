@@ -1,0 +1,149 @@
+.floorplan-pills {}
+
+.floorplan-gallery-swiper-container {
+    .list-item {
+        // height: 300px;
+        img {
+            @include image-fit
+        }
+    }
+}
+
+.fp-specs-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .details {
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+        .seperator {
+            color: #195eb2;
+            margin: 0 8px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        div:last-child {
+            .seperator {
+                display: none;
+            }
+        }
+    }
+
+    .spec-item {
+        font-weight: normal;
+        font-size: 13px;
+        margin-bottom: 5px;
+
+        img {
+            width: 22px;
+            margin-right: 10px;
+        }
+    }
+
+    .sqFeet {
+        font-size: 14px;
+    }
+}
+
+
+// OLD DESIGN
+// .fp-available-at {
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+
+//     .available-community {
+//         margin-bottom: 20px;
+
+//         a:hover {
+//             color: $light-blue;
+//         }
+//     }
+// }
+
+// .fp-spec-icons {
+//     margin-top: 5px;
+
+//     .icon {
+//         margin-right: 15px;
+
+//         img {
+//             width: 30px;
+//         }
+//     }
+// }
+
+// NEW DESIGN
+.fp-available-at {
+    .available-community {
+        padding: 20px;
+        margin-bottom: 30px;
+        border: 0.5px solid rgba(138, 138, 138, 0.3);
+        .mask {
+            border-radius: 15px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+    }
+    
+}
+
+.fp-spec-icons {
+    .custom-btn {
+        display: block;
+        width: 100%;
+        border-radius: 50px;
+        margin: 6px 0;
+        .icon {
+            -ms-flex: 0 0 13%;
+            flex: 0 0 13%;
+            max-width: 13%;
+            width: auto;
+            height: 14px;
+        }
+        .btn-text {
+            -ms-flex: 0 0 87%;
+            flex: 0 0 87%;
+            max-width: 87%;
+            font-size: 10.5px;
+        }
+    }
+}
+
+#floorplan-slider {
+
+    .swiper-slide {
+        img {
+            @include image-fit;
+        }
+    }
+}
+
+@media (min-width: 500px) {
+    .custom-pills .nav-link {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        p {
+            font-size: 12px;
+            line-height: 1.5;
+            
+        }
+    }
+}
+
+@media (min-width: $screen-sm) {
+    .floorplan-pills .nav-link p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+@media (min-width: $screen-lg) {
+    #floorplan-slider {
+        .container-fluid {
+            max-width: 1120px!important;
+            margin: 0 auto;
+        }
+    }
+}
