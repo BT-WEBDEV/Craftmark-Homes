@@ -228,13 +228,13 @@ include_once("backend/functions.php");
     </script>
 </head>
 
-<div id="alert-message" class="">
+<!-- <div id="alert-message" class="">
     <p class="text-center">
         PERSONAL APPOINTMENTS REQUIRED! | We're Here for You! Model Home Open and Selling by Personal Appointment
         and&nbsp;Virtual&nbsp;Tour&nbsp;|&nbsp;<a class="text-l-blue" style="text-decoration: underline;"
             href="/Statement.pdf" target="_blank">Read&nbsp;Statement</a>
     </p>
-</div>
+</div> -->
 
 <body>
     <h1 class="outline">Craftmark Homes</h1>
