@@ -12,6 +12,6 @@
     <li>(2) Wireless Access Point Pre-Wire</li>
     <li>Home Automation System with 1 Year of Service</li>
     <li>Garage Door Opener with Two Remotes and Connectivity to Home Automation System</li>
-    <li>Two-Tone Low VOC Interior Paint Package</li>
+    <li>Low VOC Interior Paint Package</li>
     <li>Recessed LED Lighting Package (per plan)</li>
 </ul>

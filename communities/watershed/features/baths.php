@@ -13,10 +13,11 @@
     </li>
     <li>Secondary Baths
         <ul>
+            <li>Maple Vanity</li>
             <li>Solid White Cultured Marble Vanity Top with Integral Sink</li> 
             <li>Designer 12” x 24” Floor Tile and Wall Tile</li>
-            <li>Polished Chrome Delta Faucets and Bath Hardware</li>
-            <li>Elongated, ErgoHeight Low-Flow Toilet</li>
+            <li>Polished Chrome Delta Faucets</li>
+            <li>Elongated, 1.28 GPF Toilet</li>
         </ul>
     </li>
     <li>Powder Room

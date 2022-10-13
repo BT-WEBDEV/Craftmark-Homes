@@ -5,7 +5,7 @@
     <li>HERS® Rated Home (Independent Third Party)</li>
     <li>Duct Blast and Blower Door Test on Every Home</li>
     <li>Trane® High Efficiency Gas Furnace with Electric A/C</li>
-    <li>Rinnai® Tankless Gas Hot Water Heater</li>
+    <li>Power Vent Gas Water Heater</li>
     <li>R-49 Ceiling Insulation</li>
     <li>R-21 Insulation on Exterior Walls (2x6 construction)</li>
     <li>Spray Foam Insulation on Band Boards</li>
