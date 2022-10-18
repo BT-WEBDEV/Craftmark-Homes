@@ -204,11 +204,11 @@ $communities = getJsonData($json_db_url.'communities.json');
                         <button id="buttonMain"
                             onclick="trackConv(); gtag('event', 'click', { 'event_category': 'General Contact Form' }); fbq('track','Lead');"
                             class="btn bg-l-blue btn-rounded btn-block my-2 waves-effect font-weight-bold text-white button-submit"
-                            type="submit" disabled>Submit</button>
+                            type="submit" >Submit</button>
                     </div>
 
                     <!-- Captcha -->
-                    <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a" data-callback="recaptcha_callback"></div>
+                    <!-- <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a" data-callback="recaptcha_callback"></div> -->
                 </div>
             </form>
             <!-- Form -->
@@ -298,10 +298,74 @@ $communities = getJsonData($json_db_url.'communities.json');
 
 </script>
 
-<script>
+<!-- 
+//======================================================================
+// Google reCaptcha V3 - MAIN CONTACT FORM - POSTS TO FORM.PHP - THEN RETURNS RESULT 
+//====================================================================== 
+-->
+
+<script> 
+    //When the form is submitted
+    $('#topBuilderForm').submit(function() {
+        console.log("Button has been pressed"); 
+        // We stop it 
+        event.preventDefault();
+        var firstName = $('#firstName').val();
+        var lastName = $('#lastName').val();
+        var email = $('#email').val();
+        var phone = $('#phone').val();
+        var zipCode = $('#zipCode').val();
+        var community = $('#community').val();
+        var aptDate = $('#aptDate').val();
+        var aptTime = $('#aptTime').val();
+        var comments = $('#comments').val();
+
+        // needs for recaptacha ready
+        grecaptcha.ready(function() {
+            console.log("Captcha ready.");
+            // do request for recaptcha token
+            // response is promise with passed token
+            grecaptcha.execute('6LfCa4oiAAAAAD7NhTj4lBLG2BLRwlRkS8m5vRM3', {action: 'create_form'}).then(function(token) {
+                // add token to form
+                console.log("Captcha executed.");
+                $('#topBuilderForm').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+                $('#topBuilderForm').prepend('<input type="hidden" id ="action" name="action" value="create_form">');
+                
+                var action = $('#action').val();
+
+                $.post("form.php",{
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: email,
+                    phone: phone, 
+                    zipCode: zipCode, 
+                    community: community, 
+                    aptDate: aptDate,
+                    aptTime, aptTime, 
+                    comments: comments,
+                    action: action,  
+                    token: token
+                }, function(result) {
+                            console.log(result);
+                            if(result.success) {
+                                    alert('Thanks for the form submission!')
+                            } else {
+                                    alert('This looks like spam!')
+                            }
+                });
+            
+            });   
+        }); 
+    });
+</script>
+
+
+
+
+<!-- <script>
     function recaptcha_callback() {
         $('.button-submit').removeAttr('disabled');
     }; 
 </script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 

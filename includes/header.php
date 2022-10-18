@@ -60,6 +60,9 @@ include_once("backend/functions.php");
     <!-- Cookies JS -->
     <script type="text/javascript" src="/scripts/js/cookies.js"></script>
 
+    <!-- Google reCaptcha v3 --> 
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfCa4oiAAAAAD7NhTj4lBLG2BLRwlRkS8m5vRM3"></script>
+    
     <!-- Facebook Share Button Script -->
     <script>
         (function (d, s, id) {

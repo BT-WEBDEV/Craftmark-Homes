@@ -91,6 +91,63 @@ $(document).on('submit', '#topBuilderForm', function (event) {
 });
 
 
+//======================================================================
+// Google reCaptcha V3 - COMMUNITY POP UP MODAL FORM - POSTS TO FORM.PHP - THEN RETURNS RESULT 
+//======================================================================
+
+$(document).on('submit', '.community-modal-form', function (event) {
+    console.log("Button has been pressed"); 
+    // We stop it 
+    event.preventDefault();
+    var firstName = $('#firstName').val();
+    var lastName = $('#lastName').val();
+    var email = $('#email').val();
+    var phone = $('#phone').val();
+    var zipCode = $('#zipCode').val();
+    var community = $('#community').val();
+    var aptDate = $('#aptDate').val();
+    var aptTime = $('#aptTime').val();
+    var comments = $('#comments').val();
+
+    // needs for recaptacha ready
+    grecaptcha.ready(function() {
+        console.log("captcha ready!"); 
+        // do request for recaptcha token
+        // response is promise with passed token
+        grecaptcha.execute('6LfCa4oiAAAAAD7NhTj4lBLG2BLRwlRkS8m5vRM3', {action: 'create_form'}).then(function(token) {
+            console.log("captcha executed!"); 
+            // add token to form
+            $('#topBuilderForm').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+            $('#topBuilderForm').prepend('<input type="hidden" id ="action" name="action" value="create_form">');
+
+            var action = $('#action').val();
+
+            //console.log(action); 
+
+            $.post("../contact/form.php",{
+                firstName: firstName,
+                lastName: lastName,
+                email: email,
+                phone: phone, 
+                zipCode: zipCode, 
+                community: community, 
+                aptDate: aptDate,
+                aptTime, aptTime, 
+                comments: comments,
+                action: action, 
+                token: token
+            }, function(result) {
+                        console.log(result);
+                        if(result.success) {
+                                alert('Thanks for the form submission!')
+                        } else {
+                                alert('This looks like spam!') 
+                        }
+            });
+        
+        });   
+    }); 
+});
 
 // Ajax Request to Save Form Submit info to MySQL DB
 function ajaxReqSaveForm(data) {

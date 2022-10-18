@@ -21,7 +21,7 @@
                     <h3>Thank you for your interest. We will review your message and get back to you as soon as
                         possible!</h3>
                 </div>
-                <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
+                <form id="topBuilderForm" name="topBuilderForm" class="text-center community-modal-form" action="#!">
                     <input type="hidden" name="community" value="<?php echo $formId; ?>">
                     <input type="hidden" name="zipCode" value="Not Provided">
                     <input type="hidden" name="quickDeliAddress" value="<?php echo $qmi_address; ?>">
@@ -148,11 +148,11 @@
                         <button id="buttonMain"
                             onclick="gtag('event', 'click', { 'event_category': ''+gtagCategory+'' });"
                             class="btn bg-l-blue btn-rounded btn-block my-2 waves-effect font-weight-bold text-white button-submit"
-                            type="submit" disabled>Submit</button>
+                            type="submit">Submit</button>
                     </div>
 
-                    <!-- Captcha -->
-                    <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a" data-callback="recaptcha_callback"></div>
+                    <!-- Captcha Outdated -->
+                    <!-- <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a" data-callback="recaptcha_callback"></div> -->
                 </form>
 
                 <div class="row my-3 d-flex justify-content-center">
@@ -246,14 +246,13 @@
         } else {
             $('#aptTime option[value="4:00 PM"]').css("display","block");
         }
-        
-
 }   
 </script>
 
-<script>
+
+<!-- <script>
     function recaptcha_callback() {
         $('.button-submit').removeAttr('disabled');
     }; 
 </script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
