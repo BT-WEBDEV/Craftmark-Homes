@@ -92,6 +92,20 @@ $(document).on('submit', '#topBuilderForm', function (event) {
 
 
 //======================================================================
+// Math Problem Captcha  - Main Contact Page & Pop Up Modal on Community Page
+//======================================================================
+const submitButton = document.querySelector('[type="submit"]');
+const quizInput = document.querySelector(".quiz-control");
+quizInput.addEventListener("input", function(e) {
+    const res = submitButton.getAttribute("data-res");
+    if ( this.value == res ) {
+        submitButton.removeAttribute("disabled");
+    } else {
+        submitButton.setAttribute("disabled", "");
+    }
+});
+
+//======================================================================
 // Google reCaptcha V3 - COMMUNITY POP UP MODAL FORM - POSTS TO FORM.PHP - THEN RETURNS RESULT 
 //======================================================================
 

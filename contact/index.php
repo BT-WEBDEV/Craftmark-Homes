@@ -198,17 +198,31 @@ $communities = getJsonData($json_db_url.'communities.json');
                         <textarea class="form-control z-depth-1" id="comments" name="comments" rows="3"
                             placeholder="Comments"></textarea>
                     </div>
+
+                    <!-- Math Captcha Quiz --> 
+                    <?php
+                        $min  = 1;
+                        $max  = 100;
+                        $num1 = rand( $min, $max );
+                        $num2 = rand( $min, $max );
+                        $sum  = $num1 + $num2;
+                    ?>
                     
-                    <!-- Sign in button -->
+                    <label for="quiz" class="col-sm-2 col-form-label">
+                        <?php echo $num1 . '+' . $num2; ?>?
+                    </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control quiz-control" id="quiz">
+                    </div>
+                        
+                    <!-- Submit button -->
                     <div class="col-sm-12 px-2">
-                        <button id="buttonMain"
+                        <button id="buttonMain" data-res="<?php echo $sum; ?>"
                             onclick="trackConv(); gtag('event', 'click', { 'event_category': 'General Contact Form' }); fbq('track','Lead');"
                             class="btn bg-l-blue btn-rounded btn-block my-2 waves-effect font-weight-bold text-white button-submit"
-                            type="submit" >Submit</button>
+                            type="submit" disabled >Submit</button>
                     </div>
 
-                    <!-- Captcha -->
-                    <!-- <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a" data-callback="recaptcha_callback"></div> -->
                 </div>
             </form>
             <!-- Form -->
@@ -297,6 +311,7 @@ $communities = getJsonData($json_db_url.'communities.json');
 }  
 
 </script>
+
 
 <!-- 
 //======================================================================

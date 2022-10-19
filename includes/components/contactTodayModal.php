@@ -143,16 +143,35 @@
                         <input type="hidden" name="aptDate" value="none">
                         <input type="hidden" name="aptTime" value="none">
                     <?php } ?>
-                    <!-- Sign in button -->
-                    <div class="col-sm-12 px-2">
-                        <button id="buttonMain"
-                            onclick="gtag('event', 'click', { 'event_category': ''+gtagCategory+'' });"
-                            class="btn bg-l-blue btn-rounded btn-block my-2 waves-effect font-weight-bold text-white button-submit"
-                            type="submit">Submit</button>
+
+                     <!-- Math Captcha Quiz --> 
+                    <?php
+                        $min  = 1;
+                        $max  = 100;
+                        $num1 = rand( $min, $max );
+                        $num2 = rand( $min, $max );
+                        $sum  = $num1 + $num2;
+                    ?>
+
+                    <div class="col-sm-12 px-0">
+                        <div class="row m-0">
+                            <label for="quiz" class="col-sm-3 col-form-label">
+                                <?php echo $num1 . '+' . $num2; ?>?
+                            </label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control quiz-control" id="quiz">
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Captcha Outdated -->
-                    <!-- <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a" data-callback="recaptcha_callback"></div> -->
+                    <!-- Submit button -->
+                    <div class="col-sm-12 px-2">
+                        <button id="buttonMain" data-res="<?php echo $sum; ?>"
+                            onclick="gtag('event', 'click', { 'event_category': ''+gtagCategory+'' });"
+                            class="btn bg-l-blue btn-rounded btn-block my-2 waves-effect font-weight-bold text-white button-submit"
+                            type="submit" disabled>Submit</button>
+                    </div>
+
                 </form>
 
                 <div class="row my-3 d-flex justify-content-center">
