@@ -586,25 +586,44 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
     </section>
 </div>
 
-<?php if($community['url'] == "none") { ?>
-<section>
-    <!-- Modal -->
-    <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <a target="_blank" href="https://www.facebook.com/events/646770586587806/?ref=newsfeed">
-                    <img src="/images/popup/02422-CMH-WebEdits-Web-CMH-PopUp.jpg"
-                        alt="The Retreat at Westfields Model Grand Opening" class="img-fluid w-100">
-                </a>
+<?php if($community['url'] == "darnestown-station") { ?>
+    <section>
+        <!-- Modal -->
+        <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <a target="_blank" href="https://fb.me/e/5j0ebXHsx">
+                        <img src="/images/popup/02422-CMH-WebEdits-Web-CMH-PopUp-800x800.jpg"
+                            alt="The Retreat at Westfields Model Grand Opening" class="img-fluid w-100">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<?php } ?>
+    </section>
+<?php } elseif($community['url'] == "clarksburg-town-center") { ?>
+    <section>
+        <!-- Modal -->
+        <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <a target="_blank" href="https://fb.me/e/2f18MJ4Rb">
+                        <img src="/images/popup/02422-CMH-WebEdits-Web-CMH-PopUp-800x800.jpg"
+                            alt="The Retreat at Westfields Model Grand Opening" class="img-fluid w-100">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php } ?> 
+
 <script>
     initCookies({
         cookieName: "savedCommunity",

@@ -36,16 +36,20 @@ include_once("backend/functions.php");
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- <link href="/styles/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css"> -->
-
+    
+    <!-- General CSS -->
+    <link href="/styles/css/main.min.css" rel="stylesheet">
+    
     <!-- Material Design Bootstrap -->
     <link href="/styles/css/multi-range.min.css" rel="stylesheet">
     <link href="/styles/css/mdb.min.css" rel="stylesheet">
+
     <!-- SwiperJS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"> 
+   
     <!-- FancyBox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <!-- General CSS -->
-    <link href="/styles/css/main.min.css" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/favicon.png" sizes="300x300">
 

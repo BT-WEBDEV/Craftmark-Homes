@@ -2,7 +2,7 @@
     @include background-overlay("/images/bg-who-we-are.jpg", center center, 229, 242, 248, 0.67);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; 
 
     .content {
         padding: 40px 0;
@@ -279,8 +279,6 @@
         height: 300px;
         padding-right: 30px;
         padding-left: 30px;
-
-        .content-wrap {}
 
         .custom-btn {
             border-radius: 50%;

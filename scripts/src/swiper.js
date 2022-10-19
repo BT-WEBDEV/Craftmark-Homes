@@ -1,4 +1,4 @@
-// Hero Slider
+// Hero Slider 
 var mySwiper = new Swiper('.hero-slider', {
     loop: true,
     preventClicks: false,
