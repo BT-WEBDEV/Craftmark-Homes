@@ -28,6 +28,7 @@ $communities = getJsonData($json_db_url.'communities.json');
         }
     }
 ?>
+
 <section class="nav-space">
     <div class="py-3 z-depth-1">
         <h2 class="m-0 font-weight-bold text-center">Contact Us</h2>
@@ -57,9 +58,13 @@ $communities = getJsonData($json_db_url.'communities.json');
                 <h3>Thank you for your interest. We will review your message and get back to you as soon as possible!
                 </h3>
             </div>
-            <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
+            <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!" method="post">
                 <input type="hidden" name="quickDeliAddress" value="">
                 <div class="row m-0">
+
+                    <!-- Honeypot --> 
+                    <input name="fullName" type="text" id="fullName" class="hide-honey" autocomplete="false" tabindex="-1" placeholder="Full Name">
+
                     <!-- First Name -->
                     <div class="col-sm-6 px-2">
                         <input type="text" id="firstName" name="firstName"
@@ -202,7 +207,7 @@ $communities = getJsonData($json_db_url.'communities.json');
                     <!-- Math Captcha Quiz --> 
                     <?php
                         $min  = 1;
-                        $max  = 100;
+                        $max  = 10;
                         $num1 = rand( $min, $max );
                         $num2 = rand( $min, $max );
                         $sum  = $num1 + $num2;
@@ -231,6 +236,8 @@ $communities = getJsonData($json_db_url.'communities.json');
 </section>
 
 <?php include_once(ROOT_PATH."/includes/footer.php"); ?>
+
+
 
 <script>
     // Preserve at Westfields Appointment
@@ -313,6 +320,7 @@ $communities = getJsonData($json_db_url.'communities.json');
 </script>
 
 
+
 <!-- 
 //======================================================================
 // Google reCaptcha V3 - MAIN CONTACT FORM - POSTS TO FORM.PHP - THEN RETURNS RESULT 
@@ -325,6 +333,7 @@ $communities = getJsonData($json_db_url.'communities.json');
         console.log("Button has been pressed"); 
         // We stop it 
         event.preventDefault();
+
         var firstName = $('#firstName').val();
         var lastName = $('#lastName').val();
         var email = $('#email').val();

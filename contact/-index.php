@@ -1,74 +1,118 @@
-<!-- Google Analytics gtag Category -->
-<script>
-    var gtagCategory = "<?php echo $gtagCategory; ?>";
-</script>
-<!-- Contact Today Modal -->
-<div class="modal fade" id="contactToday" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <!--Content-->
-        <div class="modal-content form-elegant">
-            <!--Header-->
-            <div class="modal-header text-center">
-                <h3 class="modal-title w-100 dark-grey-text font-weight-bold my-3" id="myModalLabel"><strong>Contact
-                        Today</strong></h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+<?php 
+include_once("../includes/header.php"); 
+include_once("../includes/backend/functions.php"); 
+$communities = getJsonData($json_db_url.'communities.json');
+?>
+<?php 
+    usort($communities['communities'], function($a, $b) { 
+        return strcmp($a["address"]['county'], $b["address"]['county']);
+    });
+    $counties = array();
+    foreach ($communities['communities'] as $key => $community) {
+        if ($community['status'] != 'sold' && $community['status'] != 'soldLabel' && $community['formId'] != 0) {
+            $comm = array(
+                "communities" => array([
+                    "name" => $community['name'],
+                    "formId" => $community['formId']
+                ])
+            );
+            if($counties[$community['address']['county']]) {
+                $new_comm = array(
+                    "name" => $community['name'],
+                    "formId" => $community['formId']
+                );
+                array_push($counties[$community['address']['county']]['communities'], $new_comm);
+            } else {
+                $counties[$community['address']['county']] = $comm;
+            }
+        }
+    }
+?>
+<section class="nav-space">
+    <div class="py-3 z-depth-1">
+        <h2 class="m-0 font-weight-bold text-center">Contact Us</h2>
+    </div>
+    <div class="container py-3 max-md-width-760">
+        <div>
+            <p>When you register with Craftmark Homes you will be the first to receive information as it becomes
+                available about our communities. We will be sending you valuable information available only to our
+                Internet registrants, including notifications of special incentives, homes available for immediate
+                availability and releases in our new townhome & single family communities.</p>
+        </div>
+        <div class="contact-address mt-4 d-flex">
+            <div class="mr-3">
+                <img src="/images/icon/map-pin-blue.svg" alt="">
             </div>
-            <!--Body-->
-            <div class="modal-body mx-4">
-                <div id="success_message" class="text-center">
-                    <h3>Thank you for your interest. We will review your message and get back to you as soon as
-                        possible!</h3>
-                </div>
-                <form id="topBuilderForm" name="topBuilderForm" class="text-center community-modal-form" action="#!">
-                    <input type="hidden" name="community" value="<?php echo $formId; ?>">
-                    <input type="hidden" name="zipCode" value="Not Provided">
-                    <input type="hidden" name="quickDeliAddress" value="<?php echo $qmi_address; ?>">
-
-                    <!-- Honeypot --> 
-                    <input name="fullName" type="text" id="fullName" class="hide-honey" autocomplete="false" tabindex="-1" placeholder="Full Name">
-
+            <div>
+                <h5 class="font-weight-bold text-l-blue">Office</h5>
+                <a href="" class="text-black">
+                    <p>1355 Beverly Rd #330</p>
+                    <p>McLean, VA 22101</p>
+                </a>
+            </div>
+        </div>
+        <div class="mt-3 mt-sm-4">
+            <!-- Form -->
+            <div id="success_message" class="text-center">
+                <h3>Thank you for your interest. We will review your message and get back to you as soon as possible!
+                </h3>
+            </div>
+            <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
+                <input type="hidden" name="quickDeliAddress" value="">
+                <div class="row m-0">
                     <!-- First Name -->
-                    <div class="px-2">
+                    <div class="col-sm-6 px-2">
                         <input type="text" id="firstName" name="firstName"
                             class="form-control mb-2 rounded-input z-depth-1" placeholder="First Name*" required>
                     </div>
-
                     <!-- Last Name -->
-                    <div class="px-2">
+                    <div class="col-sm-6 px-2">
                         <input type="text" id="lastName" name="lastName"
                             class="form-control mb-2 rounded-input z-depth-1" placeholder="Last Name*" required>
                     </div>
-
                     <!-- Email -->
-                    <div class="px-2">
+                    <div class="col-sm-6 px-2">
                         <input type="text" id="email" name="email" class="form-control mb-2 rounded-input z-depth-1"
                             placeholder="Email*" required>
                     </div>
                     <!-- Phone -->
-                    <div class="px-2">
-                        <input type="text" id="phone" name="phone" class="form-control mb-2 rounded-input z-depth-1"
+                    <div class="col-sm-6 px-2">
+                        <input type="tel" id="phone" name="phone" class="form-control mb-2 rounded-input z-depth-1"
                             placeholder="Phone*" required>
                     </div>
-                    <!-- Comments -->
-                    <div class="col-sm-12 px-2 form-group">
-                        <textarea class="form-control z-depth-1" id="comments" name="comments" rows="3"
-                            placeholder="Comments"></textarea>
+                    <!-- Zip -->
+                    <div class="col-sm-6 px-2">
+                        <input type="number" id="zipCode" name="zipCode"
+                            class="form-control mb-2 rounded-input z-depth-1" placeholder="Zip Code">
+                    </div>
+                    <!-- Community -->
+                    <div class="col-sm-6 px-2">
+                        <select id="community" name="community"
+                            class="browser-default custom-select mb-2 form-control rounded-input z-depth-1" required>
+                            <option disabled value="" selected hidden>Select Community*</option>
+                            <!-- <option disabled value="" selected hidden>Select Community*</option> -->
+                            <?php foreach ($counties as $key => $county) { ?>
+                            <optgroup label="<?php echo $key; ?>">
+                                <?php foreach ($county['communities'] as $key => $comm) { ?>
+                                <option value="<?php echo $comm['formId']; ?>"><?php echo $comm['name']; ?></option>
+                                <?php } ?>                                
+                            </optgroup>
+                            <?php } ?>
+                            <!-- <optgroup label="Custom Homes">
+                                <option value="457">Build on Your Lot</option>
+                            </optgroup> -->
+                        </select>
                     </div>
                     <!-- For Appointment -->
-                    <?php 
-                        //if($comm['url'] != "crown" && $comm['url'] != "preserve-at-westfields" && $communityName != "Preserve at Westfields") { 
-                        if($comm['url'] != "retreat-at-westfields" ) { 
-                    ?>
-                    <div class="px-0">
+                    <div class="col-sm-12 px-0">
                         <div class="row m-0">
                             <div class="col-12 px-2">
-                                <h5 class="font-weight-normal mb-2 text-l-blue text-left pl-3">For Appointment:</h5>
+                                <h5 class="font-weight-normal my-2 text-l-blue text-left pl-3">For Appointment:</h5>
                             </div>
                             <div class="col-sm-6 px-2">
                                 <select id="aptDate" name="aptDate" onChange="filterTime();"
                                     class="browser-default custom-select mb-2 form-control rounded-input z-depth-1">
+                                    
                                     <?php 
                                         // Calculate Dates (Day, Month, Numeric Day)
                                         $date0 = gmdate("D, M d");
@@ -95,6 +139,7 @@
                                         Select Date
                                     </option>
                                     
+                                    
                                     <option <?php if ($day0=="Thu"||$day0=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date0?>"><?php echo $date0 ?></option>
                                     
                                     <option  <?php if ($day1=="Thu"||$day1=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date1; ?>"><?php echo $date1;?></option>
@@ -110,18 +155,19 @@
                                     <option  <?php if ($day6=="Thu"||$day6=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date6; ?>"><?php echo $date6; ?></option>
 
                                     <option <?php if ($day6=="Thu"||$day6=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date7; ?>"><?php echo $date7; ?></option>
+                                        
                                 </select>
                             </div>
                             <div class="col-sm-6 px-2">
-                                <select id="aptTime" name="aptTime"
+                                <select id="aptTime" name="aptTime" disabled
                                     class="browser-default custom-select mb-2 form-control rounded-input z-depth-1">
+
                                     <?php 
                                     // Set up TimeZone, Date, Time Stamp, and Set Current Time. 
                                     date_default_timezone_set('America/New_York'); 
                                     $today = date("m/d/Y");
                                     $timestamp = time(); 
-                                    $currentTime = date("H:i:s", $timestamp);
-                                    $isToday = $date0;  
+                                    $currentTime = date("H:i:s", $timestamp);  
                                     
                                     // Set up time markers to compare to. 
                                     $elevenAM =  date('H:i:s', mktime(11, 0, 0, null, null, null));
@@ -132,6 +178,8 @@
                                     $fourPM =  date('H:i:s', mktime(16, 0, 0, null, null, null));
                                     
                                     ?> 
+
+                                    
                                     <option value="--">Select Time</option>
                                     <option value="11:00 AM">11:00 AM</option>
                                     <option value="12:00 PM">12:00 PM</option>
@@ -140,75 +188,66 @@
                                     <option value="3:00 PM">3:00 PM</option>
                                     <option value="4:00 PM">4:00 PM</option>
                                 </select>
+            
+
                             </div>
                         </div>
                     </div>
-                    <?php } else { ?>
-                        <input type="hidden" name="aptDate" value="none">
-                        <input type="hidden" name="aptTime" value="none">
-                    <?php } ?>
+                    <!-- Comments -->
+                    <div class="col-sm-12 px-2 form-group">
+                        <textarea class="form-control z-depth-1" id="comments" name="comments" rows="3"
+                            placeholder="Comments"></textarea>
+                    </div>
 
-                     <!-- Math Captcha Quiz --> 
+                    <!-- Math Captcha Quiz --> 
                     <?php
                         $min  = 1;
-                        $max  = 10;
+                        $max  = 100;
                         $num1 = rand( $min, $max );
                         $num2 = rand( $min, $max );
                         $sum  = $num1 + $num2;
                     ?>
-
-                    <div class="col-sm-12 px-0">
-                        <div class="row m-0">
-                            <label for="quiz" class="col-sm-3 col-form-label">
-                                <?php echo $num1 . '+' . $num2; ?>?
-                            </label>
-                            <div class="col-sm-3">
-                                <input type="text" class="form-control quiz-control" id="quiz">
-                            </div>
-                        </div>
+                    
+                    <label for="quiz" class="col-sm-2 col-form-label">
+                        <?php echo $num1 . '+' . $num2; ?>?
+                    </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control quiz-control" id="quiz">
                     </div>
-
+                        
                     <!-- Submit button -->
                     <div class="col-sm-12 px-2">
                         <button id="buttonMain" data-res="<?php echo $sum; ?>"
-                            onclick="gtag('event', 'click', { 'event_category': ''+gtagCategory+'' });"
+                            onclick="trackConv(); gtag('event', 'click', { 'event_category': 'General Contact Form' }); fbq('track','Lead');"
                             class="btn bg-l-blue btn-rounded btn-block my-2 waves-effect font-weight-bold text-white button-submit"
-                            type="submit" disabled>Submit</button>
+                            type="submit" disabled >Submit</button>
                     </div>
 
-                </form>
-
-                <div class="row my-3 d-flex justify-content-center">
-                    <!--Facebook-->
-                    <a target="_blank" href="https://www.facebook.com/CraftmarkHomes"
-                        class="btn btn-white btn-rounded mr-md-3 z-depth-1a">
-                        <i class="fa fa-facebook text-black"></i>
-                    </a>
-                    <!--Twitter-->
-                    <a target="_blank" href="https://twitter.com/craftmarkhomes"
-                        class="btn btn-white btn-rounded mr-md-3 z-depth-1a">
-                        <i class="fa fa-twitter text-black"></i>
-                    </a>
-                    <!--Instagram-->
-                    <a target="_blank" href="https://www.instagram.com/craftmarkhomes/"
-                        class="btn btn-white btn-rounded mr-md-3 z-depth-1a">
-                        <i class="fa fa-instagram text-black"></i>
-                    </a>
-                    <!--Youtube-->
-                    <a target="_blank" href="https://www.youtube.com/channel/UCdG5p2j56fFMqegeMnDwj5w"
-                        class="btn btn-white btn-rounded mr-md-3 z-depth-1a">
-                        <i class="fa fa-youtube text-black"></i>
-                    </a>
                 </div>
-            </div>
+            </form>
+            <!-- Form -->
         </div>
-        <!--/.Content-->
     </div>
-</div>
-<!-- Contact Today Modal -->
+</section>
+
+<?php include_once(ROOT_PATH."/includes/footer.php"); ?>
+
+<script>
+    // Preserve at Westfields Appointment
+    // $('#community').on('change', function() {        
+    //     if( $('#community').val() == '2873' ) {
+    //         $('#aptDate, #aptTime').prop( "disabled", true );
+    //         $('#aptDate option, #aptTime option').prop('selected', function() {
+    //             return this.defaultSelected;
+    //         });
+    //     } else {
+    //         $('#aptDate, #aptTime').prop( "disabled", false );
+    //     }
+    // });
+</script>
 
 <!--  Filter Available Times from the Current Date Picked --> 
-<script type="text/javascript">
+<script>
 
     function filterTime(){
 
@@ -269,8 +308,73 @@
         } else {
             $('#aptTime option[value="4:00 PM"]').css("display","block");
         }
-}   
+}  
+
 </script>
+
+
+<!-- 
+//======================================================================
+// Google reCaptcha V3 - MAIN CONTACT FORM - POSTS TO FORM.PHP - THEN RETURNS RESULT 
+//====================================================================== 
+-->
+
+<script> 
+    //When the form is submitted
+    $('#topBuilderForm').submit(function() {
+        console.log("Button has been pressed"); 
+        // We stop it 
+        event.preventDefault();
+        var firstName = $('#firstName').val();
+        var lastName = $('#lastName').val();
+        var email = $('#email').val();
+        var phone = $('#phone').val();
+        var zipCode = $('#zipCode').val();
+        var community = $('#community').val();
+        var aptDate = $('#aptDate').val();
+        var aptTime = $('#aptTime').val();
+        var comments = $('#comments').val();
+
+        // needs for recaptacha ready
+        grecaptcha.ready(function() {
+            console.log("Captcha ready.");
+            // do request for recaptcha token
+            // response is promise with passed token
+            grecaptcha.execute('6LfCa4oiAAAAAD7NhTj4lBLG2BLRwlRkS8m5vRM3', {action: 'create_form'}).then(function(token) {
+                // add token to form
+                console.log("Captcha executed.");
+                $('#topBuilderForm').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+                $('#topBuilderForm').prepend('<input type="hidden" id ="action" name="action" value="create_form">');
+                
+                var action = $('#action').val();
+
+                $.post("form.php",{
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: email,
+                    phone: phone, 
+                    zipCode: zipCode, 
+                    community: community, 
+                    aptDate: aptDate,
+                    aptTime, aptTime, 
+                    comments: comments,
+                    action: action,  
+                    token: token
+                }, function(result) {
+                            console.log(result);
+                            if(result.success) {
+                                    alert('Thanks for the form submission!')
+                            } else {
+                                    alert('This looks like spam!')
+                            }
+                });
+            
+            });   
+        }); 
+    });
+</script>
+
+
 
 
 <!-- <script>
@@ -279,3 +383,4 @@
     }; 
 </script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+

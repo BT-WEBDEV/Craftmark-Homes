@@ -9,6 +9,9 @@ $(document).on('submit', '#topBuilderForm', function (event) {
     // Disable the submit button while evaluating if the form should be submitted
     $('#buttonMain').prop('disabled', true);
 
+    //HONEYPOT FAKE INPUT FOR CATCHING BOT FORM SPAM
+    var fullName = document.forms["topBuilderForm"]["fullName"].value;
+    //
     var firstName = document.forms["topBuilderForm"]["firstName"].value;
     var lastName = document.forms["topBuilderForm"]["lastName"].value;
     var email = document.forms["topBuilderForm"]["email"].value;
@@ -25,6 +28,15 @@ $(document).on('submit', '#topBuilderForm', function (event) {
     var phone_pattern = /^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
 
     console.log(unformattedPhone);
+
+    // HONEY POT TEST - IF HIDDEN INPUT OF FULL NAME IS FILLED OUT, PREVENT FORM SUBMISSION
+    
+    if(fullName) {
+        event.preventDefault();
+        // Reactivate the button if the form was not submitted
+        $('#buttonMain').prop('disabled', false);
+        return false;
+    }
 
     comments = "##APPOINTMENT##: " + aptDate + "," + aptTime + " | " + comments;
 
