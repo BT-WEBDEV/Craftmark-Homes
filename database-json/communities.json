@@ -1821,7 +1821,8 @@
                         "state": "VA",
                         "zip": "20151"
                     },
-                    "direction": "https://goo.gl/maps/XMbYYxX3Tusyo9ANA"
+                    "direction": "https://goo.gl/maps/XMbYYxX3Tusyo9ANA",
+                    "additionalInfo": "38°52'22.7\"N 77°27'41.9\"W"
                 }]
             },
             "salesAgent": {

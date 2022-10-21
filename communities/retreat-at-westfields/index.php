@@ -1,5 +1,5 @@
 <?php include_once("../../includes/header.php"); ?>
-<?php include_once(ROOT_PATH."includes/components/community/communityDetails.php"); ?>
+<?php include_once(ROOT_PATH."includes/components/community/communityDetailsV3.php"); ?>
 <?php include_once(ROOT_PATH."includes/footer.php"); ?>
 
 

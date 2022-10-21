@@ -62,8 +62,8 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
 
 <style>
     .community-topper p,
-    .community-details p,
-    .community-details a,
+    .community-details,
+    .community-details,
     .totalView {
         color: <?php echo $community['brandStyle']['textColor'];
         ?>;
@@ -167,14 +167,14 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                         <p class="font-weight-bold">@ <?php echo $agent['agentName']; ?></p>
                         <p>
                             <?php if($agent['phone'] != "" && $comm['id'] != 14 && $comm['id'] != 12) { ?>
-                            <a class="text-black"
+                            <a class="text-l-blue"
                                 href="tel:<?php echo clean($agent['phone']); ?>"><?php echo phoneNumberFormat($agent['phone']); ?></a>
                             <strong>
                                 <?php echo ($comm['name'] != 'Retreat At Westfields' && $comm['name'] != 'Darnestown Station') ? "(Call or Text!)" : ""; ?>
                             </strong>
                             <span class="mx-1">|</span>
                             <?php } ?>
-                            <a class="text-black"
+                            <a class="text-l-blue"
                                 href="mailto:<?php echo $agent['email']; ?>"><?php echo $agent['email']; ?></a>
                         </p>
                     </div>
@@ -189,7 +189,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     <?php foreach ($comm['address']['addresses'] as $address) { ?>
                     <div class="mb-2 address">
                         <p class="label font-weight-bold"><?php echo $address['label'] ?></p>
-                        <a class="text-black" target="_blank" href="<?php echo $address['direction'] ?>">
+                        <a class="text-l-blue" target="_blank" href="<?php echo $address['direction'] ?>">
                             <!-- Retreat at westfields -->
                             <?php // echo ($comm['url'] == 'retreat-at-westfields') ? ' <p>Click for Google Map Directions</p>' : ''; ?>
                             <!-- Retreat at westfields -->
@@ -200,8 +200,9 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                     $comm_address = "";
                                 }                                
                             ?>
-                            <p><?php echo $comm_address; ?></p>
+                            <p><?php echo $comm_address; ?></p> 
                         </a>
+                        <p class="text-black"><?php echo $address['additionalInfo'] ?></p>
                     </div>
                     <?php } ?>
                     <!-- Retreat at westfields -->
@@ -500,7 +501,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
     </section>
 
     <!-- Community Floorplans CURRENTLY HIDDEN - SO IS COMMUNITY MENU LINK --> 
-    <section id="community-floorplans" class="order-<?php echo $comm['sectionOrder']['floorplans']; ?> py-3" style="display:none">
+    <section id="community-floorplans" class="order-<?php echo $comm['sectionOrder']['floorplans']; ?> py-3" >
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
