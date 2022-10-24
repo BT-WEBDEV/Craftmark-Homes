@@ -247,9 +247,9 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             <li class="nav-item order-<?php echo $comm['sectionOrder']['overview']; ?>">
                 <a class="nav-link active" href="#community-overview">OVERVIEW</a>
             </li>
-            <!-- <li class="nav-item order-<?php echo $comm['sectionOrder']['floorplans']; ?>">
+            <li class="nav-item order-<?php echo $comm['sectionOrder']['floorplans']; ?>">
                 <a class="nav-link" href="#community-floorplans">FLOOR PLANS</a>
-            </li> --> 
+            </li>
             <li class="nav-item order-<?php echo $comm['sectionOrder']['neighborhood']; ?>">
                 <a class="nav-link" href="#community-neighborhood">NEIGHBORHOOD</a>
             </li>
@@ -500,7 +500,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
         </div>
     </section>
 
-    <!-- Community Floorplans CURRENTLY HIDDEN - SO IS COMMUNITY MENU LINK --> 
+    <!-- Community Floorplans - SO IS COMMUNITY MENU LINK --> 
     <section id="community-floorplans" class="order-<?php echo $comm['sectionOrder']['floorplans']; ?> py-3" >
         <div class="container-fluid">
             <div class="row">
@@ -587,7 +587,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
     </section>
 </div>
 
-<?php if($community['url'] == "darnestown-station") { ?>
+<?php if($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -605,7 +605,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             </div>
         </div>
     </section>
-<?php } elseif($community['url'] == "clarksburg-town-center") { ?>
+<?php } elseif($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
