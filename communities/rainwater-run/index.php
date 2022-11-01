@@ -74,7 +74,7 @@
         <div class="container max-md-width-760">
             <div>
                 <!-- Form -->
-                <div id="success_message" class="text-center">
+                <div id="success_message" class="text-center"> 
                     <h3>Thank you for your interest. We will review your message and get back to you as soon as possible!
                     </h3>
                 </div>
@@ -86,6 +86,10 @@
                     <input type="hidden" name="aptTime" value="Not Provided">
                     <textarea hidden="hidden" name="comments" value="Not Provided"> </textarea>
                     <div class="row m-0 justify-content-center">
+                        
+                        <!-- Honeypot --> 
+                        <input name="fullName" type="text" id="fullName" class="hide-honey" autocomplete="false" tabindex="-1" placeholder="Full Name"> 
+                        
                         <!-- First Name -->
                         <div class="col-sm-6 px-2">
                             <input type="text" id="firstName" name="firstName"
@@ -106,6 +110,7 @@
                             <input type="text" id="phone" name="phone" class="form-control mb-2"
                                 placeholder="Phone">
                         </div>
+                        
                         <!-- Sign in button -->
                         <div class="col-sm-4 px-2 text-center">
                             <button id="buttonMain" onclick="gtag('event', 'click', { 'event_category': 'Rainwater Form' });"
@@ -113,10 +118,11 @@
                                 type="submit" disabled>Submit</button>
                         </div>
 
-                        <!-- Captcha --> 
-                        <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a"
+                         <!-- Captcha --> 
+                         <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a"
                             data-callback="recaptcha_callback">
                         </div>
+
                     </div>
                 </form>
                 <!-- Form -->
@@ -148,4 +154,6 @@ function recaptcha_callback() {
 };
 </script>
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> 
+
+
