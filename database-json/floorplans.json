@@ -1312,7 +1312,7 @@
                     "name": "The Seneca",
                     "statusInput": ["live", "sold"],
                     "status": "live",
-                    "basePrice": 679900,
+                    "basePrice": 689900,
                     "modelStatus": false,
                     "orderRate": false,
                     "url": "seneca",
