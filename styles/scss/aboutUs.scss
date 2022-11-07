@@ -3,7 +3,7 @@
 }
 
 // Tablet
-@media (min-width: $screen-sm) {
+@media (min-width: $screen-sm) { 
     #about-us {
         @include background-gradient('/about-us/images/bg-about-us.jpg', left, 255, 255, 255, 0, 255, 255, 255, 0.5, 40%, right center);
         .container {
