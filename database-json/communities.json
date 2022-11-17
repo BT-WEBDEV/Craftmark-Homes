@@ -2379,7 +2379,9 @@
                 "model": false
             }],
             "sitePlans": [
-                ["siteplan-1.jpg", "Watershed Area Map - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"]
+                ["siteplan-1.jpg", "Watershed Area Map - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"],
+                ["siteplan-2.jpg", "Watershed Site Plan - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"],
+                ["siteplan-3.jpg", "Watershed Site Plan - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"]
             ],
             "zillow": {
                 "Status": false,
