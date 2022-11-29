@@ -79,7 +79,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
 </style>
 
 
-<div class="brand-background"
+<div class="brand-background brand-background-V4"
     style="background-image: url('/communities/<?php echo $community['url'] ?>/images/<?php echo $community['brandStyle']['background'] ?>');">
     <section class="community-topper bg-center nav-space alert-space">
         <div class="container-fluid max-lg-width-1140">
@@ -142,15 +142,16 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                 <?php } ?>
             </div>
             <a style="background-color: <?php echo $community['brandStyle']['mainColor']; ?>; color: <?php echo $community['brandStyle']['btnText']; ?>;"
-                data-fancybox-trigger="community-slider" href="javascript:;"
-                class="btn custom-btn show-all-photos-btn font-weight-normal">SHOW ALL PHOTOS</a>
+            data-fancybox-trigger="community-slider" href="javascript:;"
+            class="btn custom-btn show-all-photos-btn-V4 font-weight-normal">
+            SHOW ALL <?php echo count($comm['gallery'])?> PHOTOS</a>
         </div>
     </section>
 
     <section id="community-details">
-        <div class="container community-details max-lg-width-1140">
+        <div class="container community-details community-details-V4 max-lg-width-1140">
             <div class="content">
-                <div class="flex-item item-1 order-1">
+                <div class="flex-item item-1-V4 order-1">
                     <div>
                         <p class="d-md-none"><?php echo $comm['address']['county'] ?></p>
                         <h3><?php echo $comm['headerInput1']?> <span class="font-weight-bold"><?php echo $comm['headerInput2'] ?></span></h3>
@@ -158,37 +159,10 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                             $<?php echo $comm['priceInfo']['price'] ?>s</p>
                     </div>
                     <hr>
-                </div>
-                <div class="flex-item item-2 order-3 text-xl-center">
-                    <?php 
-                    foreach ($comm['salesAgent']['agents'] as $agent) { ?>
-                    <div>
-                        <p class="font-weight-bold">@ <?php echo $agent['agentName']; ?></p>
-                        <p>
-                            <?php if($agent['phone'] != "" && $comm['id'] != 14 && $comm['id'] != 12) { ?>
-                            <a class="text-l-blue"
-                                href="tel:<?php echo clean($agent['phone']); ?>"><?php echo phoneNumberFormat($agent['phone']); ?></a>
-                            <strong>
-                                <?php echo ($comm['name'] != 'Retreat At Westfields' && $comm['name'] != 'Darnestown Station') ? "(Call or Text!)" : ""; ?>
-                            </strong>
-                            <span class="mx-1">|</span>
-                            <?php } ?>
-                            <a class="text-l-blue"
-                                href="mailto:<?php echo $agent['email']; ?>"><?php echo $agent['email']; ?></a>
-                        </p>
-                    </div>
-                    <?php } ?>
-                    <div>
-                        <p class="disclaimer font-weight-normal"><i><?php echo $comm['salesAgent']['label'] ?></i>
-                        </p>
-                    </div>
-                    <hr>
-                </div>
-                <div class="flex-item item-3 order-2">
                     <?php foreach ($comm['address']['addresses'] as $address) { ?>
                     <div class="mb-2 address">
-                        <p class="label font-weight-bold d-flex"><?php echo $address['label'] ?></p>
-                        <div class="d-flex"> 
+                        <p class="label font-weight-bold d-flex mb-1"><?php echo $address['label'] ?></p>
+                        <div class="d-flex mb-2"> 
                             <img id="community-loc-icon" src="/images/icon/map-pin.svg" alt="map pin icon">
                             <a class="text-l-blue" target="_blank" href="<?php echo $address['direction'] ?>"><u>
                                 <!-- Retreat at westfields -->
@@ -204,6 +178,17 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                 <p><?php echo $comm_address; ?></p> 
                             </u></a>
                         </div>
+                        <p class="label font-weight-bold d-flex mb-1"><?php echo $address['label2'] ?></p>
+                        <div class="d-flex"> 
+                            <img id="community-loc-icon" src="/images/icon/map-pin.svg" alt="map pin icon">
+                            <a class="text-dark" target="_blank" href="<?php echo $address['direction'] ?>">
+                                <?php
+                                    $gps = (($comm['address']['coords']))
+                                                                   
+                                ?>
+                                <p><?php echo $gps[0]; ?>, <?php echo $gps[1]; ?></p> 
+                            </a>
+                        </div>
                         <p class="text-black"><?php echo $address['additionalInfo'] ?></p>
                     </div>
                     <?php } ?>
@@ -211,8 +196,36 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     <?php echo ($comm['url'] == 'retreat-at-westfields') ? '<p class="font-weight-bold">Directions:</p><ul><li>Take I-495 to I-66W</li><li>Take Exit 53B, Route 28N/Dulles Airport</li><li>Exit onto Westfields Blvd- Stay right</li><li>Right On Stonecroft Blvd</li><li>Left on Conference Center Drive</li><li>Continue straight ahead to Craftmark Homes – The Retreat at Westfields</li></ul>' : ''; ?>
                     <!-- Retreat at westfields -->
                 </div>
-                <div class="order-3 w-100 totalView">
-                    <hr class="d-block my-xl-3">
+                <div class="flex-item item-2-V4 order-2 text-xl-center d-flex justify-content-end">
+                    <?php 
+                    foreach ($comm['salesAgent']['agents'] as $agent) { ?>
+                    <div class="d-flex agent-info">
+                        <img src="/images/agents/<?php echo $agent['avatar']?>" class="img-fluid mx-auto agent-avatar"> 
+                        <p class="font-weight-bold"><?php echo $agent['agentName']; ?></p>
+                        <p>
+                            <?php if($agent['phone'] != "" && $comm['id'] != 14 && $comm['id'] != 12) { ?>
+                            <a class="text-l-blue"
+                                href="tel:<?php echo clean($agent['phone']); ?>"><?php echo phoneNumberFormat($agent['phone']); ?></a>
+                            <strong>
+                                <?php echo ($comm['name'] != 'Retreat At Westfields' && $comm['name'] != 'Darnestown Station') ? "(Call or Text!)" : ""; ?>
+                            </strong>
+                            <?php } ?>
+                        </p>
+                        <a class="text-l-blue" href="mailto:<?php echo $agent['email']; ?>">
+                        <?php echo $agent['email']; ?>
+                        </a>
+                    </div>
+                    <?php } ?>
+                   
+                    <hr>
+                </div>
+                <div class="order-3 w-100">
+                    <p class="disclaimer font-weight-normal text-right">
+                        <i><?php echo $comm['salesAgent']['label'] ?>
+                        </i>
+                    </p>
+                </div>
+                <div class="order-4 w-100 totalView mt-3">
                     <div class="d-flex justify-content-center">
                         <div>
                             <?php require ROOT_PATH."/images/icon/views.svg" ?>
@@ -231,7 +244,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     // Remove Contact button from sold communities.
                     if($community['status'] != 'soldLabel') {
                 ?>
-                <div class="mt-3 order-4 w-100">
+                <div class="mt-3 order-5 w-100">
                     <a href="#"
                         style="background-color: <?php echo $community['brandStyle']['mainColor']; ?>; color: <?php echo $community['brandStyle']['btnText']; ?>;"
                         class="btn d-block m-0 font-weight-bold contact-today-btn" data-toggle="modal"
@@ -241,7 +254,20 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             </div>
         </div>
     </section>
-</div>
+</div> <!-- END BRAND BACKGROUND --> 
+
+<!-- CONTACT TODAY SECTION --> 
+<?php
+// Remove Contact Section From Sold Communities.
+if($community['status'] != 'soldLabel') {
+?>
+<section id="contact-today"> 
+    <div class="container contact-today"> 
+        <h2 class="text-center font-weight-bold text-uppercase" style="color: <?php echo $community['brandStyle']['mainColor']; ?>">Contact Today </h2> 
+    </div> 
+</section> 
+<?php } ?>
+
 
 <section id="community-menu">
     <div class="container-fluid max-lg-width-1140">

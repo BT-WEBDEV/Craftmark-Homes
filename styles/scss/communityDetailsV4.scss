@@ -1,7 +1,58 @@
-#community-details {
+.brand-background-V4{
+    background-color: white !important; 
+}
 
-    #community-loc-icon {
-        height: 20px; 
-        width: 20px; 
+#community-slider {
+
+    .show-all-photos-btn-V4 {
+        position: absolute;
+        right: 10px;
+        bottom: 0px;
+        font-size: 12px;
+        padding: 5px 15px;
+        z-index: 1;
     }
+}
+
+
+#community-details {
+    padding-bottom: 25px; 
+
+    .community-details-V4 {
+        margin-bottom: 0px; 
+    }
+
+    .item-1-V4 {
+        flex: 0 0 100% !important;
+        max-width: 60% !important; 
+
+        #community-loc-icon {
+            height: 20px; 
+            width: 20px; 
+        }
+    }
+
+    .item-2-V4 {
+        flex: 0 0 100% !important;
+        max-width: 40% !important; 
+
+        .agent-info {
+            flex: 0 0 100%; 
+            flex-direction: column;
+            max-width: 50%; 
+            
+            .agent-avatar {
+                max-width: 70px; 
+            }
+        }
+    }
+
+    
+}
+
+#contact-today {
+    border-top: 0.5px solid #282828;
+    border-bottom: 0.5px solid #282828;
+    background-color: #F4F4F7; 
+
 }

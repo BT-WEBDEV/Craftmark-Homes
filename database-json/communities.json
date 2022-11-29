@@ -94,6 +94,7 @@
                 "coords": ["39.245833", "-77.2703257"],
                 "addresses": [{
                     "label": "Community Location:",
+                    "label2": "GPS Coordinates:", 
                     "outOfCommunity": false,
                     "address": {
                         "street1": "12889 Clarksburg Square Rd",
@@ -110,7 +111,8 @@
                 "agents": [{
                     "agentName": "Lou Kalra",
                     "phone": "3019105770",
-                    "email": "lkalra@craftmarkhomes.com"
+                    "email": "lkalra@craftmarkhomes.com",
+                    "avatar": "lou-kalra.png"
                 }]
             },
             "floorplans": [{
