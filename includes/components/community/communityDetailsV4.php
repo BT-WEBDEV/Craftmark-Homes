@@ -501,35 +501,42 @@ if($community['status'] != 'soldLabel') {
                         <?php include_once("welcome.php"); ?>
                     </div>
 
-                    <div>
-                        <?php 
-                        $featured_status = false;
-                        
-                        foreach ($featured['featured'] as $feat) {  
-                            if($feat['comUrl'] == $url_path[2]) { 
-                                $featured_status = true;
-                            }}
-                        ?>
-                        <h4 class="font-weight-bold m-0 py-3">
-                            <?php echo ($featured_status) ? "Community Video Highlights" : ""; ?></h4>
-                        <!-- Retreat at westfields -->
-                        <?php echo ($comm['url'] == 'retreat-at-westfields') ? '<p class="pb-3"><strong>View the Richmond Model Video and Flyover of what the finished community will look like below!</strong></p>' : ''; ?>
-                        <!-- Retreat at westfields -->
-                        <div class="row m-0">
-                            <?php 
-                            foreach ($featured['featured'] as $featured) {
-                                if($featured['comUrl'] == $url_path[2] && $featured['status'] != 'sold') { 
-                            ?>
-                            <div class="col-3 col-md-2">
-                                <?php include(ROOT_PATH."includes/components/featuredList.php"); ?>
-                            </div>
-                            <?php }} ?>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- COMMUNITY VIDEO HIGHLIGHTS --> 
+    <section id="community-video-highlights" class="py-3 order-<?php echo $comm['sectionOrder']['community-highlights']; ?>">
+        <div class="container max-lg-width-1140"> 
+            <div>
+                <?php 
+                $featured_status = false;
+                
+                foreach ($featured['featured'] as $feat) {  
+                    if($feat['comUrl'] == $url_path[2]) { 
+                        $featured_status = true;
+                    }}
+                ?>
+                <h2 class="font-weight-bold m-0 py-3 text-white text-uppercase">
+                    <?php echo ($featured_status) ? "Community Video Highlights" : ""; ?></h2>
+                <!-- Retreat at westfields -->
+                <?php echo ($comm['url'] == 'retreat-at-westfields') ? '<p class="pb-3"><strong>View the Richmond Model Video and Flyover of what the finished community will look like below!</strong></p>' : ''; ?>
+                <!-- Retreat at westfields -->
+                <div class="row m-0">
+                    <?php 
+                    foreach ($featured['featured'] as $featured) {
+                        if($featured['comUrl'] == $url_path[2] && $featured['status'] != 'sold') { 
+                    ?>
+                    <div class="col-3 col-md-2">
+                        <?php include(ROOT_PATH."includes/components/featuredList.php"); ?>
+                    </div>
+                    <?php }} ?>
+                </div>
+            </div>
+        </div>  
+    </section> 
 
     <!-- Community Neighborhood -->
     <section id="community-neighborhood" class="order-<?php echo $comm['sectionOrder']['neighborhood']; ?> pb-3">

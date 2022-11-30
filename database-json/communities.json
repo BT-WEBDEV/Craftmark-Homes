@@ -68,12 +68,13 @@
             ],
             "sectionOrder": {
                 "overview": 1,
-                "floorplans": 4,
-                "neighborhood": 2,
-                "quick-move-ins": 3,
-                "siteplan": 6,
-                "features": 5,
-                "map": 7
+                "community-highlights": 2, 
+                "floorplans": 5,
+                "neighborhood": 3,
+                "quick-move-ins": 4,
+                "siteplan": 7,
+                "features": 6,
+                "map": 8
             },
             "neighborhood": [
                 ["Amenities", "amenities"],
