@@ -460,8 +460,8 @@ if($community['status'] != 'soldLabel') {
 </section> 
 <?php } ?>
 
-
-<section id="community-menu">
+<!-- OLD COMMUNITY MENU PILLS --> 
+<!-- <section id="community-menu">
     <div class="container-fluid max-lg-width-1140">
         <ul class="nav md-pills justify-content-center justify-content-md-start community-pills smooth-scroll">
             <li class="nav-item order-<?php echo $comm['sectionOrder']['overview']; ?>">
@@ -487,7 +487,7 @@ if($community['status'] != 'soldLabel') {
             </li>
         </ul>
     </div>
-</section>
+</section> -->
 
 <div class="community-flex-container">
 
@@ -495,13 +495,34 @@ if($community['status'] != 'soldLabel') {
     <section id="community-overview" class="order-<?php echo $comm['sectionOrder']['overview']; ?>">
         <div class="bg-center community-welcome"
             style="background-image: url('<?php echo ($community['brandStyle']['welcomeBackground']) ? '/communities/'.$community['url'].'/images/'.$community['brandStyle']['welcomeBackground'] : '/images/bg-who-we-are-desktop.jpg' ?>');">
-            <div class="container-fluid" style="background-color: rgba(255, 255, 255, 0.8);">
-                <div class="content px-lg-5">
-                    <div>
+            <div class="container-fluid " style="background-color: rgba(255, 255, 255, 0.8);">
+                <div class="content-V4 max-lg-width-1140">
+                    <ul id="community-nav" class="nav nav-tabs smooth-scroll">
+                        <li class="nav-item order-<?php echo $comm['sectionOrder']['overview']; ?>">
+                            <a class="nav-link px-0" href="#community-overview">OVERVIEW</a>
+                        </li>
+                        <li class="nav-item order-<?php echo $comm['sectionOrder']['floorplans']; ?>">
+                            <a class="nav-link px-0" href="#community-floorplans">FLOOR PLANS</a>
+                        </li>
+                        <li class="nav-item order-<?php echo $comm['sectionOrder']['neighborhood']; ?>">
+                            <a class="nav-link px-0" href="#community-neighborhood">NEIGHBORHOOD</a>
+                        </li>
+                        <li class="nav-item order-<?php echo $comm['sectionOrder']['quick-move-ins']; ?>">
+                            <a class="nav-link px-0" href="#community-quick-move-ins">QUICK MOVE-INS</a>
+                        </li>
+                        <li class="nav-item order-<?php echo $comm['sectionOrder']['siteplan']; ?>">
+                            <a class="nav-link px-0" href="#community-siteplan">SITE PLAN</a>
+                        </li>
+                        <li class="nav-item order-<?php echo $comm['sectionOrder']['features']; ?>">
+                            <a class="nav-link px-0" href="#community-features">FEATURES</a>
+                        </li>
+                        <li class="nav-item order-<?php echo $comm['sectionOrder']['map']; ?>">
+                            <a class="nav-link px-0" href="#community-map">MAP</a>
+                        </li>
+                    </ul>
+                    <div class="mt-4">
                         <?php include_once("welcome.php"); ?>
                     </div>
-
-                   
                 </div>
             </div>
         </div>

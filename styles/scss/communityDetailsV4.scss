@@ -59,6 +59,41 @@
     }
 }
 
+#community-overview {
+
+    .community-welcome {
+
+        .content-V4 {
+            padding-bottom: 50px!important;
+            padding-right: 10%!important;
+            padding-top: 50px!important;
+
+            #community-nav {
+                gap: 40px; 
+                border-bottom: 0.5px solid #282828; 
+
+                .nav-link {
+                    color: #262626; 
+                }
+
+                .nav-link:hover {
+                    color: #262626;
+                    font-weight: bold;
+                    border-color: #e9ecef00 #e9ecef00 #dee2e600; 
+                    border-bottom: 4px solid #1361B2; 
+                }
+
+                .nav-link:focus {
+                    color: #262626;
+                    font-weight: bold;
+                    border-color: #e9ecef00 #e9ecef00 #dee2e600; 
+                    border-bottom: 4px solid #1361B2; 
+                }
+            }
+        }
+    } 
+}
+
 #community-video-highlights {
     background-color: #262626; 
 }
