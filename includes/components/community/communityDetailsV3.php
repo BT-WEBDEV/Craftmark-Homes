@@ -587,7 +587,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
     </section>
 </div>
 
-<?php if($community['url'] == "watershed") { ?>
+<?php if($community['url'] == "cabin-branch") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -597,8 +597,8 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <a target="_blank" href="https://www.facebook.com/events/640462364154257/?ref=newsfeed">
-                        <img src="/images/popup/09595-CMH-MGO-PopUp-Watershed.jpg"
+                    <a target="_blank" href="https://www.facebook.com/events/468364668762736/?sfnsn=mo&extid=a&mibextid=hOoF3G">
+                        <img src="/images/popup/09630-CMH-MGO-PopUp-CBranch.jpg"
                             alt="The Retreat at Westfields Model Grand Opening" class="img-fluid w-100">
                     </a>
                 </div>
