@@ -98,7 +98,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                 class="font-weight-normal"><?php echo $comm['priceInfo']['label'] ?>
                                 $<?php echo ($comm['priceInfo']['price'] != 0) ? $comm['priceInfo']['price'] : " -- "; ?><?php echo ($comm['priceInfo']['priceTag']) ? $comm['priceInfo']['priceTag'] : "s"; ?>
                             </p>
-                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Pre-Construction Pricing</p>'; }?>
+                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Perfectly Priced</p>'; }?>
                         </div>
                     </div>
                 </div>
