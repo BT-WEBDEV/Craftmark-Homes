@@ -1,5 +1,5 @@
 <?php include_once("../../includes/header.php"); ?>
-<?php include_once(ROOT_PATH."includes/components/community/communityDetailsV4.php"); ?>
+<?php include_once(ROOT_PATH."includes/components/community/communityDetailsV2.php"); ?>
 <?php include_once(ROOT_PATH."includes/footer.php"); ?>
 
 <?php $comm_array = "[".json_encode($comm, true)."]"; ?>

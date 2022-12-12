@@ -587,7 +587,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
     </section>
 </div>
 
-<?php if($community['url'] == "cabin-branch") { ?>
+<?php if($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
