@@ -216,6 +216,7 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
                     We don’t answer to shareholders. Rather, we answer to our customers. And ourselves. Experience the
                     Craftmark difference for yourself in one of our exceptional communities.
                 </p>
+                <p class="font-italic mt-2"> Craftmark Homes is part of the Craftmark Group along with BeaconCrest&nbsp;Homes. </p> 
             </div>
         </div>
     </section>
