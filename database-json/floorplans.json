@@ -98,6 +98,283 @@
                 }
             },
             {
+                "name": "The Richmond at Retreat at Westfields",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": 699900,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "richmond-at-retreat-at-westfields",
+                "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Chantilly, VA"],
+                "gallery": [
+                    [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Richmond by Craftmark", ""],
+                    [2, "Richmond by Craftmark", ""],
+                    [3, "Richmond by Craftmark", ""],
+                    [4, "Richmond by Craftmark", ""]
+                ],
+                "videoTour": "https://youtu.be/guljwi89A6o",
+                "3DTour": "http://my.matterport.com/show/?m=PSbzGfuNLAH",
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Up to",
+                    "sqFeet": "2,373",
+                    "stories": 4,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "3",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": "2"
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "3-4 full 1-2 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets"],
+                    "PlanOpenAmenity": null,
+                    "Description": "Now Selling Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["ShakeShingle"],
+                    "Skylight": true,
+                    "SprinklerSystem": false,
+                    "Wetbar": false,
+                    "Wired": false
+                }
+            },
+            {
+                "name": "The Seneca",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": 689900,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "seneca",
+                "listingImg": ["listingImg.jpg", "The Seneca Floor Plan, Townhomes Available at Clarkburg, MD"],
+                "gallery": [
+                    [1, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [2, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [3, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [4, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Seneca by Craftmark", ""],
+                    [2, "Seneca by Craftmark", ""],
+                    [3, "Seneca by Craftmark", ""],
+                    [4, "Seneca by Craftmark", ""]
+                ],
+                "videoTour": "",
+                "3DTour": "",
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Starting",
+                    "sqFeet": "2,600",
+                    "stories": 3,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "3",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": ""
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "3-4 full 1 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "Up",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets","GreenConstruction","VaultedCeilings"],
+                    "PlanOpenAmenity": null,
+                    "Description": "Now Selling 55+ Active Adult ELEVATOR Townhomes Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage | Private Elevator",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick","Stone","Vinyl"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["Asphalt"],
+                    "Skylight": true,
+                    "SprinklerSystem": true,
+                    "Wetbar": false,
+                    "Wired": true
+                }
+            },
+            {
+                "name": "The Richmond",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": 549900,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "richmond",
+                "awards": true,
+                "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Clarksburg Town Center, MD"],
+                "gallery": [
+                    [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [4, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [6, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [7, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [8, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [9, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [10, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [11, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [12, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [13, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [14, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [15, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [16, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [17, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [18, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [19, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [20, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [21, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Richmond by Craftmark", ""],
+                    [2, "Richmond by Craftmark", ""],
+                    [3, "Richmond by Craftmark", ""],
+                    [4, "Richmond by Craftmark", ""]
+                ],
+                "videoTour": "https://youtu.be/RcQhpptO0zk",
+                "3DTour": "https://my.matterport.com/show/?m=9s2hsn9nbRU",
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Up to",
+                    "sqFeet": "2,500",
+                    "stories": 4,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "3",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": "2"
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "3-4 full 1-2 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets"],
+                    "PlanOpenAmenity": null,
+                    "Description": "",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["ShakeShingle"],
+                    "Skylight": true,
+                    "SprinklerSystem": false,
+                    "Wetbar": false,
+                    "Wired": false
+                }
+            },
+            {
                 "name": "The Fairland",
                 "statusInput": ["live", "sold"],
                 "status": "live",
@@ -293,7 +570,7 @@
                 {
                     "name": "The Bellevue",
                     "statusInput": ["live", "sold"],
-                    "status": "live",
+                    "status": "sold",
                     "basePrice": 909900,
                     "modelStatus": false,
                     "orderRate": false,
@@ -1123,283 +1400,6 @@
                         "SprinklerSystem": true,
                         "Wetbar": false,
                         "Wired": false
-                    }
-                },
-                {
-                    "name": "The Richmond",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": 549900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "richmond",
-                    "awards": true,
-                    "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Clarksburg Town Center, MD"],
-                    "gallery": [
-                        [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [4, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [6, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [7, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [8, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [9, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [10, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [11, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [12, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [13, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [14, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [15, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [16, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [17, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [18, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [19, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [20, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [21, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Richmond by Craftmark", ""],
-                        [2, "Richmond by Craftmark", ""],
-                        [3, "Richmond by Craftmark", ""],
-                        [4, "Richmond by Craftmark", ""]
-                    ],
-                    "videoTour": "https://youtu.be/RcQhpptO0zk",
-                    "3DTour": "https://my.matterport.com/show/?m=9s2hsn9nbRU",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Up to",
-                        "sqFeet": "2,500",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": "2"
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "3-4 full 1-2 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets"],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": true,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Richmond at Retreat at Westfields",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": 699900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "richmond-at-retreat-at-westfields",
-                    "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Chantilly, VA"],
-                    "gallery": [
-                        [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Richmond by Craftmark", ""],
-                        [2, "Richmond by Craftmark", ""],
-                        [3, "Richmond by Craftmark", ""],
-                        [4, "Richmond by Craftmark", ""]
-                    ],
-                    "videoTour": "https://youtu.be/guljwi89A6o",
-                    "3DTour": "http://my.matterport.com/show/?m=PSbzGfuNLAH",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Up to",
-                        "sqFeet": "2,373",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": "2"
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "3-4 full 1-2 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets"],
-                        "PlanOpenAmenity": null,
-                        "Description": "Now Selling Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": true,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Seneca",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": 689900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "seneca",
-                    "listingImg": ["listingImg.jpg", "The Seneca Floor Plan, Townhomes Available at Clarkburg, MD"],
-                    "gallery": [
-                        [1, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [2, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [3, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [4, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Seneca by Craftmark", ""],
-                        [2, "Seneca by Craftmark", ""],
-                        [3, "Seneca by Craftmark", ""],
-                        [4, "Seneca by Craftmark", ""]
-                    ],
-                    "videoTour": "",
-                    "3DTour": "",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Starting",
-                        "sqFeet": "2,600",
-                        "stories": 3,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "3-4 full 1 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "Up",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets","GreenConstruction","VaultedCeilings"],
-                        "PlanOpenAmenity": null,
-                        "Description": "Now Selling 55+ Active Adult ELEVATOR Townhomes Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage | Private Elevator",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick","Stone","Vinyl"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["Asphalt"],
-                        "Skylight": true,
-                        "SprinklerSystem": true,
-                        "Wetbar": false,
-                        "Wired": true
                     }
                 }
             ]

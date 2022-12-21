@@ -1949,7 +1949,7 @@
             "features": ["exteriors", "kitchens", "baths", "energy", "quality"],
             "openHours": {
                 "label": "Visit Us",
-                "hours": "Selling from Crown Model Home 104 Bleeker Pl, Gaithersburg, MD 20878 "
+                "hours": "Open Daily: 11 AM - 5 PM, Tuesday-Sunday; 1 - 5 PM Monday"
             },
             "priceInfo": {
                 "label": "Upper",
@@ -1959,7 +1959,7 @@
                 "county": "Montgomery Co., MD",
                 "coords": ["39.2198716", "-77.2833051"],
                 "addresses": [{
-                    "label": "Future MODEL:",
+                    "label": "NEW DECORATED MODEL:",
                     "outOfCommunity": false,
                     "address": {
                         "street1": "22327 Cabin Branch Avenue",
@@ -1969,18 +1969,6 @@
                         "zip": "20871"
                     },
                     "direction": "https://goo.gl/maps/uQFH3yabGEaZ4WhR8"
-                },
-                {
-                    "label": "Selling from Crown Model Home",
-                    "outOfCommunity": true,
-                    "address": {
-                        "street1": "104 Bleeker Pl",
-                        "street2": "",
-                        "city": "Gaithersburg",
-                        "state": "MD",
-                        "zip": "20878"
-                    },
-                    "direction": "https://goo.gl/maps/hrNeTJKzvhR9m9QF9"
                 }]
             },
             "salesAgent": {

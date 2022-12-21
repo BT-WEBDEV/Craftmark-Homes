@@ -16,18 +16,6 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
     <div class="swiper-container hero-slider">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
-            
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <a href="/communities/crown">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/crown-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
-                            alt="Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes">
-                        <img src="/images/hero-slider/crown-mobile.jpg" class="img-fluid w-100 d-sm-none"
-                            alt="Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes">
-                    </div>
-                </a>
-            </div>
             <!-- Slides -->
             <div class="swiper-slide">
                 <a href="/communities/cabin-branch">
@@ -84,6 +72,18 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
                     </div>
                 </a>
             </div>
+
+            <!-- Slides -->
+            <!-- <div class="swiper-slide">
+                <a href="/communities/crown">
+                    <div class="list-item">
+                        <img src="/images/hero-slider/crown-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
+                            alt="Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes">
+                        <img src="/images/hero-slider/crown-mobile.jpg" class="img-fluid w-100 d-sm-none"
+                            alt="Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes">
+                    </div>
+                </a>
+            </div> -->
             <!-- Slides -->
             <!-- <div class="swiper-slide">
                 <a href="/communities/mateny-hill">
