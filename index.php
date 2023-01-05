@@ -163,8 +163,55 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
     </div>
 </section>
 
-<div class="d-flex flex-column">
-    <section id="home-featured-list" class="position-relative order-1 order-md-2">
+    <section id="home-community-list" class="order-1 bg-grey">
+        <div class="container-fluid swiper-padding">
+            <div class="d-flex align-items-center justify-content-between pr-15 px-md-20">
+                <h3 class="font-weight-normal m-0">Locations</h3>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper-container home-listing-swiper-v2 px-md-20">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <?php 
+                    foreach ($communities['communities'] as $comm) { 
+                        if($comm['status'] != "sold" && $comm['status'] != "soldLabel" && $comm['url'] != 'coming-soon') {
+                        ?>
+                    <div class="swiper-slide">
+                        <div class="my-3">
+                            <?php include("includes/components/community/locationListV1.php"); ?>
+                        </div>
+                    </div>
+                    <?php }} ?>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-next">
+                    <img src="/images//arrow-right.svg" alt="">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="/images//arrow-left.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="home-who-we-are" class="order-2 order-md-1">
+        <div class="container">
+            <div class="content">
+                <h1 class="font-weight-normal font-weight-md-bold">WHO WE ARE</h1>
+                <p>
+                    Craftmark Homes is a family-owned company that embraces a culture of giving back while moving
+                    forward.
+                    We don’t answer to shareholders. Rather, we answer to our customers. And ourselves. Experience the
+                    Craftmark difference for yourself in one of our exceptional communities.
+                </p>
+                <p class="font-italic mt-2"> Craftmark Homes is part of the Craftmark Group along with BeaconCrest&nbsp;Homes. </p> 
+            </div>
+        </div>
+    </section>
+
+    <div class="d-flex flex-column">
+    <section id="home-featured-list" class="position-relative order-3 order-md-2">
         <div class="container-fluid swiper-padding">
             <h3 class="font-weight-normal mb-3 px-md-20">Video Highlights</h3>
             <div id="notify" class="notify d-flex justify-content-center align-items-end">
@@ -206,52 +253,7 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
         <!-- <div class="position-absolute bg-grey"></div> -->
     </section>
 
-    <section id="home-who-we-are" class="order-2 order-md-1">
-        <div class="container">
-            <div class="content">
-                <h1 class="font-weight-normal font-weight-md-bold">WHO WE ARE</h1>
-                <p>
-                    Craftmark Homes is a family-owned company that embraces a culture of giving back while moving
-                    forward.
-                    We don’t answer to shareholders. Rather, we answer to our customers. And ourselves. Experience the
-                    Craftmark difference for yourself in one of our exceptional communities.
-                </p>
-                <p class="font-italic mt-2"> Craftmark Homes is part of the Craftmark Group along with BeaconCrest&nbsp;Homes. </p> 
-            </div>
-        </div>
-    </section>
-
-    <section id="home-community-list" class="order-3 bg-grey">
-        <div class="container-fluid swiper-padding">
-            <div class="d-flex align-items-center justify-content-between pr-15 px-md-20">
-                <h3 class="font-weight-normal m-0">Locations</h3>
-            </div>
-            <!-- Slider main container -->
-            <div class="swiper-container home-listing-swiper-v2 px-md-20">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <?php 
-                    foreach ($communities['communities'] as $comm) { 
-                        if($comm['status'] != "sold" && $comm['status'] != "soldLabel" && $comm['url'] != 'coming-soon') {
-                        ?>
-                    <div class="swiper-slide">
-                        <div class="my-3">
-                            <?php include("includes/components/community/locationListV1.php"); ?>
-                        </div>
-                    </div>
-                    <?php }} ?>
-                </div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-next">
-                    <img src="/images//arrow-right.svg" alt="">
-                </div>
-                <div class="swiper-button-prev">
-                    <img src="/images//arrow-left.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <section id="home-quick-move-in-list" class="order-4 bg-grey">
         <div class="container-fluid swiper-padding">

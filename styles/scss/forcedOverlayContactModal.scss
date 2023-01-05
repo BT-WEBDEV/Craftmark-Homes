@@ -1,0 +1,13 @@
+.forcedOverlayContactModal {
+  display: block;
+  opacity: 1;
+  backdrop-filter: blur(10px);
+  z-index: 9999;
+  padding-top: 5%;
+  .modal-content {
+    padding: 30px;
+  }
+  #forcedOverLayCloseButton {
+    font-size: 12px;
+  }
+}

@@ -255,14 +255,15 @@ p.small {
 }
 
 // Contact
-#success_message {
+#success_message, 
+#success_messageV2 {
     display: none;
 
     h3 {
         line-height: 1.5;
         font-size: 22px;
     }
-}
+} 
 
 /* IE Version update TAB */
 #VersionTab {
@@ -437,7 +438,7 @@ p.small {
     }
 
     img {
-        width: 20px;
+        width: 15px;
     }
 }
 

@@ -529,72 +529,95 @@ if($community['status'] != 'soldLabel') {
     </section>
 
     <!-- COMMUNITY VIDEO HIGHLIGHTS --> 
-    <section id="community-video-highlights" class="py-3 order-<?php echo $comm['sectionOrder']['community-highlights']; ?>">
-        <div class="container max-lg-width-1140"> 
-            <div>
-                <?php 
-                $featured_status = false;
-                
-                foreach ($featured['featured'] as $feat) {  
-                    if($feat['comUrl'] == $url_path[2]) { 
-                        $featured_status = true;
-                    }}
-                ?>
-                <h2 class="font-weight-bold m-0 py-3 text-white text-uppercase">
-                    <?php echo ($featured_status) ? "Community Video Highlights" : ""; ?></h2>
-                <!-- Retreat at westfields -->
-                <?php echo ($comm['url'] == 'retreat-at-westfields') ? '<p class="pb-3"><strong>View the Richmond Model Video and Flyover of what the finished community will look like below!</strong></p>' : ''; ?>
-                <!-- Retreat at westfields -->
-                <div class="row m-0">
+    <section id="community-highlights" class="order-<?php echo $comm['sectionOrder']['overview']; ?>">
+        <div class="container-fluid py-default max-lg-width-1140">
+            <div class="row">
+                <div class="col-md-6">
                     <?php 
+                    $communityFeature = [];
                     foreach ($featured['featured'] as $featured) {
-                        if($featured['comUrl'] == $url_path[2] && $featured['status'] != 'sold') { 
+                        if($featured['comUrl'] == $url_path[2]) { 
+                            array_push($communityFeature, $featured);
+                        }}
                     ?>
-                    <div class="col-3 col-md-2">
-                        <?php include(ROOT_PATH."includes/components/featuredList.php"); ?>
+                    <a href="<?php echo $communityFeature[0]['highlightUrl']['url']; ?>"
+                        <?php if($communityFeature[0]['highlightUrl']['type'] == "youtube") { ?>
+                        data-fancybox="highlight-<?php echo $communityFeature[0]['url']; ?>" <?php } ?>
+                        <?php if($communityFeature[0]['highlightUrl']['type'] == "360tour") { ?> target="_blank" <?php } ?>>
+                        <div class="view">
+                            <img src="/images/hero-slider/clarksburg-town-center-desktop.jpg" alt="<?php echo $featured['imgAlt']; ?>" class="img-fluid">
+                            <h4 class="text-black mt-3 font-weight-normal"><?php echo $featured['imgAlt']; ?></h4>
+                            <div class="mask cursor-pointer">
+                                <?php if($featured['highlightUrl']['type'] == "youtube") { ?>
+                                <div class="big_play_btn_wrap cursor-pointer">
+                                    <img src="/images/icon/youtube.svg" alt="Play button icon" class="play_btn youtube">
+                                </div>
+                                <?php } ?>
+                                <?php if($featured['highlightUrl']['type'] == "360tour") { ?>
+                                <div class="big_play_btn_wrap big_tour_btn_wrap cursor-pointer">
+                                    <img src="/images/icon/360tour.svg" alt="360 Tour icon" class="play_btn tour_btn">
+                                </div>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="community-highlight-swiper">
+                        <h3 class="font-weight-bold text-white mt-2 mb-4">VIDEO HIGHLIGHTS</h3>
+                        <div class="swiper-container community-highlight-swiper-container">
+                            <div class="swiper-wrapper">
+                                <?php foreach ($communityFeature as $featured) { ?>
+                                <div class="swiper-slide">
+                                    <?php include(ROOT_PATH."includes/components/featuredList.php"); ?>
+                                </div>
+                                <?php } ?>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-next">
+                            <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
                     </div>
-                    <?php }} ?>
                 </div>
             </div>
-        </div>  
-    </section> 
+        </div>
+    </section>
 
     <!-- Community Neighborhood -->
     <section id="community-neighborhood" class="order-<?php echo $comm['sectionOrder']['neighborhood']; ?> pb-3">
-        <div class="row m-0">
-            <div class="col-12 col-md-6 p-0">
-                <!-- Slider main container -->
-                <!-- <div class="swiper-container hero-slider">
-                    Additional required wrapper
-                    <div class="swiper-wrapper">
-                        Slides
-                        <div class="swiper-slide">
-                            <div class="list-item">
-                                <img src="/communities/clarksburg-town-center/images/neighborhood-slider/slider-1.jpg"
-                                    class="img-fluid w-100" alt="<?php echo $comm['name'], " ", $comm['homeType']; ?>">
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <img src="/communities/<?php echo $comm['url']; ?>/images/neighborhood-slider/slider-1.jpg"
-                    class="img-fluid w-100" alt="<?php echo $comm['name'], " ", $comm['homeType']; ?>">
+        <div class="header-image">
+            <img src="/communities/<?php echo $comm['url']; ?>/images/neighborhood-slider/slider-1.jpg"
+                class="img-fluid w-100 img-fit" alt="<?php echo $comm['name'], " ", $comm['homeType']; ?>">
+            <div class="header container-fluid max-lg-width-1140">
+                <h3 class="font-weight-bold">NEIGHBORHOOD</h3>
             </div>
-            <div class="col-12 col-md-6 p-0">
-                <ul class="nav md-pills hover-tab neigborhood-pills z-depth-1">
+        </div>
+        <div class="md-pills-wrap">
+            <div class="container-fluid max-lg-width-1140">
+                <ul class="nav md-pills hover-tab neigborhood-pills">
                     <?php 
                     if(sizeof($comm['neighborhood'])) {
                     foreach ($comm['neighborhood'] as $key => $item) { ?>
-                    <li class="nav-item flex-fill">
+                    <li class="nav-item">
                         <a class="nav-link <?php echo ($key==0) ? "active" : ""; ?>" data-toggle="tab"
                             href="#<?php echo $item[1] ?>" role="tab"><?php echo $item[0] ?></a>
                     </li>
                     <?php }} else { ?>
-                    <li class="nav-item flex-fill">
+                    <li class="nav-item">
                         <a class="nav-link active" href="#neighborhood" data-toggle="tab" role="tab">Neighborhood</a>
                     </li>
                     <?php } ?>
                 </ul>
-
+            </div>
+        </div>
+        <div class="container-fluid max-lg-width-1140">
+            <div class="">
                 <!-- Tab panels -->
                 <div class="tab-content neigborhood-tab-content p-0">
                     <?php 
@@ -618,8 +641,7 @@ if($community['status'] != 'soldLabel') {
 
     <!-- Community Siteplan -->
     <section id="community-siteplan" class="order-<?php echo $comm['sectionOrder']['siteplan']; ?>">
-
-        <div class="container-fluid max-lg-width-1140">
+        <div class="container-fluid py-default max-lg-width-1140">
             <div class="row">
                 <div class="col-12">
                     <h3 class="font-weight-bold mb-3 pl-sm-3">Site Plan</h3>
@@ -659,72 +681,36 @@ if($community['status'] != 'soldLabel') {
 
     <!-- Community Features -->
     <section id="community-features" class="order-<?php echo $comm['sectionOrder']['features']; ?>">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="font-weight-bold mb-3 pl-sm-3">Features</h3>
+        <div class="container-fluid max-lg-width-1140">
+            <div>
+                <h3 class="font-weight-bold m-0 pt-3 text-l-blue">FEATURES</h3>
+            </div>
+        </div>
+        <div class="md-pills-wrap">
+            <div class="container-fluid max-lg-width-1140">
+                <ul class="nav md-pills hover-tab features-pills">
+                    <?php foreach ($comm['features'] as $key => $feature) { ?>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo ($key==0) ? "active" : ""; ?>" data-toggle="tab"
+                            href="#<?php echo $feature; ?>" role="tab"><?php echo $feature; ?></a>
+                    </li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid max-lg-width-1140">
+            <div class="">
+                <!-- Tab panels -->
+                <div class="tab-content features-tab-content p-0">
+                    <?php foreach ($comm['features'] as $key => $feature) { ?>
+                    <!--Tab pane-->
+                    <div class="tab-pane fade <?php echo ($key==0) ? "in show active" : ""; ?>"
+                        id="<?php echo $feature; ?>" role="tabpanel">
+                        <?php include("features/".$feature.".php"); ?>
+                    </div>
+                    <?php } ?>
                 </div>
             </div>
-            <!--Accordion wrapper-->
-            <div class="accordion md-accordion" id="community-features-accordion" role="tablist"
-                aria-multiselectable="true">
-
-                <?php
-            if(sizeof($comm['features'])) {
-            foreach ($comm['features'] as $feature) {
-            ?>
-                <!-- Accordion card -->
-                <div class="card">
-                    <!-- Card header -->
-                    <div class="card-header" role="tab" id="heading-<?php echo $feature; ?>">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#community-features-accordion"
-                            href="#collapse-<?php echo $feature; ?>" aria-expanded="false"
-                            aria-controls="collapse-<?php echo $feature; ?>">
-                            <div class="header-box"
-                                style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.5)), url('/communities/<?php echo $comm['url']; ?>/features/images/<?php echo $feature; ?>.jpg')">
-                                <div class="accordion-white-bg"></div>
-                                <div class="content z-inder-1 d-flex align-items-center">
-                                    <div class="icon">
-                                        <img src="/images/icon/community-icon/feature-<?php echo $feature; ?>.svg"
-                                            alt="<?php echo $feature, " icon"; ?>">
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <h5 class="text-black"><?php echo $feature; ?></h5>
-                                        <hr>
-                                    </div>
-                                    <div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20.445" height="11.723"
-                                            viewBox="0 0 20.445 11.723">
-                                            <path id="accordion-arrow" data-name="Path 1065"
-                                                d="M2066.492,911.514l8.1,8.1,8.1-8.1"
-                                                transform="translate(-2064.371 -909.393)" fill="none" stroke="#262626"
-                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card body -->
-                    <div id="collapse-<?php echo $feature; ?>" class="collapse" role="tabpanel"
-                        aria-labelledby="heading-<?php echo $feature; ?>" data-parent="#community-features-accordion">
-                        <div class="card-body">
-                            <div>
-                                <?php include("features/".$feature.".php"); ?>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Accordion card -->
-                <?php } } else { ?>
-                <div class="pl-sm-3 my-3">
-                    <h4 class="text-l-blue font-weight-bold">Features Coming Soon!</h4>
-                </div>
-                <?php } ?>
-            </div>
-            <!-- Accordion wrapper -->
         </div>
     </section>
 
@@ -749,89 +735,92 @@ if($community['status'] != 'soldLabel') {
     </section>
 
     <!-- Community Floorplans - SO IS COMMUNITY MENU LINK --> 
-    <section id="community-floorplans" class="order-<?php echo $comm['sectionOrder']['floorplans']; ?> py-3" >
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="font-weight-bold m-0 pt-3 pl-sm-3">Floor Plans</h3>
-                </div>
+    <section id="community-floorplans" class="order-<?php echo $comm['sectionOrder']['floorplans']; ?> py-3">
+        <div class="container-fluid max-lg-width-1140">
+            <div>
+                <h3 class="font-weight-bold m-0 pt-3 text-l-blue">FLOOR PLANS</h3>
             </div>
-            <?php if(sizeof($available_fp) != 0) { ?>
+        </div>
+        <?php if(sizeof($available_fp) != 0) { ?>
+        <div class="container-fluid position-relative">
             <!-- Slider main container -->
-            <div class="swiper-container community-details-swiper-container pl-sm-3">
+            <div class="swiper-container community-details-swiper-containerV2">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
+
+                    <?php foreach ($available_fp as $fp) { ?>
                     <!-- Slides -->
-                    <?php 
-                foreach ($available_fp as $fp) {
-                ?>
                     <div class="swiper-slide py-3">
                         <div class="z-depth-1 h-100 bg-white">
-                            <?php include(ROOT_PATH."includes/components/floorplan/floorplanListV3.php"); ?>
+                            <?php include(ROOT_PATH."includes/components/floorplan/floorplanListV4.php"); ?>
                         </div>
                     </div>
                     <?php } ?>
-                </div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-next">
-                    <img src="/images/arrow-right.svg" alt="arrow right icon">
-                </div>
-                <div class="swiper-button-prev">
-                    <img src="/images/arrow-left.svg" alt="arrow left icon">
+
                 </div>
             </div>
-            <?php } else if($comm['status'] == "soldLabel" || $comm['status'] == "sold") { ?>
-            <div class="pl-sm-3 my-3">
-                <h4 class="text-l-blue font-weight-bold">We're sold out!</h4>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next com-fp-btn-next z-depth-1">
+                <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                <i class="fa fa-chevron-right"></i>
             </div>
-            <?php } else { ?>
-            <div class="pl-sm-3 my-3">
-                <h4 class="text-l-blue font-weight-bold">We are currently building!</h4>
+            <div class="swiper-button-prev com-fp-btn-prev z-depth-1">
+                <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                <i class="fa fa-chevron-left"></i>
             </div>
-            <?php } ?>
         </div>
+        <?php } else { ?>
+        <div class="container-fluid max-lg-width-1140">
+            <div class="">
+                <h4 class="text-l-blue font-weight-normal my-3">We are currently building!</h4>
+            </div>
+        </div>
+        <?php } ?>
     </section>
 
     <!-- Community Quick Move-Ins -->
-    <section id="community-quick-move-ins" class="order-<?php echo $comm['sectionOrder']['quick-move-ins']; ?>">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="font-weight-bold m-0 pt-3 pl-sm-3">Quick Move-Ins</h3>
-                </div>
+    <section id="community-quick-move-ins"
+        class="bg-l-black py-3 order-<?php echo $comm['sectionOrder']['quick-move-ins']; ?>">
+        <div class="container-fluid max-lg-width-1140">
+            <div>
+                <h3 class="font-weight-bold m-0 pt-3 text-white">QUICK DELIVERIES</h3>
             </div>
-            <?php if(sizeof($available_qmi) != 0) { ?>
+        </div>
+        <?php if(sizeof($available_qmi) != 0) { ?>
+        <div class="container-fluid position-relative">
             <!-- Slider main container -->
-            <div class="swiper-container community-details-swiper-container pl-sm-3">
+            <div class="swiper-container community-details-swiper-containerV3">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
+
                     <?php foreach ($available_qmi as $key => $qmi) { ?>
+                    <!-- Slides -->
                     <div class="swiper-slide py-3">
-                        <div class="h-100">
-                            <?php include(ROOT_PATH."includes/components/quickMoveIns/quickMoveInsListV2.php");  ?>
+                        <div class="z-depth-1 h-100 bg-white">
+                            <?php include(ROOT_PATH."includes/components/quickMoveIns/quickMoveInsListV4.php"); ?>
                         </div>
                     </div>
                     <?php } ?>
-                </div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-next">
-                    <img src="/images/arrow-right.svg" alt="arrow right icon">
-                </div>
-                <div class="swiper-button-prev">
-                    <img src="/images/arrow-left.svg" alt="arrow left icon">
+
                 </div>
             </div>
-            <?php } else if($comm['status'] == "soldLabel" || $comm['status'] == "sold") { ?>
-            <div class="pl-sm-3 my-3">
-                <h4 class="text-l-blue font-weight-bold">We're sold out!</h4>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next com-qmi-btn-next z-depth-1">
+                <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                <i class="fa fa-chevron-right"></i>
             </div>
-            <?php } else { ?>
-            <div class="pl-sm-3 my-3">
-                <h4 class="text-l-blue font-weight-bold">We are currently building!</h4>
+            <div class="swiper-button-prev com-qmi-btn-prev z-depth-1">
+                <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                <i class="fa fa-chevron-left"></i>
             </div>
-            <?php } ?>
         </div>
+        <?php } else { ?>
+        <div class="container-fluid max-lg-width-1140">
+            <div class="">
+                <h4 class="text-white font-weight-normal my-3">We are currently building!</h4>
+            </div>
+        </div>
+        <?php } ?>
     </section>
 </div>
 

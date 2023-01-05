@@ -39,9 +39,8 @@ foreach ($comm['floorplans'] as $com_fp) {
 }
 
 // Get available quick move-ins
-$quickMoveIns = getQuickMoveIns(null, $comm['name'], null);
+// $quickMoveIns = getQuickMoveIns(null, $comm['name'], null);
 $available_qmi = array();
-
 foreach ($quickMoveIns as $key => $qmi) {
     $community_options = json_decode($qmi['community_options'], true);
     if($community_options['params'][$qmi['community_id']]['value'] == $community['name']) {
@@ -303,29 +302,61 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
     </section>
 
     <!-- Community Highlights -->
-    <section id="community-highlights" class="bg-l-black order-<?php echo $comm['sectionOrder']['overview']; ?>">
+    <section id="community-highlights" class="order-<?php echo $comm['sectionOrder']['overview']; ?>">
         <div class="container-fluid py-default max-lg-width-1140">
-            <div class="mb-3">
-                <h3 class="font-weight-bold text-white">COMMUNITY VIDEO HIGHLIGHTS</h3>
-            </div>
-            <div>
-                <?php 
-                $featured_status = false;
-                
-                foreach ($featured['featured'] as $feat) {  
-                    if($feat['comUrl'] == $url_path[2]) { 
-                        $featured_status = true;
-                    }}
-                ?>
-                <div class="row m-0">
+            <div class="row">
+                <div class="col-md-6">
                     <?php 
-                        foreach ($featured['featured'] as $featured) {
-                            if($featured['comUrl'] == $url_path[2]) { 
-                        ?>
-                    <div class="col-6 col-md-3 col-lg-2">
-                        <?php include(ROOT_PATH."includes/components/featuredListV2.php"); ?>
+                    $communityFeature = [];
+                    foreach ($featured['featured'] as $featured) {
+                        if($featured['comUrl'] == $url_path[2]) { 
+                            array_push($communityFeature, $featured);
+                        }}
+                    ?>
+                    <a href="<?php echo $communityFeature[0]['highlightUrl']['url']; ?>"
+                        <?php if($communityFeature[0]['highlightUrl']['type'] == "youtube") { ?>
+                        data-fancybox="highlight-<?php echo $communityFeature[0]['url']; ?>" <?php } ?>
+                        <?php if($communityFeature[0]['highlightUrl']['type'] == "360tour") { ?> target="_blank" <?php } ?>>
+                        <div class="view">
+                            <img src="/images/hero-slider/clarksburg-town-center-desktop.jpg" alt="<?php echo $featured['imgAlt']; ?>" class="img-fluid">
+                            <h4 class="text-black mt-3 font-weight-normal"><?php echo $featured['imgAlt']; ?></h4>
+                            <div class="mask cursor-pointer">
+                                <?php if($featured['highlightUrl']['type'] == "youtube") { ?>
+                                <div class="big_play_btn_wrap cursor-pointer">
+                                    <img src="/images/icon/youtube.svg" alt="Play button icon" class="play_btn youtube">
+                                </div>
+                                <?php } ?>
+                                <?php if($featured['highlightUrl']['type'] == "360tour") { ?>
+                                <div class="big_play_btn_wrap big_tour_btn_wrap cursor-pointer">
+                                    <img src="/images/icon/360tour.svg" alt="360 Tour icon" class="play_btn tour_btn">
+                                </div>
+                                <?php } ?>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="community-highlight-swiper">
+                        <h3 class="font-weight-bold text-white mt-2 mb-4">VIDEO HIGHLIGHTS</h3>
+                        <div class="swiper-container community-highlight-swiper-container">
+                            <div class="swiper-wrapper">
+                                <?php foreach ($communityFeature as $featured) { ?>
+                                <div class="swiper-slide">
+                                    <?php include(ROOT_PATH."includes/components/featuredList.php"); ?>
+                                </div>
+                                <?php } ?>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-next">
+                            <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
                     </div>
-                    <?php }} ?>
                 </div>
             </div>
         </div>
@@ -486,7 +517,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             </div>
         </div>
         <?php if(sizeof($available_fp) != 0) { ?>
-        <div class="container-fluid">
+        <div class="container-fluid position-relative">
             <!-- Slider main container -->
             <div class="swiper-container community-details-swiper-containerV2">
                 <!-- Additional required wrapper -->
@@ -502,6 +533,15 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     <?php } ?>
 
                 </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next com-fp-btn-next z-depth-1">
+                <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                <i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev com-fp-btn-prev z-depth-1">
+                <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                <i class="fa fa-chevron-left"></i>
             </div>
         </div>
         <?php } else { ?>
@@ -522,9 +562,9 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             </div>
         </div>
         <?php if(sizeof($available_qmi) != 0) { ?>
-        <div class="container-fluid">
+        <div class="container-fluid position-relative">
             <!-- Slider main container -->
-            <div class="swiper-container community-details-swiper-containerV2">
+            <div class="swiper-container community-details-swiper-containerV3">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
 
@@ -538,6 +578,15 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     <?php } ?>
 
                 </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next com-qmi-btn-next z-depth-1">
+                <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                <i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev com-qmi-btn-prev z-depth-1">
+                <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                <i class="fa fa-chevron-left"></i>
             </div>
         </div>
         <?php } else { ?>

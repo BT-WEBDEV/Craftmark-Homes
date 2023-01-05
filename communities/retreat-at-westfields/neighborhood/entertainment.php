@@ -13,4 +13,5 @@
     <li>Chantilly National Golf & Country Club</li>
     <li>Westfields Golf Club</li>
     <li>Steven F. Udvar-Hazy Center</li>
+    <li>Stratton Woods Park</li>
 </ul>

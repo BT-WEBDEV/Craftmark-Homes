@@ -195,6 +195,32 @@ var communitySiteplanSwiper = new Swiper('.community-siteplan-swiper-container',
     }
 });
 
+var communityHighlightSwiper = new Swiper('.community-highlight-swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    preventClicks: false,
+    preventClicksPropagation: false,
+    breakpoints: {
+        576: {
+            slidesPerView: 1
+        },
+        767: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            allowTouchMove: false,
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            allowTouchMove: false,
+        }
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
 // Mobile Single Swiper
 var mobileSingleSwiper = new Swiper('.mobile-single-swiper-container', {
     slidesPerView: 1.2,
@@ -295,6 +321,7 @@ var communityDetailsSwiper = new Swiper('.community-details-swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
+
 var communityDetailsSwiperV2 = new Swiper('.community-details-swiper-containerV2', {
     slidesPerView: 1.4,
     spaceBetween: 10,
@@ -302,31 +329,34 @@ var communityDetailsSwiperV2 = new Swiper('.community-details-swiper-containerV2
     preventClicksPropagation: false,
     centeredSlides: true,
     breakpoints: {
-        767: {
-            loop: false,
-            slidesPerView: 2,
-            spaceBetween: 10,
-        },
-        1024: {
-            loop: false,
-            slidesPerView: 1.2,
-            spaceBetween: 5,
-            spaceBetween: 20,
-            slidesPerGroup: 4.5,
-            allowTouchMove: false,
-        },
-        1300: {
-            loop: false,
+        1200: {
             slidesPerView: 1.4,
-            spaceBetween: 5,
             spaceBetween: 20,
-            slidesPerGroup: 4.5,
             allowTouchMove: false,
-        }
+        },
     },
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.com-fp-btn-next',
+        prevEl: '.com-fp-btn-prev',
+    },
+});
+
+var communityDetailsSwiperV3 = new Swiper('.community-details-swiper-containerV3', {
+    slidesPerView: 1.4,
+    spaceBetween: 10,
+    preventClicks: false,
+    preventClicksPropagation: false,
+    centeredSlides: true,
+    breakpoints: {
+        1200: {
+            slidesPerView: 1.4,
+            spaceBetween: 20,
+            allowTouchMove: false,
+        },
+    },
+    navigation: {
+        nextEl: '.com-qmi-btn-next',
+        prevEl: '.com-qmi-btn-prev',
     },
 });
 

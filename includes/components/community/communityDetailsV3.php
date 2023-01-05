@@ -98,7 +98,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                 class="font-weight-normal"><?php echo $comm['priceInfo']['label'] ?>
                                 $<?php echo ($comm['priceInfo']['price'] != 0) ? $comm['priceInfo']['price'] : " -- "; ?><?php echo ($comm['priceInfo']['priceTag']) ? $comm['priceInfo']['priceTag'] : "s"; ?>
                             </p>
-                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Perfectly Priced</p>'; }?>
+                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Pre-Construction Pricing</p>'; }?>
                         </div>
                     </div>
                 </div>
@@ -247,9 +247,9 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             <li class="nav-item order-<?php echo $comm['sectionOrder']['overview']; ?>">
                 <a class="nav-link active" href="#community-overview">OVERVIEW</a>
             </li>
-            <li class="nav-item order-<?php echo $comm['sectionOrder']['floorplans']; ?>">
+            <!-- <li class="nav-item order-<?php echo $comm['sectionOrder']['floorplans']; ?>">
                 <a class="nav-link" href="#community-floorplans">FLOOR PLANS</a>
-            </li>
+            </li> --> 
             <li class="nav-item order-<?php echo $comm['sectionOrder']['neighborhood']; ?>">
                 <a class="nav-link" href="#community-neighborhood">NEIGHBORHOOD</a>
             </li>
@@ -500,7 +500,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
         </div>
     </section>
 
-    <!-- Community Floorplans - SO IS COMMUNITY MENU LINK --> 
+    <!-- Community Floorplans CURRENTLY HIDDEN - SO IS COMMUNITY MENU LINK --> 
     <section id="community-floorplans" class="order-<?php echo $comm['sectionOrder']['floorplans']; ?> py-3" >
         <div class="container-fluid">
             <div class="row">
@@ -587,7 +587,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
     </section>
 </div>
 
-<?php if($community['url'] == "") { ?>
+<?php if($community['url'] == "darnestown-station") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -597,15 +597,15 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <a target="_blank" href="https://www.facebook.com/events/468364668762736/?sfnsn=mo&extid=a&mibextid=hOoF3G">
-                        <img src="/images/popup/09630-CMH-MGO-PopUp-CBranch.jpg"
+                    <a target="_blank" href="https://fb.me/e/5j0ebXHsx">
+                        <img src="/images/popup/02422-CMH-WebEdits-Web-CMH-PopUp-800x800.jpg"
                             alt="The Retreat at Westfields Model Grand Opening" class="img-fluid w-100">
                     </a>
                 </div>
             </div>
         </div>
     </section>
-<?php } elseif($community['url'] == "") { ?>
+<?php } elseif($community['url'] == "clarksburg-town-center") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
