@@ -1767,7 +1767,7 @@
                 "textColor": "black",
                 "btnText": "white"
             },
-            "headerInput1": "3-Level Townhome from Upper $600s<br>4-Level Townhome from Low $700s<br>Take Advantage of Year End Incentives",
+            "headerInput1": "3-Level Townhome from Upper $600s<br>4-Level Townhome from Low $700s<br>Visit Our NEW DESIGN and Model Features!",
             "headerInput2": "",
             "gallery": [
                 [1, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
@@ -2358,22 +2358,22 @@
             },
             "address": {
                 "county": "Anne Arundel Co., MD",
-                "coords": ["39.091690", "-76.778633"],
+                "coords": ["39.091108", "-76.7778869"],
                 "addresses": [{
                     "label": "Community Location:",
                     "outOfCommunity": false,
                     "address": {
-                        "street1": "3277 MD-198",
+                        "street1": "3200 Wellspring Lane",
                         "street2": "",
                         "city": "Laurel",
                         "state": "MD",
-                        "zip": ""
+                        "zip": "20724"
                     },
-                    "direction": "https://goo.gl/maps/4XEzwCMhR53zbzvZ6"
+                    "direction": "https://goo.gl/maps/y9LAWdjVDMhdY3vu8"
                 }]
             },
             "salesAgent": {
-                "label": "*Personal Appointments Required. Please Contact to Schedule!",
+                "label": "Appointments Preferred",
                 "agents": [{
                     "agentName": "Eric Yakuchev",
                     "phone": "(703) 989-6662",

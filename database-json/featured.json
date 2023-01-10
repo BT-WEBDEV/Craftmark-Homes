@@ -29,6 +29,31 @@
         {
             "statusInput": ["live", "sold", "home"],
             "status": "home",
+            "url": "watershed",
+            "comUrl": "watershed",
+            "featureName": "Watershed",
+            "imgAlt": "Virtual Tour for Watershed",
+            "mainImage": "B2-bluemont.png",
+            "imageFrame" : "B1-bluemont.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=YQsNayGZ25Q"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
             "url": "darnestown-station",
             "comUrl": "darnestown-station",
             "featureName": "Darnestown Station",
