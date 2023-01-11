@@ -2,7 +2,466 @@
     "floorplanTypes": [{
             "type": "townhomes",
             "header": "Townhomes",
-            "floorplans": [
+            "floorplans": [{
+                "name": "The Bluemont",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": false,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "bluemont",
+                "awards": false,
+                "listingImg": ["listingImg.jpg", "The Bluemont Floor Plan, Townhomes Available at Watershed, MD"],
+                "gallery": [
+                    [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [3, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [4, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [5, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [6, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [7, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [8, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [9, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [10, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [11, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Richmond by Craftmark", ""],
+                    [2, "Richmond by Craftmark", ""],
+                    [3, "Richmond by Craftmark", ""],
+                    [4, "Richmond by Craftmark", ""]
+                ],
+                "videoTour": false,
+                "3DTour": false,
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Up to",
+                    "sqFeet": "2,803",
+                    "stories": 4,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "2",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": "2"
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "2-4 full 1-2 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets"],
+                    "PlanOpenAmenity": null,
+                    "Description": "",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["ShakeShingle"],
+                    "Skylight": true,
+                    "SprinklerSystem": false,
+                    "Wetbar": false,
+                    "Wired": false
+                }
+            },
+            {
+                "name": "The Richmond at Retreat at Westfields",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": 699900,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "richmond-at-retreat-at-westfields",
+                "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Chantilly, VA"],
+                "gallery": [
+                    [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Richmond by Craftmark", ""],
+                    [2, "Richmond by Craftmark", ""],
+                    [3, "Richmond by Craftmark", ""],
+                    [4, "Richmond by Craftmark", ""]
+                ],
+                "videoTour": "https://youtu.be/guljwi89A6o",
+                "3DTour": "http://my.matterport.com/show/?m=PSbzGfuNLAH",
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Up to",
+                    "sqFeet": "2,373",
+                    "stories": 4,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "3",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": "2"
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "3-4 full 1-2 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets"],
+                    "PlanOpenAmenity": null,
+                    "Description": "Now Selling Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["ShakeShingle"],
+                    "Skylight": true,
+                    "SprinklerSystem": false,
+                    "Wetbar": false,
+                    "Wired": false
+                }
+            },
+            {
+                "name": "The Seneca",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": 689900,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "seneca",
+                "listingImg": ["listingImg.jpg", "The Seneca Floor Plan, Townhomes Available at Clarkburg, MD"],
+                "gallery": [
+                    [1, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [2, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [3, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [4, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Seneca by Craftmark", ""],
+                    [2, "Seneca by Craftmark", ""],
+                    [3, "Seneca by Craftmark", ""],
+                    [4, "Seneca by Craftmark", ""]
+                ],
+                "videoTour": "",
+                "3DTour": "",
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Starting",
+                    "sqFeet": "2,600",
+                    "stories": 3,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "3",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": ""
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "3-4 full 1 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "Up",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets","GreenConstruction","VaultedCeilings"],
+                    "PlanOpenAmenity": null,
+                    "Description": "Now Selling 55+ Active Adult ELEVATOR Townhomes Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage | Private Elevator",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick","Stone","Vinyl"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["Asphalt"],
+                    "Skylight": true,
+                    "SprinklerSystem": true,
+                    "Wetbar": false,
+                    "Wired": true
+                }
+            },
+            {
+                "name": "The Richmond",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": 549900,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "richmond",
+                "awards": true,
+                "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Clarksburg Town Center, MD"],
+                "gallery": [
+                    [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [4, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [6, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [7, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [8, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [9, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [10, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [11, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [12, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [13, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [14, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [15, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [16, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [17, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [18, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [19, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [20, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                    [21, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Richmond by Craftmark", ""],
+                    [2, "Richmond by Craftmark", ""],
+                    [3, "Richmond by Craftmark", ""],
+                    [4, "Richmond by Craftmark", ""]
+                ],
+                "videoTour": "https://youtu.be/RcQhpptO0zk",
+                "3DTour": "https://my.matterport.com/show/?m=9s2hsn9nbRU",
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Up to",
+                    "sqFeet": "2,500",
+                    "stories": 4,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "3",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": "2"
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "3-4 full 1-2 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets"],
+                    "PlanOpenAmenity": null,
+                    "Description": "",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["ShakeShingle"],
+                    "Skylight": true,
+                    "SprinklerSystem": false,
+                    "Wetbar": false,
+                    "Wired": false
+                }
+            },
+            {
+                "name": "The Fairland",
+                "statusInput": ["live", "sold"],
+                "status": "live",
+                "basePrice": false,
+                "modelStatus": false,
+                "orderRate": false,
+                "url": "fairland",
+                "awards": false,
+                "listingImg": ["listingImg.jpg", "The Fairland Floor Plan, Townhomes Available at Watershed, MD"],
+                "gallery": [
+                    [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [3, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+                    [4, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"]
+                ],
+                "fpImage": [
+                    [1, "Garage", ""],
+                    [2, "Standard Ground Floor", ""],
+                    [3, "First Floor", ""],
+                    [4, "Second Floor", ""],
+                    [5, "Alt Second Floor", ""],
+                    [6, "Optional Loft & Bath", ""]
+                ],
+                "exteriorImage": [
+                    [1, "Richmond by Craftmark", ""],
+                    [2, "Richmond by Craftmark", ""],
+                    [3, "Richmond by Craftmark", ""],
+                    [4, "Richmond by Craftmark", ""]
+                ],
+                "videoTour": false,
+                "3DTour": false,
+                "pdf": "floorPlans.pdf",
+                "specs": {
+                    "sqFeetLabel": "Up to",
+                    "sqFeet": "2,422",
+                    "stories": 4,
+                    "beds": {
+                        "min": "3",
+                        "max": "5"
+                    },
+                    "fullBaths": {
+                        "min": "2",
+                        "max": "4"
+                    },
+                    "halfBaths": {
+                        "min": "1",
+                        "max": "2"
+                    },
+                    "garage": {
+                        "min": "2",
+                        "max": ""
+                    }
+                },
+                "details": [
+                    "3-5 Bedrooms",
+                    "2-4 full 1-2 half Baths",
+                    "2-Car Garage"
+                ],
+                "fpVersions": [],
+                "zillow": {
+                    "Type": "MultiFamily",
+                    "PlanTypeName": "Townhome",
+                    "MasterBedLocation": "",
+                    "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
+                    "Basement": false,
+                    "PlanAmenity": ["WalkInClosets"],
+                    "PlanOpenAmenity": null,
+                    "Description": "",
+                    "ArchitectureStyle": "Modern",
+                    "Attic": false,
+                    "CoolingSystems": ["Central"],
+                    "Deck": false,
+                    "Dock": false,
+                    "DoublePaneWindows": true,
+                    "ExteriorTypes": ["Brick"],
+                    "HeatingFuel": ["Gas"],
+                    "HeatingSystems": ["ForcedAir"],
+                    "ParkingTypes": ["GarageAttached"],
+                    "Patio": false,
+                    "Porch": false,
+                    "RoofTypes": ["ShakeShingle"],
+                    "Skylight": true,
+                    "SprinklerSystem": false,
+                    "Wetbar": false,
+                    "Wired": false
+                }
+            },
                 {
                     "name": "The Annapolis",
                     "statusInput": ["live", "sold"],
@@ -93,6 +552,107 @@
                         "Attic": false,
                         "CoolingSystems": ["Central"],
                         "Deck": true,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": [],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": [],
+                        "Patio": false,
+                        "Porch": false,
+                        "RoofTypes": ["ShakeShingle"],
+                        "Skylight": false,
+                        "SprinklerSystem": false,
+                        "Wetbar": false,
+                        "Wired": false
+                    }
+                },
+                {
+                    "name": "The Bellevue",
+                    "statusInput": ["live", "sold"],
+                    "status": "sold",
+                    "basePrice": 909900,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "bellevue",
+                    "awards": true,
+                    "listingImg": ["listingImg.jpg", "The Bellevue Floor Plan, Townhomes Available in Gaithersburg, MD"],
+                    "gallery": [
+                        [1, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [2, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [3, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [4, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [5, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [6, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [7, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [8, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [9, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [10, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [11, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [12, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [13, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [14, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [15, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [16, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [17, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [18, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [19, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [20, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
+                        [21, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "Ground Floor & Second Floor", ""],
+                        [3, "Third Floor", ""],
+                        [4, "Optional Loft", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, " by Craftmark", ""]
+                    ],
+                    "videoTour": "https://youtu.be/5spe3P2JVVk",
+                    "3DTour": "https://my.matterport.com/show/?m=tRPAN2weMN9",
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "Up to",
+                        "sqFeet": "3,106",
+                        "stories": 4,
+                        "beds": {
+                            "min": "3",
+                            "max": "5"
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "2",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "3-4 Bedrooms",
+                        "From 3.5 BA",
+                        "2-Car Carage",
+                        "Up to 3,106 sq. ft."
+                    ],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["LivingRoom"],
+                        "Basement": false,
+                        "PlanAmenity": [],
+                        "PlanOpenAmenity": null,
+                        "Description": "",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": false,
                         "Dock": false,
                         "DoublePaneWindows": true,
                         "ExteriorTypes": [],
@@ -202,6 +762,523 @@
                         "SprinklerSystem": false,
                         "Wetbar": false,
                         "Wired": false
+                    }
+                },
+                {
+                    "name": "The Westfield",
+                    "statusInput": ["live", "sold"],
+                    "status": "sold",
+                    "basePrice": 574900,
+                    "modelStatus": true,
+                    "orderRate": false,
+                    "url": "westfield",
+                    "listingImg": ["listingImg.jpg", "The Westfield Floor Plan, Townhomes Available in Chantilly, VA"],
+                    "gallery": [
+                        [1, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [2, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [3, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [4, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [5, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [6, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [7, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [8, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [9, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "Ground Floor", ""],
+                        [3, "First Floor", ""],
+                        [4, "Second Floor & Loft Floor", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "Westfield by Craftmark", ""],
+                        [2, "Westfield by Craftmark", ""]
+                    ],
+                    "videoTour": false,
+                    "3DTour": "https://my.matterport.com/show/?m=e7i9KjD264Y",
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "2,126",
+                        "stories": null,
+                        "beds": {
+                            "min": "3",
+                            "max": "4"
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": "4"
+                        },
+                        "halfBaths": {
+                            "min": "",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "1",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "Rec Room",
+                        "Front or Rear Roof Top Terrace",
+                        "Optional Deck"
+                    ],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["LivingRoom", "DiningRoom", "FamilyRoom", "Loft"],
+                        "Basement": false,
+                        "PlanAmenity": [],
+                        "PlanOpenAmenity": null,
+                        "Description": "Base: From $574,900 End Unit: From $729,900 Welcome to The Westfield model by Craftmark Homes at The Preserve at Westfields. You'll be impressed by our thoughtful layout of the 3-4 bedrooms & 3-4 full & 1/2 bathrooms included in this home's 2,126 sq. ft. of space on four finished levels (sneak peek - each bedroom has its own bath!). When you enter through the front door at ground level, a welcoming foyer leads you to the stairs to the main floor. Depending on your elevation, a spacious recreation room gives you great space to entertain or create your dream home office, or form the perfect guest suite with a bedroom & full bath. Head upstairs to the first floor, where you'll love the open concept layout of the kitchen & dining space, featuring a large breakfast island with a quartz countertop & lots of soft-close storage. You'll love inviting friends & family to gather in the great room or family room, with a convenient powder room. If you choose to add an optional deck, you'll enjoy extra hosting space. The second floor offers two owner's bedrooms featuring full baths & spacious closets (we told you, you'd like this!). There's also a convenient, easy-access laundry space so you don't have to haul hampers around. The Westfield's loft floor lets you entertain indoors or out, with plenty of room to relax a spacious terrace to the front or rear of the home. This floor also has a bedroom & full bath, so you can deck out an in-law suite or keep the awesome view y",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": false,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": [],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": [],
+                        "Patio": false,
+                        "Porch": false,
+                        "RoofTypes": ["ShakeShingle"],
+                        "Skylight": false,
+                        "SprinklerSystem": false,
+                        "Wetbar": false,
+                        "Wired": false
+                    }
+                },
+                {
+                    "name": "The Glendale",
+                    "statusInput": ["live", "sold"],
+                    "status": "sold",
+                    "basePrice": 749900,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "glendale",
+                    "listingImg": ["listingImg.jpg", "The Glendale Floor Plan, Townhomes Available in Alexandria, VA"],
+                    "gallery": [
+                        [1, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [2, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [3, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [4, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [5, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [6, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [7, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [8, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [9, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [10, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [11, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
+                        [12, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "Ground Floor", ""],
+                        [3, "First Floor", ""],
+                        [4, "Second Floor & Terrace & Loft Floor", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "Glendale by Craftmark", ""],
+                        [2, "Glendale by Craftmark", ""],
+                        [3, "Glendale by Craftmark", ""]
+                    ],
+                    "videoTour": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&t=6s",
+                    "3DTour": "https://my.matterport.com/show/?m=EFECZMF4TYw",
+                    "pdf": "floorPlans-townsatsouthalex.pdf",
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "2,896+",
+                        "stories": null,
+                        "beds": {
+                            "min": "4",
+                            "max": ""
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "Morning Room",
+                        "Rec Room",
+                        "Roof Terrace",
+                        "Optional Deck"
+                    ],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["LivingRoom", "FamilyRoom", "GameRoom", "Loft", "SunRoom"],
+                        "Basement": false,
+                        "PlanAmenity": [],
+                        "PlanOpenAmenity": null,
+                        "Description": "Watch a video tour! https://youtu.be/9Jt5o7kG-wQ The Glendale at Towns at South Alex offers 2,494-2,796 sq. ft. of living on 4 thoughtful levels. Its spacious interior accommodates all lifestyles with 4 bedrooms, 3 full baths, & 2 powder rooms, ready for personal touches. Enter through the front door to a welcoming foyer, or through the 2-car garage. The ground floor Rec Room with a powder room is the ideal setting for a den or playroom & opens into your backyard space. Head upstairs to the 1st floor, to a space perfect for entertaining. The large kitchen with a powder room & incredible island has plenty of soft-close storage & seating. A Morning Room lets in the sunlight & can open onto an optional deck, while the Gathering Room provides more space for hosting. The second floor is where you'll find the spacious owner's suite, with 2 walk-in closets & a luxurious ensuite bath that includes a soaking tub & separate shower. This floor also hosts bedrooms 2 & 3 (each with large closets), an additional full bath, & a convenient laundry space. Alternatively, bedrooms 2 & 3 can combine into a flex room, creating a larger room ready for your imagination. The alternate layout also provides a larger laundry room. Head upstairs to The Glendale at South Alex's terrace floor, where you'll walk out to nearly 350 sq. ft. of rooftop entertaining heaven - perfect for evenings with friends or summer afternoons in the sun. Include the optional gas fireplace & watch the stars.",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": true,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": ["Brick", "Stone"],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": ["GarageAttached"],
+                        "Patio": true,
+                        "Porch": false,
+                        "RoofTypes": ["ShakeShingle"],
+                        "Skylight": false,
+                        "SprinklerSystem": false,
+                        "Wetbar": false,
+                        "Wired": false
+                    }
+                },
+                {
+                    "name": "The Broadmoor",
+                    "statusInput": ["live", "sold"],
+                    "status": "sold",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "broadmoor",
+                    "listingImg": ["listingImg.jpg", ""],
+                    "gallery": [
+                        [1, "The Broadmoor Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "Ground Floor", ""],
+                        [3, "Second", ""],
+                        [4, "Third Floor", ""],
+                        [5, "Third Floor & Optional Dual Owner's Suite", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "Broadmoor by Craftmark", ""]
+                    ],
+                    "videoTour": false,
+                    "3DTour": false,
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "2,647-2,935",
+                        "stories": null,
+                        "beds": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "fullBaths": {
+                            "min": "2",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "1",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["LivingRoom"],
+                        "Basement": false,
+                        "PlanAmenity": [],
+                        "PlanOpenAmenity": null,
+                        "Description": "",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": false,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": [],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": [],
+                        "Patio": false,
+                        "Porch": false,
+                        "RoofTypes": ["ShakeShingle"],
+                        "Skylight": false,
+                        "SprinklerSystem": false,
+                        "Wetbar": false,
+                        "Wired": false
+                    }
+                },
+                {
+                    "name": "The Westmont",
+                    "statusInput": ["live", "sold"],
+                    "status": "sold",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "westmont",
+                    "listingImg": ["listingImg.jpg", ""],
+                    "gallery": [
+                        [1, "The Westmont Floor Plan, 3-4 BR, 3 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "", ""],
+                        [3, "", ""],
+                        [4, "", ""],
+                        [5, "", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "", ""]
+                    ],
+                    "videoTour": false,
+                    "3DTour": false,
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "",
+                        "stories": null,
+                        "beds": {
+                            "min": "3",
+                            "max": "4"
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "Recreation room",
+                        "Great room",
+                        "4th level loft",
+                        "Rooftop terrace"
+                    ],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["LivingRoom"],
+                        "Basement": false,
+                        "PlanAmenity": [],
+                        "PlanOpenAmenity": null,
+                        "Description": "",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": false,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": [],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": [],
+                        "Patio": false,
+                        "Porch": false,
+                        "RoofTypes": ["ShakeShingle"],
+                        "Skylight": false,
+                        "SprinklerSystem": false,
+                        "Wetbar": false,
+                        "Wired": false
+                    }
+                },
+                {
+                    "name": "The Brookville",
+                    "statusInput": ["live", "sold"],
+                    "status": "sold",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "brookville",
+                    "listingImg": ["listingImg.jpg", ""],
+                    "gallery": [
+                        [1, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [2, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [3, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [4, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [5, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [6, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [7, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [8, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
+                        [9, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "", ""],
+                        [3, "", ""],
+                        [4, "", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, " by Craftmark", ""],
+                        [2, " by Craftmark", ""],
+                        [3, " by Craftmark", ""]
+                    ],
+                    "videoTour": false,
+                    "3DTour": false,
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "2,638",
+                        "stories": null,
+                        "beds": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "fullBaths": {
+                            "min": "2",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "1",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "2 Huge Owner’s Suite Walk-In Closets",
+                        "Family Room Niches",
+                        "2-Car Garage"
+                    ],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["LivingRoom"],
+                        "Basement": false,
+                        "PlanAmenity": [],
+                        "PlanOpenAmenity": null,
+                        "Description": "",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": false,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": [],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": [],
+                        "Patio": false,
+                        "Porch": false,
+                        "RoofTypes": ["ShakeShingle"],
+                        "Skylight": false,
+                        "SprinklerSystem": false,
+                        "Wetbar": false,
+                        "Wired": false
+                    }
+                },
+                {
+                    "name": "The Bradley",
+                    "statusInput": ["live", "sold"],
+                    "status": "sold",
+                    "basePrice": 937140,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "bradley",
+                    "listingImg": ["listingImg.jpg", ""],
+                    "gallery": [
+                        [1, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [2, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [3, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [4, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [5, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [6, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [7, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [8, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [9, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [10, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
+                        [11, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "Ground Level & First Floor", ""],
+                        [3, "Second Floor & Third Floor", ""],
+                        [4, "Elevation", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "Bradley by Craftmark", ""],
+                        [2, "Bradley by Craftmark", ""]
+                    ],
+                    "videoTour": "https://www.youtube.com/watch?v=VUed94TpKJw&feature=youtu.be",
+                    "3DTour": "https://my.matterport.com/show/?m=DvGVYzhcxPo",
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "2,570+",
+                        "stories": 4,
+                        "beds": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "2",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "3 Bedrooms",
+                        "3 full 2 half Baths",
+                        "2-Car Garage"
+                    ],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["DiningRoom", "FamilyRoom", "LivingRoom", "Loft", "MediaRoom"],
+                        "Basement": false,
+                        "PlanAmenity": ["WalkInClosets"],
+                        "PlanOpenAmenity": null,
+                        "Description": "This stunning 4-level rooftop townhome will introduce you to a better everyday life. With Craftmark Homes' attention to detail & industry-leading included features, you'll enjoy a standard of living above the rest. Our character count won't cover The Bradley's excellence. Make an appointment to review our full features, including more on each of the categories below, ENERGY SAVING & DELUXE BATHS details, and Craftmark's COMMITMENT TO QUALITY. LUXURY FEATURES ? Rooftop Terrace ? Deck ? 9' Ceilings (All Levels Except Loft) ? Crown Molding on Main Living Level ? 5\" Engineered Hardwood Flooring on Main Level ? Oak Stairs on Ground Level ? 5 1/2\" Base Molding Throughout ? Designer Carpet in Selected Areas (per plan) ? Designer Doors w/ Schlage® Chrome Hardware ? Multi-port Tech Wiring Package w/ RG-6 & CAT-6 ? (2) Wireless Access Point Pre-Wires ? Home Automation System w/ 1 Year of Service & Garage Connectivity ? Two-Tone Low VOC Interior Paint Package ? Recessed LED Lighting Package (per plan) ? Professional Landscaping Package GOURMET KITCHEN ? 42\" Maple Wall Cabinets ? Soft Close Dovetail Drawers & Soft Close Hinges ? Quartz Countertops ? Single-Bowl Under Mount Stainless Steel Sink ? Polished Chrome Delta Pullout Faucet ? Chrome Hardware ? Garbage Disposal ? Bosch® Stainless Steel Appliance Package - Energy Star® 20.2 cu. ft. Counter-Depth Side by Side Refrigerator -Energy Star® Dishwasher -Slide-in 5-Burner Freestanding Range -Over-t",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": true,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": ["Brick", "Composition"],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": ["GarageAttached"],
+                        "Patio": true,
+                        "Porch": false,
+                        "RoofTypes": ["Asphalt"],
+                        "Skylight": false,
+                        "SprinklerSystem": true,
+                        "Wetbar": false,
+                        "Wired": true
                     }
                 },
                 {
@@ -324,1085 +1401,7 @@
                         "Wetbar": false,
                         "Wired": false
                     }
-                },
-                {
-                    "name": "The Bellevue",
-                    "statusInput": ["live", "sold"],
-                    "status": "sold",
-                    "basePrice": 909900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "bellevue",
-                    "awards": true,
-                    "listingImg": ["listingImg.jpg", "The Bellevue Floor Plan, Townhomes Available in Gaithersburg, MD"],
-                    "gallery": [
-                        [1, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [2, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [3, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [4, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [5, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [6, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [7, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [8, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [9, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [10, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [11, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [12, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [13, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [14, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [15, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [16, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [17, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [18, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [19, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [20, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"],
-                        [21, "The Bellevue Floor Plan, From 3.5 BA, 3-4 BR, 2-Car Garage, Elevator Townhomes in MD, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Brochure Elevation", ""],
-                        [2, "Ground Floor & Second Floor", ""],
-                        [3, "Third Floor", ""],
-                        [4, "Optional Loft", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, " by Craftmark", ""]
-                    ],
-                    "videoTour": "https://youtu.be/5spe3P2JVVk",
-                    "3DTour": "https://my.matterport.com/show/?m=tRPAN2weMN9",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Up to",
-                        "sqFeet": "3,106",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": ""
-                        },
-                        "halfBaths": {
-                            "min": "2",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-4 Bedrooms",
-                        "From 3.5 BA",
-                        "2-Car Carage",
-                        "Up to 3,106 sq. ft."
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom"],
-                        "Basement": false,
-                        "PlanAmenity": [],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": [],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": [],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": false,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Bluemont",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": false,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "bluemont",
-                    "awards": false,
-                    "listingImg": ["listingImg.jpg", "The Bluemont Floor Plan, Townhomes Available at Watershed, MD"],
-                    "gallery": [
-                        [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [3, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [4, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [5, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [6, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [7, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [8, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [9, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [10, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [11, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Richmond by Craftmark", ""],
-                        [2, "Richmond by Craftmark", ""],
-                        [3, "Richmond by Craftmark", ""],
-                        [4, "Richmond by Craftmark", ""]
-                    ],
-                    "videoTour": false,
-                    "3DTour": false,
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Up to",
-                        "sqFeet": "2,803",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "2",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": "2"
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "2-4 full 1-2 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets"],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": true,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Bradley",
-                    "statusInput": ["live", "sold"],
-                    "status": "sold",
-                    "basePrice": 937140,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "bradley",
-                    "listingImg": ["listingImg.jpg", ""],
-                    "gallery": [
-                        [1, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [2, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [3, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [4, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [5, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [6, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [7, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [8, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [9, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [10, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"],
-                        [11, "The Bradley Floor Plan, 3 BR, 3.5 Baths, 2-Car Garage, Townhomes in VA, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Brochure Elevation", ""],
-                        [2, "Ground Level & First Floor", ""],
-                        [3, "Second Floor & Third Floor", ""],
-                        [4, "Elevation", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Bradley by Craftmark", ""],
-                        [2, "Bradley by Craftmark", ""]
-                    ],
-                    "videoTour": "https://www.youtube.com/watch?v=VUed94TpKJw&feature=youtu.be",
-                    "3DTour": "https://my.matterport.com/show/?m=DvGVYzhcxPo",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "",
-                        "sqFeet": "2,570+",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": ""
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": ""
-                        },
-                        "halfBaths": {
-                            "min": "2",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3 Bedrooms",
-                        "3 full 2 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["DiningRoom", "FamilyRoom", "LivingRoom", "Loft", "MediaRoom"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets"],
-                        "PlanOpenAmenity": null,
-                        "Description": "This stunning 4-level rooftop townhome will introduce you to a better everyday life. With Craftmark Homes' attention to detail & industry-leading included features, you'll enjoy a standard of living above the rest. Our character count won't cover The Bradley's excellence. Make an appointment to review our full features, including more on each of the categories below, ENERGY SAVING & DELUXE BATHS details, and Craftmark's COMMITMENT TO QUALITY. LUXURY FEATURES ? Rooftop Terrace ? Deck ? 9' Ceilings (All Levels Except Loft) ? Crown Molding on Main Living Level ? 5\" Engineered Hardwood Flooring on Main Level ? Oak Stairs on Ground Level ? 5 1/2\" Base Molding Throughout ? Designer Carpet in Selected Areas (per plan) ? Designer Doors w/ Schlage® Chrome Hardware ? Multi-port Tech Wiring Package w/ RG-6 & CAT-6 ? (2) Wireless Access Point Pre-Wires ? Home Automation System w/ 1 Year of Service & Garage Connectivity ? Two-Tone Low VOC Interior Paint Package ? Recessed LED Lighting Package (per plan) ? Professional Landscaping Package GOURMET KITCHEN ? 42\" Maple Wall Cabinets ? Soft Close Dovetail Drawers & Soft Close Hinges ? Quartz Countertops ? Single-Bowl Under Mount Stainless Steel Sink ? Polished Chrome Delta Pullout Faucet ? Chrome Hardware ? Garbage Disposal ? Bosch® Stainless Steel Appliance Package - Energy Star® 20.2 cu. ft. Counter-Depth Side by Side Refrigerator -Energy Star® Dishwasher -Slide-in 5-Burner Freestanding Range -Over-t",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": true,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick", "Composition"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": true,
-                        "Porch": false,
-                        "RoofTypes": ["Asphalt"],
-                        "Skylight": false,
-                        "SprinklerSystem": true,
-                        "Wetbar": false,
-                        "Wired": true
-                    }
-                },
-                {
-                    "name": "The Broadmoor",
-                    "statusInput": ["live", "sold"],
-                    "status": "sold",
-                    "basePrice": 0,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "broadmoor",
-                    "listingImg": ["listingImg.jpg", ""],
-                    "gallery": [
-                        [1, "The Broadmoor Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Brochure Elevation", ""],
-                        [2, "Ground Floor", ""],
-                        [3, "Second", ""],
-                        [4, "Third Floor", ""],
-                        [5, "Third Floor & Optional Dual Owner's Suite", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Broadmoor by Craftmark", ""]
-                    ],
-                    "videoTour": false,
-                    "3DTour": false,
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "",
-                        "sqFeet": "2,647-2,935",
-                        "stories": null,
-                        "beds": {
-                            "min": "3",
-                            "max": ""
-                        },
-                        "fullBaths": {
-                            "min": "2",
-                            "max": ""
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom"],
-                        "Basement": false,
-                        "PlanAmenity": [],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": [],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": [],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": false,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Brookville",
-                    "statusInput": ["live", "sold"],
-                    "status": "sold",
-                    "basePrice": 0,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "brookville",
-                    "listingImg": ["listingImg.jpg", ""],
-                    "gallery": [
-                        [1, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [2, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [3, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [4, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [5, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [6, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [7, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [8, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"],
-                        [9, "The Brookville Floor Plan, 3 BR, 2.5 BA, 2-Car Garage, Townhomes by Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Brochure Elevation", ""],
-                        [2, "", ""],
-                        [3, "", ""],
-                        [4, "", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, " by Craftmark", ""],
-                        [2, " by Craftmark", ""],
-                        [3, " by Craftmark", ""]
-                    ],
-                    "videoTour": false,
-                    "3DTour": false,
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "",
-                        "sqFeet": "2,638",
-                        "stories": null,
-                        "beds": {
-                            "min": "3",
-                            "max": ""
-                        },
-                        "fullBaths": {
-                            "min": "2",
-                            "max": ""
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "2 Huge Owner’s Suite Walk-In Closets",
-                        "Family Room Niches",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom"],
-                        "Basement": false,
-                        "PlanAmenity": [],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": [],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": [],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": false,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Fairland",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": false,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "fairland",
-                    "awards": false,
-                    "listingImg": ["listingImg.jpg", "The Fairland Floor Plan, Townhomes Available at Watershed, MD"],
-                    "gallery": [
-                        [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [3, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
-                        [4, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Richmond by Craftmark", ""],
-                        [2, "Richmond by Craftmark", ""],
-                        [3, "Richmond by Craftmark", ""],
-                        [4, "Richmond by Craftmark", ""]
-                    ],
-                    "videoTour": false,
-                    "3DTour": false,
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Up to",
-                        "sqFeet": "2,422",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "2",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": "2"
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "2-4 full 1-2 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets"],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": true,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Glendale",
-                    "statusInput": ["live", "sold"],
-                    "status": "sold",
-                    "basePrice": 749900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "glendale",
-                    "listingImg": ["listingImg.jpg", "The Glendale Floor Plan, Townhomes Available in Alexandria, VA"],
-                    "gallery": [
-                        [1, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [2, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [3, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [4, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [5, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [6, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [7, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [8, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [9, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [10, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [11, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [12, "The Glendale Floor Plan, 3 BA, 4 BR, 2-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Brochure Elevation", ""],
-                        [2, "Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor & Terrace & Loft Floor", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Glendale by Craftmark", ""],
-                        [2, "Glendale by Craftmark", ""],
-                        [3, "Glendale by Craftmark", ""]
-                    ],
-                    "videoTour": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&t=6s",
-                    "3DTour": "https://my.matterport.com/show/?m=EFECZMF4TYw",
-                    "pdf": "floorPlans-townsatsouthalex.pdf",
-                    "specs": {
-                        "sqFeetLabel": "",
-                        "sqFeet": "2,896+",
-                        "stories": null,
-                        "beds": {
-                            "min": "4",
-                            "max": ""
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": ""
-                        },
-                        "halfBaths": {
-                            "min": "",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "Morning Room",
-                        "Rec Room",
-                        "Roof Terrace",
-                        "Optional Deck"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GameRoom", "Loft", "SunRoom"],
-                        "Basement": false,
-                        "PlanAmenity": [],
-                        "PlanOpenAmenity": null,
-                        "Description": "Watch a video tour! https://youtu.be/9Jt5o7kG-wQ The Glendale at Towns at South Alex offers 2,494-2,796 sq. ft. of living on 4 thoughtful levels. Its spacious interior accommodates all lifestyles with 4 bedrooms, 3 full baths, & 2 powder rooms, ready for personal touches. Enter through the front door to a welcoming foyer, or through the 2-car garage. The ground floor Rec Room with a powder room is the ideal setting for a den or playroom & opens into your backyard space. Head upstairs to the 1st floor, to a space perfect for entertaining. The large kitchen with a powder room & incredible island has plenty of soft-close storage & seating. A Morning Room lets in the sunlight & can open onto an optional deck, while the Gathering Room provides more space for hosting. The second floor is where you'll find the spacious owner's suite, with 2 walk-in closets & a luxurious ensuite bath that includes a soaking tub & separate shower. This floor also hosts bedrooms 2 & 3 (each with large closets), an additional full bath, & a convenient laundry space. Alternatively, bedrooms 2 & 3 can combine into a flex room, creating a larger room ready for your imagination. The alternate layout also provides a larger laundry room. Head upstairs to The Glendale at South Alex's terrace floor, where you'll walk out to nearly 350 sq. ft. of rooftop entertaining heaven - perfect for evenings with friends or summer afternoons in the sun. Include the optional gas fireplace & watch the stars.",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": true,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick", "Stone"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": true,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": false,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Richmond",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": 549900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "richmond",
-                    "awards": true,
-                    "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Clarksburg Town Center, MD"],
-                    "gallery": [
-                        [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [4, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [6, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [7, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [8, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [9, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [10, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [11, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [12, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [13, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [14, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [15, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [16, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [17, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [18, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [19, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [20, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [21, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Richmond by Craftmark", ""],
-                        [2, "Richmond by Craftmark", ""],
-                        [3, "Richmond by Craftmark", ""],
-                        [4, "Richmond by Craftmark", ""]
-                    ],
-                    "videoTour": "https://youtu.be/RcQhpptO0zk",
-                    "3DTour": "https://my.matterport.com/show/?m=9s2hsn9nbRU",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Up to",
-                        "sqFeet": "2,500",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": "2"
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "3-4 full 1-2 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets"],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": true,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },   
-                {
-                    "name": "The Richmond at Retreat at Westfields",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": 699900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "richmond-at-retreat-at-westfields",
-                    "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Chantilly, VA"],
-                    "gallery": [
-                        [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Richmond by Craftmark", ""],
-                        [2, "Richmond by Craftmark", ""],
-                        [3, "Richmond by Craftmark", ""],
-                        [4, "Richmond by Craftmark", ""]
-                    ],
-                    "videoTour": "https://youtu.be/guljwi89A6o",
-                    "3DTour": "http://my.matterport.com/show/?m=PSbzGfuNLAH",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Up to",
-                        "sqFeet": "2,373",
-                        "stories": 4,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": "2"
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "3-4 full 1-2 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft", "Office", "Study"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets"],
-                        "PlanOpenAmenity": null,
-                        "Description": "Now Selling Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": true,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },
-                {
-                    "name": "The Seneca",
-                    "statusInput": ["live", "sold"],
-                    "status": "live",
-                    "basePrice": 689900,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "seneca",
-                    "listingImg": ["listingImg.jpg", "The Seneca Floor Plan, Townhomes Available at Clarkburg, MD"],
-                    "gallery": [
-                        [1, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [2, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [3, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [4, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Garage", ""],
-                        [2, "Standard Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor", ""],
-                        [5, "Alt Second Floor", ""],
-                        [6, "Optional Loft & Bath", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Seneca by Craftmark", ""],
-                        [2, "Seneca by Craftmark", ""],
-                        [3, "Seneca by Craftmark", ""],
-                        [4, "Seneca by Craftmark", ""]
-                    ],
-                    "videoTour": "",
-                    "3DTour": "",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "Starting",
-                        "sqFeet": "2,600",
-                        "stories": 3,
-                        "beds": {
-                            "min": "3",
-                            "max": "5"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "1",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "3-5 Bedrooms",
-                        "3-4 full 1 half Baths",
-                        "2-Car Garage"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "Up",
-                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft"],
-                        "Basement": false,
-                        "PlanAmenity": ["WalkInClosets","GreenConstruction","VaultedCeilings"],
-                        "PlanOpenAmenity": null,
-                        "Description": "Now Selling 55+ Active Adult ELEVATOR Townhomes Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage | Private Elevator",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": ["Brick","Stone","Vinyl"],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": ["GarageAttached"],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["Asphalt"],
-                        "Skylight": true,
-                        "SprinklerSystem": true,
-                        "Wetbar": false,
-                        "Wired": true
-                    }
-                },         
-                {
-                    "name": "The Westfield",
-                    "statusInput": ["live", "sold"],
-                    "status": "sold",
-                    "basePrice": 574900,
-                    "modelStatus": true,
-                    "orderRate": false,
-                    "url": "westfield",
-                    "listingImg": ["listingImg.jpg", "The Westfield Floor Plan, Townhomes Available in Chantilly, VA"],
-                    "gallery": [
-                        [1, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [2, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [3, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [4, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [5, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [6, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [7, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [8, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"],
-                        [9, "The Westfield Floor Plan, 3-4 BR, 1-Car Garage, Roof Terrace, Townhomes in VA, Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Brochure Elevation", ""],
-                        [2, "Ground Floor", ""],
-                        [3, "First Floor", ""],
-                        [4, "Second Floor & Loft Floor", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "Westfield by Craftmark", ""],
-                        [2, "Westfield by Craftmark", ""]
-                    ],
-                    "videoTour": false,
-                    "3DTour": "https://my.matterport.com/show/?m=e7i9KjD264Y",
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "",
-                        "sqFeet": "2,126",
-                        "stories": null,
-                        "beds": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "halfBaths": {
-                            "min": "",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "1",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "Rec Room",
-                        "Front or Rear Roof Top Terrace",
-                        "Optional Deck"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom", "DiningRoom", "FamilyRoom", "Loft"],
-                        "Basement": false,
-                        "PlanAmenity": [],
-                        "PlanOpenAmenity": null,
-                        "Description": "Base: From $574,900 End Unit: From $729,900 Welcome to The Westfield model by Craftmark Homes at The Preserve at Westfields. You'll be impressed by our thoughtful layout of the 3-4 bedrooms & 3-4 full & 1/2 bathrooms included in this home's 2,126 sq. ft. of space on four finished levels (sneak peek - each bedroom has its own bath!). When you enter through the front door at ground level, a welcoming foyer leads you to the stairs to the main floor. Depending on your elevation, a spacious recreation room gives you great space to entertain or create your dream home office, or form the perfect guest suite with a bedroom & full bath. Head upstairs to the first floor, where you'll love the open concept layout of the kitchen & dining space, featuring a large breakfast island with a quartz countertop & lots of soft-close storage. You'll love inviting friends & family to gather in the great room or family room, with a convenient powder room. If you choose to add an optional deck, you'll enjoy extra hosting space. The second floor offers two owner's bedrooms featuring full baths & spacious closets (we told you, you'd like this!). There's also a convenient, easy-access laundry space so you don't have to haul hampers around. The Westfield's loft floor lets you entertain indoors or out, with plenty of room to relax a spacious terrace to the front or rear of the home. This floor also has a bedroom & full bath, so you can deck out an in-law suite or keep the awesome view y",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": [],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": [],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": false,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                },      
-                {
-                    "name": "The Westmont",
-                    "statusInput": ["live", "sold"],
-                    "status": "sold",
-                    "basePrice": 0,
-                    "modelStatus": false,
-                    "orderRate": false,
-                    "url": "westmont",
-                    "listingImg": ["listingImg.jpg", ""],
-                    "gallery": [
-                        [1, "The Westmont Floor Plan, 3-4 BR, 3 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"]
-                    ],
-                    "fpImage": [
-                        [1, "Brochure Elevation", ""],
-                        [2, "", ""],
-                        [3, "", ""],
-                        [4, "", ""],
-                        [5, "", ""]
-                    ],
-                    "exteriorImage": [
-                        [1, "", ""]
-                    ],
-                    "videoTour": false,
-                    "3DTour": false,
-                    "pdf": "floorPlans.pdf",
-                    "specs": {
-                        "sqFeetLabel": "",
-                        "sqFeet": "",
-                        "stories": null,
-                        "beds": {
-                            "min": "3",
-                            "max": "4"
-                        },
-                        "fullBaths": {
-                            "min": "3",
-                            "max": ""
-                        },
-                        "halfBaths": {
-                            "min": "",
-                            "max": ""
-                        },
-                        "garage": {
-                            "min": "2",
-                            "max": ""
-                        }
-                    },
-                    "details": [
-                        "Recreation room",
-                        "Great room",
-                        "4th level loft",
-                        "Rooftop terrace"
-                    ],
-                    "fpVersions": [],
-                    "zillow": {
-                        "Type": "MultiFamily",
-                        "PlanTypeName": "Townhome",
-                        "MasterBedLocation": "",
-                        "LivingArea": ["LivingRoom"],
-                        "Basement": false,
-                        "PlanAmenity": [],
-                        "PlanOpenAmenity": null,
-                        "Description": "",
-                        "ArchitectureStyle": "Modern",
-                        "Attic": false,
-                        "CoolingSystems": ["Central"],
-                        "Deck": false,
-                        "Dock": false,
-                        "DoublePaneWindows": true,
-                        "ExteriorTypes": [],
-                        "HeatingFuel": ["Gas"],
-                        "HeatingSystems": ["ForcedAir"],
-                        "ParkingTypes": [],
-                        "Patio": false,
-                        "Porch": false,
-                        "RoofTypes": ["ShakeShingle"],
-                        "Skylight": false,
-                        "SprinklerSystem": false,
-                        "Wetbar": false,
-                        "Wired": false
-                    }
-                }      
+                }
             ]
         },
         {
