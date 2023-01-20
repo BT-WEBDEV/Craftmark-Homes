@@ -212,7 +212,8 @@ $totalSaved = getTotalStats($qmi_id, 'gka_quick_move_ins_view', true) + 11;
                 </div>
             </div>
             <hr>
-            <div class="py-2">
+            <!-- THIS HAS BEEN HIDDEN FOR NOW --> 
+            <div class="py-2 d-none">
                 <div>
                     <a href="/floorplans/<?php echo $floorplan['url'] ?>">
                         <div class="d-flex align-items-center mb-2">

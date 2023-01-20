@@ -26,10 +26,10 @@
                                         <a class="nav-link" href="https://www.craftmarkhomes.com/communities/crown/digital-display/">Crown</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://craftmarkhomes.com/communities/cabin-branch/digital-display/">The Village at Cabin Branch</a>
+                                        <a class="nav-link" href="https://www.craftmarkhomes.com/communities/cabin-branch/digital-display/">The Village at Cabin Branch</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="https://craftmarkhomes.com/craftmark_digitaldisplay/communities/clarksburg-town-center/">Clarksburg Town Center</a>
+                                        <a class="nav-link" href="https://www.craftmarkhomes.com/craftmark_digitaldisplay/communities/clarksburg-town-center/">Clarksburg Town Center</a>
                                     </li>
                                 </ul>
                                 <!-- Links -->

@@ -81,18 +81,18 @@
 				<li class="pl-3">4" x 16" Gloss White Subway Wall Tiles (Owner’s Suite Bath)</li>
 				<li class="pl-3">Shower with Seat</li>
 				<li class="pl-3">Polished Chrome Delta Faucets and Bath Hardware</li>
-				<li class="pl-3">Elongated, ErgoHeight Low-Flow Toilet</li>
+				<li class="pl-3">Elongated, Low-Flow Toilet</li>
 				<li>Secondary Baths</li>
 				<li class="pl-3">Raised Height Maple Vanity</li>
 				<li class="pl-3">Solid White Cultured Vanity Top with Rectangular Integral Sink</li>
 				<li class="pl-3">Designer 12" x 24" Floor Tile</li>
 				<li class="pl-3">3" x 6" Gloss White Subway Wall Tile (Secondary Baths)</li>
 				<li class="pl-3">Polished Chrome Delta Faucets</li>
-				<li class="pl-3">Elongated, ErgoHeight Low-Flow Toilet</li>
+				<li class="pl-3">Elongated, Low-Flow Toilet</li>
 				<li>Powder Room</li>
 				<li class="pl-3">Pedestal Sink</li>
 				<li class="pl-3">Polished Chrome Delta Faucet</li>
-				<li class="pl-3">Elongated, ErgoHeight Low-Flow Toilet</li>
+				<li class="pl-3">Elongated, Low-Flow Toilet</li>
 			</ul>
 		</div>
 	</div>
