@@ -2261,6 +2261,171 @@
                         "Wetbar": false,
                         "Wired": false
                     }
+                },
+                {
+                    "name": "The Kenmore",
+                    "statusInput": ["live", "sold", "staging"],
+                    "status": "live",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "kenmore",
+                    "listingImg": ["listingImg.jpg", "The Kenmore Floor Plan, Custom Home Available in Rainwater Run"],
+                    "gallery": [
+                        [1, "The Kenmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [2, "The Kenmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [3, "The Kenmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [4, "The Kenmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [5, "The Kenmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "First Floor", ""],
+                        [3, "Second Floor", ""],
+                        [4, "Basement", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "The Kenmore by Craftmark", ""]
+                    ],
+                    "videoTour": "",
+                    "3DTour": "",
+                    "pdf": "floorPlans.pdf",
+                    "customProperties": false,
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "6,943",
+                        "stories": 2,
+                        "beds": {
+                            "min": "4",
+                            "max": ""
+                        },
+                        "fullBaths": {
+                            "min": "4",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "1",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "3",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "Step into a true masterpiece with the Kenmore floor plan. This home leaves a lasting impression with its breathtaking 2-story foyer and striking staircase design. Elevate your living experience with luxury options like a spacious 4-car garage, first-floor living designs, cozy loft space, convenient home office, a remarkable recreation room, and much more."
+                    ],
+                    "fpVersions": []
+                },
+                {
+                    "name": "The Maiden",
+                    "statusInput": ["live", "sold", "staging"],
+                    "status": "live",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "maiden",
+                    "listingImg": ["listingImg.jpg", "The Maiden Floor Plan, Custom Home Available in Rainwater Run"],
+                    "gallery": [
+                        [1, "The Maiden Floor Plan, 4 BR, 3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [2, "The Maiden Floor Plan, 4 BR, 3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [3, "The Maiden Floor Plan, 4 BR, 3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [4, "The Maiden Floor Plan, 4 BR, 3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [5, "The Maiden Floor Plan, 4 BR, 3 BA, 2-Car Garage, Single Family Homes by Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "First Floor", ""],
+                        [3, "Second Floor", ""],
+                        [4, "Basement", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "The Maiden by Craftmark", ""]
+                    ],
+                    "videoTour": "",
+                    "3DTour": "",
+                    "pdf": "floorPlans.pdf",
+                    "customProperties": false,
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "5,072",
+                        "stories": 2,
+                        "beds": {
+                            "min": "4",
+                            "max": ""
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "1",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "Indulge in your dream lifestyle with our newly designed Maiden floor plan! Choose from a stunning array of elevation options, curated to suit your unique lifestyle. Immerse yourself in a spacious open layout with remarkable living designs. From the quality craftsmanship to the thoughtful details like three additional bonus rooms including a Lower Level Den, Exercise space, and 1st Floor Study/Bath, this plan is sure to exceed your every expectation. Personalize it further with a 3-Car Garage, additional full Bath on the Lower Level, and more!"
+                    ],
+                    "fpVersions": []
+                },
+                {
+                    "name": "The Biltmore",
+                    "statusInput": ["live", "sold", "staging"],
+                    "status": "live",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "biltmore",
+                    "listingImg": ["listingImg.jpg", "The Biltmore Floor Plan, Custom Home Available in Rainwater Run"],
+                    "gallery": [
+                        [1, "The Biltmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [2, "The Biltmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [3, "The Biltmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [4, "The Biltmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"],
+                        [5, "The Biltmore Floor Plan, 4 BR, 4 BA, 3-Car Garage, Single Family Homes by Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "First Floor", ""],
+                        [3, "Second Floor", ""],
+                        [4, "Basement", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "The Biltmore by Craftmark", ""]
+                    ],
+                    "videoTour": "",
+                    "3DTour": "",
+                    "pdf": "floorPlans.pdf",
+                    "customProperties": false,
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "5,486",
+                        "stories": 2,
+                        "beds": {
+                            "min": "4",
+                            "max": ""
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": ""
+                        },
+                        "halfBaths": {
+                            "min": "1",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "The Biltmore floor plan has been expertly designed with gorgeous living spaces that flow together effortlessly. Whip up your favorite meal in the gourmet kitchen, full of exceptional features. Work from home in style in your private study. Host the next big dinner in your formal dining room. Savor game or movie nights in your optional recreation space. With chances to personalize that include upgrading to a 3-Car Garage, adding another full Bathroom on the Lower Level, and bonus rooms like a Rec Room, Exercise space, and Den, this house can truly become a home. The opportunities for better living are endless in this brand new Craftmark Homes floor plan."
+                    ],
+                    "fpVersions": []
                 }
             ]
         }

@@ -8,27 +8,33 @@
 		},
 		{
 			"url": "locations",
-			"titleTag": "Craftmark Homes Locations | New Homes, Townhomes & Condos | DC, VA, MD",
+			"titleTag": "Craftmark Homes Locations | New Homes for Sale in DC, VA, MD",
 			"MetaDescription": "Locations where Craftmark Homes builds new single family homes, townhomes, and condos in communities in Maryland, Washington, D.C., and Virginia.",
 			"keywords": "houses for sale laurel md, va homes for sale, houses for sale germantown md, montgomery county real estate, houses for sale northern va, houses in arlington, houses in fairfax va, houses for sale in laurel md, townhouse in alexandria va, md houses for sale, montgomery county md real estate records, hanover homes, howard homes, alexandria townhomes, real estate laurel md, elliott city md real estate, clarksburg village, clarksburg real estate, arlington real estate, va houses for sale, montgomery county housing, townhouse fairfax va, maryland homes for sale, montgomery county realtors, bowie md real estate, arlington va homes, sunrise assisted living, houses for sale in ellicott city, washington dc condo, townhomes for sale northern va, sunrise of alexandria, fairfax townhomes, new condos in dc, howard county new homes, ellicott city maryland, bowie homes for sale, arlington homes for sale, new homes anne arundel county"
 		},
 		{
 			"url": "floorplans",
-			"titleTag": "Floor Plans | Craftmark Homes Single Family Homes, Townhomes & Condos",
+			"titleTag": "Floor Plans | Craftmark Homes | Houses, Townhomes & Condos",
 			"MetaDescription": "Discover Craftmark's single family home, townhome, and condomium floor plans, built in Maryland, Virginia, and Washington, D.C.",
 			"keywords": "craftmark homes, family house plans with photos, floor plans online, single family homes, condo designs, new design house plans, new construction developments, floor plans for homes, open concept, floor plan, townhome designs, open concept homes floor plans, model homes maryland, single family house design, condominium plans, floor plans for town houses, maryland, virginia, elliott city, montgomery, fairfax, clarksburg"
 		},
 		{
 			"url": "quick-move-ins",
-			"titleTag": "Quick Delivery Homes | Craftmark Homes | Maryland, Virginia, DC",
+			"titleTag": "Quick Move-In Homes | Craftmark Homes | MD, VA & DC",
 			"MetaDescription": "New Single Family Homes, Townhomes, and Condomiums ready for quick delivery and immediate move-in in Maryland, Virginia, and Washington, D.C.",
 			"keywords": ""
 		},
 		{
 			"url": "gallery",
-			"titleTag": "Gallery | Craftmark Homes | New Single Family Homes, Townhomes, Condos",
+			"titleTag": "Gallery | Craftmark Homes | Photos of New Luxury Homes",
 			"MetaDescription": "A gallery of photography, video, and 360 tours of communities of new single family homes, new townhomes, and new condos in Maryland, Virginia, and DC",
 			"keywords": "craftmark homes, luxury home interior, luxury homes, custom home builders, custom homes, new construction homes, montgomery county real estate, md builders, craft homes, custom builders, potomac highlands, homes in dc, maryland home builders, craftmark, custom home builders in maryland, craftmark homes, dc home builders, dc builders, homes washington dc, craftmark homes clarksburg, montgomery county new homes, luxury townhomes maryland, clarksburg md new homes, home builders washington dc, luxury single family homes"
+		},
+		{
+			"url": "blog",
+			"titleTag": "Blog | Craftmark Homes | Tips for Home Owners in MD, VA & DC",
+			"MetaDescription": "A family-owned homebuilding company with properties in Maryland, Virginia and Washington, D.C. See what new communities Craftmark Homes has for you!",
+			"keywords": "custom home builders, custom homes, new construction homes, montgomery county real estate, md builders, craft homes, custom builders, potomac highlands, homes in dc, maryland home builders, craftmark, custom home builders in maryland, craftmark homes, dc home builders, dc builders, homes washington dc, craftmark homes clarksburg, montgomery county new homes, luxury townhomes maryland, clarksburg md new homes, home builders washington dc, luxury single family homes, homebuilding, maryland, virginia, dc, washington, new homes, for sale in, houses"
 		},
 		{
 			"url": "custom",
@@ -37,26 +43,26 @@
 			"keywords": "craftmark homes, custom home builders, custom homes, custom house plans, custom home building, new construction homes, montgomery county real estate, md builders, craft homes, custom builders, affordable custom home builders, maryland home builders, craftmark, custom home builders in maryland, craftmark homes, dc home builders, dc builders, homes washington dc, home builders washington dc, maryland, virginia, design custom home, build on your lot"
 		},
 		{
-			"url": "contact-us",
-			"titleTag": "Contact Us | Craftmark Homes | New Homes & Communities | MD, VA, DC",
+			"url": "contact",
+			"titleTag": "Contact | Craftmark Homes | Updates on Homes in MD, VA, DC",
 			"MetaDescription": "Contact us about the new single family homes, new townhomes, and new condominiums we're building in communities Maryland, Virginia, and Washington, DC",
 			"keywords": "craftmark homes, custom home builders, md builders, craftmark, maryland home builders, virginia, maryland, single family community, clean, va, anne arundel, montgomery, howard, prince george’s, fairfax, loudoun, arlington, washington dc"
 		},
 		{
 			"url": "we-buy-land",
-			"titleTag": "We Buy Land | Craftmark Homes | The Experience for Maximum Return",
+			"titleTag": "We Buy Land | Craftmark Homes | Maximum Seller Return",
 			"MetaDescription": "Craftmark Homes buys land, pays top dollar, entitles & develops to maximize seller return. Using our own equity allows us to offer you a better deal.",
 			"keywords": ""
 		},
 		{
 			"url": "craftmark-green",
-			"titleTag": "Craftmark Green | Craftmark Homes | HERS® & Energy Star® Leaders",
+			"titleTag": "Craftmark Green | Eco-Friendly Homes | HERS® & Energy Star® ",
 			"MetaDescription": "Craftmark Homes is committed to making energy efficiency, smart living, improved air quality & lower utility costs part of your definition of luxury.",
 			"keywords": "living green, green, most efficient house plans, craftmark homes, band board, energy efficient homes, green building, energy star, home builders, maryland, virginia, elliott city, montgomery, fairfax, clarksburg, homebuilder, home, for sale"
 		},
 		{
 			"url": "about-us",
-			"titleTag": "About Us | Craftmark Homes | Premiere Homebuilder in VA, MD, DC",
+			"titleTag": "About Us | Craftmark Homes | Top Homebuilder in VA, MD, DC",
 			"MetaDescription": "Craftmark Homes has built more than 8,000 new single family homes, new townhomes, and new condominiums in communities in DC, MD, and VA since 1991.",
 			"keywords": "craftmark homes, craftmark, washington dc, anne arundel, howard, montgomery, prince george’s, maryland, city of alexandria, loudoun, fairfax, arlington, virginia, luxury estate homes, affordable housing, single family homes, townhomes, condominiums, model homes, md, va, new homes, builder of integrity award, quality builders warranty corporation "
 		},
@@ -104,25 +110,25 @@
 		},
 		{
 			"url": "clarksburg-town-center",
-			"titleTag": "Clarksburg Town Center | New Townhomes for Sale | Clarksburg, MD",
+			"titleTag": "Clarksburg Town Center | New Townhomes in Clarksburg, MD",
 			"MetaDescription": "New 2-car garage luxury townhomes for sale in Clarksburg, Montgomery County, MD. Featuring lofts and gourmet kitchens, walkable to amenities and pool.",
 			"keywords": "new townhomes, new townhomes, new townhomes, new townhouses for sale, new luxury townhomes, new luxury townhouses, new luxury townhomes for sale, new luxury townhouses for sale, new walkable townhomes, new walkable townhouses, best communities, best planned communities, in Montgomery County, in Clarksburg, in Clarksburg Town Center, in Maryland, near Metro, near I-270, near Biotech corridor, with 2 car garage, with two car garage, with pool, with warranty, with good schools, with amenities, with gourmet kitchen, with chef's kitchen, for kids, for children, for commute to D.C., for commute to Washington, D.C., for commute to Rockville, for commute to Gaitherburg, for commute to Bethesda, for commute to Frederick"
 		},
 		{
 			"url": "crown",
-			"titleTag": "Crown | New Elevator Townhomes for Sale | Gaithersburg, MoCo, MD",
+			"titleTag": "Crown | New Elevator Townhomes | Gaithersburg, MoCo, MD",
 			"MetaDescription": "New elevator townhomes coming soon in Gaithersburg, Montgomery County, MD. Easy access to I-270&95, walkable to Metro, spacious layout & abundant on-site amenities.",
 			"keywords": "townhomes, new townhouses, new townhomes for sale, elevator townhomes, new elevator townhomes for sale, new luxury townhomes, new walkable townhomes, Craftmark Homes Crown, new townhomes for sale in Gaithersburg, in Montgomery County, in Maryland, near Metro, near I-270, near I-95, near Montgomery Mall, with outdoor living space, with swimming pool, with gourmet kitchen, for commute to D.C., for commute to Washington, D.C., for commute to Rockville, for commute to Bethesda, for commute to Frederick, for commute to Clarksburg"
 		},
 		{
 			"url": "burnt-pine-estates",
-			"titleTag": "Burnt Pine Estates by Craftmark | New Homes for Sale in Alexandria",
+			"titleTag": "Burnt Pine Estates | Luxury Homes in Alexandria, VA",
 			"MetaDescription": "A stunning cul-de-sac enclave of five newly-designed single family homes in a wooded Alexandria, VA setting. Near amenities, metro, DC and Old Town.Architecturally Distinctive Single Family Homes in Alexandria, VA",
 			"keywords": "New single family homes in Alexandria, New single family homes near DC, New single family homes in Fairfax County, New single family homes in NoVA, New single family homes in Northern Virginia, New single family homes near Amazon, New single family homes near Crystal City, New single family homes near National Landing, New single family homes near Arlington, New homes near Old Town Alexandria, New homes with yard, New homes on cul-de-sac, New homes with wooded yard"
 		},
 		{
 			"url": "cabin-branch",
-			"titleTag": "The Village at Cabin Branch | New 55+ Elevator Townhomes in Gaithersburg, MD",
+			"titleTag": "Village at Cabin Branch | 55+ Townhomes in Clarksburg, MD",
 			"MetaDescription": "Craftmark Homes is excited to bring a new active adult community of elevator townhomes to Cabin Branch, Clarksburg. Register to join our VIP List for more details.",
 			"keywords": "New Townhomes in Clarksburg MD, Townhomes for Sale in Clarksburg MD, New Townhomes in Montgomery County MD, Townhomes for Sale in Montgomery County MD, Active Adult Community in Clarksburg MD, New Homes for 55+ in Clarksburg MD, Townhomes for Sale near DC"
 		},
