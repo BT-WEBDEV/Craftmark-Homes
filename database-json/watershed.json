@@ -1,0 +1,163 @@
+{
+    "id": 16,
+    "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+    "status": "live",
+    "formId": 5210,
+    "name": "Watershed",
+    "homeType": "townhomes",
+    "landingPage": "",
+    "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+    "url": "watershed",
+    "listingImgV1": ["listingImg-v1.png"],
+    "selectedListingImgV1": false,
+    "listingImgV2": ["listingImg-v2.jpg"],
+    "selectedListingImgV2": false,
+    "imgAlt": "",
+    "mapImg": "listingImg-v2.jpg",
+    "frameV2": "frame-V2.png",
+    "brandStyle": {
+        "background": "G_Crown.png",
+        "colors": ["#385CAD", "#5C8C67"],
+        "mainColor": "#385CAD",
+        "textColor": "black",
+        "btnText": "white"
+    },
+    "headerInput1": "New Luxury Townhomes from the $500s",
+    "headerInput2": "",
+    "gallery": [
+        [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [3, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [4, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [5, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [6, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [7, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [8, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [9, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [10, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [11, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [12, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [13, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [14, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [15, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [16, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [17, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [18, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [19, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [20, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [21, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [22, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [23, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [24, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [25, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [26, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [27, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [28, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [29, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [30, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [31, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
+        [32, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"]
+    ],
+    "sectionOrder": {
+        "overview": 1,
+        "floorplans": 2,
+        "neighborhood": 3,
+        "quick-move-ins": 4,
+        "siteplan": 5,
+        "features": 6,
+        "map": 7
+    },
+    "neighborhood": [
+        ["Amenities", "amenities"],
+        ["Shopping", "shopping"],
+        ["Dining", "dining"],
+        ["Recreation", "recreation"],
+        ["Transportation", "transportation"],
+        ["Schools", "schools"]
+    ],
+    "features": ["exteriors", "interiors", "kitchens", "baths", "energy", "quality"],
+    "openHours": {
+        "label": "Visit Us",
+        "hours": "*Personal Appointments Required. Please Contact to Schedule!"
+    },
+    "priceInfo": {
+        "label": "from the",
+        "price": 500
+    },
+    "address": {
+        "county": "Anne Arundel Co., MD",
+        "coords": ["39.091108", "-76.7778869"],
+        "addresses": [{
+            "label": "Community Location:",
+            "outOfCommunity": false,
+            "address": {
+                "street1": "3200 Wellspring Lane",
+                "street2": "",
+                "city": "Laurel",
+                "state": "MD",
+                "zip": "20724"
+            },
+            "direction": "https://goo.gl/maps/y9LAWdjVDMhdY3vu8"
+        }]
+    },
+    "salesAgent": {
+        "label": "Appointments Preferred",
+        "agents": [{
+            "agentName": "Eric Yakuchev",
+            "phone": "(703) 989-6662",
+            "email": "eyakuchev@craftmarkhomes.com "
+        }]
+    },
+    "floorplans": [{
+        "fpName": "The Bluemont",
+        "fpUrl": "bluemont",
+        "model": false
+    },
+    {
+        "fpName": "The Fairland",
+        "fpUrl": "fairland",
+        "model": false
+    }],
+    "sitePlans": [
+        ["siteplan-1.jpg", "Watershed Area Map - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"],
+        ["siteplan-2.jpg", "Watershed Site Plan - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"],
+        ["siteplan-3.jpg", "Watershed Site Plan - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"]
+    ],
+    "zillow": {
+        "Status": "Active",
+        "CommunityStyle": "Townhomes",
+        "ByAppointment": true,
+        "DrivingDirections": "",
+        "HoursDetail": [
+            ["Monday", "13:00", "17:00"],
+            ["Tuesday", "11:00", "17:00"],
+            ["Wednesday", "11:00", "17:00"],
+            ["Thursday", "11:00", "17:00"],
+            ["Friday", "11:00", "17:00"],
+            ["Saturday", "11:00", "17:00"],
+            ["Sunday", "11:00", "17:00"]],
+        "Schools": {
+            "Districtname": "Anne Arundel County Public Schools",
+            "Elementary": "Anne Arundel’s Maryland City Elementary Schools",
+            "Middle": "Meade Middle School",
+            "High": "Arundel High School"
+        },
+        "SubAmenity": ["Parks", "Trails", "Museums", "Golf", "Playground"],
+        "SubDescription": "Watershed brings next-level living to Laurel, MD with standout amenities throughout the neighborhood and endless acres of scenic views just beyond your front door. The commuter in your family will love the convenience of nearby employers like Fort Meade and the National Business Park in addition to closeby transportation routes that offer easy access to Baltimore and Washington, D.C.",
+        "SubVideoFile": {
+            "Title": "360º tour of Watershed",
+            "URL": "https://my.matterport.com/show/?m=YQsNayGZ25Q"
+        },
+        "SubVideoTour": {
+            "Title": "360º tour of Watershed",
+            "URL": "https://my.matterport.com/show/?m=YQsNayGZ25Q"
+        },
+        "Promotion": {
+            "PromoType": "",
+            "PromoHeadline": "WE'RE HERE FOR YOU!",
+            "StartDate": "2020-02-18",
+            "EndDate": "2020-05-31",
+            "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+        }
+    }
+}

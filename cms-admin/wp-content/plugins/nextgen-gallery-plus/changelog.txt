@@ -1,7 +1,28 @@
 NextGEN Plus
 by Imagely
 
-= V1.5.7 - 06.21.2017 =
+= V1.6.4 - 07.24.2018 =
+* NEW:     Added French translations
+* NEW:     Added German translations
+* NEW:     Added Slovakian translations
+* NEW:     Browsers on mobile devices can now use the Pro Lightbox and open-with-comments-sidebar features
+* Changed: Plugin URL in ngg-plus.php has been updated for accuracy
+* Fixed:   Hover captions compatibility with thickbox effect
+* Fixed:   Pro Lightbox image captions were sometimes floated when sharing icons were disabled
+* Fixed:   Pro Lightbox images were not correctly centered at startup under iOS
+* Fixed:   Pro Masonry displays included a single gallery-level trigger icon that should not have been included
+
+= V1.6.0 - 05.16.2018 =
+* NEW:     Complete redesign of NextGEN Gallery backend interface
+* NEW:     Pro Lightbox option to disable carousel thumbnails
+* NEW:     Pro Lightbox uses Facebook JS SDK to generate share dialogs
+* Changed: Optimized Pro Lightbox for performance, especially mobile devices
+* Changed: Galleria.js upgraded to the latest version (1.5.7)
+* Fixed:   Gutenberg compatibility
+* Fixed:   Pro Lightbox sidebar overlay not being removed when comments are disabled / users must be registered
+* Fixed:   Pro Lightbox will no longer attempt to use synchronous XHR
+
+= V1.5.6 - 06.20.2017 =
 * NEW:       Added Dutch translations as provided by Frank Leenders
 * Changed:   Updated Pro Lightbox comment mechanism to use latest WP conventions
 * Changed:   Uses KSES sanitization where applicable

@@ -83,13 +83,13 @@
                 <tr>
                 	<td>
                     	<ol class="uaf_list">
-                        	<li><a target="_blank" href="https://wordpress.org/plugins/use-any-font">Use Any Font</a></li>
-                            <li><a target="_blank" href="https://wordpress.org/plugins/jquery-validation-for-contact-form-7/">Jquery Validation For Contact Form 7</a></li>
-                            <li><a target="_blank" href="https://wordpress.org/plugins/wp-masonry-layout/">WP Masonry Layout</a></li>
+                            <li><a target="_blank" href="https://wordpress.org/plugins/use-any-font">Use Any Font</a></li>
+                            <li><a target="_blank" href="https://wordpress.org/plugins/honeypot/">WP Armour Anti Spam Plugin</a></li>
+                            <li><a target="_blank" href="https://dineshkarki.com.np/jquery-validation-for-gravity-forms">jQuery Validation for Gravity Forms</a></li>
+                            <li><a target="_blank" href="https://wordpress.org/plugins/jquery-validation-for-contact-form-7/">jQuery Validation For Contact Form 7</a></li>
                             <li><a target="_blank" href="https://wordpress.org/plugins/any-mobile-theme-switcher/">Any Mobile Theme Switcher</a></li>
                             <li><a target="_blank" href="https://wordpress.org/plugins/featured-image-in-rss-feed/">Featured Image In RSS Feed</a></li>
                             <li><a target="_blank" href="https://wordpress.org/plugins/add-tags-and-category-to-page/">Add Tags And Category To Page</a></li>
-                            <li><a target="_blank" href="https://wordpress.org/plugins/remove-admin-bar-for-client">Remove Admin Bar</a></li>
                         </ol>
                     </td>
                 </tr>

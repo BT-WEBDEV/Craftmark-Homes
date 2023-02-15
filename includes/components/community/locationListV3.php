@@ -1,9 +1,24 @@
 <?php
 
-$selectedListingImgV2 = rand(0, sizeof($comm['selectedListingImgV2'])-1);
-if($comm['selectedListingImgV2'] !== false) {
-    $selectedListingImgV2 = $comm['selectedListingImgV2'];
+// $selectedListingImgV2 = rand(0, sizeof($comm['selectedListingImgV2'])-1);
+// if($comm['selectedListingImgV2'] !== false) {
+//     $selectedListingImgV2 = $comm['selectedListingImgV2'];
+// }
+
+// Initialize the $selectedListingImgV2 variable to 0.
+$selectedListingImgV2 = 0;
+
+// Check if $comm['selectedListingImgV2'] is an array and has at least one element.
+if (is_array($comm['selectedListingImgV2']) && count($comm['selectedListingImgV2']) > 0) {
+    // Generate a random index between 0 and the number of elements in $comm['selectedListingImgV2'] minus 1, and assign it to $selectedListingImgV2.
+    $selectedListingImgV2 = rand(0, count($comm['selectedListingImgV2'])-1);
+
+    // Check if $comm['selectedListingImgV2'] is not false, and if so, assign its value to $selectedListingImgV2.
+    if($comm['selectedListingImgV2'] !== false) {
+        $selectedListingImgV2 = $comm['selectedListingImgV2'];
+    }
 }
+
 ?>
 
 <div id="savedComm-<?php echo $comm['id']; ?>" class="global-list-style location-list-v2 listing-hover">

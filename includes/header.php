@@ -455,14 +455,18 @@ include_once("backend/functions.php");
                             <span aria-hidden="true">×</span>
                         </button>
                     </div>
+                    
                     <div class="row px-md-20">
-                        <?php 
+                        <?php
                             $communities = getJsonData($json_db_url.'communities.json');
-                            foreach ($communities['communities'] as $comm) { ?>
+                            foreach ($communities['communities'] as $comm) { 
+                        ?>
                         <div id="savedCommWrap-<?php echo $comm['id']; ?>"
                             class="col-sm-6 col-lg-4 savedCommunity savedItem d-none">
                             <div class="py-4">
-                                <?php include("components/community/locationListV3.php"); ?>
+                                <?php 
+                                    include("components/community/locationListV3.php");
+                                ?>
                             </div>
                         </div>
                         <?php } ?>
@@ -480,7 +484,9 @@ include_once("backend/functions.php");
                     <div class="row px-md-20">
                         <?php
                             $quickMoveIns = getQuickMoveIns(null, null, null);
-                            foreach ($quickMoveIns as $qmi) { ?>
+                            consoleLog("I made it Quick Move Ins"); 
+                            foreach ($quickMoveIns as $qmi) { 
+                        ?>
                         <div id="savedQmiWrap-<?php echo $qmi['id']; ?>"
                             class="col-sm-6 col-lg-4 savedQuickMoveIns savedItem d-none">
                             <div class="py-4">

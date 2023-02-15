@@ -1830,7 +1830,7 @@
                 }]
             },
             "salesAgent": {
-                "label": "Please Email for Appointment <br>Open Daily 11am - 5pm",
+                "label": "Please Email for Appointment | Open Daily 11am - 5pm",
                 "agents": [{
                     "agentName": "Lori Windsor",
                     "phone": "7035076882",
@@ -2403,7 +2403,14 @@
                 "CommunityStyle": "Townhomes",
                 "ByAppointment": true,
                 "DrivingDirections": "",
-                "HoursDetail": [],
+                "HoursDetail": [
+                    ["Monday", "13:00", "17:00"],
+                    ["Tuesday", "11:00", "17:00"],
+                    ["Wednesday", "11:00", "17:00"],
+                    ["Thursday", "11:00", "17:00"],
+                    ["Friday", "11:00", "17:00"],
+                    ["Saturday", "11:00", "17:00"],
+                    ["Sunday", "11:00", "17:00"]],
                 "Schools": {
                     "Districtname": "Anne Arundel County Public Schools",
                     "Elementary": "Anne Arundel’s Maryland City Elementary Schools",
@@ -2422,10 +2429,10 @@
                 },
                 "Promotion": {
                     "PromoType": "",
-                    "PromoHeadline": "",
-                    "StartDate": "",
-                    "EndDate": "",
-                    "PromoDescription": "Appointments Preferred"
+                    "PromoHeadline": "WE'RE HERE FOR YOU!",
+                    "StartDate": "2020-02-18",
+                    "EndDate": "2020-05-31",
+                    "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
                 }
             }
         },

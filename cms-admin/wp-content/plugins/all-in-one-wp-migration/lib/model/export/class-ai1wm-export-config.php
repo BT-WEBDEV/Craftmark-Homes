@@ -142,6 +142,13 @@ class Ai1wm_Export_Config {
 			'Prefix'  => $table_prefix,
 		);
 
+		// Exclude selected db tables
+		if ( isset( $params['options']['exclude_db_tables'], $params['excluded_db_tables'] ) ) {
+			if ( ( $excluded_db_tables = explode( ',', $params['excluded_db_tables'] ) ) ) {
+				$config['Database']['ExcludedTables'] = $excluded_db_tables;
+			}
+		}
+
 		// Set PHP version
 		$config['PHP'] = array( 'Version' => PHP_VERSION, 'System' => PHP_OS, 'Integer' => PHP_INT_SIZE );
 
@@ -162,6 +169,11 @@ class Ai1wm_Export_Config {
 
 		// Set server info
 		$config['Server'] = array( '.htaccess' => base64_encode( ai1wm_get_htaccess() ), 'web.config' => base64_encode( ai1wm_get_webconfig() ) );
+
+		if ( isset( $params['options']['encrypt_backups'] ) ) {
+			$config['Encrypted']          = true;
+			$config['EncryptedSignature'] = base64_encode( ai1wm_encrypt_string( AI1WM_SIGN_TEXT, $params['options']['encrypt_password'] ) );
+		}
 
 		// Save package.json file
 		$handle = ai1wm_open( ai1wm_package_path( $params ), 'w' );

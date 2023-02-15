@@ -5,7 +5,7 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 /*
  * Plugin Name: NextGEN Plus
  * Description: A premium add-on for NextGEN Gallery with beautiful new gallery displays and a fullscreen, responsive Pro Lightbox with social sharing and commenting.
- * Version: 1.5.7
+ * Version: 1.6.4
  * Plugin URI: http://www.nextgen-gallery.com
  * Author: Imagely
  * Author URI: https://www.imagely.com
@@ -35,7 +35,7 @@ class NextGen_Plus
         if ($this->is_not_activating()) {
             define('NGG_PLUS_PLUGIN_BASENAME', plugin_basename(__FILE__));
             define('NGG_PLUS_MODULE_URL', plugins_url(path_join(basename(dirname(__FILE__)), 'modules')));
-            define('NGG_PLUS_PLUGIN_VERSION', '1.5.7');
+            define('NGG_PLUS_PLUGIN_VERSION', '1.6.4');
 
             $ngg_activated 				= class_exists('C_NextGEN_Bootstrap');
             $ngg_modules_initialized	= did_action('load_nextgen_gallery_modules');

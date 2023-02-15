@@ -17,6 +17,9 @@ class A_NextGen_Pro_Masonry_Controller extends Mixin
     function index_action($displayed_gallery, $return = FALSE)
     {
         $images = $displayed_gallery->get_included_entities();
+        // This display type was never meant to work with NextGen's trigger icons but the setting was set to 'always' as
+        // a default value in the pro-masonry-mapper. Prevent users from getting an improperly rendered gallery trigger:
+        $displayed_gallery->display_settings['ngg_triggers_display'] = 'never';
         if (!$images) {
             return $this->object->render_partial("photocrati-nextgen_gallery_display#no_images_found", array(), $return);
         } else {
@@ -41,8 +44,7 @@ class A_NextGen_Pro_Masonry_Controller extends Mixin
         wp_enqueue_style('nextgen_pro_masonry_style', $this->get_static_url('photocrati-nextgen_pro_masonry#style.css'));
         // Wordpress prior to 3.9 included an older version of Masonry than we wanted.
         if ($wp_version >= 3.9) {
-            wp_enqueue_script('waitforimages', $this->object->get_static_url('photocrati-nextgen_basic_gallery#slideshow/jquery.waitforimages.js'), array('jquery'), NGG_SCRIPT_VERSION);
-            wp_enqueue_script('nextgen_pro_masonry_script', $this->get_static_url('photocrati-nextgen_pro_masonry#nextgen_pro_masonry.js'), array('jquery', 'masonry', 'waitforimages'));
+            wp_enqueue_script('nextgen_pro_masonry_script', $this->get_static_url('photocrati-nextgen_pro_masonry#nextgen_pro_masonry.js'), array('jquery', 'masonry', 'ngg_waitforimages'));
         } else {
             // When we began pro-masonry development Wordpress did not yet include Masonry; when they did include it
             // it was an older version than what NextGEN Pro had shipped with.
@@ -101,7 +103,6 @@ class A_NextGen_Pro_Masonry_Mapper extends Mixin
         if ($entity->name == NGG_PRO_MASONRY) {
             $this->object->_set_default_value($entity, 'settings', 'size', 180);
             $this->object->_set_default_value($entity, 'settings', 'padding', 10);
-            $this->object->_set_default_value($entity, 'settings', 'ngg_triggers_display', 'always');
             $this->_set_default_value($entity, 'settings', 'display_type_view', 'default');
         }
     }

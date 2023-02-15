@@ -18,6 +18,9 @@ function getJsonData($url) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_URL, $url);
     $result = curl_exec($ch);
+    if (curl_errno($ch)) {
+        echo 'Error: ' . curl_error($ch);
+    }
     curl_close($ch);
 
     $obj = json_decode($result, true);
@@ -36,11 +39,18 @@ function charsetEncode() {
 	}
 }
 
-function confirm_query($result_set) {
+// function confirm_query($result_set) {
+//     if (!$result_set) {
+//         die("Database query failed.");
+//     }
+// }
+
+function confirm_query($result_set, $message = "Database query failed.") {
     if (!$result_set) {
-        die("Database query failed.");
+        die($message);
     }
 }
+
 
 function phoneNumberFormat($number) {
     $number = preg_replace("/[^\d]/","",$number);
@@ -149,9 +159,9 @@ function getQuickMoveIns($id, $community_name) {
     // if($community_name) {
     //     $query_wp .= " AND prop.id = {$id}";
     // }
-
+    consoleLog($connection); 
     $data = mysqli_query($connection, $query_wp);
-    confirm_query($data);
+    confirm_query($data, "Error: Unable to fetch data from database.");
     
     while($data_fetch = mysqli_fetch_assoc($data)) {
         $response[] = $data_fetch;

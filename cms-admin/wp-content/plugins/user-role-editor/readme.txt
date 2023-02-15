@@ -3,9 +3,9 @@ Contributors: shinephp
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vladimir%40shinephp%2ecom&lc=RU&item_name=ShinePHP%2ecom&item_number=User%20Role%20Editor%20WordPress%20plugin&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: user, role, editor, security, access, permission, capability
 Requires at least: 4.0
-Tested up to: 5.3.2
-Stable tag: 4.53
-Requires PHP: 5.5
+Tested up to: 5.8
+Stable tag: 4.60.1
+Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,19 +81,27 @@ https://translate.wordpress.org/projects/wp-plugins/user-role-editor/
 
 == Changelog =
 
-= [4.53] 01.02.2019 =
-* Update: "Add role", "Delete role", "Rename role", "Add capability", "Delete capability" do not reload full page on completion, but use AJAX for data exchange with server and refresh parts of the page via JavaScript.
-* Update: Multisite: "Allow non super administrators to create, edit, and delete users" option: priority for 'map_meta_cap' filter priority was raised from 1 to 99, in order make possible to overwrite changes made by other plugins, like WooCommerce.
-* Fix: Some English grammar mistakes.
+= [4.60.1] 21.07.2021 =
+* Update: Marked as compatible with WordPress 5.8.
+* Fix: PHP Notice: Undefined property: URE_User_View::$multisite in /wp-content/plugins/user-role-editor/includes/classes/user-view.php on line 145
 
-= [4.52.2] 26.12.2019 =
-* Fix: Custom capabilities for custom post types was not created by URE automatically since version 4.52.1.
-* Fix: 'administrator' role protection did not show to power users roles with 'administrator' word inside, like 'shop_administrator', etc.
+= [4.60] 24.06.2021 =
+* New: Notification box was replaced with one based on the [jpillora/nofifyjs](https://notifyjs.jpillora.com/) jQuery plugin. It does not move down page content. It disappears automatically after 5 seconds. Click on it to remove it manually.
+* Fix: "Add capability" shows warning styled notification when needed (invalid characters, etc.) instead of a successful one.
+* Fix: Capabilities group uncheck and revert selection is blocked for the administrator role to exclude accident deletion of permissions from it.
 
-= [4.52.1] 11.11.2019 =
-* Update: URE requires PHP version 5.6.
-* ure_cpt_editor_roles filter was added. It takes 2 parameters: array $roles with 1 element 'administrator' by default and $post_type with post type name string. Add other role(s) to which you wish automatically add all user capabilities for custom post type $post_type. URE updates roles this way before opening "Users->User Role Editor" page.
-* New user capability 'ure_nav_menus_access' was added. It's used at the User Role Editor Pro only.
+= [4.59.1] 11.05.2021 =
+* New: Multisite: When update role at the main site with "Apply to all sites" option and PHP constant URE_MULTISITE_DIRECT_UPDATE === 1 (update roles directly in database, not via WordPress API), 
+*   URE overwrites all subsite roles with roles from the main site. It's possible now to leave selected role(s) for selected subsite(s) unchanged: add filter 'ure_network_update_leave_roles' and  
+*   return from it the array like this one - array( (int) blog_id => array('role_id1', 'role_id2', ... );
+* Update: "Other roles" section at user profile is available now only for users with 'promote_users' capability.
+* Update: Notice at the top of URE page about action result is not removed automatically after 7 seconds as earlier.
+* Update: 'ure_sort_wp_roles_list' filter accepts these values for the single input parameter: false - leave roles list as it is; true, 'id' - sort roles list by role ID; 'name' - sort roles by role name.
+
+= [4.59] 05.04.2021 =
+* Update: PHP constant URE_WP_ADMIN_URL was replaced with direct 'admin_url()' call to respect the 'admin_url' filter applied by the get_admin_url() WordPress API function.
+* Update: Editing roles and capabilities granted to selected user ("Capabilities" link under user row at the "Users" list) executes 'add_user_role' or 'remove_user_role' actions only in case it really grants or revokes roles and/or capabilities.
+  Previous versions fully revoked and granted again all roles during user permissions update even in case roles list was not changed. It was leaded to the false execution of the mentioned add/remove role actions.
 
 File changelog.txt contains the full list of changes.
 
@@ -104,6 +112,9 @@ You can find more information about "User Role Editor" plugin at [this page](htt
 I am ready to answer on your questions about plugin usage. Use [plugin page comments](http://www.shinephp.com/user-role-editor-wordpress-plugin/) for that.
 
 == Upgrade Notice ==
-= [4.53] 01.02.2019 =
-* Update: "Add role", "Delete role", "Rename role", "Add capability", "Delete capability" do not reload full page on completion, but use AJAX for data exchange with server and refresh parts of the page via JavaScript.
-* Update: Multisite: "Allow non super administrators to create, edit, and delete users" option: priority for 'map_meta_cap' filter priority was raised from 1 to 99, in order make possible to overwrite changes made by other plugins, like WooCommerce.	
+
+= [4.60] 23.06.2021 =
+* New: Notification box was replaced with one based on the [jpillora/nofifyjs](https://notifyjs.jpillora.com/) jQuery plugin. It does not move down page content. It disappears automatically after 5 seconds. Click on it to remove it manually.
+* Fix: "Add capability" shows warning styled notification when needed (invalid characters, etc.) instead of a successful one.
+* Fix: Capabilities group uncheck and revert selection is blocked for the administrator role to exclude accident deletion of permissions from it.
+

@@ -464,7 +464,7 @@
                         [4, "Richmond by Craftmark", ""]
                     ],
                     "videoTour": false,
-                    "3DTour": false,
+                    "3DTour": "https://my.matterport.com/show/?m=YQsNayGZ25Q",
                     "pdf": "floorPlans.pdf",
                     "specs": {
                         "sqFeetLabel": "Up to",
@@ -1073,7 +1073,19 @@
                     "gallery": [
                         [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
                         [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
-                        [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                        [3, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [4, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [5, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [6, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [7, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [8, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
+                        [9, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],  
+                        [10, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [11, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [12, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [13, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [14, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"], 
+                        [15, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"] 
                     ],
                     "fpImage": [
                         [1, "Garage", ""],

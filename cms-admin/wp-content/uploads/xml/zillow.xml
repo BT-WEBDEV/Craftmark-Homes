@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Builders>
+  <Corporation>
+    <CorporateBuilderNumber>CMHCorp</CorporateBuilderNumber>
+    <CorporateState>VA</CorporateState>
+    <CorporateName>Craftmark Homes</CorporateName>
+    <CorporateReportingEmail>info@craftmarkhomes.com</CorporateReportingEmail>
+    <Builder>
+      <BuilderNumber>CMH</BuilderNumber>
+      <BrandName>Craftmark Homes</BrandName>
+      <BrandLogo_Med>https://www.craftmarkhomes.com/images/craftmark-logo-black.png</BrandLogo_Med>
+      <ReportingName>Craftmark Homes</ReportingName>
+      <DefaultLeadsEmail>info@craftmarkhomes.com</DefaultLeadsEmail>
+      <BuilderWebsite>https://www.craftmarkhomes.com/</BuilderWebsite>
+      <Subdivision Status="Active">
+        <SubdivisionNumber>CMHSub12</SubdivisionNumber>
+        <SubdivisionName>Retreat At Westfields</SubdivisionName>
+        <UseDefaultLeadsEmail>0</UseDefaultLeadsEmail>
+        <SubLeadsEmail>lwindsor@craftmarkhomes.com</SubLeadsEmail>
+        <CommunityStyle>Townhomes</CommunityStyle>
+        <SalesOffice>
+          <Agent>Lori Windsor</Agent>
+          <Address OutOfCommunity="0">
+            <Street1>5286 Ridgeview Retreat Drive</Street1>
+            <City>Chantilly</City>
+            <State>VA</State>
+            <ZIP>20151</ZIP>
+            <Geocode>
+              <Latitude>38.872984</Latitude>
+              <Longitude>-77.461630</Longitude>
+            </Geocode>
+          </Address>
+          <Phone>
+            <AreaCode>703</AreaCode>
+            <Prefix>507</Prefix>
+            <Suffix>6882</Suffix>
+          </Phone>
+          <Hours>Closest Community Intersection: Stonecroft Boulevard and Conference Center Dr.&lt;br&gt;&lt;strong&gt;Please Email for Appointment&lt;/strong&gt; &lt;br&gt; Open Daily 11am - 5pm</Hours>
+          <HoursDetail>
+            <Day>
+              <DayOfWeek>Monday</DayOfWeek>
+              <StartTime>13:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Tuesday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Wednesday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Thursday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Friday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Saturday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Sunday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <ByAppointment>1</ByAppointment>
+          </HoursDetail>
+        </SalesOffice>
+        <SubAddress>
+          <SubStreet1>5286 Ridgeview Retreat Drive</SubStreet1>
+          <SubCity>Chantilly</SubCity>
+          <SubState>VA</SubState>
+          <SubZIP>20151</SubZIP>
+          <SubGeocode>
+            <SubLatitude>38.872984</SubLatitude>
+            <SubLongitude>-77.461630</SubLongitude>
+          </SubGeocode>
+        </SubAddress>
+        <DrivingDirections>To View Community: Take I-495 to I-66W Take Exit 53B, Route 28N/Dulles Airport Exit onto Westfields Blvd-stay right Rt. On Stonecroft Blvd Left on Conference Center Drive Continue straight ahead to Craftmark Homes–The Retreat at Westfields</DrivingDirections>
+        <Schools>
+          <DistrictName/>
+          <Elementary>Cub Run Elementary School</Elementary>
+          <Middle>Stone Middle School</Middle>
+          <High>Westfield High School</High>
+        </Schools>
+        <SubAmenity Type="Park">1</SubAmenity>
+        <SubAmenity Type="Pond">1</SubAmenity>
+        <SubAmenity Type="Trails">1</SubAmenity>
+        <SubAmenity Type="Lake">1</SubAmenity>
+        <SubDescription>For those who desire modern luxury and convenient connections, welcome to The Retreat at Westfields – your gateway to all that you’ve been searching for this year. It’s time to take a breath of fresh air, embrace endless comfort, and experience a true retreat with Craftmark Homes in Fairfax County. The Richmond floor plan offers a welcoming display of brick and stone exteriors wrapped around a beautiful open layout of luxurious living spaces that seamlessly flow together. Indulge in upscale included features like a gourmet kitchen and grand center island, a private deck for indoor-outdoor living, and even the ability to add custom features. The included features stretch far beyond your expectations, delivering 4 levels of remarkable craftsmanship.</SubDescription>
+        <SubImage Type="Standard" SequencePosition="1" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide1.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="2" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide2.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="3" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide3.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="4" Caption="The Ret∂reat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide4.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="5" Caption="The Ret∂reat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide5.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="6" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide6.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="7" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide7.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="8" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide8.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="9" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide9.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="4" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide4.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="10" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide10.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="11" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide11.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="12" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide12.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="13" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide13.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="14" Caption="The Retreat at Westfield in Chantilly, VA">https://www.craftmarkhomes.com/communities/retreat-at-westfields/images/slider/slide14.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="0" Caption="Retreat at Westfields">https://www.craftmarkhomes.com/communities/retreat-at-westfields/sp-image/siteplan-1.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="1" Caption="Retreat at Westfields">https://www.craftmarkhomes.com/communities/retreat-at-westfields/sp-image/siteplan-2.jpg</SubImage>
+        <SubVideoFile Title="Watch highlights">https://www.craftmarkhomes.com/communities/retreat-at-westfields/#highlight-retreat-at-westfields-1</SubVideoFile>
+        <SubVideoTour Title="Watch Tour">https://www.craftmarkhomes.com/communities/retreat-at-westfields/#highlight-retreat-at-westfields-1</SubVideoTour>
+        <SubWebsite>https://www.craftmarkhomes.com/communities/retreat-at-westfields</SubWebsite>
+        <Promotion>
+          <PromoDescription>Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call</PromoDescription>
+        </Promotion>
+        <Plan Type="MultiFamily">
+          <PlanNumber>CMHPlan11</PlanNumber>
+          <PlanName>The Richmond at Retreat at Westfields</PlanName>
+          <PlanTypeName>Townhome</PlanTypeName>
+          <BasePrice>699900</BasePrice>
+          <BaseSqft>2373</BaseSqft>
+          <Stories>4</Stories>
+          <Baths>3</Baths>
+          <HalfBaths>1</HalfBaths>
+          <Bedrooms MasterBedLocation="">3</Bedrooms>
+          <Garage>2</Garage>
+          <LivingArea Type="LivingRoom">1</LivingArea>
+          <LivingArea Type="FamilyRoom">1</LivingArea>
+          <LivingArea Type="GuestRoom">1</LivingArea>
+          <LivingArea Type="DiningRoom">1</LivingArea>
+          <LivingArea Type="Loft">1</LivingArea>
+          <LivingArea Type="Office">1</LivingArea>
+          <LivingArea Type="Study">1</LivingArea>
+          <Basement/>
+          <PlanAmenity Type="WalkInClosets">1</PlanAmenity>
+          <PlanOpenAmenity/>
+          <Description>Now Selling Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage</Description>
+          <PlanImages>
+            <ElevationImage SequencePosition="1" Caption="Richmond by Craftmark">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/exterior-images/exterior-1.jpg</ElevationImage>
+            <ElevationImage SequencePosition="2" Caption="Richmond by Craftmark">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/exterior-images/exterior-2.jpg</ElevationImage>
+            <ElevationImage SequencePosition="3" Caption="Richmond by Craftmark">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/exterior-images/exterior-3.jpg</ElevationImage>
+            <ElevationImage SequencePosition="4" Caption="Richmond by Craftmark">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/exterior-images/exterior-4.jpg</ElevationImage>
+            <FloorPlanImage SequencePosition="1" Caption="Garage">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/fp-images/floorPlans-1.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="2" Caption="Standard Ground Floor">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/fp-images/floorPlans-2.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="3" Caption="First Floor">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/fp-images/floorPlans-3.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="4" Caption="Second Floor">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/fp-images/floorPlans-4.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="5" Caption="Alt Second Floor">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/fp-images/floorPlans-5.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="6" Caption="Optional Loft &amp; Bath">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/fp-images/floorPlans-6.jpg</FloorPlanImage>
+            <InteriorImage SequencePosition="1" Caption="The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/slideShow1.jpg</InteriorImage>
+            <InteriorImage SequencePosition="2" Caption="The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/slideShow2.jpg</InteriorImage>
+            <InteriorImage SequencePosition="3" Caption="The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes">https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/images/main/slideShow3.jpg</InteriorImage>
+            <VirtualTour>http://my.matterport.com/show/?m=PSbzGfuNLAH</VirtualTour>
+            <PlanViewer>https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields/pdf/floorPlans.pdf</PlanViewer>
+          </PlanImages>
+          <PlanVideoFile>https://youtu.be/gZR2oxnFUHc</PlanVideoFile>
+          <PlanWebsite>https://www.craftmarkhomes.com/floorplans/richmond-at-retreat-at-westfields</PlanWebsite>
+          <RichDetails>
+            <ArchitectureStyle>Modern</ArchitectureStyle>
+            <Attic/>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+            <Deck/>
+            <Dock/>
+            <DoublePaneWindows>1</DoublePaneWindows>
+            <ExteriorTypes>
+              <ExteriorType>Brick</ExteriorType>
+            </ExteriorTypes>
+            <HeatingFuels/>
+            <HeatingSystems>
+              <HeatingSystem>ForcedAir</HeatingSystem>
+            </HeatingSystems>
+            <ParkingTypes>
+              <ParkingType>GarageAttached</ParkingType>
+            </ParkingTypes>
+            <Patio/>
+            <Porch/>
+            <RoofTypes>
+              <RoofType>ShakeShingle</RoofType>
+            </RoofTypes>
+            <Skylight>1</Skylight>
+            <SprinklerSystem/>
+            <Wetbar/>
+            <Wired/>
+          </RichDetails>
+          <Spec>
+            <SpecNumber>CMHSpec104</SpecNumber>
+            <SpecAddress>
+              <SpecLot>104</SpecLot>
+              <SpecStreet1>5266 Ridgeview Retreat Drive</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>UnderConstruction</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2022-03</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>725200</SpecPrice>
+            <SpecSqft>1988</SpecSqft>
+            <SpecStories>3</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>3</SpecBaths>
+            <SpecHalfBaths>1</SpecHalfBaths>
+            <SpecBedrooms>4</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite #18
+Fully Appointed 3-Level Interior Townhome
+Move in September 2022!
+
+3 Levels
+4 Beds
+3 Full Baths + 1 Powder Room
+2 Car Garage
+
+Bosch Appliances
+Deck
+11\' Island &amp; Quartz Kitchen
+Hardwood
+Home Automation System
+Stone Watertable
+
+Sales Price: $725,200
+
+Address: 5266 Ridgeview Retreat Dr. Chantilly, VA 20151</SpecDescription>
+            <SpecYearBuilt>2022</SpecYearBuilt>
+            <SpecImages>
+              <SpecElevationImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/104/img_Screen-Shot-2022-03-25-at-3.29.48-PM.jpg</SpecElevationImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=104</SpecWebsite>
+          </Spec>
+          <Spec>
+            <SpecNumber>CMHSpec94</SpecNumber>
+            <SpecAddress>
+              <SpecLot>94</SpecLot>
+              <SpecStreet1>5114 Ridgeview Retreat Drive</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>UnderConstruction</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2022-02</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>766600</SpecPrice>
+            <SpecSqft>1988</SpecSqft>
+            <SpecStories>3</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>2</SpecBaths>
+            <SpecHalfBaths>2</SpecHalfBaths>
+            <SpecBedrooms>3</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite 21A
+Fully-Appointed End Unit Townhome
+Move in September 2022!
+
+3 Levels
+2 Full, 2 Half Baths
+3 Bedrooms
+2 Car Garage
+
+
+Brick front
+Deck
+Quartz
+Bosch Gourmet Appliances</SpecDescription>
+            <SpecYearBuilt>2022</SpecYearBuilt>
+            <SpecImages>
+              <SpecInteriorImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/94/img_Retreat-at-Westfields-21-24-Rendering-Labeled-for-Sales-.jpg</SpecInteriorImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=94</SpecWebsite>
+            <Appliances>
+              <Appliance>Dishwasher</Appliance>
+              <Appliance>Garbage Disposal</Appliance>
+              <Appliance>Microwave</Appliance>
+              <Appliance>Refrigerator</Appliance>
+            </Appliances>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+          </Spec>
+          <Spec>
+            <SpecNumber>CMHSpec86</SpecNumber>
+            <SpecAddress>
+              <SpecLot>86</SpecLot>
+              <SpecStreet1>5100 Ridgeview Retreat Drive</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>Reserved</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2021-12</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>801940</SpecPrice>
+            <SpecSqft>2373</SpecSqft>
+            <SpecStories>4</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>3</SpecBaths>
+            <SpecHalfBaths>2</SpecHalfBaths>
+            <SpecBedrooms>4</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite 10
+Fully Appointed 4 Level End Townhome
+Move in March 2022!
+
+4 Levels
+4 Beds
+3 Full Baths + 2 Powder Rooms
+2 Car Garage
+
+Brick &amp; Stone Accented Facades (per plan)
+Deck
+Oak Stairs Throughout
+Kitchen Quartz Countertops
+Owner\'s Frameless Shower Door
+
+Sales Price: $801,940
+
+5100 Ridgeview Retreat Dr. Chantilly, VA 20151</SpecDescription>
+            <SpecYearBuilt>2021</SpecYearBuilt>
+            <SpecImages>
+              <SpecInteriorImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/86/img_Color-Rendering-10-16-RIGHT-.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="1">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/86/img_Craftmark-Homes-The-Retreat-at-Westfields-Block-10-16_Cam01.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="2">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/86/img_Craftmark-Homes-The-Retreat-at-Westfields-Block-10-16_Cam02.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="3">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/86/img_Craftmark-Homes_The-Retreat-at-Westfields-Block-21-24_Cam01.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="4">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/86/img_Craftmark-Homes_The-Retreat-at-Westfields-Block-21-24_Cam02.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="5">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/86/img_Craftmark-Homes_The-Retreat-at-Westfields-Block-21-24_Cam03.jpg</SpecInteriorImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=86</SpecWebsite>
+            <Appliances>
+              <Appliance>Dishwasher</Appliance>
+              <Appliance>Freezer</Appliance>
+              <Appliance>Garbage Disposal</Appliance>
+              <Appliance>Microwave</Appliance>
+              <Appliance>Refrigerator</Appliance>
+            </Appliances>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+          </Spec>
+          <Spec>
+            <SpecNumber>CMHSpec88</SpecNumber>
+            <SpecAddress>
+              <SpecLot>88</SpecLot>
+              <SpecStreet1>5112 Ridgeview Retreat Drive</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>Reserved</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2021-12</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>762135</SpecPrice>
+            <SpecSqft>1988</SpecSqft>
+            <SpecStories>3</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>2</SpecBaths>
+            <SpecHalfBaths>2</SpecHalfBaths>
+            <SpecBedrooms>3</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite #16
+Fully Appointed 3-Level End Townhome
+Move in April 2022!
+
+3 Levels
+3 Beds
+2 Full Baths + 2 Powder Rooms
+2 Car Garage
+
+Brick Front &amp; Stone Watertable Front &amp; Brick Side Watertable
+Deck
+Oak Stairs Throughout
+Kitchen Quartz Countertops
+Owner\'s Frameless Shower Door
+
+Sales Price: $762,135
+
+Address: Ridgeview Retreat Dr. Chantilly, VA 20151</SpecDescription>
+            <SpecYearBuilt>2021</SpecYearBuilt>
+            <SpecImages>
+              <SpecInteriorImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/88/img_Color-Rendering-10-16-RIGHT-.jpg</SpecInteriorImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=88</SpecWebsite>
+            <Appliances>
+              <Appliance>Dishwasher</Appliance>
+              <Appliance>Freezer</Appliance>
+              <Appliance>Garbage Disposal</Appliance>
+              <Appliance>Microwave</Appliance>
+              <Appliance>Refrigerator</Appliance>
+            </Appliances>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+          </Spec>
+          <Spec>
+            <SpecNumber>CMHSpec92</SpecNumber>
+            <SpecAddress>
+              <SpecLot>92</SpecLot>
+              <SpecStreet1>5280 Ridgeview Retreat</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>Reserved</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2022-01</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>808560</SpecPrice>
+            <SpecSqft>2373</SpecSqft>
+            <SpecStories>4</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>3</SpecBaths>
+            <SpecHalfBaths>2</SpecHalfBaths>
+            <SpecBedrooms>3</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite #4
+Fully-Appointed End Townhome 
+March Move-In!
+
+4 Levels
+3 Bedrooms
+3 Full Baths
+2 Half Baths
+
+Brick Front &amp; Brick Side
+Kitchen Upg. Designer Quartz Countertops and Backsplash
+Kitchen Under Cabinet Lighting
+5” Plank Engineered Hardwood Throughout
+Upgrade 8’ Atrium Doors
+Upgrade Owner’s Shower Pan
+
+Sales Price: $808,560
+
+Address: 5280 Ridgeview Retreat Drive, Chantilly, VA 20151</SpecDescription>
+            <SpecYearBuilt>2022</SpecYearBuilt>
+            <SpecImages>
+              <SpecElevationImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/92/img_Screen-Shot-2022-01-18-at-4.39.00-PM.jpg</SpecElevationImage>
+              <SpecElevationImage SequencePosition="1">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/92/img_Screen-Shot-2022-01-18-at-4.36.27-PM.jpg</SpecElevationImage>
+              <SpecElevationImage SequencePosition="2">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/92/img_Screen-Shot-2022-01-18-at-4.40.18-PM.jpg</SpecElevationImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=92</SpecWebsite>
+          </Spec>
+          <Spec>
+            <SpecNumber>CMHSpec90</SpecNumber>
+            <SpecAddress>
+              <SpecLot>90</SpecLot>
+              <SpecStreet1>14836 Retreat Blvd</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>Reserved</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2021-12</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>735645</SpecPrice>
+            <SpecSqft>1988</SpecSqft>
+            <SpecStories>3</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>2</SpecBaths>
+            <SpecHalfBaths>2</SpecHalfBaths>
+            <SpecBedrooms>3</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>SELECT YOUR COLOR HARDWOOD IF YOU ACT SOON!
+
+Homesite #26
+Interior 3 Level TH
+Move in April-June, 2022!
+
+3 Levels
+3 Beds
+2 Full Baths + 2 Half Baths
+2-Car Garage
+
+Brick Front with Stone Watertable
+Hardwood Rec. Rm, Main level &amp; Upper Hallway
+Kitchen Quartz Countertops
+Upg. 8’ Atrium Doors
+
+Sales Price: $735,645
+
+Address: 14836 Retreat Blvd. Chantilly, VA 20151</SpecDescription>
+            <SpecYearBuilt>2021</SpecYearBuilt>
+            <SpecImages>
+              <SpecInteriorImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/90/img_Craftmark-Homes_The-Retreat-at-Westfields-Block-25-29_Cam03_Draft_v2.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="1">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/90/img_Craftmark-Homes_The-Retreat-at-Westfields-Block-25-29_Cam01_Draft_v2.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="2">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/90/img_Craftmark-Homes_The-Retreat-at-Westfields-Block-25-29_Cam02_Draft_v2.jpg</SpecInteriorImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=90</SpecWebsite>
+            <Appliances>
+              <Appliance>Dishwasher</Appliance>
+              <Appliance>Freezer</Appliance>
+              <Appliance>Garbage Disposal</Appliance>
+              <Appliance>Microwave</Appliance>
+              <Appliance>Refrigerator</Appliance>
+            </Appliances>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+          </Spec>
+          <Spec>
+            <SpecNumber>CMHSpec106</SpecNumber>
+            <SpecAddress>
+              <SpecLot>106</SpecLot>
+              <SpecStreet1>14838 Retreat Boulevard</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>UnderConstruction</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2022-04</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>758510</SpecPrice>
+            <SpecSqft>1988</SpecSqft>
+            <SpecStories>3</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>3</SpecBaths>
+            <SpecHalfBaths>1</SpecHalfBaths>
+            <SpecBedrooms>4</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite #25A
+Fully Appointed 3-Level End Unit Townhome
+Move in June 2022!
+
+3 Levels
+4 Beds
+3 Full Baths + 1 Powder Room
+2 Car Garage
+
+Dining Room Bay Window
+Side Brick Watertable
+Bosch Gourmet Appliances
+Lower Level Bedroom + Full Bath
+River Rock Shower Pans
+
+Sales Price: $758,510
+
+Address: 14838 Retreat Boulevard, Chantilly, VA 20151</SpecDescription>
+            <SpecYearBuilt>2022</SpecYearBuilt>
+            <SpecImages>
+              <SpecElevationImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/106/img_Screen-Shot-2022-04-01-at-4.38.16-PM.jpg</SpecElevationImage>
+              <SpecElevationImage SequencePosition="1">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/106/img_Screen-Shot-2022-04-01-at-4.38.26-PM.jpg</SpecElevationImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=106</SpecWebsite>
+          </Spec>
+          <Spec>
+            <SpecNumber>CMHSpec107</SpecNumber>
+            <SpecAddress>
+              <SpecLot>107</SpecLot>
+              <SpecStreet1>5268 Ridgeview Retreat Drive</SpecStreet1>
+              <SpecCity>Chantilly</SpecCity>
+              <SpecState>VA</SpecState>
+              <SpecZIP>20151</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>38.90164010</SpecLatitude>
+                <SpecLongitude>-77.45872390</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>UnderConstruction</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2022-04</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>817735</SpecPrice>
+            <SpecSqft>2373</SpecSqft>
+            <SpecStories>4</SpecStories>
+            <SpecLotSizeSqft>0</SpecLotSizeSqft>
+            <SpecBaths>4</SpecBaths>
+            <SpecHalfBaths>2</SpecHalfBaths>
+            <SpecBedrooms>4</SpecBedrooms>
+            <SpecGarage>2</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite #9A
+Fully Appointed 4-Level End Townhome
+August Move-In!
+
+4 Levels
+4 Bedrooms
+4 full baths and 2 half baths
+2 Car Garage
+
+Bosch Appliances
+Deck
+11\' Island &amp; Quartz Kitchen
+Hardwood
+Home Automation System
+Full Brick Front &amp; Brick Watertable
+
+Sales Price: $817,735.00
+
+Address: 5268 Ridgeview Retreat Drive, Chantilly, VA 20151
+
+Model Home Address: 5286 Ridgeview Retreat Drive, Chantilly, VA 20151
+GPS to Model: 14900 Conference Center Dr, Chantilly, VA 20151</SpecDescription>
+            <SpecYearBuilt>2022</SpecYearBuilt>
+            <SpecImages>
+              <SpecInteriorImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/107/img_Screen-Shot-2022-04-12-at-11.57.19-AM.jpg</SpecInteriorImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=107</SpecWebsite>
+          </Spec>
+        </Plan>
+      </Subdivision>
+      <Subdivision Status="Active">
+        <SubdivisionNumber>CMHSub13</SubdivisionNumber>
+        <SubdivisionName>The Village at Cabin Branch</SubdivisionName>
+        <UseDefaultLeadsEmail>0</UseDefaultLeadsEmail>
+        <SubLeadsEmail>lkalra@craftmarkhomes.com</SubLeadsEmail>
+        <CommunityStyle>Townhomes</CommunityStyle>
+        <SalesOffice>
+          <Agent>Lou Kalra</Agent>
+          <Address OutOfCommunity="0">
+            <Street1>22327 Cabin Branch Avenue</Street1>
+            <City>Clarksburg</City>
+            <State>MD</State>
+            <ZIP>20841</ZIP>
+            <Geocode>
+              <Latitude>39.2198716</Latitude>
+              <Longitude>-77.2833051</Longitude>
+            </Geocode>
+          </Address>
+          <Phone>
+            <AreaCode>301</AreaCode>
+            <Prefix>910</Prefix>
+            <Suffix>5770</Suffix>
+          </Phone>
+          <Hours>Personal Appointments Required. Please Contact to Schedule!</Hours>
+          <HoursDetail>
+            <Day>
+              <DayOfWeek>Monday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Tuesday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Wednesday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Thursday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Friday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Saturday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <Day>
+              <DayOfWeek>Sunday</DayOfWeek>
+              <StartTime>11:00</StartTime>
+              <EndTime>17:00</EndTime>
+            </Day>
+            <ByAppointment>1</ByAppointment>
+          </HoursDetail>
+        </SalesOffice>
+        <SubAddress>
+          <SubStreet1>22327 Cabin Branch Avenue</SubStreet1>
+          <SubCity>Clarksburg</SubCity>
+          <SubState>MD</SubState>
+          <SubZIP>20841</SubZIP>
+          <SubGeocode>
+            <SubLatitude>39.2198716</SubLatitude>
+            <SubLongitude>-77.2833051</SubLongitude>
+          </SubGeocode>
+        </SubAddress>
+        <DrivingDirections></DrivingDirections>
+        <Schools>
+          <DistrictName/>
+          <Elementary/>
+          <Middle/>
+          <High/>
+        </Schools>
+        <SubAmenity Type="Park">1</SubAmenity>
+        <SubAmenity Type="Views">1</SubAmenity>
+        <SubAmenity Type="Community Center">1</SubAmenity>
+        <SubAmenity Type="Trails">1</SubAmenity>
+        <SubAmenity Type="Clubhouse">1</SubAmenity>
+        <SubDescription>Craftmark Homes is eager to bring brand new elevator townhomes to an exciting active adult community in Clarksburg, Maryland. Indulge in beautiful wooded scenery, stylish living spaces, and a wealth of onsite amenities at your fingertips when you come home to Village at Cabin Branch! Our newest floor plan, The Seneca, has been designed for years of age-in-place luxury, with an included personal elevator allowing you (and your belongings) to flow from one level to the next with ease. You’ll find fabulous living spaces throughout, such as a gourmet kitchen, a spacious great room with access to your own private deck, dreamy bedrooms with incredible features, a lower level with many flexible designs, and the option for an additional loft level. With Craftmark, you don’t have to worry about choosing between your savings and luxury living. The Seneca’s long list of home features, which would be considered options to others, are standard and included in every townhome we build at Village at Cabin Branch. Situated among 540 acres of idyllic views with a wealth of amenities, you’ll find endless adventure all around this active community. With easy access to major commuter routes such as I-270 and the MARC Train Station, venturing out to popular dining, retail, and area attractions is a breeze! Everything is within reach when you come home to one of our new elevator townhomes in Montgomery County, MD.</SubDescription>
+        <SubImage Type="Standard" SequencePosition="1" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide1.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="2" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide2.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="3" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide3.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="4" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide4.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="5" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide5.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="6" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide6.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="7" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide7.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="8" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide8.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="9" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide9.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="10" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide10.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="11" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide11.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="12" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide12.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="13" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide13.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="14" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide14.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="15" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide15.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="16" Caption="The Village at Cabin Branch in Clarksburg, MD">https://www.craftmarkhomes.com/communities/cabin-branch/images/slider/slide16.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="0" Caption="The Village at Cabin Branch">https://www.craftmarkhomes.com/communities/cabin-branch/sp-image/siteplan-1.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="1" Caption="The Village at Cabin Branch">https://www.craftmarkhomes.com/communities/cabin-branch/sp-image/siteplan-2.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="2" Caption="The Village at Cabin Branch">https://www.craftmarkhomes.com/communities/cabin-branch/sp-image/siteplan-3.jpg</SubImage>
+        <SubVideoFile Title=""/>
+        <SubVideoTour Title=""/>
+        <SubWebsite>https://www.craftmarkhomes.com/communities/cabin-branch</SubWebsite>
+        <Promotion>
+          <PromoDescription>Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call</PromoDescription>
+        </Promotion>
+        <Plan Type="MultiFamily">
+          <PlanNumber>CMHPlan12</PlanNumber>
+          <PlanName>The Seneca</PlanName>
+          <PlanTypeName>Townhome</PlanTypeName>
+          <BasePrice>679900</BasePrice>
+          <BaseSqft>2600</BaseSqft>
+          <Stories>3</Stories>
+          <Baths>3</Baths>
+          <HalfBaths>1</HalfBaths>
+          <Bedrooms MasterBedLocation="Up">3</Bedrooms>
+          <Garage>2</Garage>
+          <LivingArea Type="LivingRoom">1</LivingArea>
+          <LivingArea Type="FamilyRoom">1</LivingArea>
+          <LivingArea Type="GuestRoom">1</LivingArea>
+          <LivingArea Type="DiningRoom">1</LivingArea>
+          <LivingArea Type="Loft">1</LivingArea>
+          <Basement/>
+          <PlanAmenity Type="WalkInClosets">1</PlanAmenity>
+          <PlanAmenity Type="GreenConstruction">1</PlanAmenity>
+          <PlanAmenity Type="VaultedCeilings">1</PlanAmenity>
+          <PlanOpenAmenity/>
+          <Description>Now Selling 55+ Active Adult ELEVATOR Townhomes Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage | Private Elevator</Description>
+          <PlanImages>
+            <ElevationImage SequencePosition="1" Caption="Seneca by Craftmark">https://www.craftmarkhomes.com/floorplans/seneca/images/main/exterior-images/exterior-1.jpg</ElevationImage>
+            <ElevationImage SequencePosition="2" Caption="Seneca by Craftmark">https://www.craftmarkhomes.com/floorplans/seneca/images/main/exterior-images/exterior-2.jpg</ElevationImage>
+            <ElevationImage SequencePosition="3" Caption="Seneca by Craftmark">https://www.craftmarkhomes.com/floorplans/seneca/images/main/exterior-images/exterior-3.jpg</ElevationImage>
+            <ElevationImage SequencePosition="4" Caption="Seneca by Craftmark">https://www.craftmarkhomes.com/floorplans/seneca/images/main/exterior-images/exterior-4.jpg</ElevationImage>
+            <FloorPlanImage SequencePosition="1" Caption="Garage">https://www.craftmarkhomes.com/floorplans/seneca/images/main/fp-images/floorPlans-1.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="2" Caption="Standard Ground Floor">https://www.craftmarkhomes.com/floorplans/seneca/images/main/fp-images/floorPlans-2.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="3" Caption="First Floor">https://www.craftmarkhomes.com/floorplans/seneca/images/main/fp-images/floorPlans-3.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="4" Caption="Second Floor">https://www.craftmarkhomes.com/floorplans/seneca/images/main/fp-images/floorPlans-4.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="5" Caption="Alt Second Floor">https://www.craftmarkhomes.com/floorplans/seneca/images/main/fp-images/floorPlans-5.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="6" Caption="Optional Loft &amp; Bath">https://www.craftmarkhomes.com/floorplans/seneca/images/main/fp-images/floorPlans-6.jpg</FloorPlanImage>
+            <InteriorImage SequencePosition="1" Caption="The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes">https://www.craftmarkhomes.com/floorplans/seneca/images/main/slideShow1.jpg</InteriorImage>
+            <InteriorImage SequencePosition="2" Caption="The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes">https://www.craftmarkhomes.com/floorplans/seneca/images/main/slideShow2.jpg</InteriorImage>
+            <InteriorImage SequencePosition="3" Caption="The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes">https://www.craftmarkhomes.com/floorplans/seneca/images/main/slideShow3.jpg</InteriorImage>
+            <InteriorImage SequencePosition="4" Caption="The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes">https://www.craftmarkhomes.com/floorplans/seneca/images/main/slideShow4.jpg</InteriorImage>
+            <PlanViewer>https://www.craftmarkhomes.com/floorplans/seneca/pdf/floorPlans.pdf</PlanViewer>
+          </PlanImages>
+          <PlanVideoFile/>
+          <PlanWebsite>https://www.craftmarkhomes.com/floorplans/seneca</PlanWebsite>
+          <RichDetails>
+            <ArchitectureStyle>Modern</ArchitectureStyle>
+            <Attic/>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+            <Deck/>
+            <Dock/>
+            <DoublePaneWindows>1</DoublePaneWindows>
+            <ExteriorTypes>
+              <ExteriorType>Brick</ExteriorType>
+              <ExteriorType>Stone</ExteriorType>
+              <ExteriorType>Vinyl</ExteriorType>
+            </ExteriorTypes>
+            <HeatingFuels/>
+            <HeatingSystems>
+              <HeatingSystem>ForcedAir</HeatingSystem>
+            </HeatingSystems>
+            <ParkingTypes>
+              <ParkingType>GarageAttached</ParkingType>
+            </ParkingTypes>
+            <Patio/>
+            <Porch/>
+            <RoofTypes>
+              <RoofType>Asphalt</RoofType>
+            </RoofTypes>
+            <Skylight>1</Skylight>
+            <SprinklerSystem>1</SprinklerSystem>
+            <Wetbar/>
+            <Wired>1</Wired>
+          </RichDetails>
+        </Plan>
+      </Subdivision>
+      <Subdivision Status="Active">
+        <SubdivisionNumber>CMHSub14</SubdivisionNumber>
+        <SubdivisionName>Darnestown Station</SubdivisionName>
+        <UseDefaultLeadsEmail>0</UseDefaultLeadsEmail>
+        <SubLeadsEmail>lwindsor@craftmarkhomes.com</SubLeadsEmail>
+        <CommunityStyle>Urban</CommunityStyle>
+        <SalesOffice>
+          <Agent>Lori Windsor</Agent>
+          <Address OutOfCommunity="1">
+            <Street1>13610 Darnestown Rd</Street1>
+            <City>Gaithersburg</City>
+            <State>MD</State>
+            <ZIP>20878</ZIP>
+            <Geocode>
+              <Latitude>39.106381</Latitude>
+              <Longitude>-77.282502</Longitude>
+            </Geocode>
+          </Address>
+          <Phone>
+            <AreaCode>703</AreaCode>
+            <Prefix>507</Prefix>
+            <Suffix>6882</Suffix>
+          </Phone>
+          <Hours>Please Email for Information - By Appointment Off-Site!</Hours>
+          <HoursDetail>
+            <ByAppointment>1</ByAppointment>
+          </HoursDetail>
+        </SalesOffice>
+        <SubAddress>
+          <SubStreet1>13610 Darnestown Rd</SubStreet1>
+          <SubCity>Gaithersburg</SubCity>
+          <SubState>MD</SubState>
+          <SubZIP>20878</SubZIP>
+          <SubGeocode>
+            <SubLatitude>39.106381</SubLatitude>
+            <SubLongitude>-77.282502</SubLongitude>
+          </SubGeocode>
+        </SubAddress>
+        <DrivingDirections></DrivingDirections>
+        <Schools>
+          <DistrictName/>
+          <Elementary>Darnestown Elementary School</Elementary>
+          <Middle>Lakelands Park Middle School</Middle>
+          <High>Northwest High School</High>
+        </Schools>
+        <SubAmenity Type="Park">1</SubAmenity>
+        <SubAmenity Type="Views">1</SubAmenity>
+        <SubAmenity Type="Trails">1</SubAmenity>
+        <SubAmenity Type="Greenbelt">1</SubAmenity>
+        <SubDescription>Darnestown Station by Craftmark Homes presents a unique opportunity for comfortable estate living in a stunning community of new homes in Montgomery County, MD. Our luxuriously modern floor plans are crafted with breathtaking designs and high-end features that are so exceptional you won’t believe they’re standard inclusions in your home! Immerse yourself in the rare luxury of this Montgomery County neighborhood whose homes feature striking spaces like a grand split-level foyer, a gourmet kitchen with designer features and open breakfast area, a dedicated home office, a spacious owner’s suite with an adjacent sitting room, a large recreation room with an optional gas fireplace – and so much more. Nestled into a quaint Darnestown neighborhood, the generously sized homesites range from 1-2 acres. Surrounded by dense greenery with plenty of yard space, you can finally enjoy connecting with the great outdoors, hosting friends for an al fresco dinner, or joining in your favorite backyard games with family – all part of the comfort of home. The lifestyle perks of a Montgomery County address are endless at Darnestown Station. These new homes near I-270 offer convenient commuter connections, a refreshing escape with many nearby parks, and incredible Gaithersburg amenities just moments away. Come home to rare estate living with Craftmark Homes in Darnestown, Maryland. Act now to reserve your homesite and own one of our few single family homes for sale in Gaithersburg, MD.</SubDescription>
+        <SubImage Type="Standard" SequencePosition="1" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide1.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="2" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide2.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="3" Caption="Darnestown Station, Optional 3 car garage in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide3.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="4" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide4.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="5" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide5.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="6" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide6.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="7" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide7.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="8" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide8.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="9" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide9.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="10" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide10.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="11" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide11.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="12" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide12.jpg</SubImage>
+        <SubImage Type="Standard" SequencePosition="13" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/images/slider/slide13.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="0" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/sp-image/siteplan-1.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="1" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/sp-image/siteplan-2.jpg</SubImage>
+        <SubImage Type="LotMap" SequencePosition="2" Caption="Darnestown Station in Gaithersburg, MD">https://www.craftmarkhomes.com/communities/darnestown-station/sp-image/siteplan-3.jpg</SubImage>
+        <SubVideoFile Title=""/>
+        <SubVideoTour Title=""/>
+        <SubWebsite>https://www.craftmarkhomes.com/communities/darnestown-station</SubWebsite>
+        <Promotion>
+          <PromoDescription></PromoDescription>
+        </Promotion>
+        <Plan Type="SingleFamily">
+          <PlanNumber>CMHPlan2</PlanNumber>
+          <PlanName>The Chevy Chase at Darnestown Station</PlanName>
+          <PlanTypeName>SingleFamily</PlanTypeName>
+          <BasePrice>1315000</BasePrice>
+          <BaseSqft>5369</BaseSqft>
+          <Stories/>
+          <Baths>3</Baths>
+          <HalfBaths>1</HalfBaths>
+          <Bedrooms MasterBedLocation="">4</Bedrooms>
+          <Garage>2</Garage>
+          <LivingArea Type="LivingRoom">1</LivingArea>
+          <Basement/>
+          <PlanOpenAmenity/>
+          <Description></Description>
+          <PlanImages>
+            <ElevationImage SequencePosition="1" Caption="Oakton at Darnestown Station by Craftmark">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/exterior-images/exterior-1.jpg</ElevationImage>
+            <FloorPlanImage SequencePosition="1" Caption="First Floor">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/fp-images/floorPlans-1.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="2" Caption="Second Floor">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/fp-images/floorPlans-2.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="3" Caption="Basement">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/fp-images/floorPlans-3.jpg</FloorPlanImage>
+            <InteriorImage SequencePosition="1" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow1.jpg</InteriorImage>
+            <InteriorImage SequencePosition="2" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow2.jpg</InteriorImage>
+            <InteriorImage SequencePosition="3" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow3.jpg</InteriorImage>
+            <InteriorImage SequencePosition="4" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow4.jpg</InteriorImage>
+            <InteriorImage SequencePosition="5" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow5.jpg</InteriorImage>
+            <InteriorImage SequencePosition="6" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow6.jpg</InteriorImage>
+            <InteriorImage SequencePosition="7" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow7.jpg</InteriorImage>
+            <InteriorImage SequencePosition="8" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow8.jpg</InteriorImage>
+            <InteriorImage SequencePosition="9" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow9.jpg</InteriorImage>
+            <InteriorImage SequencePosition="10" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow10.jpg</InteriorImage>
+            <InteriorImage SequencePosition="11" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow11.jpg</InteriorImage>
+            <InteriorImage SequencePosition="12" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow12.jpg</InteriorImage>
+            <InteriorImage SequencePosition="13" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow13.jpg</InteriorImage>
+            <InteriorImage SequencePosition="14" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow14.jpg</InteriorImage>
+            <InteriorImage SequencePosition="15" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow15.jpg</InteriorImage>
+            <InteriorImage SequencePosition="16" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow16.jpg</InteriorImage>
+            <InteriorImage SequencePosition="17" Caption="The Chevy Chase at Darnestown Station Floor Plan, 4 BR, 3-4F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/images/main/slideShow17.jpg</InteriorImage>
+            <VirtualTour>https://my.matterport.com/show/?m=BPkK7A7q7Pn</VirtualTour>
+            <PlanViewer>https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station/pdf/floorPlans.pdf</PlanViewer>
+          </PlanImages>
+          <PlanVideoFile>https://youtu.be/ISnQUThdOLw</PlanVideoFile>
+          <PlanWebsite>https://www.craftmarkhomes.com/floorplans/chevy-chase-at-darnestown-station</PlanWebsite>
+          <RichDetails>
+            <ArchitectureStyle>Modern</ArchitectureStyle>
+            <Attic/>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+            <Deck/>
+            <Dock/>
+            <DoublePaneWindows>1</DoublePaneWindows>
+            <ExteriorTypes/>
+            <HeatingFuels/>
+            <HeatingSystems>
+              <HeatingSystem>ForcedAir</HeatingSystem>
+            </HeatingSystems>
+            <ParkingTypes/>
+            <Patio/>
+            <Porch/>
+            <RoofTypes>
+              <RoofType>ShakeShingle</RoofType>
+            </RoofTypes>
+            <Skylight/>
+            <SprinklerSystem/>
+            <Wetbar/>
+            <Wired/>
+          </RichDetails>
+          <Spec>
+            <SpecNumber>CMHSpec103</SpecNumber>
+            <SpecAddress>
+              <SpecLot>103</SpecLot>
+              <SpecStreet1> </SpecStreet1>
+              <SpecCity>Gaithersburg</SpecCity>
+              <SpecState>MD</SpecState>
+              <SpecZIP>20878</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>39.10480320</SpecLatitude>
+                <SpecLongitude>-77.25201010</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>UnderConstruction</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2022-03</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>1486730</SpecPrice>
+            <SpecSqft>5400</SpecSqft>
+            <SpecStories>2</SpecStories>
+            <SpecLotSizeSqft>4532.48</SpecLotSizeSqft>
+            <SpecBaths>4</SpecBaths>
+            <SpecHalfBaths>1</SpecHalfBaths>
+            <SpecBedrooms>4</SpecBedrooms>
+            <SpecGarage>3</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Blink and you might miss it! This stunning single-family home is being built in one of the only new construction estate living enclaves in Montgomery County, Darnestown Station. Featuring a three-car garage, finished recreation room, and hardwood throughout, this home has all the details!
+
+4 Beds | 4 Full, 1 Half Baths | 3-Car Garage
+
+√ Highly Sought-after Gaithersburg/Montgomery County Location
+√ 1.12 Acre Homesite
+√ Finished Lower Level
+√ Hardwood throughout
+√ Gourmet Kitchen
+</SpecDescription>
+            <SpecYearBuilt>2022</SpecYearBuilt>
+            <SpecImages>
+              <SpecElevationImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/103/img_Screen-Shot-2022-03-16-at-11.08.20-AM.jpg</SpecElevationImage>
+              <SpecInteriorImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/103/img_Screen-Shot-2022-03-16-at-11.06.02-AM.jpg</SpecInteriorImage>
+              <SpecInteriorImage SequencePosition="1">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/103/img_Screen-Shot-2022-03-16-at-11.06.21-AM.jpg</SpecInteriorImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=103</SpecWebsite>
+          </Spec>
+        </Plan>
+        <Plan Type="SingleFamily">
+          <PlanNumber>CMHPlan3</PlanNumber>
+          <PlanName>The Oakton at Darnestown Station</PlanName>
+          <PlanTypeName>SingleFamily</PlanTypeName>
+          <BasePrice>1355000</BasePrice>
+          <BaseSqft>5832</BaseSqft>
+          <Stories/>
+          <Baths>3</Baths>
+          <HalfBaths>1</HalfBaths>
+          <Bedrooms MasterBedLocation="">4</Bedrooms>
+          <Garage>2</Garage>
+          <LivingArea Type="LivingRoom">1</LivingArea>
+          <Basement/>
+          <PlanOpenAmenity/>
+          <Description></Description>
+          <PlanImages>
+            <ElevationImage SequencePosition="1" Caption="Oakton at Darnestown Station by Craftmark">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/exterior-images/exterior-1.jpg</ElevationImage>
+            <FloorPlanImage SequencePosition="1" Caption="First Floor">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/fp-images/floorPlans-1.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="2" Caption="Second Floor">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/fp-images/floorPlans-2.jpg</FloorPlanImage>
+            <FloorPlanImage SequencePosition="3" Caption="Basement">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/fp-images/floorPlans-3.jpg</FloorPlanImage>
+            <InteriorImage SequencePosition="1" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow1.jpg</InteriorImage>
+            <InteriorImage SequencePosition="2" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow2.jpg</InteriorImage>
+            <InteriorImage SequencePosition="3" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow3.jpg</InteriorImage>
+            <InteriorImage SequencePosition="4" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow4.jpg</InteriorImage>
+            <InteriorImage SequencePosition="5" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow5.jpg</InteriorImage>
+            <InteriorImage SequencePosition="6" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow6.jpg</InteriorImage>
+            <InteriorImage SequencePosition="7" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow7.jpg</InteriorImage>
+            <InteriorImage SequencePosition="8" Caption="The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes">https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/images/main/slideShow8.jpg</InteriorImage>
+            <PlanViewer>https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station/pdf/floorPlans.pdf</PlanViewer>
+          </PlanImages>
+          <PlanVideoFile/>
+          <PlanWebsite>https://www.craftmarkhomes.com/floorplans/oakton-at-darnestown-station</PlanWebsite>
+          <RichDetails>
+            <ArchitectureStyle>Modern</ArchitectureStyle>
+            <Attic/>
+            <CoolingSystems>
+              <CoolingSystem>Central</CoolingSystem>
+            </CoolingSystems>
+            <Deck/>
+            <Dock/>
+            <DoublePaneWindows>1</DoublePaneWindows>
+            <ExteriorTypes/>
+            <HeatingFuels/>
+            <HeatingSystems>
+              <HeatingSystem>ForcedAir</HeatingSystem>
+            </HeatingSystems>
+            <ParkingTypes/>
+            <Patio/>
+            <Porch/>
+            <RoofTypes>
+              <RoofType>ShakeShingle</RoofType>
+            </RoofTypes>
+            <Skylight/>
+            <SprinklerSystem/>
+            <Wetbar/>
+            <Wired/>
+          </RichDetails>
+          <Spec>
+            <SpecNumber>CMHSpec95</SpecNumber>
+            <SpecAddress>
+              <SpecLot>95</SpecLot>
+              <SpecStreet1>13606 Darnestown Road</SpecStreet1>
+              <SpecCity>Gaithersburg</SpecCity>
+              <SpecState>MD</SpecState>
+              <SpecZIP>20878</SpecZIP>
+              <SpecGeocode>
+                <SpecLatitude>39.10676900</SpecLatitude>
+                <SpecLongitude>-77.28123800</SpecLongitude>
+              </SpecGeocode>
+            </SpecAddress>
+            <SpecStatus>UnderConstruction</SpecStatus>
+            <SpecMoveInDate>
+              <Month>2022-02</Month>
+            </SpecMoveInDate>
+            <SpecIsModel>0</SpecIsModel>
+            <SpecPrice>1543600</SpecPrice>
+            <SpecSqft>5832</SpecSqft>
+            <SpecStories>3</SpecStories>
+            <SpecLotSizeSqft>4208.73</SpecLotSizeSqft>
+            <SpecBaths>4</SpecBaths>
+            <SpecHalfBaths>1</SpecHalfBaths>
+            <SpecBedrooms>4</SpecBedrooms>
+            <SpecGarage>3</SpecGarage>
+            <SpecBasement>0</SpecBasement>
+            <SpecDescription>Homesite 19
+Fully-Appointed Singel Family Home!
+
+3 Finished Levels
+4 Bedrooms + Sitting Room
+Den/Bedroom
+Media Room
+4 Full Baths + 1 Half Bath
+Walk out lower level
+Hardwood throughout
+Quartz
+Matte Black Hardware
+Many Designer Upgrades</SpecDescription>
+            <SpecYearBuilt>2022</SpecYearBuilt>
+            <SpecImages>
+              <SpecInteriorImage SequencePosition="0">https://www.craftmarkhomes.com/cms-admin/wp-content/uploads/WPL/95/img_slideShow2-1-.jpeg</SpecInteriorImage>
+            </SpecImages>
+            <SpecWebsite>https://www.craftmarkhomes.com/quick-move-ins/home/?id=95</SpecWebsite>
+          </Spec>
+        </Plan>
+      </Subdivision>
+    </Builder>
+  </Corporation>
+</Builders>
