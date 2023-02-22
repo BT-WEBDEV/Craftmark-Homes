@@ -58,9 +58,7 @@
                     <?php } ?>
                 </div>
                 <div class="desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, eveniet? Ipsa eos mollitia fugiat
-                    omnis explicabo quasi dolores, natus enim impedit. Voluptate possimus suscipit necessitatibus, odit
-                    optio id dolore quibusdam?
+                    <?php echo !empty($fp['description']) ? $fp['description'] : "More details on the way!"; ?>
                 </div>
                 <div class="specs">
                     <div class="d-md-flex">

@@ -45,5 +45,12 @@ $blog = getBlog();
             <?php } ?>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row d-block py-3">
+            <a href="/blog/archives" class="text-black font-weight-normal"> 
+                <h4 class="m-0 font-weight-bold text-center">View Blog Archives</h4>
+            </a>
+        </div>
+    </div>
 </section>
 <?php include_once(ROOT_PATH."/includes/footer.php"); ?>

@@ -80,7 +80,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
 
 <div class="brand-background brand-background-V4"
     style="background-image: url('/communities/<?php echo $community['url'] ?>/images/<?php echo $community['brandStyle']['background'] ?>');">
-    <section class="community-topper bg-center nav-space alert-space">
+    <section class="community-topper bg-center nav-space">
         <div class="container-fluid max-lg-width-1140">
             <div class="d-flex flex-wrap justify-content-between">
                 <div class="desktop-title d-none d-md-block">
@@ -149,7 +149,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
 
     <section id="community-details">
         <div class="container community-details community-details-V4 max-lg-width-1140">
-            <div class="content">
+            <div class="content d-flex flex-wrap">
                 <div class="flex-item item-1-V4 order-1">
                     <div>
                         <p class="d-md-none"><?php echo $comm['address']['county'] ?></p>
@@ -195,7 +195,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                     <?php echo ($comm['url'] == 'retreat-at-westfields') ? '<p class="font-weight-bold">Directions:</p><ul><li>Take I-495 to I-66W</li><li>Take Exit 53B, Route 28N/Dulles Airport</li><li>Exit onto Westfields Blvd- Stay right</li><li>Right On Stonecroft Blvd</li><li>Left on Conference Center Drive</li><li>Continue straight ahead to Craftmark Homes – The Retreat at Westfields</li></ul>' : ''; ?>
                     <!-- Retreat at westfields -->
                 </div>
-                <div class="flex-item item-2-V4 order-2 text-xl-center d-flex justify-content-end">
+                <div class="flex-item item-2-V4 order-2 text-xl-center d-flex">
                     <?php 
                     foreach ($comm['salesAgent']['agents'] as $agent) { ?>
                     <div class="d-flex agent-info">
@@ -494,7 +494,7 @@ if($community['status'] != 'soldLabel') {
     <!-- Community Overview -->
     <section id="community-overview" class="order-<?php echo $comm['sectionOrder']['overview']; ?>">
         <div class="bg-center community-welcome"
-            style="background-image: url('<?php echo ($community['brandStyle']['welcomeBackground']) ? '/communities/'.$community['url'].'/images/'.$community['brandStyle']['welcomeBackground'] : '/images/bg-who-we-are-desktop.jpg' ?>');">
+        style="background-image: url('<?php echo '/communities/'.$community['url'].'/images/'.$community['brandStyle']['welcomeBackground'] ? : '/images/bg-who-we-are-desktop.jpg' ?>');"> 
             <div class="container-fluid " style="background-color: rgba(255, 255, 255, 0.8);">
                 <div class="content-V4 max-lg-width-1140">
                     <ul id="community-nav" class="nav nav-tabs smooth-scroll">
@@ -530,7 +530,7 @@ if($community['status'] != 'soldLabel') {
 
     <!-- COMMUNITY VIDEO HIGHLIGHTS --> 
     <section id="community-highlights" class="order-<?php echo $comm['sectionOrder']['overview']; ?>">
-        <div class="container-fluid py-default max-lg-width-1140">
+        <div class="container-fluid py-default community-highlights-row-container">
             <div class="row">
                 <div class="col-md-6">
                     <?php 

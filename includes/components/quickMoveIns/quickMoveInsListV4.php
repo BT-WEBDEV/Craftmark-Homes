@@ -4,7 +4,7 @@ $community_options = json_decode($qmi['community_options'], true);
 <div class="quick-move-ins-list-v4">
     <div class="row mx-0">
         <div class="col-md-6 px-0">
-            <a href="/floorplans/<?php echo $fp['url'] ?>/">
+            <a href="/quick-move-ins/home?id=<?php echo $qmi['id'] ?>">
                 <div class="image">
                     <div class="view overlay zoom cursor-pointer h-100">
                         <?php if($qmi['gallery']) { ?>
@@ -26,8 +26,8 @@ $community_options = json_decode($qmi['community_options'], true);
         </div>
         <div class="col-md-6 px-0">
             <div class="content">
-                <div class="d-flex justify-content-between align-items-center">
-                    <a href="/floorplans/<?php echo $fp['url'] ?>/">
+                <div class="d-flex justify-content-between name-price">
+                    <a href="/quick-move-ins/home?id=<?php echo $qmi['id'] ?>">
                         <h3 class="font-weight-normal"><?php echo $qmi['city']; ?></span> |
                             <?php echo $community_options['params'][$qmi['community_id']]['value']; ?></h3>
                     </a>
@@ -37,12 +37,19 @@ $community_options = json_decode($qmi['community_options'], true);
                     <?php } ?>
                 </div>
                 <div class="desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, eveniet? Ipsa eos mollitia fugiat
-                    omnis explicabo quasi dolores, natus enim impedit. Voluptate possimus suscipit necessitatibus, odit
-                    optio id dolore quibusdam?
+                <?php
+                    $description = $qmi['description'];
+                    if (!empty($description)) {
+                        $words = explode(' ', $description);
+                        $shortened = implode(' ', array_slice($words, 0, 25));
+                        echo nl2br($shortened . (count($words) > 25 ? '...' : ''));
+                    } else {
+                        echo "Details on the Way";
+                    }
+                ?>
                 </div>
                 <div class="specs">
-                    <div class="d-flex">
+                    <div class="d-flex spec-flex">
                         <div class="d-flex spec">
                             <img src="/images/icon/sqfeet_white.svg" alt="Sq Feet" class="">
                             <div><?php echo number_format($qmi['sq_feet']); ?> Sq.Ft.
@@ -53,7 +60,7 @@ $community_options = json_decode($qmi['community_options'], true);
                             <div><?php echo $qmi['bedrooms']; ?> Beds</div>
                         </div>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex spec-flex">
                         <div class="d-flex spec">
                             <img src="/images/icon/bathrooms_white.svg" alt="Bathrooms" class="">
                             <div><?php echo $qmi['baths_full']; ?> full <?php echo $qmi['baths_half']; ?> half Baths
@@ -68,7 +75,7 @@ $community_options = json_decode($qmi['community_options'], true);
                     </div>
                 </div>
                 <div>
-                    <a href="/floorplans/<?php echo $fp['url'] ?>/" class="btn custom-btn bg-l-blue text-white">VIEW
+                    <a href="/quick-move-ins/home?id=<?php echo $qmi['id'] ?>" class="btn custom-btn bg-l-blue text-white">VIEW
                         DETAILS</a>
                 </div>
             </div>

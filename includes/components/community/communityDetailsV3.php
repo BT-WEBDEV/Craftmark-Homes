@@ -588,7 +588,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
 </div>
 
 <!-- POP UP MODAL --> 
-<?php if($community['url'] == "cabin-branch") { ?>
+<?php if($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -606,7 +606,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             </div>
         </div>
     </section>
-<?php } elseif($community['url'] == "retreat-at-westfields") { ?>
+<?php } elseif($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -624,7 +624,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
             </div>
         </div>
     </section>
-<?php } elseif($community['url'] == "watershed") { ?>
+<?php } elseif($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

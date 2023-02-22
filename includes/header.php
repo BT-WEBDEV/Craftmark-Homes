@@ -484,7 +484,6 @@ include_once("backend/functions.php");
                     <div class="row px-md-20">
                         <?php
                             $quickMoveIns = getQuickMoveIns(null, null, null);
-                            consoleLog("I made it Quick Move Ins"); 
                             foreach ($quickMoveIns as $qmi) { 
                         ?>
                         <div id="savedQmiWrap-<?php echo $qmi['id']; ?>"

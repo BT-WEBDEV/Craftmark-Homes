@@ -158,8 +158,7 @@ function getQuickMoveIns($id, $community_name) {
     $query_wp .= " ORDER BY CASE WHEN prop.field_3002 = 'SOLD!' THEN 1 ELSE 0 END, prop.add_date DESC";
     // if($community_name) {
     //     $query_wp .= " AND prop.id = {$id}";
-    // }
-    consoleLog($connection); 
+    // } 
     $data = mysqli_query($connection, $query_wp);
     confirm_query($data, "Error: Unable to fetch data from database.");
     
@@ -249,6 +248,51 @@ function getBlog() {
                     AND meta.post_id = post.featured_image_blog
                     WHERE post.post_type = 'blog' AND post.post_status = 'publish'
                     LIMIT 5";
+    $data = mysqli_query($connection, $query_wp);
+    confirm_query($data);
+
+    while($data_fetch = mysqli_fetch_assoc($data)) {
+        $response[] = $data_fetch;
+    }
+
+    return $response;
+}
+
+function getBlogArchives($start, $limit) {
+    global $connection;
+
+    $query_wp = "SELECT 
+                    post.ID,
+                    post.post_title,
+                    post.post_type,
+                    post.post_date,
+                    post.featured_image_blog,
+                    meta.meta_value as listing_image,
+                    post.post_status,
+                    post.post_excerpt,
+                    post.post_name
+                FROM (
+                    SELECT 
+                        p.ID, 
+                        p.post_title, 
+                        p.post_type,
+                        p.post_date,
+                        p.post_status,
+                        p.post_excerpt,
+                        p.post_name,
+                        MAX(CASE WHEN pm.meta_key = 'featured_image_blog' then pm.meta_value ELSE NULL END) AS featured_image_blog
+                    FROM wp_posts as p
+                    LEFT JOIN wp_postmeta as pm
+                    ON p.ID = pm.post_id
+                    GROUP BY p.ID
+                    ORDER BY p.post_date DESC
+                ) AS post
+                LEFT JOIN wp_postmeta AS meta
+                ON meta.meta_key = '_wp_attached_file'
+                AND meta.post_id = post.featured_image_blog
+                WHERE post.post_type = 'blog' AND post.post_status = 'publish'
+                LIMIT $start, $limit";
+
     $data = mysqli_query($connection, $query_wp);
     confirm_query($data);
 

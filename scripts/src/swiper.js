@@ -202,7 +202,7 @@ var communityHighlightSwiper = new Swiper('.community-highlight-swiper-container
     preventClicksPropagation: false,
     breakpoints: {
         576: {
-            slidesPerView: 1
+            slidesPerView: 2
         },
         767: {
             slidesPerView: 2,

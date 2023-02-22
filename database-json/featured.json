@@ -33,6 +33,31 @@
             "comUrl": "watershed",
             "featureName": "Watershed",
             "imgAlt": "Virtual Tour for Watershed",
+            "mainImage": "B2-bluemont-model-home.png",
+            "imageFrame" : "B1-bluemont-model-home.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/p3s5EYd7rXw"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "watershed",
+            "comUrl": "watershed",
+            "featureName": "Watershed",
+            "imgAlt": "Virtual Tour for Watershed",
             "mainImage": "B2-bluemont.png",
             "imageFrame" : "B1-bluemont.png",
             "highlightUrl": {

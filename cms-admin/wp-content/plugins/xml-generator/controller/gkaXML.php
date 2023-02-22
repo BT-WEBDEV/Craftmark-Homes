@@ -201,6 +201,7 @@ class gkaXML {
             $Subdivision->appendChild( $dom->createElement('UseDefaultLeadsEmail', ($community['salesAgent']['agents'][0]['email']) ? 0 : 1) );
             $Subdivision->appendChild( $dom->createElement('SubLeadsEmail', $community['salesAgent']['agents'][0]['email']) );
             $Subdivision->appendChild( $dom->createElement('CommunityStyle', $community['zillow']['CommunityStyle']) );
+            $Subdivision->appendChild( $dom->createElement('CommunityVideo', $community['zillow']['CommunityVideo']) );
 
             // SalesOffice
             $SalesOffice = $dom->createElement('SalesOffice');

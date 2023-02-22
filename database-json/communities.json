@@ -21,7 +21,8 @@
                 "colors": ["#168EBB", "#091735"],
                 "mainColor": "#168EBB",
                 "textColor": "black",
-                "btnText": "white"
+                "btnText": "white", 
+                "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "New Luxury Townhomes from the",
             "headerInput2": "Upper $600s",
@@ -1805,7 +1806,7 @@
             "features": ["exteriors", "baths", "kitchens", "energy", "quality"],
             "openHours": {
                 "label": "Visit Us",
-                "hours": "Closest Community Intersection: Stonecroft Boulevard and Conference Center Dr.<br><strong>Please Email for Appointment</strong> <br> Open Daily 11am - 5pm"
+                "hours": "Closest Community Intersection: Stonecroft Boulevard and Conference Center Dr. | Please Email for Appointment | Open Daily 11am - 5pm"
             },
             "priceInfo": {
                 "label": "Upper",
@@ -1849,6 +1850,9 @@
             "zillow": {
                 "Status": "Active",
                 "CommunityStyle": "Townhomes",
+                "SalesOffice": {
+                    "Hours": "11am - 5pm"
+                }, 
                 "ByAppointment": true,
                 "DrivingDirections": "To View Community: Take I-495 to I-66W Take Exit 53B, Route 28N/Dulles Airport Exit onto Westfields Blvd-stay right Rt. On Stonecroft Blvd Left on Conference Center Drive Continue straight ahead to Craftmark Homes–The Retreat at Westfields",
                 "HoursDetail": [
@@ -1997,6 +2001,7 @@
                 "CommunityStyle": "Townhomes",
                 "ByAppointment": true,
                 "DrivingDirections": "",
+                "CommunityVideo": "https://youtu.be/hsQKT6sClr8", 
                 "HoursDetail": [
                     ["Monday", "11:00", "17:00"],
                     ["Tuesday", "11:00", "17:00"],
@@ -2148,6 +2153,7 @@
                 "CommunityStyle": "Urban",
                 "ByAppointment": true,
                 "DrivingDirections": "",
+                "CommunityVideo": "https://youtu.be/hsQKT6sClr8", 
                 "HoursDetail": [],
                 "Schools": {
                     "Districtname": "Montgomery Co Pblc Schs",
@@ -2514,11 +2520,6 @@
                 }]
             },
             "floorplans": [{
-                "fpName": "The Bluemont",
-                "fpUrl": "bluemont",
-                "model": false
-            },
-            {
                 "fpName": "The Fairland",
                 "fpUrl": "fairland",
                 "model": false
