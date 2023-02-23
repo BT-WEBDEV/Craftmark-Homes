@@ -1766,7 +1766,8 @@
                 "colors": ["#002B3C", "#9AE7F4"],
                 "mainColor": "#002B3C",
                 "textColor": "black",
-                "btnText": "white"
+                "btnText": "white", 
+                "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "3-Level Townhome from Upper $600s<br>4-Level Townhome from Low $700s<br>Visit Our NEW DESIGN and Model Features!",
             "headerInput2": "",
@@ -1787,14 +1788,15 @@
                 [13, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
                 [14, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"]
             ],
-            "sectionOrder": {
+             "sectionOrder": {
                 "overview": 1,
-                "floorplans": 2,
+                "community-highlights": 2, 
+                "floorplans": 5,
                 "neighborhood": 3,
                 "quick-move-ins": 4,
-                "siteplan": 5,
+                "siteplan": 7,
                 "features": 6,
-                "map": 7
+                "map": 8
             },
             "neighborhood": [
                 ["Shopping", "shopping"],
@@ -1835,7 +1837,8 @@
                 "agents": [{
                     "agentName": "Lori Windsor",
                     "phone": "7035076882",
-                    "email": "lwindsor@craftmarkhomes.com"
+                    "email": "lwindsor@craftmarkhomes.com",
+                    "avatar": "lori-windsor.png"
                 }]
             },
             "floorplans": [{
@@ -1912,7 +1915,7 @@
                 "mainColor": "#444C56",
                 "textColor": "black",
                 "btnText": "white",
-                "welcomeBackground": "bg-cabin-branch.jpg"
+                "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "55+* Elevator Townhomes from the Upper $600s",
             "headerInput2": "<span class='font-weight-normal disclaimer'><i>*At least one person in the household needs to be 55 years of age</i></span>",
@@ -1936,12 +1939,13 @@
             ],
             "sectionOrder": {
                 "overview": 1,
-                "floorplans": 2,
+                "community-highlights": 2, 
+                "floorplans": 5,
                 "neighborhood": 3,
                 "quick-move-ins": 4,
-                "siteplan": 5,
+                "siteplan": 7,
                 "features": 6,
-                "map": 7
+                "map": 8
             },
             "neighborhood": [
                 ["Amenities", "amenities"],
@@ -1980,7 +1984,8 @@
                 "agents": [{
                     "agentName": "Lou Kalra",
                     "phone": "3019105770",
-                    "email": "lkalra@craftmarkhomes.com"
+                    "email": "lkalra@craftmarkhomes.com",
+                    "avatar": "lou-kalra.png"
                 }]
             },
             "floorplans": [{
@@ -2058,7 +2063,8 @@
                 "colors": ["#626959", "#C31230"],
                 "mainColor": "#626959",
                 "textColor": "black",
-                "btnText": "white"
+                "btnText": "white",
+                "welcomeBackground": "bg-welcome.png"
             },
             "headerInput1": "New Single Family Estate Home - $1,595,000 - Finished Price!",
             "headerInput2": "Final Opportunity - 1 Home Remains!",
@@ -2088,12 +2094,13 @@
             ],
             "sectionOrder": {
                 "overview": 1,
-                "floorplans": 2,
+                "community-highlights": 2, 
+                "floorplans": 5,
                 "neighborhood": 3,
                 "quick-move-ins": 4,
-                "siteplan": 5,
+                "siteplan": 7,
                 "features": 6,
-                "map": 7
+                "map": 8
             },
             "neighborhood": [
                 ["Shopping", "shopping"],
@@ -2133,7 +2140,8 @@
                 "agents": [{
                     "agentName": "Lori Windsor",
                     "phone": "7035076882",
-                    "email": "lwindsor@craftmarkhomes.com"
+                    "email": "lwindsor@craftmarkhomes.com",
+                    "avatar": "lori-windsor.png"
                 }]
             },
             "floorplans": [
@@ -2301,7 +2309,8 @@
                 "colors": ["#385CAD", "#5C8C67"],
                 "mainColor": "#385CAD",
                 "textColor": "black",
-                "btnText": "white"
+                "btnText": "white", 
+                "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "New Luxury Townhomes from the $500s",
             "headerInput2": "",
@@ -2341,12 +2350,13 @@
             ],
             "sectionOrder": {
                 "overview": 1,
-                "floorplans": 2,
+                "community-highlights": 2, 
+                "floorplans": 5,
                 "neighborhood": 3,
                 "quick-move-ins": 4,
-                "siteplan": 5,
+                "siteplan": 7,
                 "features": 6,
-                "map": 7
+                "map": 8
             },
             "neighborhood": [
                 ["Amenities", "amenities"],
@@ -2382,11 +2392,12 @@
                 }]
             },
             "salesAgent": {
-                "label": "Appointments Preferred",
+                "label": "*Appointments Preferred",
                 "agents": [{
                     "agentName": "Eric Yakuchev",
                     "phone": "(703) 989-6662",
-                    "email": "eyakuchev@craftmarkhomes.com "
+                    "email": "eyakuchev@craftmarkhomes.com", 
+                    "avatar": "eric-yakuchev.png"
                 }]
             },
             "floorplans": [{
@@ -2466,7 +2477,7 @@
                 "textColor": "black",
                 "btnText": "white"
             },
-            "headerInput1": "New Luxury Single Family Homes from the Upper $1Ms",
+            "headerInput1": "New Luxury Single Family Homes from $2M",
             "headerInput2": "",
             "gallery": [],
             "sectionOrder": {
@@ -2492,8 +2503,8 @@
                 "hours": "*Personal Appointments Required. Please Contact to Schedule!"
             },
             "priceInfo": {
-                "label": "from the upper",
-                "price": "1M"
+                "label": "from",
+                "price": "2M"
             },
             "address": {
                 "county": "Oakton, VA",

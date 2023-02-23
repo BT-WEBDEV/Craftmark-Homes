@@ -60,9 +60,7 @@
             <img src="../rainwater-run/images/landingpage/rainwater-run-logo.jpg" alt="rainwater-run-logo"> 
             <h1 id="welcome-vip"> WELCOME, VIP </h1>
             <p class="p-content"> 
-                A new community of luxury single family
-                estate homes from the Upper $1Ms is coming soon
-                to the charming town of Oakton, VA! 
+                A new community of luxury single family estate homes from $2M is coming soon to the charming town of Oakton,&nbsp;VA! 
             </p> 
             <p class="p-content"> 
                 Register now to receive more information <br> as it becomes available! 

@@ -41,8 +41,8 @@ $community_options = json_decode($qmi['community_options'], true);
                     $description = $qmi['description'];
                     if (!empty($description)) {
                         $words = explode(' ', $description);
-                        $shortened = implode(' ', array_slice($words, 0, 25));
-                        echo nl2br($shortened . (count($words) > 25 ? '...' : ''));
+                        $shortened = implode(' ', array_slice($words, 0, 48));
+                        echo nl2br($shortened . (count($words) > 48 ? '...' : ''));
                     } else {
                         echo "Details on the Way";
                     }

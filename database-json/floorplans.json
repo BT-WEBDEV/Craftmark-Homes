@@ -436,6 +436,7 @@
                     "url": "bluemont",
                     "awards": false,
                     "listingImg": ["listingImg.jpg", "The Bluemont Floor Plan, Townhomes Available at Watershed, MD"],
+                    "description": "The spacious Bluemont floor plan boasts beautiful living designs, including a family room with easy indoor-outdoor flow, an owner's suite with stunning details, and a ground-level recreation room with optional flex designs. Our superior and timeless designs allow you to indulge in a home that feels perfect for your lifestyle.", 
                     "gallery": [
                         [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
                         [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
@@ -786,6 +787,7 @@
                     "url": "fairland",
                     "awards": false,
                     "listingImg": ["listingImg.jpg", "The Fairland Floor Plan, Townhomes Available at Watershed, MD"],
+                    "description": "The Fairland floor plan includes everything from a gourmet kitchen to a well-designed ground-level recreation room to a beautiful family room where relaxation takes center stage, plus a variety of optional designs such as a private outdoor deck.",
                     "gallery": [
                         [1, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
                         [2, "Watershed Luxury Townhomes", "Luxury Townhomes in Laurel County, MD, Watershed by Craftmark Homes"],
@@ -967,7 +969,6 @@
                     "url": "richmond",
                     "awards": true,
                     "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Clarksburg Town Center, MD"],
-                    "description": "The Richmond, dolor sit amet consectetur adipisicing elit. Dolorum, eveniet? Ipsa eos mollitia fugiat omnis explicabo quasi dolores, natus enim impedit. Voluptate possimus suscipit necessitatibus, odit optio id dolore quibusdam?",
                     "gallery": [
                         [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
                         [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
@@ -1071,6 +1072,7 @@
                     "orderRate": false,
                     "url": "richmond-at-retreat-at-westfields",
                     "listingImg": ["listingImg.jpg", "The Richmond Floor Plan, Townhomes Available at Chantilly, VA"],
+                    "description": "This award-winning floor plan is a true gem, and for good reason. Thoughtfully designed with the utmost attention to detail, this plan offers remarkable living spaces that flow together seamlessly, creating a truly luxurious living environment. The high-end features are made to impress and can be found all throughout, from the gourmet kitchen and the dreamy owner's suite to the stylish loft level and grand recreation room.",
                     "gallery": [
                         [1, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
                         [2, "The Richmond Floor Plan, 3-5 BR, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
@@ -1169,6 +1171,7 @@
                     "orderRate": false,
                     "url": "seneca",
                     "listingImg": ["listingImg.jpg", "The Seneca Floor Plan, Townhomes Available at Clarkburg, MD"],
+                    "description": "This newly designed elevator townhome presents a remarkable setting for endless age-in-place comfort. With stylish living spaces and thoughtful features such as a personal in-home elevator, spacious living designs, a beautiful great room with indoor-outdoor living, and more.",
                     "gallery": [
                         [1, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
                         [2, "The Seneca Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"],
@@ -2113,6 +2116,7 @@
                     "orderRate": false,
                     "url": "oakton-at-darnestown-station",
                     "listingImg": ["listingImg.jpg", "The Oakton at Darnestown Station Floor Plan, Custom Home Available in Montgomery County, MD"],
+                    "description": "The Oakton floor plan perfectly accommodates your way of life. Admire the grand 2-story foyer and chef-inspired kitchen that flows seamlessly into an open breakfast area and family room. Retreat to a spacious owner's sutie complete with two walk-in closets, a spa-like bath, and a cozy sitting room. Indulge in the expansive recreation room downstairs, offering walk-out finishes.",
                     "gallery": [
                         [1, "The Oakton at Darnestown Station Floor Plan, 4 BR, 4-5F 1 H BA, 2-3 Car Garage, Single Family Homes by Craftmark Homes"]
                     ],

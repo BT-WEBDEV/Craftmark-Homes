@@ -100,9 +100,11 @@
     .community-highlight-swiper {
         .swiper-button-next{
             visibility: visible !important;
+            background: hsla(0,0%,100%,0) !important; 
         }
         .swiper-button-prev {
             visibility: visible !important;
+            background: hsla(0,0%,100%,0) !important; 
         }
     }
 }
@@ -121,6 +123,32 @@
     .features-pills {
         overflow: visible !important;
         flex-wrap: wrap !important; 
+    }
+}
+
+#community-quick-move-ins {
+    .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+#community-floorplans {
+    .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 

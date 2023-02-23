@@ -545,9 +545,11 @@ if($community['status'] != 'soldLabel') {
                         data-fancybox="highlight-<?php echo $communityFeature[0]['url']; ?>" <?php } ?>
                         <?php if($communityFeature[0]['highlightUrl']['type'] == "360tour") { ?> target="_blank" <?php } ?>>
                         <div class="view">
-                            <img src="/images/hero-slider/clarksburg-town-center-desktop.jpg" alt="<?php echo $featured['imgAlt']; ?>" class="img-fluid">
-                            <h4 class="text-black mt-3 font-weight-normal"><?php echo $featured['imgAlt']; ?></h4>
+                            <img src="/communities/<?php echo $community['url']; ?>/images/<?php echo $community['listingImgV2'][0];?>" alt="<?php echo $featured['imgAlt']; ?>" class="img-fluid">
+                            
                             <div class="mask cursor-pointer">
+                                <img src="/communities/<?php echo $comm['url'] ?>/images/<?php echo $comm['frameV2'] ?>"
+                                class="img-fluid" alt="<?php echo $comm['name'] ?>">
                                 <?php if($featured['highlightUrl']['type'] == "youtube") { ?>
                                 <div class="big_play_btn_wrap cursor-pointer">
                                     <img src="/images/icon/youtube.svg" alt="Play button icon" class="play_btn youtube">
@@ -559,8 +561,9 @@ if($community['status'] != 'soldLabel') {
                                 </div>
                                 <?php } ?>
                             </div>
-                        </div>
+                        </div>      
                     </a>
+                    <h4 class="text-black mt-3 font-weight-normal"><?php echo $featured['imgAlt']; ?></h4>
                 </div>
                 <div class="col-md-6">
                     <div class="community-highlight-swiper">
@@ -826,7 +829,7 @@ if($community['status'] != 'soldLabel') {
 
 
 <!-- PROMOTIONAL POP UPS / MODALS  --> 
-<?php if($community['url'] == "watershed") { ?>
+<?php if($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
