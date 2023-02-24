@@ -9,11 +9,11 @@ $community_options = json_decode($qmi['community_options'], true);
                     <div class="view overlay zoom cursor-pointer h-100">
                         <?php if($qmi['gallery']) { ?>
                         <img src="/cms-admin/wp-content/uploads/WPL/<?php echo $qmi['id']; ?>/<?php echo $qmi['gallery']; ?>"
-                            alt="<?php echo $qmi['gal_desc']; ?>" class="img-fluid w-100" data-size="800x457">
+                            alt="<?php echo $qmi['gal_desc']; ?>" class="img-fluid w-100" data-size="800x457" loading="lazy">
                         <?php } else { ?>
                         <img src="/images/comingsoonListing.jpg"
                             alt="<?php echo $qmi['property_name']; ?> Move-In Ready Homes" class="img-fluid w-100"
-                            data-size="800x457">
+                            data-size="800x457" loading="lazy">
                         <?php } ?>
                     </div>
                     <?php if($qmi['list_status'] != "") { ?>
@@ -51,24 +51,24 @@ $community_options = json_decode($qmi['community_options'], true);
                 <div class="specs">
                     <div class="d-flex spec-flex">
                         <div class="d-flex spec">
-                            <img src="/images/icon/sqfeet_white.svg" alt="Sq Feet" class="">
+                            <img src="/images/icon/sqfeet_white.svg" alt="Sq Feet" class="" loading="lazy">
                             <div><?php echo number_format($qmi['sq_feet']); ?> Sq.Ft.
                             </div>
                         </div>
                         <div class="d-flex spec">
-                            <img src="/images/icon/bedrooms_white.svg" alt="Bedrooms" class="">
+                            <img src="/images/icon/bedrooms_white.svg" alt="Bedrooms" class="" loading="lazy">
                             <div><?php echo $qmi['bedrooms']; ?> Beds</div>
                         </div>
                     </div>
                     <div class="d-flex spec-flex">
                         <div class="d-flex spec">
-                            <img src="/images/icon/bathrooms_white.svg" alt="Bathrooms" class="">
+                            <img src="/images/icon/bathrooms_white.svg" alt="Bathrooms" class="" loading="lazy">
                             <div><?php echo $qmi['baths_full']; ?> full <?php echo $qmi['baths_half']; ?> half Baths
                             </div>
                         </div>
                         <?php if ($garages != "" && $garages != 0) { ?>
                         <div class="d-flex spec">
-                            <img src="/images/icon/garage_white.svg" alt="Garage" class="">
+                            <img src="/images/icon/garage_white.svg" alt="Garage" class="" loading="lazy">
                             <div><?php echo $qmi['garages']; ?> Car Garage</div>
                         </div>
                         <?php } ?>

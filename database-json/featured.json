@@ -32,7 +32,7 @@
             "url": "watershed",
             "comUrl": "watershed",
             "featureName": "Watershed",
-            "imgAlt": "Virtual Tour for Watershed",
+            "imgAlt": "Video Tour for Watershed",
             "mainImage": "B2-bluemont-model-home.png",
             "imageFrame" : "B1-bluemont-model-home.png",
             "highlightUrl": {
@@ -207,7 +207,7 @@
             "url": "retreat-at-westfields",
             "comUrl": "retreat-at-westfields",
             "featureName": "Retreat At Westfields",
-            "imgAlt": "3D Model Tour for Townhomes in Chantilly, VA",
+            "imgAlt": "Video Tour for Townhomes in Chantilly, VA",
             "mainImage": "B2-richmond-model.png",
             "imageFrame" : "B1-richmond-model.png",
             "highlightUrl": {
@@ -382,7 +382,7 @@
             "url": "clarksburg-town-center",
             "comUrl": "clarksburg-town-center",
             "featureName": "Clarksburg Town Center",
-            "imgAlt": "Video Tour for Townhomes in Clarksburg, MD",
+            "imgAlt": "360 Tour for Townhomes in Clarksburg, MD",
             "mainImage": "B2-annapolis.png",
             "imageFrame" : "B1-annapolis.png",
             "highlightUrl": {

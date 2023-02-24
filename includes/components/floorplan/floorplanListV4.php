@@ -43,7 +43,7 @@
                 <div class="image h-100">
                     <img src="/floorplans/<?php echo $fp['url'] ?>/images/<?php echo $listingImg; ?>"
                         alt="<?php echo $imgAlt; ?>" class="img-fluid w-10 img-fit"
-                        data-size="800x457">
+                        data-size="800x457" loading="lazy">
                 </div>
             </a>
         </div>
@@ -63,22 +63,22 @@
                 <div class="specs">
                     <div class="d-md-flex">
                         <div class="d-flex spec">
-                            <img src="/images/icon/sqfeet.svg" alt="Sq Feet" class="">
+                            <img src="/images/icon/sqfeet.svg" alt="Sq Feet" class="" loading="lazy">
                             <div><?php echo ($fp['specs']['sqFeet'] != "") ? $fp['specs']['sqFeet'] : "TBD"; ?> Sq.Ft.</div>
                         </div>
                         <div class="d-flex spec">
-                            <img src="/images/icon/bedrooms.svg" alt="Bedrooms" class="">
+                            <img src="/images/icon/bedrooms.svg" alt="Bedrooms" class="" loading="lazy">
                             <div><?php echo $bedrooms ?> Beds</div>
                         </div>
                     </div>
                     <div class="d-md-flex">
                         <div class="d-flex spec">
-                            <img src="/images/icon/bathrooms.svg" alt="Bathrooms" class="">
+                            <img src="/images/icon/bathrooms.svg" alt="Bathrooms" class="" loading="lazy">
                             <div><?php echo $bathrooms ?> Baths</div>
                         </div>
                         <?php if ($garages != "" && $garages != 0) { ?>
                         <div class="d-flex spec">
-                            <img src="/images/icon/garage.svg" alt="Garage" class="">
+                            <img src="/images/icon/garage.svg" alt="Garage" class="" loading="lazy">
                             <div><?php echo $garages ?> Car Garage</div>
                         </div>
                         <?php } ?>

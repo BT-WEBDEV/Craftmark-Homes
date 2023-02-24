@@ -531,64 +531,89 @@ if($community['status'] != 'soldLabel') {
     <!-- COMMUNITY VIDEO HIGHLIGHTS --> 
     <section id="community-highlights" class="order-<?php echo $comm['sectionOrder']['overview']; ?>">
         <div class="container-fluid py-default community-highlights-row-container">
-            <div class="row">
-                <div class="col-md-6">
-                    <?php 
-                    $communityFeature = [];
-                    foreach ($featured['featured'] as $featured) {
-                        if($featured['comUrl'] == $url_path[2]) { 
-                            array_push($communityFeature, $featured);
-                        }}
-                    ?>
-                    <a href="<?php echo $communityFeature[0]['highlightUrl']['url']; ?>"
-                        <?php if($communityFeature[0]['highlightUrl']['type'] == "youtube") { ?>
-                        data-fancybox="highlight-<?php echo $communityFeature[0]['url']; ?>" <?php } ?>
-                        <?php if($communityFeature[0]['highlightUrl']['type'] == "360tour") { ?> target="_blank" <?php } ?>>
-                        <div class="view">
-                            <img src="/communities/<?php echo $community['url']; ?>/images/<?php echo $community['listingImgV2'][0];?>" alt="<?php echo $featured['imgAlt']; ?>" class="img-fluid">
-                            
-                            <div class="mask cursor-pointer">
-                                <img src="/communities/<?php echo $comm['url'] ?>/images/<?php echo $comm['frameV2'] ?>"
-                                class="img-fluid" alt="<?php echo $comm['name'] ?>">
-                                <?php if($featured['highlightUrl']['type'] == "youtube") { ?>
-                                <div class="big_play_btn_wrap cursor-pointer">
-                                    <img src="/images/icon/youtube.svg" alt="Play button icon" class="play_btn youtube">
+            <?php 
+            // Initialize an empty array
+            $communityFeature = [];
+
+            // Loop through the featured items and add any matching the URL path to the $communityFeature array
+            foreach ($featured['featured'] as $featured) {
+                if($featured['comUrl'] == $url_path[2]) { 
+                    array_push($communityFeature, $featured);
+                }
+            }
+            if (!empty($communityFeature)) { ?>
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Generate a hyperlink to the URL specified in $communityFeature -->
+                        <a href="<?php echo $communityFeature[0]['highlightUrl']['url']; ?>"
+                            <?php 
+                                // If the URL type is "youtube", set the data-fancybox attribute
+                                if($communityFeature[0]['highlightUrl']['type'] == "youtube") { ?>
+                                data-fancybox="highlight-<?php echo $communityFeature[0]['url']; ?>" 
+                            <?php } ?>
+                            <?php 
+                                // If the URL type is "360tour", set the target attribute to "_blank"
+                                if($communityFeature[0]['highlightUrl']['type'] == "360tour") { ?> 
+                                target="_blank" 
+                            <?php } ?>
+                        >
+                            <!-- Display the community's main image -->
+                            <div class="view">
+                                <img src="/communities/<?php echo $community['url']; ?>/images/<?php echo $community['listingImgV2'][0];?>" alt="<?php echo $featured['imgAlt']; ?>" class="img-fluid" loading="lazy">
+                                <!-- Display an overlay image and play button icon corresponding to the URL type of the featured item -->
+                                <div class="mask cursor-pointer">
+                                    <img src="/communities/<?php echo $comm['url'] ?>/images/<?php echo $comm['frameV2'] ?>" class="img-fluid" alt="<?php echo $comm['name'] ?>" loading="lazy">
+                                    <?php 
+                                        // If the URL type is "youtube", display a YouTube play button icon
+                                        if($communityFeature[0]['highlightUrl']['type'] == "youtube") { ?>
+                                        <div class="big_play_btn_wrap cursor-pointer">
+                                            <img src="/images/icon/youtube.svg" alt="Play button icon" class="play_btn youtube" loading="lazy">
+                                        </div>
+                                    <?php } ?>
+                                    <?php 
+                                        // If the URL type is "360tour", display a 360 tour icon
+                                        if($communityFeature[0]['highlightUrl']['type'] == "360tour") { ?>
+                                        <div class="big_play_btn_wrap big_tour_btn_wrap cursor-pointer">
+                                            <img src="/images/icon/360tour.svg" alt="360 Tour icon" class="play_btn tour_btn" loading="lazy">
+                                        </div>
+                                    <?php } ?>
                                 </div>
-                                <?php } ?>
-                                <?php if($featured['highlightUrl']['type'] == "360tour") { ?>
-                                <div class="big_play_btn_wrap big_tour_btn_wrap cursor-pointer">
-                                    <img src="/images/icon/360tour.svg" alt="360 Tour icon" class="play_btn tour_btn">
+                            </div>      
+                        </a>
+                        <!-- Display the featured item's image alt text as a heading -->
+                        <h4 class="text-black mt-3 font-weight-normal"><?php echo $communityFeature[0]['imgAlt']; ?></h4>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="community-highlight-swiper">
+                            <h3 class="font-weight-bold text-white mt-2 mb-4">VIDEO HIGHLIGHTS</h3>
+                            <div class="swiper-container community-highlight-swiper-container">
+                                <div class="swiper-wrapper">
+                                    <?php foreach ($communityFeature as $featured) { ?>
+                                    <div class="swiper-slide">
+                                        <?php include(ROOT_PATH."includes/components/featuredList.php"); ?>
+                                    </div>
+                                    <?php } ?>
                                 </div>
-                                <?php } ?>
                             </div>
-                        </div>      
-                    </a>
-                    <h4 class="text-black mt-3 font-weight-normal"><?php echo $featured['imgAlt']; ?></h4>
-                </div>
-                <div class="col-md-6">
-                    <div class="community-highlight-swiper">
-                        <h3 class="font-weight-bold text-white mt-2 mb-4">VIDEO HIGHLIGHTS</h3>
-                        <div class="swiper-container community-highlight-swiper-container">
-                            <div class="swiper-wrapper">
-                                <?php foreach ($communityFeature as $featured) { ?>
-                                <div class="swiper-slide">
-                                    <?php include(ROOT_PATH."includes/components/featuredList.php"); ?>
-                                </div>
-                                <?php } ?>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-next">
+                                <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                                <i class="fa fa-chevron-right"></i>
                             </div>
-                        </div>
-                        <!-- If we need navigation buttons -->
-                        <div class="swiper-button-next">
-                            <!-- <img src="/images//arrow-right.svg" alt=""> -->
-                            <i class="fa fa-chevron-right"></i>
-                        </div>
-                        <div class="swiper-button-prev">
-                            <!-- <img src="/images//arrow-left.svg" alt=""> -->
-                            <i class="fa fa-chevron-left"></i>
+                            <div class="swiper-button-prev">
+                                <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                                <i class="fa fa-chevron-left"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            <?php } else { ?>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 class="font-weight-bold text-white" style="margin-bottom:100px;">Check back later for video highlights!</h3>
+                    </div>
+                </div>
+            <?php } ?>
         </div>
     </section>
 
@@ -596,7 +621,7 @@ if($community['status'] != 'soldLabel') {
     <section id="community-neighborhood" class="order-<?php echo $comm['sectionOrder']['neighborhood']; ?> pb-3">
         <div class="header-image">
             <img src="/communities/<?php echo $comm['url']; ?>/images/neighborhood-slider/slider-1.jpg"
-                class="img-fluid w-100 img-fit" alt="<?php echo $comm['name'], " ", $comm['homeType']; ?>">
+            loading="lazy" class="img-fluid w-100 img-fit" alt="<?php echo $comm['name'], " ", $comm['homeType']; ?>">
             <div class="header container-fluid max-lg-width-1140">
                 <h3 class="font-weight-bold">NEIGHBORHOOD</h3>
             </div>
@@ -662,7 +687,7 @@ if($community['status'] != 'soldLabel') {
                             <a href="sp-image/<?php echo $siteplan['0'] ?>" data-fancybox="siteplan"
                                 data-caption="<?php echo $siteplan['1'] ?>">
                                 <div class="view overlay z-depth-1-half m-3 cursor-pointer">
-                                    <img src="sp-image/<?php echo $siteplan['0'] ?>" class="img-fluid"
+                                    <img src="sp-image/<?php echo $siteplan['0'] ?>" class="img-fluid" loading="lazy"
                                         alt="<?php echo $siteplan['2'] ?>">
                                     <div class="mask flex-center rgba-black-strong">
                                         <p class="white-text font-weight-bold">Zoom</p>
