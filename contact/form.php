@@ -2,7 +2,7 @@
 //======================================================================
 // Google reCaptcha V3 API POST - This is for the main contact form on the primary contact page. 
 //======================================================================
-$firstName; $lastName; $email; $phone; $zipCode; $community; $aptDate; $aptTime; $comments; $action; $captcha;
+$firstName; $lastName; $email; $phone; $zipCode; $community; $aptDate; $aptTime; $comments; $interestOptions; $action; $captcha;
 
 $firstName = filter_input(INPUT_POST, 'firstName', FILTER_SANITIZE_STRING);
 $lastName = filter_input(INPUT_POST, 'lastName', FILTER_SANITIZE_STRING);
@@ -13,6 +13,7 @@ $community = filter_input(INPUT_POST, 'community', FILTER_SANITIZE_STRING);
 $aptDate = filter_input(INPUT_POST, 'aptDate', FILTER_SANITIZE_STRING);
 $aptTime = filter_input(INPUT_POST, 'aptTime', FILTER_SANITIZE_STRING);
 $comments = filter_input(INPUT_POST, 'comments', FILTER_SANITIZE_STRING);
+$interestOptions = filter_input(INPUT_POST, 'interestOptions', FILTER_SANITIZE_STRING);
 $action = filter_input(INPUT_POST, 'action', FILTER_SANITIZE_STRING);
 $captcha = filter_input(INPUT_POST, 'token', FILTER_SANITIZE_STRING);
 

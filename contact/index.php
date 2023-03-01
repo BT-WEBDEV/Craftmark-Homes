@@ -60,6 +60,9 @@ $communities = getJsonData($json_db_url.'communities.json');
             </div>
             <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!" method="post">
                 <input type="hidden" name="quickDeliAddress" value="">
+                <select id="interest-options" name="interest-options" class="form-select" style="display:none;">
+                    <option class="interest" value="No Options Available" selected>No Options</option>
+                </select>
                 <div class="row m-0">
 
                     <!-- Honeypot --> 

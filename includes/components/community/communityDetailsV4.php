@@ -266,6 +266,9 @@ if($community['status'] != 'soldLabel') {
                     <input type="hidden" name="community" value="<?php echo $formId; ?>">
                     <input type="hidden" name="zipCode" value="Not Provided">
                     <input type="hidden" name="quickDeliAddress" value="<?php echo $qmi_address; ?>">
+                    <select id="interest-options" name="interest-options" class="form-select" style="display:none;">
+                        <option class="interest" value="No Options Available" selected>No Options</option>
+                    </select>
 
                     <!-- Honeypot --> 
                     <input name="fullName" type="text" id="fullName" class="hide-honey" autocomplete="false" tabindex="-1" placeholder="Full Name">

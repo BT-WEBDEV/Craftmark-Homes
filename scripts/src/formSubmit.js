@@ -22,6 +22,7 @@ $(document).on('submit', '#topBuilderForm', function (event) {
     var aptDate = document.forms["topBuilderForm"]["aptDate"].value;
     var aptTime = document.forms["topBuilderForm"]["aptTime"].value;
     var quickDeliAddress = document.forms["topBuilderForm"]["quickDeliAddress"].value;
+    var interestOptions = document.forms["topBuilderForm"]["interest-options"].value;
 
     var unformattedPhone = phone.replace(/[^0-9]/gi, '');
 
@@ -76,7 +77,7 @@ $(document).on('submit', '#topBuilderForm', function (event) {
                 url: 'https://webforms.topbuildersolutions.net/api/CreateLead.aspx',
                 type: 'POST',
                 contentType: contentType,
-                data: { BuilderAccountId: 32, AuthenticationId: "86eb9035-83da-4741-ac07-ed85b8ed52f2", RuleId: rule_id, FirstName: firstName, LastName: lastName, Email: email, MobilePhone: unformattedPhone, ZipCode: zipCode, Comments: comments },
+                data: { BuilderAccountId: 32, AuthenticationId: "86eb9035-83da-4741-ac07-ed85b8ed52f2", RuleId: rule_id, FirstName: firstName, LastName: lastName, Email: email, MobilePhone: unformattedPhone, ZipCode: zipCode, Comments: comments, Options: interestOptions },
 
                 success: function (data, textStatus, xhr) {
                     if ($(data).find('ResponseCode').text() == 0) {
@@ -134,6 +135,7 @@ $(document).on('submit', '.community-modal-form', function (event) {
     var aptDate = $('#aptDate').val();
     var aptTime = $('#aptTime').val();
     var comments = $('#comments').val();
+    var interestOptions = $('#interest-options').val();
 
     // needs for recaptacha ready
     grecaptcha.ready(function() {
@@ -160,6 +162,7 @@ $(document).on('submit', '.community-modal-form', function (event) {
                 aptDate: aptDate,
                 aptTime, aptTime, 
                 comments: comments,
+                interestOptions: interestOptions,
                 action: action, 
                 token: token
             }, function(result) {
