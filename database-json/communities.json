@@ -2488,25 +2488,26 @@
             "gallery": [],
             "sectionOrder": {
                 "overview": 1,
-                "floorplans": 2,
+                "community-highlights": 2, 
+                "floorplans": 5,
                 "neighborhood": 3,
                 "quick-move-ins": 4,
-                "siteplan": 5,
+                "siteplan": 7,
                 "features": 6,
-                "map": 7
+                "map": 8
             },
             "neighborhood": [
-                ["Amenities", "amenities"],
                 ["Shopping", "shopping"],
                 ["Dining", "dining"],
+                ["Schools", "schools"],
                 ["Recreation", "recreation"],
-                ["Transportation", "transportation"],
-                ["Schools", "schools"]
+                ["Transportation", "transportation"], 
+                ["Resources", "resources"]
             ],
             "features": ["exteriors", "interiors", "kitchens", "baths", "energy", "quality"],
             "openHours": {
                 "label": "Visit Us",
-                "hours": "*Personal Appointments Required. Please Contact to Schedule!"
+                "hours": "*Selling Off-Site. Please Email for Appointment."
             },
             "priceInfo": {
                 "label": "from",
@@ -2514,39 +2515,30 @@
             },
             "address": {
                 "county": "Oakton, VA",
-                "coords": ["38.8967897", "-77.3312458"],
+                "coords": ["38.8706709", "-77.3357998"],
                 "addresses": [{
                     "label": "Community Location:",
                     "outOfCommunity": true,
                     "address": {
-                        "street1": "",
+                        "street1": "3551 Orchid Pond Way",
                         "street2": "",
                         "city": "Oakton",
                         "state": "VA",
-                        "zip": ""
+                        "zip": "22124"
                     },
                     "direction": "https://goo.gl/maps/YR5Lr8kPJBui9rHG7"
                 }]
             },
             "salesAgent": {
-                "label": "*Personal Appointments Required. Please Contact to Schedule!",
+                "label": "*Selling Off-Site. Please Email for Appointment.",
                 "agents": [{
-                    "agentName": "Eric Yakuchev",
-                    "phone": "(703) 989-6662",
-                    "email": "eyakuchev@craftmarkhomes.com "
+                    "agentName": "Lori Windsor",
+                    "phone": "(703) 507-6882",
+                    "email": "lwindsor@craftmarkhomes.com",
+                    "avatar": "lori-windsor.png"
                 }]
             },
             "floorplans": [{
-                "fpName": "The Fairland",
-                "fpUrl": "fairland",
-                "model": false
-            },
-            {
-                "fpName": "The Kenmore",
-                "fpUrl": "kenmore",
-                "model": false
-            },
-            {
                 "fpName": "The Maiden",
                 "fpUrl": "maiden",
                 "model": false
@@ -2554,6 +2546,11 @@
             {
                 "fpName": "The Biltmore",
                 "fpUrl": "biltmore",
+                "model": false
+            },
+            {
+                "fpName": "The Kenmore",
+                "fpUrl": "kenmore",
                 "model": false
             }],
             "sitePlans": [
