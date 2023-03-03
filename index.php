@@ -18,6 +18,17 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
+                <a href="/communities/rainwater-run">
+                    <div class="list-item">
+                        <img src="/images/hero-slider/rainwater-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
+                            alt="The Village at Cabin Branch by Craftmark Homes">
+                        <img src="/images/hero-slider/rainwater-mobile.jpg" class="img-fluid w-100 d-sm-none"
+                            alt="The Village at Cabin Branch by Craftmark Homes">
+                    </div>
+                </a>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide">
                 <a href="/communities/cabin-branch">
                     <div class="list-item">
                         <img src="/images/hero-slider/cabin-branch-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
@@ -72,86 +83,6 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
                     </div>
                 </a>
             </div>
-
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                <a href="/communities/crown">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/crown-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
-                            alt="Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes">
-                        <img src="/images/hero-slider/crown-mobile.jpg" class="img-fluid w-100 d-sm-none"
-                            alt="Elevator Townhomes in Gaithersburg, MD, Crown by Craftmark Homes">
-                    </div>
-                </a>
-            </div> -->
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                <a href="/communities/mateny-hill">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/mateny-hill-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
-                            alt="Luxury Townhomes in Germantown, MD, Mateny Hill by Craftmark Homes">
-                        <img src="/images/hero-slider/mateny-hill-mobile.jpg" class="img-fluid w-100 d-sm-none" alt="Luxury Townhomes in Germantown, MD, Mateny Hill by Craftmark Homes">
-                    </div>
-                </a>
-            </div> -->
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                <a href="/communities/preserve-at-westfields">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/preserver-at-westfield-desktop.jpg"
-                            class="img-fluid w-100 d-none d-sm-block" alt="New Townhomes in Chantilly, Fairfax County, VA, Preserve at Westfield by Craftmark Homes">
-                        <img src="/images/hero-slider/preserver-at-westfield-mobile.jpg"
-                            class="img-fluid w-100 d-sm-none" alt="New Townhomes in Chantilly, Fairfax County, VA, Preserve at Westfield by Craftmark Homes">
-                    </div>
-                </a>
-            </div> -->
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                <a href="/communities/primrose-hill-th">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/primrose-hill-desktop.png"
-                            class="img-fluid w-100 d-none d-sm-block" alt="Luxury Townhomes in Annapolis, MD, Primrose Hill by Craftmark Homes">
-                        <img src="/images/hero-slider/primrose-hill-mobile.png" class="img-fluid w-100 d-sm-none"
-                            alt="Luxury Townhomes in Annapolis, MD, Primrose Hill by Craftmark Homes">
-                    </div>
-                </a>
-            </div> -->
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                <a href="/communities/primrose-hill-sf">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/primrose-hill-sf-desktop.jpg"
-                            class="img-fluid w-100 d-none d-sm-block" alt="Single Family Homes in Annapolis, MD, Primrose Hill by Craftmark Homes">
-                        <img src="/images/hero-slider/primrose-hill-sf-mobile.jpg" class="img-fluid w-100 d-sm-none"
-                            alt="Single Family Homes in Annapolis, MD, Primrose Hill by Craftmark Homes">
-                    </div>
-                </a>
-            </div> -->
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                <a href="/communities/reserve-at-black-rock">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/reserve-at-black-rock-desktop.jpg"
-                            class="img-fluid w-100 d-none d-sm-block"
-                            alt="Custom Homesites in Montgomery County, MD, The Reserve at Black Rock by Craftmark Homes">
-                        <img src="/images/hero-slider/reserve-at-black-rock-mobile.jpg"
-                            class="img-fluid w-100 d-sm-none"
-                            alt="Custom Homesites in Montgomery County, MD, The Reserve at Black Rock by Craftmark Homes">
-                    </div>
-                </a>
-            </div> -->
-            <!-- Slides -->
-            <!-- <div class="swiper-slide">
-                <a href="/communities/burnt-pine-estates">
-                    <div class="list-item">
-                        <img src="/images/hero-slider/burnt-pine-estates-desktop.jpg"
-                            class="img-fluid w-100 d-none d-sm-block"
-                            alt="Custom Homesites in Fairfax County, VA, Burnt Pine Estates by Craftmark Homes">
-                        <img src="/images/hero-slider/burnt-pine-estates-mobile.jpg" class="img-fluid w-100 d-sm-none"
-                            alt="Custom Homesites in Fairfax County, VA, Burnt Pine Estates by Craftmark Homes">
-                    </div>
-                </a>
-            </div> -->
         </div>
         <!-- If we need navigation buttons -->
         <div class="swiper-button-next">

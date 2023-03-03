@@ -2462,14 +2462,14 @@
         {
             "id": 17,
             "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
-            "status": "comingsoon",
+            "status": "live",
             "formId": 5420,
             "name": "Rainwater Run",
             "homeType": "townhomes",
             "landingPage": "",
             "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
             "url": "rainwater-run",
-            "listingImgV1": ["listingImg-v1.png"],
+            "listingImgV1": ["listingImg-v1.jpg"],
             "selectedListingImgV1": false,
             "listingImgV2": ["listingImg-v2.jpg"],
             "selectedListingImgV2": false,
@@ -2477,15 +2477,21 @@
             "mapImg": "listingImg-v2.jpg",
             "frameV2": "frame-V2.png",
             "brandStyle": {
-                "background": "G_Burnt_Pine_Estates.jpg",
-                "colors": ["#00B46B", "#C31230"],
-                "mainColor": "#00B46B",
+                "background": "bg-hero.jpg",
+                "colors": ["#6fb1c8", "#C31230"],
+                "mainColor": "#6fb1c8",
                 "textColor": "black",
-                "btnText": "white"
+                "btnText": "white", 
+                "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "New Luxury Single Family Homes from $2M",
             "headerInput2": "",
-            "gallery": [],
+            "gallery": [
+                [1, "Rainwater Run - Oakton, VA"],
+                [2, "Rainwater Run - Oakton, VA"],
+                [3, "Rainwater Run - Oakton, VA"],
+                [4, "Rainwater Run - Oakton, VA"]
+            ],
             "sectionOrder": {
                 "overview": 1,
                 "community-highlights": 2, 
@@ -2553,118 +2559,6 @@
                 "fpUrl": "kenmore",
                 "model": false
             }],
-            "sitePlans": [
-                ["siteplan-1.jpg", "Watershed Area Map - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"]
-            ],
-            "zillow": {
-                "Status": false,
-                "CommunityStyle": "Townhomes",
-                "ByAppointment": true,
-                "DrivingDirections": "",
-                "HoursDetail": [],
-                "Schools": {
-                    "Districtname": "Anne Arundel County Public Schools",
-                    "Elementary": "Anne Arundel’s Maryland City Elementary Schools",
-                    "Middle": "Meade Middle School",
-                    "High": "Arundel High School"
-                },
-                "SubAmenity": ["Parks", "Trails", "Mueseums", "Golf", "Playground"],
-                "SubDescription": "Watershed brings next-level living to Laurel, MD with standout amenities throughout the neighborhood and endless acres of scenic views just beyond your front door. The commuter in your family will love the convenience of nearby employers like Fort Meade and the National Business Park in addition to closeby transportation routes that offer easy access to Baltimore and Washington, D.C.",
-                "SubVideoFile": {
-                    "Title": "360º tour of Watershed",
-                    "URL": "https://my.matterport.com/show/?m=YQsNayGZ25Q"
-                },
-                "SubVideoTour": {
-                    "Title": "360º tour of Watershed",
-                    "URL": "https://my.matterport.com/show/?m=YQsNayGZ25Q"
-                },
-                "Promotion": {
-                    "PromoType": "",
-                    "PromoHeadline": "",
-                    "StartDate": "",
-                    "EndDate": "",
-                    "PromoDescription": "Appointments Preferred"
-                }
-            }
-        },
-        {
-            "id": 18,
-            "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
-            "status": "comingsoon",
-            "formId": 5562,
-            "name": "The Grove",
-            "homeType": "townhomes",
-            "landingPage": "",
-            "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
-            "url": "grove",
-            "listingImgV1": ["listingImg-v1.jpg"],
-            "selectedListingImgV1": false,
-            "listingImgV2": ["listingImg-v2.jpg"],
-            "selectedListingImgV2": false,
-            "imgAlt": "",
-            "mapImg": "listingImg-v2.jpg",
-            "frameV2": "frame-V2.png",
-            "brandStyle": {
-                "background": "G_Burnt_Pine_Estates.jpg",
-                "colors": ["#00B46B", "#C31230"],
-                "mainColor": "#00B46B",
-                "textColor": "black",
-                "btnText": "white"
-            },
-            "headerInput1": "New Gaithersburg Townhomes - Details Coming Soon!",
-            "headerInput2": "",
-            "gallery": [],
-            "sectionOrder": {
-                "overview": 1,
-                "floorplans": 2,
-                "neighborhood": 3,
-                "quick-move-ins": 4,
-                "siteplan": 5,
-                "features": 6,
-                "map": 7
-            },
-            "neighborhood": [
-                ["Amenities", "amenities"],
-                ["Shopping", "shopping"],
-                ["Dining", "dining"],
-                ["Recreation", "recreation"],
-                ["Transportation", "transportation"],
-                ["Schools", "schools"]
-            ],
-            "features": ["exteriors", "interiors", "kitchens", "baths", "energy", "quality"],
-            "openHours": {
-                "label": "Visit Us",
-                "hours": "*Personal Appointments Required. Please Contact to Schedule!"
-            },
-            "priceInfo": {
-                "label": "From the",
-                "price": "800s"
-            },
-            "address": {
-                "county": "Montgomery County, MD",
-                "coords": ["39.0966205", "-77.2037556"],
-                "addresses": [{
-                    "label": "Community Location:",
-                    "outOfCommunity": true,
-                    "address": {
-                        "street1": "",
-                        "street2": "",
-                        "city": "Gaithersburg",
-                        "state": "MD",
-                        "zip": ""
-                    },
-                    "direction": "https://goo.gl/maps/QQYX6mq8eN5nexeq5"
-                }]
-            },
-            "salesAgent": {
-                "label": "*Personal Appointments Required. Please Contact to Schedule!",
-                "agents": [{
-                    "agentName": "Eric Yakuchev",
-                    "phone": "(703) 989-6662",
-                    "email": "eyakuchev@craftmarkhomes.com "
-                }]
-            },
-            "floorplans": [],
             "sitePlans": [
                 ["siteplan-1.jpg", "Watershed Area Map - Craftmark Homes", "Watershed Site Plan, Craftmark Homes"]
             ],
