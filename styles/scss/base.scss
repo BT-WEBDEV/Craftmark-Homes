@@ -434,7 +434,7 @@ p.small {
     width: 50px;
 
     &::after {
-        content: "";
+        content: "" !important;
     }
 
     img {

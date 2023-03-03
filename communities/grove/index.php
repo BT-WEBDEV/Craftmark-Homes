@@ -4,6 +4,12 @@
         font-family: Nelphim;
         src: url(/styles/font/nelphim/Nelphim.otf);
     }
+    @font-face {
+        font-family: Halogen;
+        src: url(/styles/font/halogen/Halogen-Regular.otf),
+             url(/styles/font/halogen/Halogen-Bold.otf);
+    }
+    
     body {
         background-color: white; 
     }
@@ -22,8 +28,8 @@
 
     #hero-title,#hero-craftmark  {
         font-family: "Halogen", sans-serif;
-        font-weight: bold;
-        font-size: 30px; 
+        font-size: 30px;
+        letter-spacing: 1px; 
     }
 
     #hero-callout {
@@ -42,6 +48,7 @@
     }
 
     .three-features {
+        font-family: "Montserrat"; 
         justify-content: center; 
         gap: 10px; 
         color: #555555; 

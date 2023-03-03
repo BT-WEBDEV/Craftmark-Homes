@@ -28,6 +28,7 @@ $communities = getJsonData($json_db_url.'communities.json');
         }
     }
 ?>
+
 <section class="nav-space">
     <div class="py-3 z-depth-1">
         <h2 class="m-0 font-weight-bold text-center">Contact Us</h2>
@@ -57,9 +58,13 @@ $communities = getJsonData($json_db_url.'communities.json');
                 <h3>Thank you for your interest. We will review your message and get back to you as soon as possible!
                 </h3>
             </div>
-            <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
+            <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!" method="post">
                 <input type="hidden" name="quickDeliAddress" value="">
                 <div class="row m-0">
+
+                    <!-- Honeypot --> 
+                    <input name="fullName" type="text" id="fullName" class="hide-honey" autocomplete="false" tabindex="-1" placeholder="Full Name">
+
                     <!-- First Name -->
                     <div class="col-sm-6 px-2">
                         <input type="text" id="firstName" name="firstName"
@@ -110,7 +115,7 @@ $communities = getJsonData($json_db_url.'communities.json');
                                 <h5 class="font-weight-normal my-2 text-l-blue text-left pl-3">For Appointment:</h5>
                             </div>
                             <div class="col-sm-6 px-2">
-                                <select id="aptDate" name="aptDate"
+                                <select id="aptDate" name="aptDate" onChange="filterTime();"
                                     class="browser-default custom-select mb-2 form-control rounded-input z-depth-1">
                                     
                                     <?php 
@@ -140,43 +145,46 @@ $communities = getJsonData($json_db_url.'communities.json');
                                     </option>
                                     
                                     
-                                    <option class="option-hide" <?php if ($day0=="Thu"||$day0=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date0?>"> 
-                                            <?php echo $date0 ?> 
-                                    </option>
+                                    <option <?php if ($day0=="Thu"||$day0=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date0?>"><?php echo $date0 ?></option>
                                     
-                                    <option class="option-hide" <?php if ($day1=="Thu"||$day1=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date1; ?>">
-                                        <?php echo $date1;?>
-                                    </option>
+                                    <option  <?php if ($day1=="Thu"||$day1=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date1; ?>"><?php echo $date1;?></option>
                                     
-                                    <option class="option-hide" <?php if ($day2=="Thu"||$day2=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date2; ?>">
-                                        <?php echo $date2; ?>    
-                                    </option>
+                                    <option  <?php if ($day2=="Thu"||$day2=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date2; ?>"><?php echo $date2; ?></option>
 
-                                    <option class="option-hide" <?php if ($day3=="Thu"||$day3=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date3; ?>">
-                                        <?php echo $date3; ?>
-                                    </option>
+                                    <option <?php if ($day3=="Thu"||$day3=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date3; ?>"><?php echo $date3; ?></option>
 
-                                    <option class="option-hide" <?php if ($day4=="Thu"||$day4=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date4; ?>">
-                                        <?php echo $date4; ?>
-                                    </option>
+                                    <option  <?php if ($day4=="Thu"||$day4=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date4; ?>"><?php echo $date4; ?></option>
 
-                                    <option class="option-hide" <?php if ($day5=="Thu"||$day5=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date5; ?>">
-                                        <?php echo $date5; ?>
-                                    </option>
+                                    <option  <?php if ($day5=="Thu"||$day5=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date5; ?>"><?php echo $date5; ?></option>
 
-                                    <option class="option-hide" <?php if ($day6=="Thu"||$day6=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date6; ?>">
-                                        <?php echo $date6; ?>
-                                    </option>
+                                    <option  <?php if ($day6=="Thu"||$day6=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date6; ?>"><?php echo $date6; ?></option>
 
-                                    <option class="option-hide" <?php if ($day6=="Thu"||$day6=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date7; ?>">
-                                        <?php echo $date7; ?>
-                                    </option>
+                                    <option <?php if ($day6=="Thu"||$day6=="Fri"){ echo 'style="display:none;"'; } ?> value="<?php echo $date7; ?>"><?php echo $date7; ?></option>
                                         
                                 </select>
                             </div>
                             <div class="col-sm-6 px-2">
-                                <select id="aptTime" name="aptTime"
+                                <select id="aptTime" name="aptTime" disabled
                                     class="browser-default custom-select mb-2 form-control rounded-input z-depth-1">
+
+                                    <?php 
+                                    // Set up TimeZone, Date, Time Stamp, and Set Current Time. 
+                                    date_default_timezone_set('America/New_York'); 
+                                    $today = date("m/d/Y");
+                                    $timestamp = time(); 
+                                    $currentTime = date("H:i:s", $timestamp);  
+                                    
+                                    // Set up time markers to compare to. 
+                                    $elevenAM =  date('H:i:s', mktime(11, 0, 0, null, null, null));
+                                    $twelvePM =  date('H:i:s', mktime(12, 0, 0, null, null, null));
+                                    $onePM =  date('H:i:s', mktime(13, 0, 0, null, null, null)); 
+                                    $twoPM =  date('H:i:s', mktime(14, 0, 0, null, null, null));
+                                    $threePM =  date('H:i:s', mktime(15, 0, 0, null, null, null));
+                                    $fourPM =  date('H:i:s', mktime(16, 0, 0, null, null, null));
+                                    
+                                    ?> 
+
+                                    
                                     <option value="--">Select Time</option>
                                     <option value="11:00 AM">11:00 AM</option>
                                     <option value="12:00 PM">12:00 PM</option>
@@ -185,6 +193,8 @@ $communities = getJsonData($json_db_url.'communities.json');
                                     <option value="3:00 PM">3:00 PM</option>
                                     <option value="4:00 PM">4:00 PM</option>
                                 </select>
+            
+
                             </div>
                         </div>
                     </div>
@@ -193,17 +203,31 @@ $communities = getJsonData($json_db_url.'communities.json');
                         <textarea class="form-control z-depth-1" id="comments" name="comments" rows="3"
                             placeholder="Comments"></textarea>
                     </div>
+
+                    <!-- Math Captcha Quiz --> 
+                    <?php
+                        $min  = 1;
+                        $max  = 10;
+                        $num1 = rand( $min, $max );
+                        $num2 = rand( $min, $max );
+                        $sum  = $num1 + $num2;
+                    ?>
                     
-                    <!-- Sign in button -->
+                    <label for="quiz" class="col-sm-2 col-form-label">
+                        <?php echo $num1 . '+' . $num2; ?>?
+                    </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control quiz-control" id="quiz">
+                    </div>
+                        
+                    <!-- Submit button -->
                     <div class="col-sm-12 px-2">
-                        <button id="buttonMain"
+                        <button id="buttonMain" data-res="<?php echo $sum; ?>"
                             onclick="trackConv(); gtag('event', 'click', { 'event_category': 'General Contact Form' }); fbq('track','Lead');"
                             class="btn bg-l-blue btn-rounded btn-block my-2 waves-effect font-weight-bold text-white button-submit"
-                            type="submit" disabled>Submit</button>
+                            type="submit" disabled >Submit</button>
                     </div>
 
-                    <!-- Captcha -->
-                    <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a" data-callback="recaptcha_callback"></div>
                 </div>
             </form>
             <!-- Form -->
@@ -212,6 +236,8 @@ $communities = getJsonData($json_db_url.'communities.json');
 </section>
 
 <?php include_once(ROOT_PATH."/includes/footer.php"); ?>
+
+
 
 <script>
     // Preserve at Westfields Appointment
@@ -227,9 +253,143 @@ $communities = getJsonData($json_db_url.'communities.json');
     // });
 </script>
 
+<!--  Filter Available Times from the Current Date Picked --> 
 <script>
+
+    function filterTime(){
+
+        //Grab Dates and Time Stamps from PHP to filter the form. 
+        var date0 = "<?php echo $date0; ?>";
+        var date1 = "<?php echo $date1; ?>";
+        var date2 = "<?php echo $date2; ?>";
+        var date3 = "<?php echo $date3; ?>";
+        var date4 = "<?php echo $date4; ?>";
+        var date6 = "<?php echo $date6; ?>";
+        var date7 = "<?php echo $date7; ?>";  
+
+        var currentTime = "<?php echo $currentTime; ?>";  
+        var elevenAM = "<?php echo $elevenAM; ?>";  
+        var twelvePM = "<?php echo $twelvePM; ?>";  
+        var onePM = "<?php echo $onePM; ?>"; 
+        var twoPM = "<?php echo $twoPM; ?>"; 
+        var threePM = "<?php echo $threePM; ?>"; 
+        var fourPM = "<?php echo $fourPM; ?>"; 
+
+        var appointmentDate = $("#aptDate").find('option:selected').text();
+        
+        $("#aptTime").removeAttr("disabled");
+
+        if (appointmentDate == date0 && currentTime >= elevenAM) {
+            $('#aptTime option[value="11:00 AM"]').css("display","none");
+        } else {
+            $('#aptTime option[value="11:00 AM"]').css("display","block");
+        }
+
+        if (appointmentDate == date0 && currentTime >= twelvePM) {
+            $('#aptTime option[value="12:00 PM"]').css("display","none");
+        } else {
+            $('#aptTime option[value="12:00 PM"]').css("display","block");
+        }
+
+        if (appointmentDate == date0 && currentTime >= onePM) {
+            $('#aptTime option[value="1:00 PM"]').css("display","none");
+        } else {
+            $('#aptTime option[value="1:00 PM"]').css("display","block");
+        }
+
+        if (appointmentDate == date0 && currentTime >= twoPM) {
+            $('#aptTime option[value="2:00 PM"]').css("display","none");
+        } else {
+            $('#aptTime option[value="2:00 PM"]').css("display","block");
+        }
+        
+        if (appointmentDate == date0 && currentTime >= threePM) {
+            $('#aptTime option[value="3:00 PM"]').css("display","none");
+        } else {
+            $('#aptTime option[value="3:00 PM"]').css("display","block");
+        }
+
+        if (appointmentDate == date0 && currentTime >= fourPM) { 
+            $('#aptTime option[value="4:00 PM"]').css("display","none");
+
+        } else {
+            $('#aptTime option[value="4:00 PM"]').css("display","block");
+        }
+}  
+
+</script>
+
+
+
+<!-- 
+//======================================================================
+// Google reCaptcha V3 - MAIN CONTACT FORM - POSTS TO FORM.PHP - THEN RETURNS RESULT 
+//====================================================================== 
+-->
+
+<script> 
+    //When the form is submitted
+    $('#topBuilderForm').submit(function() {
+        console.log("Button has been pressed"); 
+        // We stop it 
+        event.preventDefault();
+
+        var firstName = $('#firstName').val();
+        var lastName = $('#lastName').val();
+        var email = $('#email').val();
+        var phone = $('#phone').val();
+        var zipCode = $('#zipCode').val();
+        var community = $('#community').val();
+        var aptDate = $('#aptDate').val();
+        var aptTime = $('#aptTime').val();
+        var comments = $('#comments').val();
+
+        // needs for recaptacha ready
+        grecaptcha.ready(function() {
+            console.log("Captcha ready.");
+            // do request for recaptcha token
+            // response is promise with passed token
+            grecaptcha.execute('6LfCa4oiAAAAAD7NhTj4lBLG2BLRwlRkS8m5vRM3', {action: 'create_form'}).then(function(token) {
+                // add token to form
+                console.log("Captcha executed.");
+                $('#topBuilderForm').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+                $('#topBuilderForm').prepend('<input type="hidden" id ="action" name="action" value="create_form">');
+                
+                var action = $('#action').val();
+
+                $.post("form.php",{
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: email,
+                    phone: phone, 
+                    zipCode: zipCode, 
+                    community: community, 
+                    aptDate: aptDate,
+                    aptTime, aptTime, 
+                    comments: comments,
+                    action: action,  
+                    token: token
+                }, function(result) {
+                            console.log(result);
+                            if(result.success) {
+                                    alert('Thanks for the form submission!')
+                            } else {
+                                    alert('This looks like spam!')
+                            }
+                });
+            
+            });   
+        }); 
+    });
+</script>
+
+
+
+
+<!-- <script>
     function recaptcha_callback() {
         $('.button-submit').removeAttr('disabled');
     }; 
 </script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
