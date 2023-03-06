@@ -2465,7 +2465,7 @@
             "status": "live",
             "formId": 5420,
             "name": "Rainwater Run",
-            "homeType": "townhomes",
+            "homeType": "singleFamily",
             "landingPage": "",
             "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
             "url": "rainwater-run",

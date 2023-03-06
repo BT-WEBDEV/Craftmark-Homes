@@ -39,7 +39,7 @@
         .agent-info {
             flex: 0 0 100%; 
             flex-direction: column;
-            max-width: 50%; 
+            max-width: 75%; 
             
             .agent-avatar {
                 max-width: 90px; 
@@ -154,6 +154,11 @@
 
 // Small Mobile 
 @media (max-width: 500px) {
+    .community-details-V4 {
+        .content {
+            flex-direction: column;
+        }
+    }
     #community-neighborhood {
         .header-image{
             .header {
@@ -170,10 +175,10 @@
 @media (max-width: $screen-sm) {
     #community-details {
         .item-1-V4 {
-            max-width: 50% !important; 
+            max-width: 100% !important; 
         }
         .item-2-V4 {
-            max-width: 50% !important;
+            max-width: 100% !important;
             .agent-info {
                 max-width: 100% !important; 
                 p {

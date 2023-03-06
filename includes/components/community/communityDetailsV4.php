@@ -198,7 +198,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                 <div class="flex-item item-2-V4 order-2 text-xl-center d-flex">
                     <?php 
                     foreach ($comm['salesAgent']['agents'] as $agent) { ?>
-                    <div class="d-flex agent-info">
+                    <div class="d-flex agent-info text-center">
                         <img src="/images/agents/<?php echo $agent['avatar']?>" class="img-fluid mx-auto agent-avatar"> 
                         <p class="font-weight-bold"><?php echo $agent['agentName']; ?></p>
                         <p>
@@ -213,18 +213,15 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                         <a class="text-l-blue" href="mailto:<?php echo $agent['email']; ?>">
                         <?php echo $agent['email']; ?>
                         </a>
-                    </div>
-                    <?php } ?>
-                   
-                    <hr>
-                </div>
-                <div class="order-3 w-100">
-                    <p class="disclaimer font-weight-normal text-muted text-right">
+                        <p class="disclaimer font-weight-normal text-muted">
                         <i><?php echo $comm['salesAgent']['label'] ?>
                         </i>
-                    </p>
+                    </p>   
+                    </div>
+                    <?php } ?>         
+                    <hr>
                 </div>
-                <div class="order-4 w-100 totalView mt-3">
+                <div class="order-3 w-100 totalView mt-3">
                     <div class="d-flex justify-content-center">
                         <div>
                             <?php require ROOT_PATH."/images/icon/views.svg" ?>
