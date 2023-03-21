@@ -854,7 +854,7 @@ if($community['status'] != 'soldLabel') {
 
 
 <!-- PROMOTIONAL POP UPS / MODALS  --> 
-<?php if($community['url'] == "") { ?>
+<?php if($community['url'] == "watershed") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -864,9 +864,9 @@ if($community['status'] != 'soldLabel') {
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <a target="_blank" href="https://www.facebook.com/events/640462364154257/?ref=newsfeed">
-                        <img src="/images/popup/09595-CMH-MGO-PopUp-Watershed.jpg"
-                            alt="The Retreat at Westfields Model Grand Opening" class="img-fluid w-100">
+                    <a target="_blank" href="https://www.facebook.com/events/162420570027200/">
+                        <img src="/images/popup/watershed-popup.jpg"
+                            alt="Watershed Model Grand Opening" class="img-fluid w-100">
                     </a>
                 </div>
             </div>
