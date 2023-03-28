@@ -854,7 +854,7 @@ if($community['status'] != 'soldLabel') {
 
 
 <!-- PROMOTIONAL POP UPS / MODALS  --> 
-<?php if($community['url'] == "watershed") { ?>
+<?php if($community['url'] == "") { ?>
     <section>
         <!-- Modal -->
         <div class="modal animated fadeIn" id="popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"

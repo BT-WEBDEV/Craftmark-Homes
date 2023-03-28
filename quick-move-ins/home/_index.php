@@ -47,16 +47,7 @@ $floorplanOptions = getDbstParams($prop_type[0], null, null);
 // var_dump($floorplanOptions);
 
 $floorplanOptions = json_decode($floorplanOptions[0]['options'], true);
-
-foreach($floorplanOptions['params'] as $fpParams) {
-    if($fpParams['key'] == $quickMoveIns[0][$prop_type[1]]) {
-        $fpName = $fpParams['value'];
-        break;
-    }
-}
-
-consoleLog($fpParams); 
-
+$fpName =  $floorplanOptions['params'][$quickMoveIns[0][$prop_type[1]]]['value'];
 foreach ($floorplans['floorplanTypes'] as $fp_type) { 
     foreach ($fp_type['floorplans'] as $fp) {
         if($fp['name'] == $fpName) {
@@ -221,7 +212,6 @@ $totalSaved = getTotalStats($qmi_id, 'gka_quick_move_ins_view', true) + 11;
                 </div>
             </div>
             <hr>
-            <!-- THIS HAS BEEN HIDDEN FOR NOW --> 
             <div class="py-2">
                 <div>
                     <a href="/floorplans/<?php echo $floorplan['url'] ?>">

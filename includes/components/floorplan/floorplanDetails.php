@@ -390,8 +390,13 @@ $totalView = getTotalStats($pv_path, 'gka_floorplan_view', false) + 376;
         <h4 class="font-weight-bold">Ready to move? Buy it now!</h4>
         <div class="row">
             <?php 
+            // Initialize $qmiList variable to false
             $qmiList = false;
+            
+            // Loop through each $quickMoveIns item
             foreach ($quickMoveIns as $qmi) {
+                
+                // Determine the property type based on $qmi['listing_type']
                 switch ($qmi['listing_type']) {
                     case 13: 
                         $prop_type = [3150, "fp_townhomes"];
@@ -402,29 +407,47 @@ $totalView = getTotalStats($pv_path, 'gka_floorplan_view', false) + 376;
                         break;
                     default:
                         break;
-                } 
+                }
                 
+                // Retrieve floorplan options from the database based on the property type
                 $floorplanOptions = getDbstParams($prop_type[0], null, null);
                 $floorplanOptions = json_decode($floorplanOptions[0]['options'], true);
-                $fpName =  $floorplanOptions['params'][$qmi[$prop_type[1]]]['value'];
+
+                // Loop through each floorplan parameter to find the matching one for this $quickMoveIns item
+                foreach ($floorplanOptions['params'] as $fpParams) {
+                    if ($fpParams['key'] == $qmi[$prop_type[1]]) {
+                        // Set $fpName to the matching floorplan parameter's value
+                        $fpName = $fpParams['value'];
+                        break;
+                    }
+                }
                 
+                // Check if $fpName matches the current $floorplan's name
                 if($fpName == $floorplan['name']) {
-                $qmiList = true;
-            ?>
-            <div id="qmiWrap-<?php echo $qmi['id']; ?>" class="col-lg-4 col-sm-6 py-3">
-                <div class="z-depth-1 bg-white h-100">
-                    <?php include(ROOT_PATH."includes/components/quickMoveIns/quickMoveInsListV1.php"); ?>
+                    // Set $qmiList to true and output the HTML for this $quickMoveIns item
+                    $qmiList = true;
+                    consoleLog($fpName); 
+                    ?>
+                    <div id="qmiWrap-<?php echo $qmi['id']; ?>" class="col-lg-4 col-sm-6 py-3">
+                        <div class="z-depth-1 bg-white h-100">
+                            <?php include(ROOT_PATH."includes/components/quickMoveIns/quickMoveInsListV1.php"); ?>
+                        </div>
+                    </div>
+                <?php 
+                }
+            } 
+            
+            // If no $quickMoveIns items match the current $floorplan's name, output a message
+            if(!$qmiList) { ?>
+                <div class="col-12">
+                    <div>
+                        <h4 class="text-l-blue font-weight-normal">We're busy building!</h4>
+                    </div>
                 </div>
-            </div>
-            <?php }} if(!$qmiList) { ?>
-            <div class="col-12">
-                <div>
-                    <h4 class="text-l-blue font-weight-normal">We're busy building!</h4>
-                </div>
-            </div>
             <?php } ?>
         </div>
     </div>
 </section>
 
-<?php include(ROOT_PATH."includes/components/forcedOverlayContactModal.php");  ?>
+<!-- Forced Overlay Contact Modal Will Block Access to Floorplan Details Until User Signs Up for Email --> 
+<?php //include(ROOT_PATH."includes/components/forcedOverlayContactModal.php");  ?>
