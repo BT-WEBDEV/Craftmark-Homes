@@ -177,18 +177,32 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                 <p><?php echo $comm_address; ?></p> 
                             </u></a>
                         </div>
+                        <!-- Display the address label -->
                         <p class="label font-weight-bold d-flex mb-1"><?php echo $address['label2'] ?></p>
-                        <div class="d-flex"> 
-                            <img id="community-loc-icon" src="/images/icon/map-pin.svg" alt="map pin icon">
-                            <a class="text-dark" target="_blank" href="<?php echo $address['direction'] ?>">
-                                <?php
-                                    $gps = (($comm['address']['coords']))
-                                                                   
-                                ?>
-                                <p><?php echo $gps[0]; ?>, <?php echo $gps[1]; ?></p> 
-                            </a>
-                        </div>
-                        <p class="text-black"><?php echo $address['additionalInfo'] ?></p>
+
+                        <!-- If the community is Clarksburg Town Center, display its special information -->
+                        <?php if ($comm['url'] === 'clarksburg-town-center') : ?>
+                            <div class="d-flex"> 
+                                <img id="community-loc-icon" src="/images/icon/map-pin.svg" alt="map pin icon">
+                                <a class="text-dark" target="_blank" href="https://goo.gl/maps/25dHP87kF7ABvQV5A">
+                                    <p>13050 Clarksburg Square Road, Clarksburg, MD 20871</p> 
+                                </a>
+                            </div>
+                        <!-- If the community is not Clarksburg Town Center, display the standard location information -->
+                        <?php elseif ($address['direction']) : ?>
+                            <div class="d-flex"> 
+                                <img id="community-loc-icon" src="/images/icon/map-pin.svg" alt="map pin icon">
+                                <a class="text-dark" target="_blank" href="<?php echo $address['direction'] ?>">
+                                    <?php
+                                        // Get the GPS coordinates for the community
+                                        $gps = $comm['address']['coords'];
+                                    ?>
+                                    <p><?php echo $gps[0]; ?>, <?php echo $gps[1]; ?></p> 
+                                </a>
+                            </div>
+                            <!-- Display any additional location information for the community -->
+                            <p class="text-black"><?php echo $address['additionalInfo'] ?></p>
+                        <?php endif; ?>
                     </div>
                     <?php } ?>
                     <!-- Retreat at westfields -->

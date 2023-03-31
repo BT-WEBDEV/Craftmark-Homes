@@ -2110,7 +2110,7 @@
                 {
                     "name": "The Oakton at Darnestown Station",
                     "statusInput": ["live", "sold", "staging"],
-                    "status": "live",
+                    "status": "sold",
                     "basePrice": 1595000,
                     "modelStatus": false,
                     "orderRate": false,
@@ -2131,7 +2131,7 @@
                     "videoTour": false,
                     "3DTour": "https://my.matterport.com/show/?m=PUaQBuuyFQH",
                     "pdf": "floorPlans.pdf",
-                    "customProperties": true,
+                    "customProperties": false,
                     "specs": {
                         "sqFeetLabel": "",
                         "sqFeet": "5,832",

@@ -24,8 +24,8 @@
                 "btnText": "white", 
                 "welcomeBackground": "bg-welcome.jpg"
             },
-            "headerInput1": "New Luxury Townhomes from the",
-            "headerInput2": "Upper $600s",
+            "headerInput1": "New Luxury Townhomes from the Mid $600s",
+            "headerInput2": "",
             "gallery": [
                 [1, "2-Car Garage Townhomes", "2-Car Garage Townhomes in Montgomery County, MD, Clarksburg Town Center by Craftmark Homes"],
                 [2, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
@@ -58,14 +58,7 @@
                 [29, "Living Spaces", "Living Spaces, Townhomes, Clarksburg MD"],
                 [30, "Dining Room", "Dining Room, Townhomes, Clarksburg MD"],
                 [31, "Garment Kitchen", "Garment Kitchen, Townhomes, Clarksburg MD"],
-                [32, "Patio", "Patio, Townhomes, Clarksburg MD"],
-                [33, "Exteriors", "Exteriors, Townhomes, Clarksburg MD"],
-                [34, "Community Outdoor Pool", "Community Outdoor Pool, Townhomes, Clarksburg MD"],
-                [35, "Clarksburg Town Shopping Center", "Clarksburg Town Shopping Center, Townhomes, Clarksburg MD"],
-                [36, "Community Park", "Community Park, Townhomes, Clarksburg MD"],
-                [37, "Community Park", "Community Park, Townhomes, Clarksburg MD"],
-                [38, "Walking and Biking Trails", "Walking and Biking Trails, Townhomes, Clarksburg MD"],
-                [39, "The Residents Club", "The Residents Club, Townhomes, Clarksburg MD"]
+                [32, "Patio", "Patio, Townhomes, Clarksburg MD"]
             ],
             "sectionOrder": {
                 "overview": 1,
@@ -88,7 +81,7 @@
                 "hours": "*Selling Off-Site. Personal Appointments Required. Please Contact to Schedule!"
             },
             "priceInfo": {
-                "label": "From the Upper",
+                "label": "From the Mid",
                 "price": 600
             },
             "address": {
@@ -96,7 +89,7 @@
                 "coords": ["39.245833", "-77.2703257"],
                 "addresses": [{
                     "label": "Community Location:",
-                    "label2": "GPS Coordinates:", 
+                    "label2": "GPS Address:", 
                     "outOfCommunity": false,
                     "address": {
                         "street1": "12889 Clarksburg Square Rd",
@@ -1786,7 +1779,10 @@
                 [11, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
                 [12, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
                 [13, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
-                [14, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"]
+                [14, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [15, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [16, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
+                [17, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"]
             ],
              "sectionOrder": {
                 "overview": 1,
@@ -2044,14 +2040,14 @@
         {
             "id": 14,
             "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
-            "status": "live",
+            "status": "soldLabel",
             "formId": 4987,
             "name": "Darnestown Station",
             "homeType": "singleFamily",
             "landingPage": "",
             "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
             "url": "darnestown-station",
-            "listingImgV1": ["listingImg-v1.png"],
+            "listingImgV1": ["listingImg-v1.jpg"],
             "selectedListingImgV1": false,
             "listingImgV2": ["listingImg-v2.jpg"],
             "selectedListingImgV2": false,
@@ -2059,12 +2055,12 @@
             "mapImg": "listingImg-v2.jpg",
             "frameV2": "frame-V2.png",
             "brandStyle": {
-                "background": "G.png",
+                "background": "G.jpg",
                 "colors": ["#626959", "#C31230"],
                 "mainColor": "#626959",
                 "textColor": "black",
                 "btnText": "white",
-                "welcomeBackground": "bg-welcome.png"
+                "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "New Single Family Estate Home - $1,595,000 - Finished Price!",
             "headerInput2": "Final Opportunity - 1 Home Remains!",
@@ -2144,13 +2140,7 @@
                     "avatar": "lori-windsor.png"
                 }]
             },
-            "floorplans": [
-                {
-                    "fpName": "The Oakton at Darnestown Station",
-                    "fpUrl": "oakton-at-darnestown-station",
-                    "model": false
-                }
-            ],
+            "floorplans": [],
             "sitePlans": [
                 ["siteplan-1.jpg", "Darnestown Station in Gaithersburg, MD", "Darnestown Station Site Plan, Craftmark Homes"],
                 ["siteplan-2.jpg", "Darnestown Station in Gaithersburg, MD", "Darnestown Station Site Plan, Craftmark Homes"],
