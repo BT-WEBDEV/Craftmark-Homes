@@ -1898,7 +1898,7 @@
             "landingPage": "",
             "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
             "url": "cabin-branch",
-            "listingImgV1": ["listingImg-v1.png"],
+            "listingImgV1": ["listingImg-v1.jpg"],
             "selectedListingImgV1": false,
             "listingImgV2": ["listingImg-v2.jpg"],
             "selectedListingImgV2": false,
@@ -1906,7 +1906,7 @@
             "mapImg": "listingImg-v3.jpg",
             "frameV2": "frame-V2.png",
             "brandStyle": {
-                "background": "G.png",
+                "background": "G.jpg",
                 "colors": ["#444C56", "#D0B399"],
                 "mainColor": "#444C56",
                 "textColor": "black",
@@ -2293,7 +2293,7 @@
             "landingPage": "",
             "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
             "url": "watershed",
-            "listingImgV1": ["listingImg-v1.png"],
+            "listingImgV1": ["listingImg-v1.jpg"],
             "selectedListingImgV1": false,
             "listingImgV2": ["listingImg-v2.jpg"],
             "selectedListingImgV2": false,
@@ -2301,7 +2301,7 @@
             "mapImg": "listingImg-v2.jpg",
             "frameV2": "frame-V2.png",
             "brandStyle": {
-                "background": "G_Crown.png",
+                "background": "G.jpg",
                 "colors": ["#385CAD", "#5C8C67"],
                 "mainColor": "#385CAD",
                 "textColor": "black",
@@ -2634,7 +2634,7 @@
             },
             "priceInfo": {
                 "label": "From the",
-                "price": "800s"
+                "price": "800"
             },
             "address": {
                 "county": "Montgomery County, MD",
