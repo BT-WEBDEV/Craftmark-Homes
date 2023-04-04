@@ -40,7 +40,7 @@
 		<!-- Floor Plan Detials -->
       	<div class="face back"> 
       		<div class="floorplans_details">
-      			<h1>3-5 BR | 3-5 FULL BA | 1-2 HALF BA | 2 Car Garage</h1>
+      			<h1>4 BR | 3 FULL BA | 1 HALF BA | 2 Car Garage</h1>
       			<div class="d-flex flex-wrap">
       				<div class="col-6 align-self-center">
       					<?php include_once("fp_accordion.php"); ?>

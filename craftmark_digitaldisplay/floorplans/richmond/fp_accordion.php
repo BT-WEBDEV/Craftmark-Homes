@@ -13,8 +13,8 @@
     <div id="collapse_1_<?php echo $floorplane_name; ?>" class="collapse show" data-parent="#accordion_<?php echo $floorplane_name; ?>">
       <div class="card-body active_wrap">
         <ul class="list-unstyled">
-          <li class="active-link" data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="0">Base Floor Plan</li>
-          <li data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="1">Optional Bedroom and Bath</li>
+          <li class="active-link" data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="0">Base Floor Plan With Optional Bed & Bath</li>
+          <!-- <li data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="1">Optional Bedroom and Bath</li> -->
         </ul>
       </div>
     </div>
@@ -49,9 +49,9 @@
     <div id="collapse_3_<?php echo $floorplane_name; ?>" class="collapse" data-parent="#accordion_<?php echo $floorplane_name; ?>">
       <div class="card-body active_wrap">
         <ul class="list-unstyled">
-          <li class="active-link" data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="3">Base Floor Plan</li>
-          <li data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="4">Optional Loft Stairs</li>
-          <li data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="5">Optional Loft Bedroom and Bath</li>
+          <li class="active-link" data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="3">Base Floor Plan With Optional Alternate</li>
+          <!-- <li data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="4">Optional Loft Stairs</li> -->
+          <!-- <li data-target="#fp_slider_<?php echo $floorplane_name; ?>" data-slide-to="5">Optional Loft Bedroom and Bath</li> -->
         </ul>
       </div>
     </div>
