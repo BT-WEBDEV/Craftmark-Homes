@@ -53,10 +53,6 @@ $(function () {
         big : 'siteplan_image/siteplan_2.jpg'
     },
     {
-        small : 'siteplan_image/siteplan_4.jpg',
-        big : 'siteplan_image/siteplan_4.jpg'
-    },
-    {
         small : 'siteplan_image/slide14.jpg',
         big : 'siteplan_image/slide14.jpg'
     },

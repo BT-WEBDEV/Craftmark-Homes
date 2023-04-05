@@ -1008,15 +1008,15 @@
                         "stories": 4,
                         "beds": {
                             "min": "3",
-                            "max": "5"
+                            "max": ""
                         },
                         "fullBaths": {
                             "min": "3",
-                            "max": "4"
+                            "max": ""
                         },
                         "halfBaths": {
                             "min": "1",
-                            "max": "2"
+                            "max": ""
                         },
                         "garage": {
                             "min": "2",
@@ -1024,8 +1024,8 @@
                         }
                     },
                     "details": [
-                        "3-5 Bedrooms",
-                        "3-4 full 1-2 half Baths",
+                        "3 Bedrooms",
+                        "3 full 1 half Baths",
                         "2-Car Garage"
                     ],
                     "fpVersions": [],
