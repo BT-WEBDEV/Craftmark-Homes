@@ -29,6 +29,31 @@
         {
             "statusInput": ["live", "sold", "home"],
             "status": "home",
+            "url": "cabin-branch",
+            "comUrl": "cabin-branch",
+            "featureName": "The Village at Cabin Branch",
+            "imgAlt": "Video Tour for Seneca Model Home",
+            "mainImage": "B2-seneca.png",
+            "imageFrame" : "B1-seneca.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=1qhR8WD7qwH"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
             "url": "watershed",
             "comUrl": "watershed",
             "featureName": "Watershed",
