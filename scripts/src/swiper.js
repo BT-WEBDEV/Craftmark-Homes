@@ -192,6 +192,10 @@ var communitySiteplanSwiper = new Swiper('.community-siteplan-swiper-container',
             slidesPerView: 3,
             spaceBetween: 15,
         }
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     }
 });
 

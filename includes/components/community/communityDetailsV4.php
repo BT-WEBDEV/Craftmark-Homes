@@ -97,7 +97,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                 class="font-weight-normal"><?php echo $comm['priceInfo']['label'] ?>
                                 $<?php echo ($comm['priceInfo']['price'] != 0) ? $comm['priceInfo']['price'] : " -- "; ?><?php echo ($comm['priceInfo']['priceTag']) ? $comm['priceInfo']['priceTag'] : "s"; ?>
                             </p>
-                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Pre-Construction Pricing</p>'; }?>
+                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Fully-Loaded Townhomes</p>'; }?>
                         </div>
                     </div>
                 </div>
@@ -712,6 +712,16 @@ if($community['status'] != 'soldLabel') {
                     </div>
                     <?php } ?>
                 </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-next">
+                    <!-- <img src="/images//arrow-right.svg" alt=""> -->
+                    <i class="fa fa-chevron-right" style="color:black;"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <!-- <img src="/images//arrow-left.svg" alt=""> -->
+                    <i class="fa fa-chevron-left" style="color:black;"></i>
+                </div>
+               
             </div>
             <?php } else { ?>
             <div class="pl-sm-3 my-3">

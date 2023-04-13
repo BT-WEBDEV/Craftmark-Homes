@@ -9,7 +9,7 @@
             "landingPage": "",
             "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
             "url": "clarksburg-town-center",
-            "listingImgV1": ["listingImg-v1.png"],
+            "listingImgV1": ["listingImg-v1.jpg"],
             "selectedListingImgV1": false,
             "listingImgV2": ["listingImg-v2.jpg"],
             "selectedListingImgV2": false,
@@ -17,7 +17,7 @@
             "mapImg": "listingImg-v2.jpg",
             "frameV2": "frame-v2.png",
             "brandStyle": {
-                "background": "G_Clarksburg_1.png",
+                "background": "bg-hero.jpg",
                 "colors": ["#168EBB", "#091735"],
                 "mainColor": "#168EBB",
                 "textColor": "black",
@@ -116,9 +116,10 @@
                 "model": false
             }],
             "sitePlans": [
+                ["siteplan-1.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"],
+                ["siteplan-2.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"],
                 ["siteplan-3.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"],
-                ["siteplan-4.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"],
-                ["siteplan-5.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"]
+                ["siteplan-4.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"]
             ],
             "zillow": {
                 "Status": false,
@@ -1748,7 +1749,7 @@
             "landingPage": "",
             "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
             "url": "retreat-at-westfields",
-            "listingImgV1": ["listingImg-v1.png"],
+            "listingImgV1": ["listingImg-v1.jpg"],
             "selectedListingImgV1": false,
             "listingImgV2": ["listingImg-v2.jpg"],
             "selectedListingImgV2": false,
@@ -1756,7 +1757,7 @@
             "mapImg": "listingImg-v3.jpg",
             "frameV2": "frame-V2.png",
             "brandStyle": {
-                "background": "G.png",
+                "background": "bg-hero.jpg",
                 "colors": ["#002B3C", "#9AE7F4"],
                 "mainColor": "#002B3C",
                 "textColor": "black",
