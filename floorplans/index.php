@@ -54,6 +54,46 @@ for ($i=0; $i < sizeof($floorplans['floorplanTypes']); $i++) {
         </div>
     </section>
     <?php } ?>
+    <section id="floorplans-townhomes-listing" class="py-4 bg-grey-gradient">
+        <div class="container-fluid px-0">
+            <div class="listing-header px-3 mb-2 d-flex align-items-center justify-content-between">
+                <h6 class="font-weight-bold m-0">Gallery</h6>
+                <a href="/gallery"
+                    class="see-all-btn text-l-blue font-weight-normal d-flex align-items-center">
+                    <p>See All</p>
+                    <img src="/images/arrow-blue-right.svg" alt="" class="ml-2 ml-md-3">
+                </a>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper-container mobile-single-swiper-container pl-sm-3">
+            <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <?php for($i=1; $i<=11; $i++) { ?>
+                    <!-- Slides -->
+                    <div class="swiper-slide py-3">
+                        <div class="global-list-style">
+                            <div class="image image-round">
+                                <a href="/floorplans/images/slide<?php echo $i; ?>.jpg"
+                                    data-fancybox="gallery">
+                                    <img src="/floorplans/images/slide<?php echo $i; ?>.jpg"
+                                        alt="Featured Floorplan Images" class="img-fluid w-100" data-size="1800x1200">
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+            <!-- If we need navigation buttons -->
+                <div class="swiper-button-next">
+                    <img src="/images/arrow-right.svg" alt="Arrow right icon">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="/images/arrow-left.svg" alt="Arro left icon">
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 <?php include_once("../includes/footer.php"); ?>
