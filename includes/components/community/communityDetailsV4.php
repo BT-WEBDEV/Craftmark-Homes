@@ -835,7 +835,7 @@ if($community['status'] != 'soldLabel') {
         class="bg-l-black py-3 order-<?php echo $comm['sectionOrder']['quick-move-ins']; ?>">
         <div class="container-fluid max-lg-width-1140">
             <div>
-                <h3 class="font-weight-bold m-0 pt-3 text-white">QUICK DELIVERIES</h3>
+                <h3 class="font-weight-bold m-0 pt-3 text-white">QUICK MOVE-IN HOMES</h3>
             </div>
         </div>
         <?php if(sizeof($available_qmi) != 0) { ?>
