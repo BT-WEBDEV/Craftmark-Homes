@@ -9,13 +9,23 @@
         src: url(/styles/font/halogen/Halogen-Regular.otf),
              url(/styles/font/halogen/Halogen-Bold.otf);
     }
+    html {
+        scroll-behavior: smooth;
+    }
     
     body {
         background-color: white; 
     }
 
     #landing-hero {
-        padding-top: 40px;
+        padding-top: 20px;
+    }
+
+    #signUpNowButton {
+        background: #EEECE9;
+        border: 2px solid #B98E53;
+        border-radius: 3px;
+        color: #B98E54;
     }
 
     #desktop-show-mobile-hide {
@@ -167,20 +177,29 @@
     }
 </style> 
 
-<section id="landing-hero" style="position: relative;">
-  <div class="hero-bg-image">
-    <img class="img-fluid w-100" src="../grove/images/landingpage/the-grove-hero.jpg" alt="the-grove">
-    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);">
-      <div id="desktop-show-mobile-hide" class="container h-100">
-        <div class="row h-100 pb-5 align-items-end">
-          <div class="col-md-12 text-center">
-            <h1 id="hero-title" class="hero-content mb-3" >THE GROVE</h1>
-            <h2 id="hero-callout" class="hero-content mb-3">THREE PRESTIGIOUS <br> NEW HOME DESIGNS</h1>
-            <h3 id="hero-craftmark" class="hero-content mb-5">FROM CRAFTMARK HOMES</h1>
-            <p id="hero-details" class="hero-content">Darnestown Road & Great Seneca Highway <br> Gaithersburg | Montgomery County, MD</p>
-          </div>
+<section id="landing-hero">
+  <div class="hero-bg-image view">
+    <img class="img-fluid w-100" src="../grove/images/landingpage/grove-bg-hero.jpg" alt="the-grove">
+    <div class="container-fluid mask p-5"> 
+        <div class="container-fluid">
+            <img class="img-fluid mt-5 mx-5" src="../grove/images/landingpage/GroveLogo.svg" alt="GroveLogo">
         </div>
-      </div>
+        <div class="container-fluid px-5 mt-5">
+            <div class="row px-5">
+                <div class="col-md-6 px-5 mt-5">
+                    <h1 class="text-white">WELCOME TO THE GROVE –</h1>
+                    <h2 class="text-white">A NEW LEVEL OF LUXURY LIVING IN MONTGOMERY COUNTY!</h2>
+                    <div class="col-sm-6 px-2 text-center">
+                            <a id="signUpNowButton"
+                                class="btn btn-block my-2 waves-effect font-weight-bold" href="#topBuilderForm"
+                                 >Sign Up Now!</a>
+                        </div>
+                </div>
+                <div class="col-md-6 px-5">
+                    <img src="../grove/images/landingpage/hero-image-map.jpg" alt="Siteplan" class="img-fluid mx-auto">
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 </section>
