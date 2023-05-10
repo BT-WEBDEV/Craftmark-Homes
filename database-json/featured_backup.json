@@ -1,0 +1,1106 @@
+{
+    "featured": [
+        {
+            "statusInput": ["live", "sold", "hide"],
+            "status": "home",
+            "notify": true,
+            "url": "anniversary",
+            "comUrl": false,
+            "featureName": "Anniversary",
+            "imgAlt": "30th Anniversary",
+            "mainImage": "B2.png",
+            "imageFrame" : "B1.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/hsQKT6sClr8"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "33%",
+                    "left": "0",
+                    "width": "75%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "cabin-branch",
+            "comUrl": "cabin-branch",
+            "featureName": "The Village at Cabin Branch",
+            "imgAlt": "Video Tour for Seneca Model Home",
+            "mainImage": "B2-seneca.png",
+            "imageFrame" : "B1-seneca.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=1qhR8WD7qwH"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "watershed",
+            "comUrl": "watershed",
+            "featureName": "Watershed",
+            "imgAlt": "Video Tour for Watershed",
+            "mainImage": "B2-bluemont-model-home.png",
+            "imageFrame" : "B1-bluemont-model-home.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/p3s5EYd7rXw"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "watershed",
+            "comUrl": "watershed",
+            "featureName": "Watershed",
+            "imgAlt": "Virtual Tour for Watershed",
+            "mainImage": "B2-bluemont.png",
+            "imageFrame" : "B1-bluemont.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=YQsNayGZ25Q"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "darnestown-station",
+            "comUrl": "darnestown-station",
+            "featureName": "Darnestown Station",
+            "imgAlt": "Virtual Tour for Darnestown Station",
+            "mainImage": "B2-the-oakton.png",
+            "imageFrame" : "B1-the-oakton.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=h7eKZb56T8P"
+            },
+            "logo": {
+                "fileName": "B3-the-oakton.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "darnestown-station",
+            "comUrl": "darnestown-station",
+            "featureName": "Darnestown Station",
+            "imgAlt": "Video Tour for Darnestown Station",
+            "mainImage": "B2-chevy-chase.png",
+            "imageFrame" : "B1-chevy-chase.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/ISnQUThdOLw"
+            },
+            "logo": {
+                "fileName": "B3-chevy-chase.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        }, 
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "darnestown-station",
+            "comUrl": "darnestown-station",
+            "featureName": "Darnestown Station",
+            "imgAlt": "Virtual Tour for Darnestown Station",
+            "mainImage": "B2-chevy-chase-2.png",
+            "imageFrame" : "B1-chevy-chase-2.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=jSSDhKwV25m"
+            },
+            "logo": {
+                "fileName": "B3-chevy-chase-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "hide"],
+            "status": "hide", 
+            "url": "boyl",
+            "comUrl": "boyl",
+            "featureName": "BOYL",
+            "imgAlt": "A Craftmark Build on Your Lot Home - The Kenwood II",
+            "mainImage": "B2-kenwood-2.png",
+            "imageFrame" : "B1-kenwood-2.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/BA3meRa0R1g"
+            },
+            "logo": {
+                "fileName": "B3-kenwood-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "26%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "hide"],
+            "status": "hide",
+            "url": "boyl",
+            "comUrl": "boyl",
+            "featureName": "BOYL",
+            "imgAlt": "A Craftmark Build on Your Lot Home - The Kenwood",
+            "mainImage": "B2-kenwood.png",
+            "imageFrame" : "B1-kenwood.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/ZEdoRCNgHfI"
+            },
+            "logo": {
+                "fileName": "B3-kenwood.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "26%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "retreat-at-westfields",
+            "comUrl": "retreat-at-westfields",
+            "featureName": "Retreat At Westfields",
+            "imgAlt": "Video Tour for Townhomes in Chantilly, VA",
+            "mainImage": "B2-richmond-model.png",
+            "imageFrame" : "B1-richmond-model.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=KM9SrkGgWqM&t=1s"
+            },
+            "logo": {
+                "fileName": "B3-richmond-model.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "retreat-at-westfields",
+            "comUrl": "retreat-at-westfields",
+            "featureName": "Retreat At Westfields",
+            "imgAlt": "3D Model Tour for Townhomes in Chantilly, VA",
+            "mainImage": "B2-richmond-dual.png",
+            "imageFrame" : "B1-richmond-dual.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/gZR2oxnFUHc"
+            },
+            "logo": {
+                "fileName": "B3-richmond-dual.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "retreat-at-westfields",
+            "comUrl": "retreat-at-westfields",
+            "featureName": "Retreat At Westfields",
+            "imgAlt": "3D Model Tour for Townhomes in Chantilly, VA",
+            "mainImage": "B2-flyover.png",
+            "imageFrame" : "B1-flyover.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/k2bxB_vT1YA"
+            },
+            "logo": {
+                "fileName": "B3-flyover.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "retreat-at-westfields",
+            "comUrl": "retreat-at-westfields",
+            "featureName": "Retreat At Westfields",
+            "imgAlt": "Virtual Tour for Townhomes in Chantilly, VA",
+            "mainImage": "B2-richmond.png",
+            "imageFrame" : "B1-richmond.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://homevisit.view.property/public/vtour/display/2091196?idx=1&pws=1#!/"
+            },
+            "logo": {
+                "fileName": "B3-richmond.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "crown",
+            "comUrl": "crown",
+            "featureName": "Crown",
+            "imgAlt": "Virtual Tour for Townhomes",
+            "mainImage": "B2-bellevue.png",
+            "imageFrame" : "B1-bellevue.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=tRPAN2weMN9"
+            },
+            "logo": {
+                "fileName": "B3-bellevue.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "crown",
+            "comUrl": "crown",
+            "featureName": "Crown",
+            "imgAlt": "Video Tour for Townhomes",
+            "mainImage": "B2-bellevue-2.png",
+            "imageFrame" : "B1-bellevue-2.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/5spe3P2JVVk"
+            },
+            "logo": {
+                "fileName": "B3-bellevue-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "crown",
+            "comUrl": "crown",
+            "featureName": "Crown",
+            "imgAlt": "Video Tour for Townhomes",
+            "mainImage": "B2-undecorated.png",
+            "imageFrame" : "B1-undecorated.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/ePrSAQY3rRo"
+            },
+            "logo": {
+                "fileName": "B3-undecorated.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "clarksburg-town-center",
+            "comUrl": "clarksburg-town-center",
+            "featureName": "Clarksburg Town Center",
+            "imgAlt": "360 Tour for Townhomes in Clarksburg, MD",
+            "mainImage": "B2-annapolis.png",
+            "imageFrame" : "B1-annapolis.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=szHLQHefjsN"
+            },
+            "logo": {
+                "fileName": "B3-annapolis.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "29%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "clarksburg-town-center",
+            "comUrl": "clarksburg-town-center",
+            "featureName": "Clarksburg Town Center",
+            "imgAlt": "Video Tour for Townhomes in Clarksburg, MD",
+            "mainImage": "B2-richmond.png",
+            "imageFrame" : "B1-richmond.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=9s2hsn9nbRU"
+            },
+            "logo": {
+                "fileName": "B3-richmond.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "29%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "live",
+            "url": "clarksburg-town-center",
+            "comUrl": "clarksburg-town-center",
+            "featureName": "Clarksburg Town Center",
+            "imgAlt": "3D Model Tour for Townhomes in Clarksburg, MD",
+            "mainImage": "B2-richmond-2.png",
+            "imageFrame" : "B1-richmond-2.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=PSbzGfuNLAH"
+            },
+            "logo": {
+                "fileName": "B3-richmond-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "29%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "clarksburg-town-center",
+            "comUrl": "clarksburg-town-center",
+            "featureName": "Clarksburg Town Center",
+            "imgAlt": "Video Tour for Townhomes in Clarksburg, MD",
+            "mainImage": "B2-annapolis-2.png",
+            "imageFrame" : "B1-annapolis-2.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/rOVAYS7X0a4"
+            },
+            "logo": {
+                "fileName": "B3-annapolis-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "29%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "live",
+            "url": "clarksburg-town-center",
+            "comUrl": "clarksburg-town-center",
+            "featureName": "Clarksburg Town Center",
+            "imgAlt": "Video Tour for Townhomes in Clarksburg, MD",
+            "mainImage": "B2-richmond-3.png",
+            "imageFrame" : "B1-richmond-3.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/RcQhpptO0zk"
+            },
+            "logo": {
+                "fileName": "B3-richmond-3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "29%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "live",
+            "url": "clarksburg-town-center",
+            "comUrl": "clarksburg-town-center",
+            "featureName": "Clarksburg Town Center",
+            "imgAlt": "Video Tour for Townhomes in Clarksburg, MD",
+            "mainImage": "B2-richmond-dual.png",
+            "imageFrame" : "B1-richmond-dual.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/gZR2oxnFUHc"
+            },
+            "logo": {
+                "fileName": "B3-richmond-dual.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "29%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "burnt-pine-estates",
+            "comUrl": "burnt-pine-estates",
+            "featureName": "Burnt Pine Estates",
+            "imgAlt": "3D Model Tour for Burnt Pine Estates",
+            "mainImage": "B2-oakton.png",
+            "imageFrame" : "B1-oakton.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=PUaQBuuyFQH"
+            },
+            "logo": {
+                "fileName": "B3-oakton.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "28%",
+                    "left": "0",
+                    "width": "55%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "burnt-pine-estates",
+            "comUrl": "burnt-pine-estates",
+            "featureName": "Burnt Pine Estates",
+            "imgAlt": "3D Model Tour for Burnt Pine Estates",
+            "mainImage": "B2-chevy-chase.png",
+            "imageFrame" : "B1-chevy-chase.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=BPkK7A7q7Pn"
+            },
+            "logo": {
+                "fileName": "B3-chevy-chase.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "28%",
+                    "left": "0",
+                    "width": "55%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "burnt-pine-estates",
+            "comUrl": "burnt-pine-estates",
+            "featureName": "Burnt Pine Estates",
+            "imgAlt": "Video Tour for Burnt Pine Estates",
+            "mainImage": "B2-chevy-chase-2.png",
+            "imageFrame" : "B1-chevy-chase-2.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/ISnQUThdOLw"
+            },
+            "logo": {
+                "fileName": "B3-chevy-chase-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "28%",
+                    "left": "0",
+                    "width": "55%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "burnt-pine-estates",
+            "comUrl": "burnt-pine-estates",
+            "featureName": "Burnt Pine Estates",
+            "imgAlt": "Video Tour for Burnt Pine Estates",
+            "mainImage": "B2-oakton-2.png",
+            "imageFrame" : "B1-oakton-2.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=GA4L1N9cda4"
+            },
+            "logo": {
+                "fileName": "B3-oakton-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "28%",
+                    "left": "0",
+                    "width": "55%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "comingsoon"],
+            "status": "comingsoon",
+            "url": "fillmore-place",
+            "comUrl": "fillmore-place-of-west-alexandria",
+            "featureName": "Fillmore Place",
+            "imgAlt": "Video Tour for Townhomes in Alexandria, VA",
+            "mainImage": "B2-bradley.png",
+            "imageFrame" : "B1-bradley.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=VUed94TpKJw"
+            },
+            "logo": {
+                "fileName": "B3-bradley.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "25%",
+                    "left": "0",
+                    "width": "25%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "primrose-hill-sf",
+            "comUrl": "primrose-hill-sf",
+            "featureName": "Primrose Hill Single Family",
+            "imgAlt": "Virtual Tour for Single Family Homes in Annapolis, MD",
+            "mainImage": "B2-intro.png",
+            "imageFrame" : "B1-intro.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/mDrmwf_MvdQ"
+            },
+            "logo": {
+                "fileName": "B3-intro.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "primrose-hill-sf",
+            "comUrl": "primrose-hill-sf",
+            "featureName": "Primrose Hill Single Family",
+            "imgAlt": "360 Tour for Single Family Homes in Annapolis, MD",
+            "mainImage": "B2-middletown.png",
+            "imageFrame" : "B1-middletown.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=niyFw9aa1Xo"
+            },
+            "logo": {
+                "fileName": "B3-middletown.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "primrose-hill-th",
+            "comUrl": "primrose-hill-th",
+            "featureName": "Primrose Hill Towns",
+            "imgAlt": "Virtual Tour for Townhomes in Annapolis, MD",
+            "mainImage": "B2-annapolis.png",
+            "imageFrame" : "B1-annapolis.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/mDrmwf_MvdQ"
+            },
+            "logo": {
+                "fileName": "B3-annapolis.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "primrose-hill-th",
+            "comUrl": "primrose-hill-th",
+            "featureName": "Primrose Hill Towns",
+            "imgAlt": "Virtual Tour for Townhomes in Annapolis, MD",
+            "mainImage": "B2-annapolis-2.png",
+            "imageFrame" : "B1-annapolis-2.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=HDcEFiEjciv"
+            },
+            "logo": {
+                "fileName": "B3-annapolis-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        
+        {
+            "statusInput": ["live", "sold", "hide"],
+            "status": "hide",
+            "url": "reserve-at-black-rock",
+            "comUrl": "reserve-at-black-rock",
+            "featureName": "Reserve at Black Rock",
+            "imgAlt": "Video Tour for Single Family",
+            "mainImage": "B2_500x632.png",
+            "imageFrame" : "B1_500x632.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/rOVAYS7X0a4"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "15px",
+                    "left": "0",
+                    "width": "70%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold"],
+            "status": "live",
+            "url": "south-alex",
+            "comUrl": "towns-at-south-alex",
+            "featureName": "South Alex",
+            "imgAlt": "Virtual Tour for Townhomes in Alexandria, VA",
+            "mainImage": "B2-glendale.png",
+            "imageFrame" : "B1-glendale.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&t=6s"
+            },
+            "logo": {
+                "fileName": "B3-glendale.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "23%",
+                    "left": "0",
+                    "width": "30%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold"],
+            "status": "live",
+            "url": "south-alex",
+            "comUrl": "towns-at-south-alex",
+            "featureName": "South Alex",
+            "imgAlt": "360 Tour for Townhomes in Alexandria, VA",
+            "mainImage": "B2-glendale-2.png",
+            "imageFrame" : "B1-glendale-2.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=EFECZMF4TYw"
+            },
+            "logo": {
+                "fileName": "B3-glendale-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "23%",
+                    "left": "0",
+                    "width": "30%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "live",
+            "url": "preserve-at-westfields",
+            "comUrl": "preserve-at-westfields",
+            "featureName": "Preserver at Westfield",
+            "imgAlt": "Video Tour for Townhomes in Chantilly, VA",
+            "mainImage": "B2-intro.png",
+            "imageFrame" : "B1-intro.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/xBGvQ437A7Q"
+            },
+            "logo": {
+                "fileName": "B3-intro.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "live",
+            "url": "preserve-at-westfields",
+            "comUrl": "preserve-at-westfields",
+            "featureName": "Preserver at Westfield",
+            "imgAlt": "3D Model Tour for Townhomes in Chantilly, VA",
+            "mainImage": "B2-westfield.png",
+            "imageFrame" : "B1-westfield.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=e7i9KjD264Y"
+            },
+            "logo": {
+                "fileName": "B3-westfield.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "30%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "georgia-row",
+            "comUrl": "georgia-row-at-walter-reed",
+            "featureName": "Georgia Row",
+            "imgAlt": "360 Tour for urban Condos in in Washington, DC",
+            "mainImage": "B2-adams.png",
+            "imageFrame" : "B1-adams.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=uvqdn4YWQpr"
+            },
+            "logo": {
+                "fileName": "B3-adams.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "35%",
+                    "left": "15%",
+                    "width": "70%",
+                    "margin": "0"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "georgia-row",
+            "comUrl": "georgia-row-at-walter-reed",
+            "featureName": "Georgia Row",
+            "imgAlt": "360 Tour for urban Condos in Washington, DC",
+            "mainImage": "B2-carter.png",
+            "imageFrame" : "B1-carter.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=sGVUQV2QSv1"
+            },
+            "logo": {
+                "fileName": "B3-carter.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "35%",
+                    "left": "15%",
+                    "width": "70%",
+                    "margin": "0"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "georgia-row",
+            "comUrl": "georgia-row-at-walter-reed",
+            "featureName": "Georgia Row",
+            "imgAlt": "Video Tour for urban Condos in in Washington, DC",
+            "mainImage": "B2-intro.png",
+            "imageFrame" : "B1-intro.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/LQ0897gkyOA"
+            },
+            "logo": {
+                "fileName": "B3-intro.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "35%",
+                    "left": "15%",
+                    "width": "70%",
+                    "margin": "0"
+                }
+            }
+        },  
+        {
+            "statusInput": ["live", "sold", "comingsoon"],
+            "status": "comingsoon",
+            "url": "liberty",
+            "comUrl": "liberty",
+            "featureName": "Liberty",
+            "imgAlt": "Virtual Tour for Townhomes in Lorton, VA",
+            "mainImage": "B2-ashford.png",
+            "imageFrame" : "B1-ashford.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=MeQUjj-qeSg"
+            },
+            "logo": {
+                "fileName": "B3-ashford.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "40%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "mateny-hill",
+            "comUrl": "mateny-hill",
+            "featureName": "Mateny Hill",
+            "imgAlt": "Virtual Tour for Townhomes in Germantown, MD",
+            "mainImage": "B2-annapolis-1.png",
+            "imageFrame" : "B1-annapolis-1.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/U14PLSYveP8"
+            },
+            "logo": {
+                "fileName": "B3-annapolis-1.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "31%",
+                    "left": "0",
+                    "width": "56%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "mateny-hill",
+            "comUrl": "mateny-hill",
+            "featureName": "Mateny Hill",
+            "imgAlt": "360 Tour for Townhomes in Germantown, MD",
+            "mainImage": "B2-annapolis-2.png",
+            "imageFrame" : "B1-annapolis-2.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=zi9E2FMc6Dy"
+            },
+            "logo": {
+                "fileName": "B3-annapolis-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "31%",
+                    "left": "0",
+                    "width": "56%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "mateny-hill",
+            "comUrl": "mateny-hill",
+            "featureName": "Mateny Hill",
+            "imgAlt": "360 Tour for Townhomes in Germantown, MD",
+            "mainImage": "B2-arlington.png",
+            "imageFrame" : "B1-arlington.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=iMrQEyXKojz"
+            },
+            "logo": {
+                "fileName": "B3-arlington.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "31%",
+                    "left": "0",
+                    "width": "56%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "sold",
+            "url": "mateny-hill",
+            "comUrl": "mateny-hill",
+            "featureName": "Mateny Hill",
+            "imgAlt": "360 Tour for Townhomes in Germantown, MD",
+            "mainImage": "B2-undecorated.png",
+            "imageFrame" : "B1-undecorated.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=1U9LRpbVVNu"
+            },
+            "logo": {
+                "fileName": "B3-undecorated.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "31%",
+                    "left": "0",
+                    "width": "56%",
+                    "margin": "0 auto"
+                }
+            }
+        }
+    ]
+}

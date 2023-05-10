@@ -214,7 +214,17 @@ $totalSaved = getTotalStats($qmi_id, 'gka_quick_move_ins_view', true) + 11;
                             class="btn-rounded btn bg-l-blue custom-btn text-white mr-2">
                             <img src="/images/icon/youtube.svg" alt="360 tour icon"
                                 style="width: 15px; margin-top: -3px;">
-                            Virtual Tour
+                            Video Tour
+                        </a>
+                    </div>
+                    <?php } ?>
+                    <?php if($quickMoveIns[0]['image_tour']) { ?>
+                    <div>
+                        <a href="<?php echo $quickMoveIns[0]['image_tour']; ?>" target="_blank"
+                            class="btn-rounded btn bg-l-blue custom-btn text-white mr-2">
+                            <img src="/images/icon/imagetour.svg" alt="image tour icon"
+                                style="width: 15px; margin-top: -3px;">
+                            Model Tour
                         </a>
                     </div>
                     <?php } ?>

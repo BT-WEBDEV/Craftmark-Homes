@@ -92,17 +92,17 @@
                     "label2": "GPS Address:", 
                     "outOfCommunity": false,
                     "address": {
-                        "street1": "12889 Clarksburg Square Rd",
+                        "street1": "13050 Clarksburg Square Road",
                         "street2": "",
                         "city": "Clarksburg",
                         "state": "MD",
                         "zip": "20871"
                     },
-                    "direction": "https://goo.gl/maps/HnVt9YEMhS2wUwKf9"
+                    "direction": "https://goo.gl/maps/25dHP87kF7ABvQV5A"
                 }]
             },
             "salesAgent": {
-                "label": "*Selling Off-Site. Personal Appointments Required. Please Contact&nbsp;to&nbsp;Schedule!",
+                "label": "*Selling Off-Site. Personal Appointments Required. Please Email&nbsp;to&nbsp;Schedule!",
                 "agents": [{
                     "agentName": "Lou Kalra",
                     "phone": "3019105770",
@@ -110,11 +110,7 @@
                     "avatar": "lou-kalra.png"
                 }]
             },
-            "floorplans": [{
-                "fpName": "The Richmond",
-                "fpUrl": "richmond",
-                "model": false
-            }],
+            "floorplans": [],
             "sitePlans": [
                 ["siteplan-1.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"],
                 ["siteplan-2.jpg", "Clarksburg Town Center Area Map - Craftmark Homes", "Clarksburg Town Center Site Plan, Craftmark Homes"],

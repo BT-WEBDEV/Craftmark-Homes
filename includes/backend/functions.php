@@ -124,6 +124,7 @@ function getQuickMoveIns($id, $community_name) {
                     prop.field_3152 AS fp_single_family,
                     prop.field_3167 AS virtual_tour,
                     prop.field_3174 AS video_tour,
+                    prop.field_3181 AS image_tour,
                     prop.deleted,
                     prop.f_3153_options,
                     prop.f_3153,

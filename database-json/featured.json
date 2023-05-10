@@ -407,31 +407,6 @@
             "url": "clarksburg-town-center",
             "comUrl": "clarksburg-town-center",
             "featureName": "Clarksburg Town Center",
-            "imgAlt": "360 Tour for Townhomes in Clarksburg, MD",
-            "mainImage": "B2-annapolis.png",
-            "imageFrame" : "B1-annapolis.png",
-            "highlightUrl": {
-                "type": "360tour",
-                "url": "https://my.matterport.com/show/?m=szHLQHefjsN"
-            },
-            "logo": {
-                "fileName": "B3-annapolis.svg",
-                "style": {
-                    "top": "auto",
-                    "right": "0",
-                    "bottom": "29%",
-                    "left": "0",
-                    "width": "50%",
-                    "margin": "0 auto"
-                }
-            }
-        },
-        {
-            "statusInput": ["live", "sold", "home"],
-            "status": "sold",
-            "url": "clarksburg-town-center",
-            "comUrl": "clarksburg-town-center",
-            "featureName": "Clarksburg Town Center",
             "imgAlt": "Video Tour for Townhomes in Clarksburg, MD",
             "mainImage": "B2-richmond.png",
             "imageFrame" : "B1-richmond.png",

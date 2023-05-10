@@ -220,7 +220,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                             <a class="text-l-blue"
                                 href="tel:<?php echo clean($agent['phone']); ?>"><?php echo phoneNumberFormat($agent['phone']); ?></a>
                             <strong>
-                                <?php echo ($comm['name'] != 'Retreat At Westfields' && $comm['name'] != 'Darnestown Station') ? "(Call or Text!)" : ""; ?>
+                                <?php echo ($comm['name'] != 'Retreat At Westfields' && $comm['name'] != 'Darnestown Station' && $comm['name'] != 'Clarksburg Town Center') ? "(Call or Text!)" : ""; ?>
                             </strong>
                             <?php } ?>
                         </p>
