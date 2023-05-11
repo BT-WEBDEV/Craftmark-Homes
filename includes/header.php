@@ -58,6 +58,9 @@ include_once("backend/functions.php");
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/images/favicon.png" sizes="300x300">
 
+    <!-- Arboria - Adobe Fonts --> 
+    <link rel="stylesheet" href="https://use.typekit.net/dfd7szi.css">
+
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
