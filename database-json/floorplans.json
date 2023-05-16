@@ -842,7 +842,7 @@
                         [4, "Richmond by Craftmark", ""]
                     ],
                     "videoTour": false,
-                    "3DTour": false,
+                    "3DTour": "https://my.matterport.com/show/?m=v7uvWnDpsd4",
                     "pdf": "floorPlans.pdf",
                     "specs": {
                         "sqFeetLabel": "Up to",

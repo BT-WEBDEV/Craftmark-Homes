@@ -97,7 +97,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                 class="font-weight-normal"><?php echo $comm['priceInfo']['label'] ?>
                                 $<?php echo ($comm['priceInfo']['price'] != 0) ? $comm['priceInfo']['price'] : " -- "; ?><?php echo ($comm['priceInfo']['priceTag']) ? $comm['priceInfo']['priceTag'] : "s"; ?>
                             </p>
-                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Fully-Loaded Townhomes</p>'; }?>
+                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Full Appointed Townhomes</p>'; }?>
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                             <a class="text-l-blue"
                                 href="tel:<?php echo clean($agent['phone']); ?>"><?php echo phoneNumberFormat($agent['phone']); ?></a>
                             <strong>
-                                <?php echo ($comm['name'] != 'Retreat At Westfields' && $comm['name'] != 'Darnestown Station' && $comm['name'] != 'Clarksburg Town Center') ? "(Call or Text!)" : ""; ?>
+                                <?php echo ($comm['name'] != 'Retreat At Westfields' && $comm['name'] != 'Darnestown Station' && $comm['name'] != 'Clarksburg Town Center' && $comm['name'] != 'Rainwater Run') ? "(Call or Text!)" : ""; ?>
                             </strong>
                             <?php } ?>
                         </p>

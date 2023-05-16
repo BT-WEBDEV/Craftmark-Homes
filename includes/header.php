@@ -255,7 +255,7 @@ include_once("backend/functions.php");
     <h1 class="outline">Craftmark Homes</h1>
     <!--Main Navigation-->
     <header id="header" class="position-relative">
-        <div id="mobile-logo-container" class="<?php echo $d_block; ?> d-sm-none">
+        <div id="mobile-logo-container" class="d-block d-sm-none">
             <div class="mobile-logo d-flex flex-wrap justify-content-between w-100 align-items-center">
                 <img src="/images/Main_Logo/craftmark-logo-white-vertical.svg" class="img-fluid" alt="">
                 <a href="/contact">Contact</a>

@@ -251,7 +251,7 @@
         </div>
         <div id="row-container" class="container-fluid px-5 my-5">
             <div id="hero-row" class="row p-5">
-                <div class="col-md-6 px-5 px-sm-0 mt-3 d-flex flex-column remove-padding">
+                <div class="col-md-6 px-5 mt-3 d-flex flex-column remove-padding">
                     <h1 id="hero-title" class="text-white">WELCOME <br> TO THE GROVE –</h1>
                     <h2 id="hero-sub-title" class="text-white mt-3">A NEW LEVEL OF LUXURY LIVING IN MONTGOMERY&nbsp;COUNTY!</h2>
                     <a id="signUpNowButton" class="btn font-weight-bold mt-auto" href="#topBuilderForm">
