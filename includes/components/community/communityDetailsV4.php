@@ -224,6 +224,9 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                             </strong>
                             <?php } ?>
                         </p>
+                        <strong>
+                            <?php echo ($comm['name'] == 'Rainwater Run') ? "Email for Information:" : ""; ?>
+                        </strong>
                         <a class="text-l-blue" href="mailto:<?php echo $agent['email']; ?>">
                         <?php echo $agent['email']; ?>
                         </a>

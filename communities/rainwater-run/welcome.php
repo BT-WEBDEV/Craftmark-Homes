@@ -1,5 +1,5 @@
 <p class="mt-2">Rainwater Run by Craftmark Homes is where contemporary elegance meets rural charm in the most welcoming display of luxury. 
-    We’re eager to bring seven brand new single family estate homes to this gorgeous Fairfax County enclave – boasting generously sized homesites and expert craftsmanship, 
+    We’re eager to bring seven brand new single family estate homes to this gorgeous Fairfax County enclave – boasting generously sized homesites with green views and rolling hills along with expert craftmanship, 
     we have found the perfect setting to introduce our three newest floor plan designs for an elevated living experience. 
 </p>
 <p class="mt-2">These magnificent homes present stately exteriors and masterful 

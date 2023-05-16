@@ -29,6 +29,31 @@
         {
             "statusInput": ["live", "sold", "home"],
             "status": "home",
+            "url": "watershed",
+            "comUrl": "watershed",
+            "featureName": "Watershed",
+            "imgAlt": "360 Tour for Watershed",
+            "mainImage": "B2-fairland.png",
+            "imageFrame" : "B1-fairland.png",
+            "highlightUrl": {
+                "type": "360tour",
+                "url": "https://my.matterport.com/show/?m=v7uvWnDpsd4"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
             "url": "cabin-branch",
             "comUrl": "cabin-branch",
             "featureName": "The Village at Cabin Branch",
