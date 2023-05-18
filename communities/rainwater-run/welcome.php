@@ -27,3 +27,5 @@
     From the exquisite new home designs to the attractive community setting, you’ll find the best of luxury living is all around you. 
     Act now to reserve your homesite and own one of these brand new single family estate homes for sale in Oakton, Virginia.  
 </p>
+<p class="mt-2 font-weight-bold"> *Video of the Chevy Chase from Darnestown Station is similar to what will be built at Rainwater Run, but not exact. 
+</p>

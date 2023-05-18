@@ -2483,8 +2483,8 @@
                 "btnText": "white", 
                 "welcomeBackground": "bg-welcome.jpg"
             },
-            "headerInput1": "New Luxury Single Family Homes from $2M",
-            "headerInput2": "",
+            "headerInput1": "New Luxury Single Family Homes from $2M <br> Now Selling Off-Site <br> No Models Available <br> Homes Available Are Specific To Lot",
+            "headerInput2": "Please Email To Schedule An Appointment",
             "gallery": [
                 [1, "Rainwater Run - Oakton, VA"],
                 [2, "Rainwater Run - Oakton, VA"],

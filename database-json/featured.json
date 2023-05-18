@@ -29,6 +29,31 @@
         {
             "statusInput": ["live", "sold", "home"],
             "status": "home",
+            "url": "rainwater-run",
+            "comUrl": "rainwater-run",
+            "featureName": "Rainwater Run",
+            "imgAlt": "Video Tour for Rainwater Run",
+            "mainImage": "B2-rainwater-run.png",
+            "imageFrame" : "B1-rainwater-run.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/1kNOgufMfAI"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "25%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
             "url": "watershed",
             "comUrl": "watershed",
             "featureName": "Watershed",
@@ -191,6 +216,31 @@
             },
             "logo": {
                 "fileName": "B3-chevy-chase-2.svg",
+                "style": {
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "32%",
+                    "left": "0",
+                    "width": "66%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "live",
+            "url": "darnestown-station",
+            "comUrl": "rainwater-run",
+            "featureName": "Rainwater Run",
+            "imgAlt": "Video Tour for Rainwater Run",
+            "mainImage": "B2-chevy-chase.png",
+            "imageFrame" : "B1-chevy-chase.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/ISnQUThdOLw"
+            },
+            "logo": {
+                "fileName": "B3-chevy-chase.svg",
                 "style": {
                     "top": "auto",
                     "right": "0",

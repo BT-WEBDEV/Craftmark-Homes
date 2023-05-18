@@ -153,7 +153,8 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                 <div class="flex-item item-1-V4 order-1">
                     <div>
                         <p class="d-md-none"><?php echo $comm['address']['county'] ?></p>
-                        <h3><?php echo $comm['headerInput1']?> <span class="font-weight-bold"><?php echo $comm['headerInput2'] ?></span></h3>
+                        <h3><?php echo $comm['headerInput1']?> </h3>
+                        <h4><?php echo $comm['headerInput2'] ?></h4>
                         <p class="d-md-none font-weight-normal"><?php echo $comm['priceInfo']['label'] ?>
                             $<?php echo $comm['priceInfo']['price'] ?>s</p>
                     </div>
