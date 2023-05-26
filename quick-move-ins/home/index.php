@@ -31,13 +31,34 @@ $featureOptions = getDbstParams(null, 'feature', 4);
 $prop_features = array();
 
 foreach ($featureOptions as $key => $option) {
-    if($quickMoveIns[0][$option['table_column']] == 1) {
+    // Check if the feature option is selected
+    if ($quickMoveIns[0][$option['table_column']] == 1) {
+        // Decode the JSON options into an associative array
+        $f_options = json_decode($option['options'], true);
 
-        $f_options = json_decode($option['options'], true);  
-        $selected_options = array_filter(explode(",", $quickMoveIns[0][$option['table_column']."_options"]));   
-        
+        // Loop through the sub-objects in the options array
+        foreach ($f_options['values'] as $subObject) {
+            // Store the key of the current sub-object
+            $subObjectKey = $subObject['key'];
+        }
+
+        // Retrieve the selected options for the current feature
+        $selected_options = array_filter(explode(",", $quickMoveIns[0][$option['table_column']."_options"]));
+
+        // Loop through the selected options
         foreach ($selected_options as $key => $selected) {
-            array_push($prop_features, $f_options['values'][$selected]['value']);
+            $selectedOption = null;
+            // Find the matching option in the options array using the key
+            foreach ($f_options['values'] as $option) {
+                if ($option['key'] === $selected) {
+                    $selectedOption = $option;
+                    break;
+                }
+            }
+            // If a matching option is found, add its value to the prop_features array
+            if ($selectedOption !== null) {
+                array_push($prop_features, $selectedOption['value']);
+            }
         }
     }
 }
@@ -54,8 +75,6 @@ foreach($floorplanOptions['params'] as $fpParams) {
         break;
     }
 }
-
-consoleLog($fpParams); 
 
 foreach ($floorplans['floorplanTypes'] as $fp_type) { 
     foreach ($fp_type['floorplans'] as $fp) {
@@ -353,7 +372,9 @@ $totalSaved = getTotalStats($qmi_id, 'gka_quick_move_ins_view', true) + 11;
                 <div class="row">
                     <?php
                     if($prop_features) {
+                        consoleLog($prop_features);
                     foreach ($prop_features as $key => $feature) {
+                        consoleLog($feature)
                     ?>
                     <p class="col-12"><?php echo $feature; ?></p>
                     <?php    
