@@ -249,9 +249,9 @@
                 <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
                     <input type="hidden" name="quickDeliAddress" value="">
                     <input type="hidden" name="community" value="5420">
-                    <input type="hidden" name="zipCode" value="Not Provided">
                     <input type="hidden" name="aptDate" value="Not Provided">
                     <input type="hidden" name="aptTime" value="Not Provided">
+                    <input type="hidden" name="interest-options" value="Not Provided">
                     <textarea hidden="hidden" name="comments" value="Not Provided"> </textarea>
                     <div class="row m-0 justify-content-center">
                         

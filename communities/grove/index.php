@@ -1,70 +1,66 @@
 <?php include_once("../../includes/header.php"); ?>
 <style> 
-    html {
-        scroll-behavior: smooth;
+    @font-face {
+        font-family: Nelphim;
+        src: url(/styles/font/nelphim/Nelphim.otf);
+    }
+    @font-face {
+        font-family: Halogen;
+        src: url(/styles/font/halogen/Halogen-Regular.otf),
+             url(/styles/font/halogen/Halogen-Bold.otf);
     }
     
     body {
         background-color: white; 
     }
-    /* HERO */
+
     #landing-hero {
-        background-image: url("../grove/images/landingpage/grove-bg-hero.jpg");
-        background-size: cover;
-        background-position: center;
+        padding-top: 40px;
     }
 
-    #hero-title {
-        font-family: "arboria", sans-serif;
-        font-weight: 700;
-        font-style: normal; 
-        font-size: 65px; 
-        line-height: 1; 
+    #desktop-show-mobile-hide {
+        display: block; 
     }
 
-    #hero-sub-title {
-        font-family: "arboria", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 35px; 
-        line-height: 1.5; 
+    .hero-content {
+        color: white; 
     }
 
-    #signUpNowButton {
-        font-family: "arboria", sans-serif;
-        font-size: 18px; 
-        background: #EEECE9;
-        border: 2px solid #B98E53;
-        border-radius: 3px;
-        color: #B98E54;
-        text-transform: capitalize;
-        max-width: 200px; 
+    #hero-title,#hero-craftmark  {
+        font-family: "Halogen", sans-serif;
+        font-size: 30px;
+        letter-spacing: 1px; 
     }
 
-    /* CONTENT */
-    
-    #landing-content {
-        background-color: #EEECE9;
-        background-image: url("../grove/images/landingpage/content-bg.jpg"); 
+    #hero-callout {
+        font-family: "Nelphim", sans-serif;
+        font-size: 80px; 
     }
 
-    #community-description {
-        font-family: "arboria", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 22px; 
-        line-height: 2; 
+    #hero-details {
+        font-family: "Montserrat", sans-serif; 
+        font-size: 20px; 
+        font-weight: lighter; 
     }
 
-    #community-cta {
-        font-family: "arboria", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 26px; 
-        line-height: 1.5; 
+    #desktop-hide-mobile-show {
+        display: none; 
     }
 
+    .three-features {
+        font-family: "Montserrat"; 
+        justify-content: center; 
+        gap: 10px; 
+        color: #555555; 
+        font-size: 32px;
+        margin-bottom:10px;  
+    }
 
+    .p-content {
+        font-size: 28px; 
+        color: #022948;
+        margin-top: 25px; 
+    }
     input {
         border-radius: 0px !important;
         box-shadow: none !important;
@@ -74,118 +70,77 @@
         color: black !important; 
     }
 
-    #form-comments {
-        width: 100%; 
+     
+    #interest-options {
+        width: 100%;
+        height: 40px;  
         padding: 5px; 
-        border: 1px solid #ced4da;
-        border-radius: 0px !important;
-        background-color: #f7f7f7 !important  
+        color: black;  
+        border: 1px solid #ced4da; 
+        appearance: none; 
+        background: #f7f7f7 url("/communities/grove/images/arrow.svg") no-repeat right 10px center;
     }
 
-
-    #form-comments::placeholder {
-        color: black !important;  
+    #interest-options::after {
+        display: none;
     }
 
 
     #buttonMain {
-        font-family: 'arboria', sans-serif;
         border-radius: 0px !important; 
         background: #B98E54;
-        font-size: 25px; 
-        width: 50%;  
+        font-family: 'Halogen', sans-serif; 
+        font-size: 25px;  
     }
 
-    
+    .landing-content {
+        background-color: #EEECE9; 
+    }
+
+    #bottom-logos {
+        padding: 50px 25px 50px 25px; 
+        background-color: #EEECE9; 
+    }
     .bottom-logos-wrapper {
         gap: 150px; 
     }
+    @media only screen and (max-width: 767px) {
 
-     /* XS PHONE */
-    @media only screen and (max-width: 320px) {
-        #landing-hero.xs-phone {
-            padding-bottom: 325px !important;  
+        #desktop-show-mobile-hide {
+            display: none; 
         }
 
-        #landing-content.xs-phone {
-            padding-top: 150px !important; 
-        }  
-    }
-
-    /* PHONE */
-    @media only screen and (max-width: 425px) {
-
-        #landing-hero.phone {
-            padding: 10px 10px 400px 10px !important;  
+        #desktop-hide-mobile-show {
+            display: block;  
         }
 
-        #logo-container {
-            padding: 0px !important;
-            margin-left: -15px; 
-        }
-
-        #row-container {
-            padding: 0px !important; 
+        .hero-content {
+            color: black; 
         }
         
-        #hero-title {
-            font-size: 35px !important; 
-        }
-        #map-container img {
-            transform: translate(-50%, 50%) !important;
-        }
-
-        #landing-content {
-            padding-top: 280px !important; 
-        }  
-    }
-
-    /* TABLET */
-    @media only screen and (max-width: 768px) {
-
         #landing-hero {
-            padding: 10px 10px 300px 10px !important;
-            position: relative;
-            z-index: 1;
-        }  
+            padding-top: 0px !important;
+        }   
+
+        #hero-callout {
+            font-size: 30px !important; 
+            margin-bottom: 10px !important; 
+        }
+        #hero-title,#hero-craftmark  {
+            font-size: 20px; 
+            margin-bottom: 10px !important; 
+        }
         
-        #grove-logo {
-            margin-left: 0px !important; 
-        }
-
-        .remove-padding {
-            padding: 0px !important; 
-        }
-
-        #signUpNowButton {
-            margin-top: 25px !important; 
-        }
-
-        #map-container {
-            position: relative;
-            z-index: 10;
-            overflow: visible; 
-        }
-
-        #map-container img {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, 25%);
-            z-index: 1;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        #landing-content {
-            padding-top: 300px; 
+        #hero-details {
+            font-size: 18px !important; 
         }
 
         #townhome-content > .townhome-container {
             margin-top: 0px !important; 
         }
 
-        #buttonMain {
-            width: 100% !important; 
+        .three-features {
+            font-size: 18px !important; 
         }
 
         .bottom-logos-wrapper{
@@ -194,98 +149,76 @@
         }
     }
 
-    /* LAPTOP */
-    @media only screen and (max-width: 1024px) {
-
+    @media only screen and (max-width: 1200px) {
         
-        #hero-row {
-            padding: 0px !important; 
-        }
-        
-        #hero-title {
-            font-size: 40px !important; 
-        }
-        
-        #hero-sub-title {
-            font-size: 25px !important; 
+        #hero-title,#hero-craftmark {
+            margin-bottom: 0px; 
         }
 
-        #signUpNowButton {
-           
+        #hero-callout {
+            font-size: 50px; 
+            margin-bottom: 0px; 
         }
 
-        #community-description {
-            font-size: 20px !important; 
+        .three-features {
+            font-size: 25px; 
         }
+
     }
-
-
-    /* LAPTOP LARGE */
-    @media only screen and (max-width: 1440px) {
-        
-        #landing-hero {
-            padding: 30px; 
-        }
-        #hero-row {
-            padding: 0px !important; 
-        }
-        #hero-title {
-            font-size: 55px; 
-        }
-        
-        #hero-sub-title {
-            font-size: 30px; 
-        }
-
-        #signUpNowButton {
-        
-        }
-    }
-
 </style> 
 
-<section id="landing-hero" class="p-5 phone xs-phone">
-    <div id="content-container" class="container-fluid"> 
-        <div id="logo-container" class="container-fluid">
-            <img id="grove-logo" class="img-fluid mt-5 mx-5" src="../grove/images/landingpage/GroveLogo.svg" alt="GroveLogo">
+<section id="landing-hero" style="position: relative;">
+  <div class="hero-bg-image">
+    <img class="img-fluid w-100" src="../grove/images/landingpage/the-grove-hero.jpg" alt="the-grove">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%);">
+      <div id="desktop-show-mobile-hide" class="container h-100">
+        <div class="row h-100 pb-5 align-items-end">
+          <div class="col-md-12 text-center">
+            <h1 id="hero-title" class="hero-content mb-3" >THE GROVE</h1>
+            <h2 id="hero-callout" class="hero-content mb-3">THREE PRESTIGIOUS <br> NEW HOME DESIGNS</h1>
+            <h3 id="hero-craftmark" class="hero-content mb-5">FROM CRAFTMARK HOMES</h1>
+            <p id="hero-details" class="hero-content">Darnestown Road & Great Seneca Highway <br> Gaithersburg | Montgomery County, MD</p>
+          </div>
         </div>
-        <div id="row-container" class="container-fluid px-5 my-5">
-            <div id="hero-row" class="row p-5">
-                <div class="col-md-6 px-5 mt-3 d-flex flex-column remove-padding">
-                    <h1 id="hero-title" class="text-white">WELCOME <br> TO THE GROVE –</h1>
-                    <h2 id="hero-sub-title" class="text-white mt-3">A NEW LEVEL OF LUXURY LIVING IN MONTGOMERY&nbsp;COUNTY!</h2>
-                    <a id="signUpNowButton" class="btn font-weight-bold mt-auto" href="#topBuilderForm">
-                        Sign Up Now!
-                    </a>
-                </div>
-                <div id="map-container" class="col-md-6 px-5 text-center">
-                    <a href="../grove/images/landingpage/hero-image-map-lg.jpg" data-fancybox="gallery">
-                        <img src="../grove/images/landingpage/hero-image-map.jpg" alt="Siteplan" class="img-fluid">
-                    </a>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<section id="landing-content" class="xs-phone"> 
-    <div id="townhome-content"class="py-3 py-sm-4"> 
-        <div class="container text-center mt-5 townhome-container">
-            <p id="community-description">
-            Nestled in the heart of Montgomery County, The Grove is an exciting new residential community offering unparalleled luxury living.
-            Designed with a focus on convenience and sophistication, The Grove features a diverse range of quality-built homes and exceptional amenities, 
-            all in a vibrant and engaging neighborhood. Sign up below to discover the perfect balance of city and suburban living. 
-            Coming soon – get ready to experience a new level of luxury living at The Grove.
-            </p> 
-        </div> 
-        <div class="container text-center mt-5"> 
-            <p id="community-cta">
-                BE THE FIRST TO RECEIVE EXCLUSIVE UPDATES ABOUT THE COMMUNITY, SUCH AS GRAND OPENING ANNOUNCEMENTS AND SPECIAL OFFERS. 
-            </p> 
+
+<section class="landing-content" > 
+
+    <div id="desktop-hide-mobile-show" class="container h-100 pt-5">
+        <div class="row h-100 align-items-end">
+          <div class="col-md-12 text-center">
+            <h1 id="hero-title" class="hero-content mb-3" >THE GROVE</h1>
+            <h2 id="hero-callout" class="hero-content mb-3">THREE PRESTIGIOUS <br> NEW HOME DESIGNS</h1>
+            <h3 id="hero-craftmark" class="hero-content mb-5">FROM CRAFTMARK HOMES</h1>
+            <p id="hero-details" class="hero-content">Darnestown Road & Great Seneca Highway <br> Gaithersburg | Montgomery County, MD</p>
+          </div>
         </div>
     </div>
+
+    <div id="townhome-content"class="py-3 py-sm-4"> 
+        <div class="container max-md-width-991 text-center mt-5 townhome-container">
+            <div class="row three-features">
+                <b> 24-foot Elevator-Ready Townhomes</b> 
+                |
+                <i> Coming Soon! </i> 
+            </div>
+            <div class="row three-features">
+                <b> 20-foot Townhomes</b> 
+                |
+                <i> Coming Soon! </i> 
+            </div>
+            <div class="row three-features">
+                <b> Townhome-Style Condominiums </b> 
+                |
+                <i> Coming Soon! </i> 
+            </div>
+        </div>  
+    </div>
     
-    <!-- Form Container --> 
     <div class="py-3 py-sm-4">
         <div class="container max-md-width-760">
             <div>
@@ -326,12 +259,20 @@
                             <input type="text" id="phone" name="phone" class="form-control mb-2"
                                 placeholder="Phone">
                         </div>
-                        
-                        <div class="col-sm-12 px-2 form-group">
-                            <textarea id="form-comments" class="form-control" id="comments" name="comments" rows="3"
-                            placeholder="Comments"></textarea>
+
+                        <!-- Dropdown --> 
+                        <div class="col-sm-12 px-2 mb-2">
+                            <div class="form-outline">
+                                <select id="interest-options" name="interest-options" class="form-select" required>
+                                    <option class="interest" value="" selected disabled>I’m interested in…</option>
+                                    <option class="interest" value="24-foot Elevator-Ready Townhomes">24-foot Elevator-Ready Townhomes</option>
+                                    <option class="interest" value="20-foot Townhomes">20-foot Townhomes</option>
+                                    <option class="interest" value="Townhome-Style Condominiums">Townhome-Style Condominiums</option>
+                                </select>
+                            </div>
                         </div>
 
+                        
                          <!-- Captcha --> 
                          <div class="col-sm-12 px-2">
                             <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a"
@@ -340,9 +281,9 @@
                         </div>
                         
                         <!-- Sign in button -->
-                        <div class="col-sm-6 px-2 mt-3 text-center">
+                        <div class="col-sm-6 px-2 text-center">
                             <button id="buttonMain" onclick="gtag('event', 'click', { 'event_category': 'The Grove Form' });"
-                                class="btn btn-block my-2 waves-effect font-weight-bold text-white mx-auto button-submit"
+                                class="btn btn-block my-2 waves-effect font-weight-bold text-white button-submit"
                                 type="submit" disabled>Submit</button>
                         </div>
 
@@ -352,15 +293,16 @@
             </div>
         </div>
     </div>
+</section>
 
-    <!-- Logo Container --> 
-    <div class="container-fluid p-5"> 
+<section id="bottom-logos"> 
+    <div class="container-fluid"> 
         <div class="row bottom-logos-wrapper"> 
             <img src="/images/eho.svg" width="80px">
             <img src="/images/craftmark-logo-black-vertical.svg" width="200px">   
         </div>
     </div> 
-</section>
+</section> 
 
 <div style="display:none"> 
     <?php include_once(ROOT_PATH."/includes/footer.php"); ?>
