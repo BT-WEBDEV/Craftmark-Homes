@@ -24,7 +24,7 @@
                 "btnText": "white", 
                 "welcomeBackground": "bg-welcome.jpg"
             },
-            "headerInput1": "New Luxury Townhomes from the Mid $600s",
+            "headerInput1": "New Luxury Townhomes from the Mid $600s <br> Hurry! Only 1 Home Remains",
             "headerInput2": "",
             "gallery": [
                 [1, "2-Car Garage Townhomes", "2-Car Garage Townhomes in Montgomery County, MD, Clarksburg Town Center by Craftmark Homes"],
@@ -2734,7 +2734,7 @@
                 "textColor": "black",
                 "btnText": "white"
             },
-            "headerInput1": "New Gaithersburg Townhomes - Details Coming Soon!",
+            "headerInput1": "New Single Family Luxury Homes - Details Coming Soon!",
             "headerInput2": "",
             "gallery": [],
             "sectionOrder": {
@@ -2760,19 +2760,19 @@
                 "hours": "*Personal Appointments Required. Please Contact to Schedule!"
             },
             "priceInfo": {
-                "label": "From the",
-                "price": "800"
+                "label": "From the Upper",
+                "price": "1M"
             },
             "address": {
                 "county": "Montgomery County, MD",
-                "coords": ["39.0966205", "-77.2037556"],
+                "coords": ["39.0983645", "-77.2310135"],
                 "addresses": [{
                     "label": "Community Location:",
                     "outOfCommunity": true,
                     "address": {
                         "street1": "",
                         "street2": "",
-                        "city": "Gaithersburg",
+                        "city": "North Potomac",
                         "state": "MD",
                         "zip": ""
                     },

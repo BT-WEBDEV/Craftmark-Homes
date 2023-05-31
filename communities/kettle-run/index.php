@@ -26,20 +26,19 @@
         color: white; 
     }
 
+    #desktop-hero-row {
+        align-content: end; 
+        gap: 50px; 
+    }
+
     #hero-callout {
-        font-family: "contralto-small", sans-serif;
+        font-family: "Nelphim", sans-serif;
         font-weight: 300;
         font-style: normal;
         font-size: 60px;
-        line-height: 70px;  
+        line-height: 75px;  
     }
 
-    #hero-details {
-        font-family: "Montserrat", sans-serif; 
-        font-size: 20px; 
-        font-weight: lighter;
-        line-height: 35px;  
-    }
 
     #desktop-hide-mobile-show {
         display: none; 
@@ -48,7 +47,8 @@
     .main-content {
         font-family: "Montserrat"; 
         justify-content: center; 
-        font-size: 20px;
+        font-size: 23px;
+        color: #555555; 
     }
 
     #call-to-action {
@@ -68,28 +68,12 @@
         color: black !important; 
     }
 
-     
-    #interest-options {
-        width: 100%;
-        height: 40px;  
-        padding: 5px; 
-        color: black;  
-        border: 1px solid #ced4da; 
-        appearance: none; 
-        background: #f7f7f7 url("/communities/potomac-chase/images/arrow.svg") no-repeat right 10px center;
-    }
-
-    #interest-options::after {
-        display: none;
-    }
-
-
     #buttonMain {
         border-radius: 0px !important; 
         background: #87630D;
-        font-family: 'contralto-small', sans-serif; 
+        font-family: 'Montserrat', sans-serif; 
         font-size: 30px;
-        font-weight: 300;   
+        text-transform: capitalize;
     }
 
     .landing-content {
@@ -97,12 +81,13 @@
     }
 
     #bottom-logos {
+        margin-top: -1px; 
         padding: 50px 25px 50px 25px; 
         background-color: #EEECE9; 
     }
     .bottom-logos-wrapper {
         gap: 50px;
-        justify-content: end; 
+        justify-content: start; 
         align-items: baseline;  
     }
 
@@ -122,16 +107,16 @@
         }
 
         .hero-content {
-            color: black; 
+            color: #555555; 
         }
         
         #landing-hero {
             padding-top: 0px !important;
         }   
 
-        #pc-logo-mobile {
-            width: 300px;
-            margin-top: -200px;  
+        #kr-logo-mobile {
+            width: 200px;
+            margin-top: -225px;  
         }
 
         #hero-callout {
@@ -139,20 +124,13 @@
             margin-bottom: 10px !important;
             line-height: 45px;  
         }
-        
-        
-        #hero-details {
-            font-size: 16px !important; 
-            line-height: 25px;
-            font-weight: normal;  
-        }
 
         #townhome-content > .townhome-container {
             margin-top: 0px !important; 
         }
 
-        .three-features {
-            font-size: 18px !important; 
+        #buttonMain {
+            font-size: 23px; 
         }
 
         .bottom-logos-wrapper{
@@ -164,22 +142,23 @@
     @media only screen and (max-width: 1200px) {
 
 
-        #pc-logo {
-            width: 250px;
-            margin-bottom: -160px;  
+        #kr-logo {
+            width: 170px;
+            margin-bottom: -30px;  
         }
 
         #hero-callout {
             font-size: 40px; 
             margin-bottom: 0px; 
-        }
-
-        #hero-details {
-            font-size: 16px; 
+            line-height: 50px; 
         }
 
         .main-content {
             font-size: 16px; 
+        }
+
+        #buttonMain {
+            font-size: 23px; 
         }
 
     }
@@ -187,19 +166,15 @@
 
 <section id="landing-hero" style="position: relative;">
   <div class="hero-bg-image">
-    <img class="img-fluid w-100" src="../potomac-chase/images/landingpage/potomac-hero.jpg" alt="Potomac Chase">
+    <img class="img-fluid w-100" src="../kettle-run/images/landingpage/kettle-run-hero.jpg" alt="Potomac Chase">
     <div id="hero-mask" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 100%);">
       <div id="desktop-show-mobile-hide" class="container h-100">
-        <div class="row h-100 pb-5 align-items-end">
+        <div id="desktop-hero-row" class="row h-100 pb-5">
           <div id="logo-container" class="col-md-12 text-center">
-            <img id="pc-logo" src="../potomac-chase/images/landingpage/logo-with-bg.png" alt="Potomac Chase Logo"> 
+            <img id="kr-logo" src="../kettle-run/images/landingpage/Logo.svg" alt="Kettle Run Logo"> 
           </div>
           <div class="col-md-12 text-center">
-            <h1 id="hero-callout" class="hero-content mb-3">WELCOME TO POTOMAC CHASE - <br> Where Luxury Meets Legacy </h1>
-            <p id="hero-details" class="hero-content mt-4">
-                Discover an exclusive community where luxury living seamlessly blends with the charm of a well-established neighborhood. 
-                Nestled on an existing street in North Potomac, Potomac Chase offers a rare opportunity to own a distinctive residence.
-            </p>
+            <h1 id="hero-callout" class="hero-content mb-3">DISCOVER YOUR DREAM COUNTRY <br> LIFESTYLE IN FAUQUIER COUNTY </h1>
           </div>
         </div>
       </div>
@@ -213,28 +188,24 @@
     <div id="desktop-hide-mobile-show" class="container h-100">
         <div class="row h-100 align-items-end">
           <div class="col-md-12 text-center">
-            <img id="pc-logo-mobile" src="../potomac-chase/images/landingpage/logo-with-bg.png" alt="Potomac Chase Logo"> 
+            <img id="kr-logo-mobile" src="../kettle-run/images/landingpage/Logo.svg" alt="Kettle Run Logo"> 
           </div>
           <div class="col-md-12 text-center">
-            <h1 id="hero-callout" class="hero-content mb-3">WELCOME TO POTOMAC&nbsp;CHASE - <br> Where Luxury Meets&nbsp;Legacy </h1>
-            <p id="hero-details" class="hero-content mt-4">
-                Discover an exclusive community where luxury living seamlessly blends with the charm of a well-established neighborhood. 
-                Nestled on an existing street in North Potomac, Potomac Chase offers a rare opportunity to own a distinctive&nbsp;residence.
-            </p>
+            <h1 id="hero-callout" class="hero-content mb-3">DISCOVER YOUR DREAM&nbsp;COUNTRY <br> LIFESTYLE IN FAUQUIER&nbsp;COUNTY </h1>
           </div>
         </div>
     </div>
 
     <div id="townhome-content"class="py-3 py-sm-4"> 
         <div class="container max-md-width-991 text-center mt-5 townhome-container">
-            <p class="main-content mb-4">With its expansive, deep lots and exquisite craftsmanship, Potomac Chase embodies the epitome of upscale living. Picture yourself in a sophisticated home where every detail has been meticulously crafted to create a sanctuary for you and your loved&nbsp;ones.</p>
-            <p class="main-content mb-4">Starting from the Upper $1Ms, these exquisite residences offer the perfect balance of luxury and value. Whether you envision hosting lavish gatherings or cherishing quiet moments of relaxation, Potomac Chase provides the ideal backdrop for creating lasting&nbsp;memories.</p>
-            <p class="main-content mb-4">Be among the privileged few to call Potomac Chase home. Join our VIP list today to receive exclusive updates and information about this exceptional community. By providing your contact details below, you’ll stay informed about pre-sales, events, and the latest news as we prepare to unveil this extraordinary&nbsp;opportunity.</p>
+            <p class="main-content mb-4">Nestled in the heart of Fauquier County, our new community offers a sophisticated country lifestyle. With 42 single-family homes available in the mid $1Ms range, you can experience the ultimate in luxury living while enjoying the natural beauty of the surrounding&nbsp;countryside.</p>
+            <p class="main-content mb-4">Our community provides the perfect escape from the hustle and bustle of city life, offering a serene and tranquil environment that lets you relax and unwind. You’ll love the wide-open spaces, stunning vistas, and peaceful setting that our community&nbsp;offers.</p>
+            <p class="main-content mb-4">Join our exclusive mailing list and be among the first to know when homes become available in our coveted&nbsp;community.</p>
         </div>  
     </div>
     
     <div class="container max-md-width-991 text-center"> 
-            <h3 id="call-to-action">JOIN AND STAY INFORMED</h3>  
+        <p class="main-content mb-4 font-weight-bold">Don’t miss out on the chance to live in luxury in Fauquier&nbsp;County.<br>Sign up for updates&nbsp;today!</p>
     </div>
 
     <!-- Form --> 
@@ -247,8 +218,9 @@
                     </h3>
                 </div>
                 <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
+                    <input type="hidden" name="community" value="5676">
                     <input type="hidden" name="quickDeliAddress" value="">
-                    <input type="hidden" name="community" value="5649">
+                    <input type="hidden" name="zipCode" value="Not Provided">
                     <input type="hidden" name="aptDate" value="Not Provided">
                     <input type="hidden" name="aptTime" value="Not Provided">
                     <input type="hidden" name="interest-options" value="Not Provided">
@@ -274,16 +246,10 @@
                                 placeholder="Phone*">
                         </div>
                         <div class="col-sm-6 px-2">
-                            <input type="number" id="zipCode" name="zipCode"
-                                class="form-control mb-2" placeholder="Zip Code*">
-                        </div>
-                        
-                        <!-- Email -->
-                        <div class="col-sm-12 px-2 mb-2">
                             <input type="text" id="email" name="email" class="form-control mb-2"
                                 placeholder="Email*" required>
                         </div>
-                           
+   
                          <!-- Captcha --> 
                          <div class="col-sm-12 px-2">
                             <div class="g-recaptcha" data-sitekey="6LfPwBAcAAAAAGMRQmXe0Gihc_xXFn7b5kUsj07a"
@@ -294,8 +260,8 @@
                         <!-- Sign in button -->
                         <div class="col-sm-6 px-2 text-center">
                             <button id="buttonMain" onclick="gtag('event', 'click', { 'event_category': 'The Grove Form' });"
-                                class="btn my-2 waves-effect text-white button-submit"
-                                type="submit" disabled>SIGN UP NOW!</button>
+                                class="btn my-2 waves-effect text-white button-submit font-weight-bold"
+                                type="submit" disabled>Sign Up Now!</button>
                         </div>
 
                     </div>
@@ -309,7 +275,7 @@
 <section id="bottom-logos"> 
     <div class="container-fluid"> 
         <div class="row bottom-logos-wrapper"> 
-            <p id="footer-text" class="mr-auto" > © 2023 Potomac Chase. All rights reserved </p> 
+            <p id="footer-text" class="mr-auto d-none" > © 2023 Kettle Run. All rights reserved </p> 
             <img src="/images/eho.svg" width="80px">
             <img src="/images/craftmark-logo-black-vertical.svg" width="150px">   
         </div>
