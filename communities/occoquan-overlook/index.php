@@ -154,6 +154,10 @@
             gap: 40px;
             margin-bottom: 50px;  
         }
+
+        #footer-text {
+            font-size: 16px; 
+        }
     }
 
     @media only screen and (max-width: 1200px) {
@@ -189,6 +193,9 @@
             font-size: 23px; 
         }
 
+        #footer-text {
+            font-size: 16px; 
+        }
     }
 </style> 
 
@@ -225,6 +232,11 @@
           </div>
           <div class="col-md-12 text-center">
             <h1 id="hero-callout" class="hero-content mb-3">WELCOME TO THE WOODS AT OCCOQUAN OVERLOOK:<br>Embrace the Bay&nbsp;Lifestyle</h1>
+            <p id="hero-details" class="hero-content mt-4 ml-auto mr-auto">
+                Experience the allure of The Woods at Occoquan Overlook, a sophisticated community offering 41 stunning luxury homes. 
+                With prices ranging from $1.4 million to $1.8 million, this exclusive enclave captures the essence of refined living. 
+                Located near the bay, you’ll enjoy a water-centric lifestyle that will captivate your&nbsp;senses.
+            </p>
           </div>
         </div>
     </div>
@@ -250,7 +262,7 @@
                     </h3>
                 </div>
                 <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
-                    <input type="hidden" name="community" value="5676">
+                    <input type="hidden" name="community" value="5650">
                     <input type="hidden" name="quickDeliAddress" value="">
                     <input type="hidden" name="aptDate" value="Not Provided">
                     <input type="hidden" name="aptTime" value="Not Provided">

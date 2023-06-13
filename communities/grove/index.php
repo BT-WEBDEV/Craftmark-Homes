@@ -177,7 +177,7 @@
             <h1 id="hero-title" class="hero-content mb-3" >THE GROVE</h1>
             <h2 id="hero-callout" class="hero-content mb-3">THREE PRESTIGIOUS <br> NEW HOME DESIGNS</h1>
             <h3 id="hero-craftmark" class="hero-content mb-5">FROM CRAFTMARK HOMES</h1>
-            <p id="hero-details" class="hero-content">Darnestown Road & Great Seneca Highway <br> Gaithersburg | Montgomery County, MD</p>
+            <p id="hero-details" class="hero-content">Darnestown Road & Great Seneca Highway <br> Rockville | Montgomery County, MD</p>
           </div>
         </div>
       </div>
@@ -194,7 +194,7 @@
             <h1 id="hero-title" class="hero-content mb-3" >THE GROVE</h1>
             <h2 id="hero-callout" class="hero-content mb-3">THREE PRESTIGIOUS <br> NEW HOME DESIGNS</h1>
             <h3 id="hero-craftmark" class="hero-content mb-5">FROM CRAFTMARK HOMES</h1>
-            <p id="hero-details" class="hero-content">Darnestown Road & Great Seneca Highway <br> Gaithersburg | Montgomery County, MD</p>
+            <p id="hero-details" class="hero-content">Darnestown Road & Great Seneca Highway <br> Rockville | Montgomery County, MD</p>
           </div>
         </div>
     </div>
@@ -229,7 +229,7 @@
                 </div>
                 <form id="topBuilderForm" name="topBuilderForm" class="text-center" action="#!">
                     <input type="hidden" name="quickDeliAddress" value="">
-                    <input type="hidden" name="community" value="5420">
+                    <input type="hidden" name="community" value="5562">
                     <input type="hidden" name="zipCode" value="Not Provided">
                     <input type="hidden" name="aptDate" value="Not Provided">
                     <input type="hidden" name="aptTime" value="Not Provided">

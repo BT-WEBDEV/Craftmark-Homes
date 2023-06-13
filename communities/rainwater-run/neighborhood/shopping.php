@@ -1,6 +1,7 @@
 <ul class="pl-4">
     <li>Fairfax Corner</li>
-    <li>Hunter Mill PlazaFair Oaks Mall</li>
+    <li>Hunter Mill Plaza</li>
+    <li>Fair Oaks Mall</li>
     <li>Mosaic District</li>
     <li>Reston Town Center</li>
     <li>Tysons Corner Center</li>
