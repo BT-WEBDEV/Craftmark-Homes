@@ -209,11 +209,12 @@
             <img id="kr-logo" src="../occoquan-overlook/images/landingpage/Logo.svg" alt="The Woods at Occoquan Overlook Logo"> 
           </div>
           <div class="col-md-12 text-center">
-            <h1 id="hero-callout" class="hero-content mb-3">WELCOME TO THE WOODS AT OCCOQUAN&nbsp;OVERLOOK:<br>Embrace the Bay&nbsp;Lifestyle</h1>
+            <h1 id="hero-callout" class="hero-content mb-3">Welcome to The Woods at Occoquan&nbsp;Overlook<br>Embrace a New&nbsp;Lifestyle</h1>
             <p id="hero-details" class="hero-content mt-4 ml-auto mr-auto">
                 Experience the allure of The Woods at Occoquan Overlook, a sophisticated community offering 41 stunning luxury homes. 
-                With prices ranging from $1.4 million to $1.8 million, this exclusive enclave captures the essence of refined living. 
-                Located near the bay, you’ll enjoy a water-centric lifestyle that will captivate your&nbsp;senses.
+                With prices from the upper $1Ms, this exclusive enclave captures the essence of refined living. Located near the Occoquan Reservoir, 
+                you'll enjoy all the pleasures of a community that offers upscale living and access to big-city conveniences alongside the simple charms of a small town 
+                - and a multitude of outdoor recreation&nbsp;opportunities.
             </p>
           </div>
         </div>
@@ -231,11 +232,12 @@
             <img id="kr-logo-mobile" src="../occoquan-overlook/images/landingpage/Logo.svg" alt="The Woods at Occoquan Overlook Logo"> 
           </div>
           <div class="col-md-12 text-center">
-            <h1 id="hero-callout" class="hero-content mb-3">WELCOME TO THE WOODS AT OCCOQUAN OVERLOOK:<br>Embrace the Bay&nbsp;Lifestyle</h1>
+            <h1 id="hero-callout" class="hero-content mb-3">Welcome to The Woods at Occoquan&nbsp;Overlook<br>Embrace a New&nbsp;Lifestyle</h1>
             <p id="hero-details" class="hero-content mt-4 ml-auto mr-auto">
                 Experience the allure of The Woods at Occoquan Overlook, a sophisticated community offering 41 stunning luxury homes. 
-                With prices ranging from $1.4 million to $1.8 million, this exclusive enclave captures the essence of refined living. 
-                Located near the bay, you’ll enjoy a water-centric lifestyle that will captivate your&nbsp;senses.
+                With prices from the upper $1Ms, this exclusive enclave captures the essence of refined living. Located near the Occoquan Reservoir, 
+                you'll enjoy all the pleasures of a community that offers upscale living and access to big-city conveniences alongside the simple charms of a small town 
+                - and a multitude of outdoor recreation&nbsp;opportunities.
             </p>
           </div>
         </div>
@@ -243,13 +245,12 @@
 
     <div id="townhome-content"class="py-4 py-sm-4"> 
         <div class="container max-md-width-991 text-center townhome-container">
-            <p class="main-content mb-4">Indulge in the pleasures of a community nestled in the scenic Occoquan area. Immerse yourself in the nearby bay, where water activities and coastal charm await. From picturesque views to an array of recreational opportunities, this is the perfect place to call&nbsp;home.</p>
-            <p class="main-content mb-4">Discover a new way of living. Fill out the form below to learn more about The Woods at Occoquan Overlook and start your journey to the bay&nbsp;lifestyle.</p>
+            <p class="main-content mb-4">Immerse yourself in the river lifestyle. Put your boat at one of the many marinas or boathouses, set off in your kayak or paddleboard from the town's kayak launch ramp, or enjoy the offerings of downtown's NOVA Arts & Cultural District after you stroll down the riverwalk and grab a bite to eat along the&nbsp;water.</p>
         </div>  
     </div>
     
     <div class="container max-md-width-991 text-center"> 
-        <h2 id="call-to-action" class="mb-4">DISCOVER A NEW WAY OF LIVING.<br>Fill out the form below to learn more&nbsp;about<br>The Woods at Occoquan Overlook and start your<br>journey to the bay&nbsp;lifestyle.</h2>
+        <h2 id="call-to-action" class="mb-4">It's time to discover a new way of living.<br>Fill out the form below to learn more&nbsp;about<br>The Woods at Occoquan Overlook and start your&nbsp;journey.</h2>
     </div>
 
     <!-- Form --> 
