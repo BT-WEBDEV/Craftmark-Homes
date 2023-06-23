@@ -1,0 +1,111 @@
+{
+    "id": 15,
+    "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
+    "status": false,
+    "formId": 0,
+    "name": "The Strand at Fell's Point",
+    "homeType": "townhomes",
+    "landingPage": "",
+    "formBtnText": "LET'S CONNECT, LEARN MORE & MEET",
+    "url": "coming-soon",
+    "listingImgV1": ["listingImg-v1.png"],
+    "selectedListingImgV1": false,
+    "listingImgV2": ["listingImg-v2.jpg"],
+    "selectedListingImgV2": false,
+    "imgAlt": "",
+    "mapImg": "listingImg-v3.jpg",
+    "frameV2": "frame-V2.png",
+    "brandStyle": {
+        "background": "G_Burnt_Pine_Estates.jpg",
+        "colors": ["#00B46B", "#C31230"],
+        "mainColor": "#00B46B",
+        "textColor": "black",
+        "btnText": "white"
+    },
+    "headerInput1": "New Waterfront Townhomes, Coming in 2023",
+    "headerInput2": "",
+    "gallery": [],
+    "sectionOrder": {
+        "overview": 1,
+        "floorplans": 2,
+        "neighborhood": 3,
+        "quick-move-ins": 4,
+        "siteplan": 5,
+        "features": 6,
+        "map": 7
+    },
+    "neighborhood": [
+        ["Shopping", "shopping"],
+        ["Dining", "dining"],
+        ["Schools", "schools"],
+        ["Culture Recreation", "culture-recreation"]
+    ],
+    "features": ["features", "baths", "kitchens", "energy", "quality"],
+    "openHours": {
+        "label": "Visit Us",
+        "hours": "Sold Out!"
+    },
+    "priceInfo": {
+        "label": "",
+        "price": 0
+    },
+    "address": {
+        "county": "Baltimore Co., MD",
+        "coords": ["39.283499", "-76.587430"],
+        "addresses": [{
+            "label": "Community Location:",
+            "outOfCommunity": true,
+            "address": {
+                "street1": "",
+                "street2": "Fell’s Point",
+                "city": "Baltimore",
+                "state": "MD",
+                "zip": ""
+            },
+            "direction": "https://goo.gl/maps/37mHQtEnYS5pzV4U9"
+        }]
+    },
+    "salesAgent": {
+        "label": "Sold Out!",
+        "agents": [{
+            "agentName": "Lori Windsor",
+            "phone": "",
+            "email": "lwindsor@craftmarkhomes.com"
+        }]
+    },
+    "floorplans": [],
+    "sitePlans": [
+        ["siteplan-1.jpg", "Burnt Pine Estates", "Burnt Pine Estates Site Plan, Craftmark Homes"],
+        ["siteplan-2.jpg", "Burnt Pine Estates", "Burnt Pine Estates Site Plan, Craftmark Homes"]
+    ],
+    "zillow": {
+        "Status": false,
+        "CommunityStyle": "Townhomes",
+        "ByAppointment": true,
+        "DrivingDirections": "FROM DC: Take I-395S to 10B for George Washington Memorial Parkway S. Continue on George Washington Memorial Parkway S. to a right toward Slaters Lane (signs for Slaters Lane/Bashford Lane/W Abingdon). Use the right lane to take the ramp onto US-1 S/N Henry Street. Turn right onto State Rte. 633, then right onto N Kings Highway. Turn left onto Poag Street. The Towns at South Alex® will be on your left. \n\n FROM POINTS SOUTH: Take I-95N to I-495 E/I-95 N and follow signs for Alexandria. Take exit 176A for VA-241 S/Telegraph Road/VA-611 S. Merge onto VA-241 S. Take a slight right onto School Street and continue onto N Kings Highway. Turn right onto Poag Street. The Towns at South Alex® will be on your left.",
+        "HoursDetail": [],
+        "Schools": {
+            "Districtname": "Fairfax Co Pblc Schs",
+            "Elementary": "Mount Eagle Elementary School",
+            "Middle": "Twain Middle School",
+            "High": "Edison High School"
+        },
+        "SubAmenity": ["Park", "Views", "Pond", "Trails", "Playground"],
+        "SubDescription": "Craftmark Homes is excited to bring a new community of 41 luxury townhomes to Alexandria, Virginia. Live less than a 10-minute walk to the Huntington Metro Station and a 10-minute drive to Old Town Alexandria. These homes feature new, contemporary designs with four levels, rooftop terraces and lofts. Live within a vibrant mix of distinctive shops and residences in an art-inspired setting of bright community spaces, all conveniently located in the heart of South Alexandria, Virginia. Enjoy urban conveniences without sacrificing suburban comforts ? on-site shops, restaurants, a grocery & bright outdoor spaces. A transit oriented development, South Alex:registered: offers convenient access to multiple modes of transportation ? a short walk to the Huntington Metrorail station, integrated into regional bike trails, adjacent to a Metrobus stop and a short drive to the Capital Beltway (I-495). It's ideally positioned within a short drive to many of metro D.C.'s major employers and employment hubs ? Old Town Alexandria, The Pentagon, Fort Belvoir, Tysons Corner, Joint Base Andrews and Downtown D.C.",
+        "SubVideoFile": {
+            "Title": "Watch highlights",
+            "URL": "https://www.youtube.com/watch?v=9Jt5o7kG-wQ&feature=emb_title"
+        },
+        "SubVideoTour": {
+            "Title": "The Glendale at Towns at South Alex®",
+            "URL": "https://www.craftmarkhomes.com/communities/towns-at-south-alex/#highlight-south-alex"
+        },
+        "Promotion": {
+            "PromoType": "",
+            "PromoHeadline": "WE'RE HERE FOR YOU!",
+            "StartDate": "2020-02-18",
+            "EndDate": "2020-05-31",
+            "PromoDescription": "Sales Center Open Daily for Personal Appointments - 11am - 5pm | Please Call"
+        }
+    }
+}
