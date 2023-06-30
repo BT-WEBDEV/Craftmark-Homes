@@ -1,8 +1,8 @@
 <?php
 
-$selectedListingImgV1 = rand(0, sizeof($comm['selectedListingImgV1'])-1);
-if($comm['selectedListingImgV1'] !== false) {
-    $selectedListingImgV1 = $comm['selectedListingImgV1'];
+$selectedListingImgV1 = 0; // Default value
+if (is_array($comm['selectedListingImgV1']) && sizeof($comm['selectedListingImgV1']) > 0) {
+    $selectedListingImgV1 = rand(0, sizeof($comm['selectedListingImgV1']) - 1);
 }
 
 ?>

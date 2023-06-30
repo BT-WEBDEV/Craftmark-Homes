@@ -28,7 +28,7 @@ $(document).on('submit', '#topBuilderForm', function (event) {
 
     var phone_pattern = /^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
 
-    console.log(unformattedPhone);
+    // console.log(unformattedPhone);
 
     // HONEY POT TEST - IF HIDDEN INPUT OF FULL NAME IS FILLED OUT, PREVENT FORM SUBMISSION
     // if(fullName) {
@@ -72,31 +72,80 @@ $(document).on('submit', '#topBuilderForm', function (event) {
         doPostAjax(community);
         ajaxReqSaveForm(data);
 
-        function doPostAjax(rule_id) {
-            $.ajax({
-                url: 'https://webforms.topbuildersolutions.net/api/CreateLead.aspx',
-                type: 'POST',
-                contentType: contentType,
-                data: { BuilderAccountId: 32, AuthenticationId: "86eb9035-83da-4741-ac07-ed85b8ed52f2", RuleId: rule_id, FirstName: firstName, LastName: lastName, Email: email, MobilePhone: unformattedPhone, ZipCode: zipCode, Comments: comments, Options: interestOptions },
+        // NO PROXY 
+        // function doPostAjax(rule_id) {
+        //     $.ajax({
+        //         url: 'https://webforms.topbuildersolutions.net/api/CreateLead.aspx',
+        //         type: 'POST',
+        //         contentType: contentType,
+        //         data: { BuilderAccountId: 32, AuthenticationId: "86eb9035-83da-4741-ac07-ed85b8ed52f2", RuleId: rule_id, FirstName: firstName, LastName: lastName, Email: email, MobilePhone: unformattedPhone, ZipCode: zipCode, Comments: comments, Options: interestOptions },
 
+        //         success: function (data, textStatus, xhr) {
+        //             if ($(data).find('ResponseCode').text() == 0) {
+        //                 $("#topBuilderForm").fadeOut(500).hide(function () {
+        //                     $("#success_message").fadeIn(500).show();
+        //                 });
+        //                 $('#buttonMain').prop('disabled', false);
+        //             } else {
+        //                 alert($(data).find('ResponseMessage').text());
+        //                 $('#buttonMain').prop('disabled', false);
+        //             }
+
+        //         },
+        //         error: function (xhr) {
+        //             alert("Something Wrong Please Try Again");
+        //             $('#buttonMain').prop('disabled', false);
+        //         }
+        //     });
+        // }
+
+        // WITH PROXY 
+        function doPostAjax(rule_id) {  
+            $.ajax({
+                url: 'https://www.craftmarkhomes.com/api/formSubmit.php', // Update with the correct URL of your PHP script
+                type: 'POST',
+                data: {
+                    BuilderAccountId: 32,
+                    AuthenticationId: "86eb9035-83da-4741-ac07-ed85b8ed52f2",
+                    RuleId: rule_id,
+                    FirstName: firstName,
+                    LastName: lastName,
+                    Email: email,
+                    MobilePhone: unformattedPhone,
+                    ZipCode: zipCode,
+                    Comments: comments,
+                    Options: interestOptions
+                },
                 success: function (data, textStatus, xhr) {
-                    if ($(data).find('ResponseCode').text() == 0) {
+                    // console.log("Success Response:");
+                    // console.log("Data:", data);
+                    // console.log("Text Status:", textStatus);
+                    // console.log("XHR Object:", xhr);
+        
+                    var response = JSON.parse(data);
+                    if (response.success) {
+                        // console.log("Form submission successful!");
+        
                         $("#topBuilderForm").fadeOut(500).hide(function () {
                             $("#success_message").fadeIn(500).show();
                         });
+        
                         $('#buttonMain').prop('disabled', false);
                     } else {
-                        alert($(data).find('ResponseMessage').text());
+                        // Handle error case
+                        alert("Form submission failed with error: " + response.error);
                         $('#buttonMain').prop('disabled', false);
                     }
-
                 },
                 error: function (xhr) {
-                    alert("Something Wrong Please Try Again");
+                    console.log("Network Error:");
+                    console.log("XHR Object:", xhr);
+                    alert("Something went wrong. Please try again.");
                     $('#buttonMain').prop('disabled', false);
                 }
             });
         }
+        
         return false;
     }
 

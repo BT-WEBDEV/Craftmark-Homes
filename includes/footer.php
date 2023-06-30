@@ -225,7 +225,7 @@
 </div>
 <!-- Modal -->
 
-<?php if($_SERVER[REQUEST_URI] != "/") { ?>
+<?php if ($_SERVER['REQUEST_URI'] != "/") { ?>
 <!-- Modal -->
 <div id="notifyModal" class="animated slideInRight">
     <div>
@@ -359,16 +359,18 @@
 <!-- Contact Popup Modal -->
 
 <?php
-    if($_SERVER[REQUEST_URI] != "/contact/" && $_SERVER[REQUEST_URI] != "/locations/") {
+    $formId = ""; // Initialize $formId with an appropriate default value
+
+    if ($_SERVER['REQUEST_URI'] != "/contact/" && $_SERVER['REQUEST_URI'] != "/locations/") {
         if(!$formId) {
             include(ROOT_PATH."includes/components/contactPopupModal.php"); 
         }
         ?>
-<div class="popupContactForm">
-    <a href="#" data-toggle="modal" data-target="<?php echo (!$formId) ? "#contactPopupModal" : "#contactToday"; ?>">
-        <img class="z-depth-1-half" src="/images/icon/contact_form.svg" alt="Contact From Icon">
-    </a>
-</div>
+    <div class="popupContactForm">
+        <a href="#" data-toggle="modal" data-target="<?php echo (!$formId) ? "#contactPopupModal" : "#contactToday"; ?>">
+            <img class="z-depth-1-half" src="/images/icon/contact_form.svg" alt="Contact From Icon">
+        </a>
+    </div>
 <?php
     }
 ?>

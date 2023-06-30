@@ -52,8 +52,22 @@ foreach ($quickMoveIns as $key => $qmi) {
 require ROOT_PATH."includes/components/visitorAnalytics/pageView.php";
 $pv_path = $url_path[1]. "/" .$url_path[2];
 checkUserIP($pv_path, 'gka_community_view');
-$totalView = getTotalStats($pv_path, 'gka_community_view', false) + $initialViews[$pv_path];
-$totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSaved[$pv_path];
+// Check if the index exists in the arrays
+if (isset($initialViews[$pv_path])) {
+    $totalView = getTotalStats($pv_path, 'gka_community_view', false) + $initialViews[$pv_path];
+} else {
+    // Handle the case when the index is undefined
+    // or use a default value
+    $totalView = 58; // Set a default value
+}
+
+if (isset($initialSaved[$pv_path])) {
+    $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSaved[$pv_path];
+} else {
+    // Handle the case when the index is undefined
+    // or use a default value
+    $totalSaved = 21; // Set a default value
+}
 ?>
 
 <!-- GoogleMaps-API + Key -->
@@ -95,7 +109,7 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                             <span class="seperator">|</span>
                             <p style="color: <?php echo $community['brandStyle']['mainColor']; ?>"
                                 class="font-weight-normal"><?php echo $comm['priceInfo']['label'] ?>
-                                $<?php echo ($comm['priceInfo']['price'] != 0) ? $comm['priceInfo']['price'] : " -- "; ?><?php echo ($comm['priceInfo']['priceTag']) ? $comm['priceInfo']['priceTag'] : "s"; ?>
+                                $<?php echo ($comm['priceInfo']['price'] != 0) ? $comm['priceInfo']['price'] : " -- "; ?><?php echo isset($comm['priceInfo']['priceTag']) ? $comm['priceInfo']['priceTag'] : "s"; ?>
                             </p>
                             <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Full Appointed Townhomes</p>'; }?>
                         </div>
@@ -127,18 +141,21 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
         <div class="swiper-container community-slider-swiper-container">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-                <?php
-                foreach ($comm['gallery'] as $key => $gallery) {
+            <?php foreach ($comm['gallery'] as $key => $gallery) {
+                    // Check if the array has the expected indices
+                    if (isset($gallery[0]) && isset($gallery[1])) {
                 ?>
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <a href="/communities/<?php echo $community['url']; ?>/images/slider/slide<?php echo $gallery[0]; ?>.jpg"
-                        data-fancybox="community-slider">
-                        <img src="/communities/<?php echo $community['url']; ?>/images/slider/slide<?php echo $gallery[0]; ?>.jpg"
-                            class="img-fluid w-100" alt="<?php echo $gallery[2]; ?>">
-                    </a>
-                </div>
-                <?php } ?>
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="/communities/<?php echo $community['url']; ?>/images/slider/slide<?php echo $gallery[0]; ?>.jpg"
+                            data-fancybox="community-slider">
+                            <img src="/communities/<?php echo $community['url']; ?>/images/slider/slide<?php echo $gallery[0]; ?>.jpg"
+                                class="img-fluid w-100" alt="<?php echo $gallery[1]; ?>">
+                        </a>
+                    </div>
+                <?php
+                    }
+                } ?>
             </div>
             <a style="background-color: <?php echo $community['brandStyle']['mainColor']; ?>; color: <?php echo $community['brandStyle']['btnText']; ?>;"
             data-fancybox-trigger="community-slider" href="javascript:;"
@@ -179,7 +196,9 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                             </u></a>
                         </div>
                         <!-- Display the address label -->
-                        <p class="label font-weight-bold d-flex mb-1"><?php echo $address['label2'] ?></p>
+                        <?php if (isset($address['label2'])) : ?>
+                            <p class="label font-weight-bold d-flex mb-1"><?php echo $address['label2']; ?></p>
+                        <?php endif; ?>
 
                         <!-- If the community is Clarksburg Town Center, display its special information -->
                         <?php if ($comm['url'] === 'clarksburg-town-center') : ?>
@@ -202,7 +221,9 @@ $totalSaved = getTotalStats($pv_path, 'gka_community_view', true) + $initialSave
                                 </a>
                             </div>
                             <!-- Display any additional location information for the community -->
-                            <p class="text-black"><?php echo $address['additionalInfo'] ?></p>
+                            <?php if (isset($address['additionalInfo'])) : ?>
+                                <p class="text-black"><?php echo $address['additionalInfo']; ?></p>
+                            <?php endif; ?>
                         <?php endif; ?>
                     </div>
                     <?php } ?>
@@ -280,7 +301,7 @@ if($community['status'] != 'soldLabel') {
                 <form id="topBuilderForm" name="topBuilderForm" class="text-center community-modal-form" action="#!">
                     <input type="hidden" name="community" value="<?php echo $formId; ?>">
                     <input type="hidden" name="zipCode" value="Not Provided">
-                    <input type="hidden" name="quickDeliAddress" value="<?php echo $qmi_address; ?>">
+                    <input type="hidden" name="quickDeliAddress" value="Not Provided">
                     <select id="interest-options" name="interest-options" class="form-select" style="display:none;">
                         <option class="interest" value="No Options Available" selected>No Options</option>
                     </select>

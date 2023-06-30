@@ -66,12 +66,13 @@ $community_options = json_decode($qmi['community_options'], true);
                             <div><?php echo $qmi['baths_full']; ?> full <?php echo $qmi['baths_half']; ?> half Baths
                             </div>
                         </div>
-                        <?php if ($garages != "" && $garages != 0) { ?>
+                        <?php if (isset($qmi['garages']) && $qmi['garages'] != "" && $qmi['garages'] != 0) { ?>
                         <div class="d-flex spec">
                             <img src="/images/icon/garage_white.svg" alt="Garage" class="" loading="lazy">
                             <div><?php echo $qmi['garages']; ?> Car Garage</div>
                         </div>
                         <?php } ?>
+
                     </div>
                 </div>
                 <div>

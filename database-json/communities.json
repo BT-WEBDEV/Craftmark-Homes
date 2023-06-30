@@ -2505,15 +2505,18 @@
             "mapImg": "listingImg-v2.jpg",
             "frameV2": "frame-V2.png",
             "brandStyle": {
-                "background": "G_Burnt_Pine_Estates.jpg",
+                "background": "bg-hero.jpg",
                 "colors": ["#00B46B", "#C31230"],
-                "mainColor": "#00B46B",
+                "mainColor": "#4f6479",
                 "textColor": "black",
-                "btnText": "white"
+                "btnText": "white", 
+                "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "New Rockville Townhomes - Details Coming Soon!",
-            "headerInput2": "",
-            "gallery": [],
+            "headerInput2": "24-Foot Elevator-Ready Townhomes<br>20-Foot Townhomes<br>Townhome-Style Condominiums",
+            "gallery": [
+                [1, "New Townhomes and Townhome-Style Condominiums for Sale in Rockville, MD"]
+            ],
             "sectionOrder": {
                 "overview": 1,
                 "floorplans": 2,
@@ -2561,7 +2564,8 @@
                 "agents": [{
                     "agentName": "Eric Yakuchev",
                     "phone": "(703) 989-6662",
-                    "email": "eyakuchev@craftmarkhomes.com "
+                    "email": "eyakuchev@craftmarkhomes.com",
+                    "avatar": "eric-yakuchev.png"
                 }]
             },
             "floorplans": [],

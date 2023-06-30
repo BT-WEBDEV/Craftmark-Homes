@@ -8,10 +8,20 @@ function checkUserIP($currentPage, $table) {
 
     global $connection;
 
+    // Get IP Address Details (OLD AMRA CODE) // 
+    // $ipDetails = @json_decode(file_get_contents( 
+    //     "https://freegeoip.app/json/" . $userIP)); 
+    // $ipLocation = $ipDetails->city . ", " . $ipDetails->region_name;
+
     // Get IP Address Details
-    $ipDetails = @json_decode(file_get_contents( 
-        "https://freegeoip.app/json/" . $userIP)); 
-    $ipLocation = $ipDetails->city . ", " . $ipDetails->region_name;
+    $ipDetails = @json_decode(file_get_contents("https://freegeoip.app/json/" . $userIP));
+
+    if ($ipDetails && isset($ipDetails->city) && isset($ipDetails->region_name)) {
+        $ipLocation = $ipDetails->city . ", " . $ipDetails->region_name;
+    } else {
+        // Handle the case when IP details are not available or incomplete
+        $ipLocation = "Unknown"; // Set a default location or handle it as desired
+    }
 
     // Check existance of IP
     $query = "  SELECT * 
@@ -57,7 +67,9 @@ $initialViews = array(
     "communities/preserve-at-westfields" => 118,
     "communities/primrose-hill-th" => 137,
     "communities/reserve-at-black-rock" => 249,
-    "communities/towns-at-south-alex" => 151
+    "communities/towns-at-south-alex" => 151, 
+    "communities/rainwater-run" => 249, 
+    "communities/watershed" => 2000
 );
 
 // Initial fake saved
@@ -71,5 +83,7 @@ $initialSaved = array(
     "communities/preserve-at-westfields" => 42,
     "communities/primrose-hill-th" => 51,
     "communities/reserve-at-black-rock" => 67,
-    "communities/towns-at-south-alex" => 59
+    "communities/towns-at-south-alex" => 59, 
+    "communities/rainwater-run" => 19, 
+    "communities/watershed" => 60
 );

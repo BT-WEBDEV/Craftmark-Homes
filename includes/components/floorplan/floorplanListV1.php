@@ -47,18 +47,15 @@
                     </div>
                     <div class="beds item-wrap col-md-6 p-0 d-flex align-items-center">
                         <img src="/images/icon/bedrooms.svg" class="icon" alt="Bedroom icon">
-                        <!-- <p><?php echo $fp['specs']['beds'] ?> Beds</p> -->
                         <p><?php echo $bedrooms ?> Beds</p>
                     </div>
                     <span class="seperator">|</span>
                     <div class="baths item-wrap col-md-6 p-0 d-flex align-items-center">
                         <img src="/images/icon/bathrooms.svg" class="icon" alt="bathroom icon">
-                        <!-- <p><?php echo $fp['specs']['baths'] ?> Baths</p> -->
                         <p><?php echo $bathrooms ?> Baths</p>
                     </div>
                     <div class="garage item-wrap col-md-6 p-0 d-flex align-items-center">
                         <img src="/images/icon/garage.svg" class="icon" alt="garage icon">
-                        <!-- <p><?php echo $fp['specs']['garage'] ?>-Car Garage</p> -->
                         <p><?php echo $garages ?>-Car Garage</p>
                     </div>
                 </div>

@@ -12,7 +12,7 @@
                     "formId" => $community['formId']
                 ])
             );
-            if($counties[$community['address']['county']]) {
+            if(isset($counties[$community['address']['county']])) {
                 $new_comm = array(
                     "name" => $community['name'],
                     "formId" => $community['formId']
@@ -24,6 +24,7 @@
         }
     }
 ?>
+
 
 
 <!-- Google Analytics gtag Category -->
