@@ -33,6 +33,31 @@
             "comUrl": "rainwater-run",
             "featureName": "Rainwater Run",
             "imgAlt": "Video Tour for Rainwater Run",
+            "mainImage": "B2-kenmore.png",
+            "imageFrame" : "B1-kenmore.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/C5XOI0Fg5Go"
+            },
+            "logo": {
+                "fileName": "B3-white.svg",
+                "style": { 
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "25%",
+                    "left": "0",
+                    "width": "50%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "rainwater-run",
+            "comUrl": "rainwater-run",
+            "featureName": "Rainwater Run",
+            "imgAlt": "Video Tour for Rainwater Run",
             "mainImage": "B2-rainwater-run.png",
             "imageFrame" : "B1-rainwater-run.png",
             "highlightUrl": {
