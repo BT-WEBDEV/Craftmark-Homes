@@ -1445,7 +1445,83 @@
                         "Wetbar": false,
                         "Wired": false
                     }
-                }      
+                },
+                {
+                    "name": "The Westmore",
+                    "statusInput": ["live", "sold"],
+                    "status": "live",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "westmore",
+                    "listingImg": ["listingImg.jpg", ""],
+                    "gallery": [
+                        [1, "The Westmore Floor Plan, 3-5 BR, 4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Brochure Elevation", ""],
+                        [2, "", ""],
+                        [3, "", ""],
+                        [4, "", ""],
+                        [5, "", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "", ""]
+                    ],
+                    "videoTour": false,
+                    "3DTour": false,
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "",
+                        "sqFeet": "",
+                        "stories": null,
+                        "beds": {
+                            "min": "3",
+                            "max": "5"
+                        },
+                        "fullBaths": {
+                            "min": "2",
+                            "max": "4"
+                        },
+                        "halfBaths": {
+                            "min": "1",
+                            "max": "2"
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "",
+                        "LivingArea": ["LivingRoom"],
+                        "Basement": false,
+                        "PlanAmenity": [],
+                        "PlanOpenAmenity": null,
+                        "Description": "",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": false,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": [],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": [],
+                        "Patio": false,
+                        "Porch": false,
+                        "RoofTypes": ["ShakeShingle"],
+                        "Skylight": false,
+                        "SprinklerSystem": false,
+                        "Wetbar": false,
+                        "Wired": false
+                    }
+                }       
             ]
         },
         {

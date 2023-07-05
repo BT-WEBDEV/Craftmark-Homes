@@ -27,6 +27,7 @@ foreach ($communities['communities'] as $community) {
                         $pdf = $fpVersion['pdf'];
                         $url = $community['url'];
                         $gallery = $community['url'];
+                        $listingImgV1 = $community['listingImgV1'];
                     }
                 }
             } else {
@@ -35,6 +36,7 @@ foreach ($communities['communities'] as $community) {
                 $pdf = $floorplan['pdf'];
                 $url = $community['url'];
                 $gallery = "main";
+                $listingImgV1 = $community['listingImgV1'];
             }
             $comm = array (
                 "communityName" => $community['name'],
@@ -44,6 +46,7 @@ foreach ($communities['communities'] as $community) {
                 "3DTour" => $ThreeDTour,
                 "pdf" => $pdf,
                 "gallery" => $gallery,
+                "listingImgV1" => $listingImgV1
             );
             array_push($available_com, $comm);
         }
@@ -276,14 +279,17 @@ $totalView = getTotalStats($pv_path, 'gka_floorplan_view', false) + 376;
         <div class="row">
             <?php 
             if (sizeof($available_com) != 0) {
-            foreach ($available_com as $comm) { ?>
+            foreach ($available_com as $comm) { 
+            consoleLog($comm);
+            consoleLog($comm['listingImgV1']);     
+            ?>
             <!-- NEW DESIGN -->
             <div class="col-md-6">
                 <div class="d-flex flex-wrap available-community">
                     <div class="col-lg-6">
                         <a href="/communities/<?php echo $comm['url'] ?>/">
                             <div class="view overlay cursor-pointer mb-3 mb-lg-0">
-                                <img src="/communities/<?php echo $comm['url'] ?>/images/listingImg-v1.png" alt=""
+                                <img src="/communities/<?php echo $comm['url'] ?>/images/<?php echo $comm['listingImgV1'][0] ?>" alt=""
                                     class="img-fluid w-100">
                                 <div class="mask flex-center">
                                     <p class="white-text font-weight-bold">VISIT</p>

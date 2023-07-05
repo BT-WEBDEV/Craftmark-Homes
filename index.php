@@ -18,12 +18,23 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
+                <a href="/communities/grove">
+                    <div class="list-item">
+                        <img src="/images/hero-slider/grove-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
+                            alt="The Grove by Craftmark Homes">
+                        <img src="/images/hero-slider/grove-mobile.jpg" class="img-fluid w-100 d-sm-none"
+                            alt="The Grove by Craftmark Homes">
+                    </div>
+                </a>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide">
                 <a href="/communities/rainwater-run">
                     <div class="list-item">
                         <img src="/images/hero-slider/rainwater-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
-                            alt="The Village at Cabin Branch by Craftmark Homes">
+                            alt="Rainwater Run by Craftmark Homes">
                         <img src="/images/hero-slider/rainwater-mobile.jpg" class="img-fluid w-100 d-sm-none"
-                            alt="The Village at Cabin Branch by Craftmark Homes">
+                            alt="Rainwater Run by Craftmark Homes">
                     </div>
                 </a>
             </div>
