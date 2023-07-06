@@ -2512,8 +2512,8 @@
                 "btnText": "white", 
                 "welcomeBackground": "bg-welcome.jpg"
             },
-            "headerInput1": "New Townhomes and<br>Condominiums from the $800s",
-            "headerInput2": "24-Foot Elevator-Ready Townhomes<br>20-Foot Townhomes<br>Townhome-Style Condominiums",
+            "headerInput1": "<b>New Townhomes and Condominiums</b>",
+            "headerInput2": "New 20’ Townhomes Now Selling from the $800s<br>Townhome Condominiums Coming Soon from the $600s<br>Elevator Townhomes Coming Soon from the $900s",
             "gallery": [
                 [1, "New Townhomes and Townhome-Style Condominiums for Sale in Rockville, MD"],
                 [2, "New Townhomes and Townhome-Style Condominiums for Sale in Rockville, MD"], 
@@ -2549,7 +2549,7 @@
             "features": ["exteriors", "interiors", "kitchens", "baths", "energy", "quality"],
             "openHours": {
                 "label": "Visit Us",
-                "hours": "*Personal Appointments Required. Please Contact to Schedule!"
+                "hours": "*Now Selling Off-Site from Cabin Branch: <a href='https://goo.gl/maps/uQFH3yabGEaZ4WhR8' target='_blank'>22327 Cabin Branch Avenue, Clarksburg, MD 20871</a>"
             },
             "priceInfo": {
                 "label": "From the",
@@ -2572,7 +2572,7 @@
                 }]
             },
             "salesAgent": {
-                "label": "*Personal Appointments Required. Please Contact to Schedule!",
+                "label": "*Now Selling Off-Site from Cabin Branch:<br><a href='https://goo.gl/maps/uQFH3yabGEaZ4WhR8' target='_blank'>22327 Cabin Branch Avenue, Clarksburg, MD 20871</a>",
                 "agents": [{
                     "agentName": "Lou Kalra",
                     "phone": "3019105770",

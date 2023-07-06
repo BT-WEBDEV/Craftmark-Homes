@@ -302,9 +302,7 @@ if($community['status'] != 'soldLabel') {
                     <input type="hidden" name="community" value="<?php echo $formId; ?>">
                     <input type="hidden" name="zipCode" value="Not Provided">
                     <input type="hidden" name="quickDeliAddress" value="Not Provided">
-                    <select id="interest-options" name="interest-options" class="form-select" style="display:none;">
-                        <option class="interest" value="No Options Available" selected>No Options</option>
-                    </select>
+                    
 
                     <!-- Honeypot --> 
                     <input name="fullName" type="text" id="fullName" class="hide-honey" autocomplete="false" tabindex="-1" placeholder="Full Name">
@@ -346,10 +344,28 @@ if($community['status'] != 'soldLabel') {
                                 placeholder="Phone*" required>
                         </div>
                         <!-- Comments -->
-                        <div class="col-sm-12 px-2 form-group">
-                            <textarea class="form-control z-depth-1" id="comments" name="comments" rows="3"
+                        <div class="col-sm-12 px-2">
+                            <textarea class="form-control z-depth-1 mb-2" id="comments" name="comments" rows="3"
                                 placeholder="Comments"></textarea>
                         </div>
+
+                        <!-- Dropdown Interest - If community is The Grove show interest dropdowns, else hide it --> 
+                        <?php if($comm['name'] == 'The Grove') { ?>
+                            <div class="col-sm-12 px-2 mb-2">
+                                <div class="form-outline">
+                                    <select id="interest-options" name="interest-options" class="form-select form-control mb-4 rounded-input z-depth-1" required>
+                                        <option class="interest" value="" selected disabled>I’m interested in…</option>
+                                        <option class="interest" value="24-foot Elevator-Ready Townhomes">24-foot Elevator-Ready Townhomes</option>
+                                        <option class="interest" value="20-foot Townhomes">20-foot Townhomes</option>
+                                        <option class="interest" value="Townhome-Style Condominiums">Townhome-Style Condominiums</option>
+                                    </select>
+                                </div>
+                            </div>
+                        <?php } else { ?> 
+                        <select id="interest-options" name="interest-options" class="form-select" style="display:none;">
+                            <option class="interest" value="No Options Available" selected>No Options</option>
+                        </select>
+                        <?php } ?> 
                         <!-- For Appointment -->
                         <?php 
                             //if($comm['url'] != "crown" && $comm['url'] != "preserve-at-westfields" && $communityName != "Preserve at Westfields") { 

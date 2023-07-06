@@ -279,9 +279,7 @@ $totalView = getTotalStats($pv_path, 'gka_floorplan_view', false) + 376;
         <div class="row">
             <?php 
             if (sizeof($available_com) != 0) {
-            foreach ($available_com as $comm) { 
-            consoleLog($comm);
-            consoleLog($comm['listingImgV1']);     
+            foreach ($available_com as $comm) {  
             ?>
             <!-- NEW DESIGN -->
             <div class="col-md-6">

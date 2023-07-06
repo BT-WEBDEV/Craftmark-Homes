@@ -1456,7 +1456,16 @@
                     "url": "westmore",
                     "listingImg": ["listingImg.jpg", ""],
                     "gallery": [
-                        [1, "The Westmore Floor Plan, 3-5 BR, 4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"]
+                        [1, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [2, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [3, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [4, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [5, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [6, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [7, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [8, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [9, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"],
+                        [10, "The Westmore Floor Plan, 3-5 BR, 2-4 BA, 2-Car Garage, Rooftop Terrace, Townhomes by Craftmark Homes"]
                     ],
                     "fpImage": [
                         [1, "Brochure Elevation", ""],
@@ -1472,8 +1481,8 @@
                     "3DTour": false,
                     "pdf": "floorPlans.pdf",
                     "specs": {
-                        "sqFeetLabel": "",
-                        "sqFeet": "",
+                        "sqFeetLabel": "Up to",
+                        "sqFeet": "2,450",
                         "stories": null,
                         "beds": {
                             "min": "3",
