@@ -28,51 +28,11 @@ function initMap() {
 }
 
 // Create Community markers from the json data
-// function createCommunityMapMarkers(data, county, homeTypes, minPrice, maxPrice) {
-//     result = data.filter(function (val) {
-//         var filteredHomeType;
-//         if (county) {
-//             return val['address']['county'] == county;
-//         } else if (minPrice && maxPrice) {
-//             if (minPrice <= val['priceInfo']['price'] && val['priceInfo']['price'] <= maxPrice) {
-//                 if (homeTypes[0] != 'any') {
-//                     $.each(homeTypes, function (k, homeType) {
-//                         if (homeType == val['homeType']) {
-//                             filteredHomeType = val;
-//                         }
-//                     });
-//                     return filteredHomeType;
-//                 } else {
-//                     return val;
-//                 }
-//             }
-//         } else {
-//             return val;
-//         }
-//     });
-//     console.log("Result:", result);
-//     $.each(result, function (k, comm) {
-//         var lat = comm['address']['coords'] ? comm['address']['coords'][0] : null;
-//         var long = comm['address']['coords'] ? comm['address']['coords'][1] : null;
-//         var pinType = (comm['status'] == "comingsoon") ? comm['status'] : comm['homeType'];
-//         if (lat !== null && long !== null && comm['status'] != "sold" && comm['status'] != "soldLabel") {
-//             console.log("Creating map marker for community:", comm['name']);
-//             console.log("Latitude:", lat);
-//             console.log("Longitude:", long);
-//             console.log("Pin type:", pinType);
-//             pushMarkers(lat, long, pinType, comm['name'], comm['url'], comm['priceInfo']['label'], comm['priceInfo']['price'], "community", comm['landingPage'], null, comm['mapImg'], comm['status']);
-//         }
-//     });
-// }
 function createCommunityMapMarkers(data, county, homeTypes, minPrice, maxPrice) {
-    console.log("County:",county);
-    console.log("Home Types:",homeTypes);
-    console.log("Min Price:", minPrice);
-    console.log("Max Price:", maxPrice);
     var result = data.filter(function (val) {
         var filteredHomeType;
         if (county) {
-            return val.address.county == county;
+            return val.address.county == county; 
         } else if (minPrice && maxPrice) {
             if (minPrice <= val.priceInfo.price && val.priceInfo.price <= maxPrice) {
                 if (homeTypes[0] != 'any') {
@@ -90,22 +50,15 @@ function createCommunityMapMarkers(data, county, homeTypes, minPrice, maxPrice) 
             return val;
         }
     });
-    console.log("Result:", result);
     result.forEach(function (comm) {
         var lat = comm.address.coords ? comm.address.coords[0] : null;
         var long = comm.address.coords ? comm.address.coords[1] : null;
         var pinType = (comm.status == "comingsoon") ? comm.status : comm.homeType;
         if (lat !== null && long !== null && comm.status != "sold" && comm.status != "soldLabel") {
-            console.log("Creating map marker for community:", comm.name);
-            console.log("Latitude:", lat);
-            console.log("Longitude:", long);
-            console.log("Pin type:", pinType);
             pushMarkers(lat, long, pinType, comm.name, comm.url, comm.priceInfo.label, comm.priceInfo.price, "community", comm.landingPage, null, comm.mapImg, comm.status);
         }
     });
 }
-
-
 
 // Create Quick Move-Ins Markers from MySql
 function creatQuickMoveInsMapMarkers(data, county, homeTypes, minPrice, maxPrice) {

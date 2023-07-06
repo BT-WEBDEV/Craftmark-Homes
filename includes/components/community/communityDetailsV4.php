@@ -807,7 +807,7 @@ if($community['status'] != 'soldLabel') {
         </div>
     </section>
 
-    <!-- Community Map -->
+    <!-- Community Map (MAP IS INITIATED IN THE INDEX FILE OF EACH COMMUNITY FOLDER) -->
     <section id="community-map" class="order-<?php echo $comm['sectionOrder']['map']; ?> bg-white">
         <div class="container-fluid max-lg-width-1140">
             <div class="header d-flex align-items-center justify-content-between">
