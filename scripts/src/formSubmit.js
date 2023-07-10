@@ -9,9 +9,6 @@ $(document).on('submit', '#topBuilderForm', function (event) {
     // Disable the submit button while evaluating if the form should be submitted
     $('#buttonMain').prop('disabled', true);
 
-    //HONEYPOT FAKE INPUT FOR CATCHING BOT FORM SPAM
-    // var fullName = document.forms["topBuilderForm"]["fullName"].value;
-    //
     var firstName = document.forms["topBuilderForm"]["firstName"].value;
     var lastName = document.forms["topBuilderForm"]["lastName"].value;
     var email = document.forms["topBuilderForm"]["email"].value;
@@ -30,19 +27,18 @@ $(document).on('submit', '#topBuilderForm', function (event) {
 
     // console.log(unformattedPhone);
 
-    // HONEY POT TEST - IF HIDDEN INPUT OF FULL NAME IS FILLED OUT, PREVENT FORM SUBMISSION
-    // if(fullName) {
-    //     event.preventDefault();
-    //     // Reactivate the button if the form was not submitted
-    //     $('#buttonMain').prop('disabled', false);
-    //     return false;
-    // }
-
+    //Push appointment, interest options, and quick delivery info comments field for TopBuilder API. 
     comments = "##APPOINTMENT##: " + aptDate + "," + aptTime + " | " + comments;
+
+    if (interestOptions) {
+        comments += " | ##I'M INTERESTED IN...##: " + interestOptions;
+    }
 
     if (quickDeliAddress) {
         comments = "##QuickDeliAddress##: " + quickDeliAddress + " | " + comments;
     }
+
+    //console.log(comments); 
 
     var is_email = re.test(email);
 
@@ -138,8 +134,8 @@ $(document).on('submit', '#topBuilderForm', function (event) {
                     }
                 },
                 error: function (xhr) {
-                    console.log("Network Error:");
-                    console.log("XHR Object:", xhr);
+                    //console.log("Network Error:");
+                    //console.log("XHR Object:", xhr);
                     alert("Something went wrong. Please try again.");
                     $('#buttonMain').prop('disabled', false);
                 }
@@ -172,7 +168,7 @@ if (quizInput) {
 //======================================================================
 
 $(document).on('submit', '.community-modal-form', function (event) {
-    console.log("Button has been pressed"); 
+    //console.log("Button has been pressed"); 
     // We stop it 
     event.preventDefault();
     var firstName = $('#firstName').val();
@@ -188,11 +184,11 @@ $(document).on('submit', '.community-modal-form', function (event) {
 
     // needs for recaptacha ready
     grecaptcha.ready(function() {
-        console.log("captcha ready!"); 
+        //console.log("captcha ready!"); 
         // do request for recaptcha token
         // response is promise with passed token
         grecaptcha.execute('6LfCa4oiAAAAAD7NhTj4lBLG2BLRwlRkS8m5vRM3', {action: 'create_form'}).then(function(token) {
-            console.log("captcha executed!"); 
+            //console.log("captcha executed!"); 
             // add token to form
             $('#topBuilderForm').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
             $('#topBuilderForm').prepend('<input type="hidden" id ="action" name="action" value="create_form">');
@@ -215,7 +211,7 @@ $(document).on('submit', '.community-modal-form', function (event) {
                 action: action, 
                 token: token
             }, function(result) {
-                        console.log(result);
+                        //console.log(result);
                         if(result.success) {
                                 alert('Thanks for the form submission!')
                         } else {
@@ -329,7 +325,7 @@ function ajaxReqSaveForm(data) {
         url: "../../includes/components/visitorAnalytics/ajaxReqOnSubmit.php",
         data: data,
         success: function (response) {
-            console.log(response);
+            //console.log(response);
         }
     });
 }

@@ -2587,8 +2587,7 @@
             }],
             "sitePlans": [
                 ["siteplan-1.jpg", "The Grove Area Map - Craftmark Homes", "The Grove Site Plan, Craftmark Homes"], 
-                ["siteplan-2.jpg", "The Grove Area Map - Craftmark Homes", "The Grove Site Plan, Craftmark Homes"],
-                ["siteplan-3.jpg", "The Grove Site Plan- Craftmark Homes", "The Grove Site Plan, Craftmark Homes"]
+                ["siteplan-2.jpg", "The Grove Area Map - Craftmark Homes", "The Grove Site Plan, Craftmark Homes"]
             ],
             "zillow": {
                 "Status": "Active",
