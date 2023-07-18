@@ -111,7 +111,7 @@ if (isset($initialSaved[$pv_path])) {
                                 class="font-weight-normal"><?php echo $comm['priceInfo']['label'] ?>
                                 $<?php echo ($comm['priceInfo']['price'] != 0) ? $comm['priceInfo']['price'] : " -- "; ?><?php echo isset($comm['priceInfo']['priceTag']) ? $comm['priceInfo']['priceTag'] : "s"; ?>
                             </p>
-                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Full Appointed Townhomes</p>'; }?>
+                            <?php if($comm['name'] == 'Retreat At Westfields') { echo '<span class="seperator">|</span><p class="font-weight-normal">Fully Appointed Townhomes</p>'; }?>
                         </div>
                     </div>
                 </div>
@@ -228,7 +228,7 @@ if (isset($initialSaved[$pv_path])) {
                     </div>
                     <?php } ?>
                     <!-- Retreat at westfields -->
-                    <?php echo ($comm['url'] == 'retreat-at-westfields') ? '<p class="font-weight-bold">Directions:</p><ul><li>Take I-495 to I-66W</li><li>Take Exit 53B, Route 28N/Dulles Airport</li><li>Exit onto Westfields Blvd- Stay right</li><li>Right On Stonecroft Blvd</li><li>Left on Conference Center Drive</li><li>Continue straight ahead to Craftmark Homes – The Retreat at Westfields</li></ul>' : ''; ?>
+                    <?php echo ($comm['url'] == 'retreat-at-westfields') ? '<p class="font-weight-bold">Directions:</p><ul><li>Take I-495 to I-66W</li><li>Take Exit 53B, Route 28N/Dulles Airport</li><li>Take the Westfields Blvd Exit</li><li>Exit onto Westfields Blvd - STAY LEFT</li><li>Right On Stonecroft Blvd</li><li>Left on Conference Center Drive</li><li>Left onto Ridgeview Retreat Drive Continue to 5286</li><li>Craftmark Homes Model Home on your left</li></ul>' : ''; ?>
                     <!-- Retreat at westfields -->
                 </div>
                 <div class="flex-item item-2-V4 order-2 text-xl-center d-flex">

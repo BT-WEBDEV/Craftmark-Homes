@@ -2562,11 +2562,11 @@
                     "label": "Community Location:",
                     "outOfCommunity": true,
                     "address": {
-                        "street1": "",
+                        "street1": "14937 Swat Street",
                         "street2": "",
                         "city": "Rockville",
                         "state": "MD",
-                        "zip": ""
+                        "zip": "20850"
                     },
                     "direction": "https://goo.gl/maps/QQYX6mq8eN5nexeq5"
                 }]
