@@ -1094,7 +1094,7 @@
                     "name": "The Richmond at Retreat at Westfields",
                     "statusInput": ["live", "sold"],
                     "status": "live",
-                    "basePrice": 699900,
+                    "basePrice": 709900,
                     "modelStatus": false,
                     "orderRate": false,
                     "url": "richmond-at-retreat-at-westfields",
@@ -1219,7 +1219,7 @@
                         [3, "Seneca by Craftmark", ""],
                         [4, "Seneca by Craftmark", ""]
                     ],
-                    "videoTour": "",
+                    "videoTour": "https://youtu.be/X12dcMMRQaA",
                     "3DTour": "https://my.matterport.com/show/?m=1qhR8WD7qwH",
                     "pdf": "floorPlans.pdf",
                     "specs": {
@@ -2222,7 +2222,7 @@
                 {
                     "name": "The Oakton at Darnestown Station",
                     "statusInput": ["live", "sold", "staging"],
-                    "status": "sold",
+                    "status": "soldHide",
                     "basePrice": 1595000,
                     "modelStatus": false,
                     "orderRate": false,

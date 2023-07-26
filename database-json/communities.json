@@ -1760,7 +1760,7 @@
                 "btnText": "white", 
                 "welcomeBackground": "bg-welcome.jpg"
             },
-            "headerInput1": "3-Level Townhome from Upper $600s<br>4-Level Townhome from Low $700s<br>Visit Our NEW DESIGN and Model Features!",
+            "headerInput1": "3-Level Townhome from Low $700s<br>4-Level Townhome from Mid $700s<br>Visit Our NEW DESIGN and Model Features!",
             "headerInput2": "",
             "gallery": [
                 [1, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
@@ -2038,7 +2038,7 @@
         {
             "id": 14,
             "statusInput": ["live", "sold", "comingsoon", "initial", "soldLabel"],
-            "status": "soldLabel",
+            "status": "sold",
             "formId": 4987,
             "name": "Darnestown Station",
             "homeType": "singleFamily",

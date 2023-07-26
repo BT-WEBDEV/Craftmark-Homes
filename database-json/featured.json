@@ -29,6 +29,56 @@
         {
             "statusInput": ["live", "sold", "home"],
             "status": "home",
+            "url": "cabin-branch",
+            "comUrl": "cabin-branch",
+            "featureName": "The Village at Cabin Branch",
+            "imgAlt": "Video Tour for Seneca Model Home",
+            "mainImage": "B2-seneca2.png",
+            "imageFrame" : "B1-seneca2.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/X12dcMMRQaA"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": { 
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
+            "url": "cabin-branch",
+            "comUrl": "cabin-branch",
+            "featureName": "The Village at Cabin Branch",
+            "imgAlt": "Flyover of The Village at Cabin Branch",
+            "mainImage": "B2-flyover.png",
+            "imageFrame" : "B1-flyover.png",
+            "highlightUrl": {
+                "type": "youtube",
+                "url": "https://youtu.be/HKJWAFLuQdU"
+            },
+            "logo": {
+                "fileName": "B3.svg",
+                "style": { 
+                    "top": "auto",
+                    "right": "0",
+                    "bottom": "27%",
+                    "left": "0",
+                    "width": "45%",
+                    "margin": "0 auto"
+                }
+            }
+        },
+        {
+            "statusInput": ["live", "sold", "home"],
+            "status": "home",
             "url": "rainwater-run",
             "comUrl": "rainwater-run",
             "featureName": "Rainwater Run",

@@ -61,7 +61,7 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
                 </a>
             </div>
             <!-- Slides -->
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
                 <a href="/communities/darnestown-station">
                     <div class="list-item">
                         <img src="/images/hero-slider/darnestown-station-desktop.jpg" class="img-fluid w-100 d-none d-sm-block"
@@ -70,7 +70,7 @@ $quickMoveIns = getQuickMoveIns(null, null, null);
                             alt="Single Family Homes for Sale, Darnestown Station by Craftmark Homes">
                     </div>
                 </a>
-            </div>
+            </div> -->
             <div class="swiper-slide">
                 <a href="/communities/watershed">
                     <div class="list-item">
