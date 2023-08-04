@@ -1094,7 +1094,7 @@
                     "name": "The Richmond at Retreat at Westfields",
                     "statusInput": ["live", "sold"],
                     "status": "live",
-                    "basePrice": 709900,
+                    "basePrice": 699900,
                     "modelStatus": false,
                     "orderRate": false,
                     "url": "richmond-at-retreat-at-westfields",
@@ -1276,7 +1276,92 @@
                         "Wetbar": false,
                         "Wired": true
                     }
-                },         
+                },
+                {
+                    "name": "The Seneca at The Grove",
+                    "statusInput": ["live", "sold"],
+                    "status": "live",
+                    "basePrice": 0,
+                    "modelStatus": false,
+                    "orderRate": false,
+                    "url": "seneca-at-grove",
+                    "listingImg": ["listingImg.jpg", "The The Seneca at The Grove Floor Plan, Townhomes Available at Clarkburg, MD"],
+                    "description": "More details on the way!",
+                    "gallery": [
+                        [1, "The The Seneca at The Grove Floor Plan, 3-5 BR, 3-4 BA, 2-Car Garage, Townhomes in MD, Craftmark Homes"]
+                    ],
+                    "fpImage": [
+                        [1, "Garage", ""],
+                        [2, "Standard Ground Floor", ""],
+                        [3, "First Floor", ""],
+                        [4, "Second Floor", ""],
+                        [5, "Alt Second Floor", ""],
+                        [6, "Optional Loft & Bath", ""]
+                    ],
+                    "exteriorImage": [
+                        [1, "Seneca by Craftmark", ""],
+                        [2, "Seneca by Craftmark", ""],
+                        [3, "Seneca by Craftmark", ""],
+                        [4, "Seneca by Craftmark", ""]
+                    ],
+                    "videoTour": "",
+                    "3DTour": "",
+                    "pdf": "floorPlans.pdf",
+                    "specs": {
+                        "sqFeetLabel": "Starting",
+                        "sqFeet": "2,600",
+                        "stories": 3,
+                        "beds": {
+                            "min": "3",
+                            "max": "5"
+                        },
+                        "fullBaths": {
+                            "min": "3",
+                            "max": "4"
+                        },
+                        "halfBaths": {
+                            "min": "1",
+                            "max": ""
+                        },
+                        "garage": {
+                            "min": "2",
+                            "max": ""
+                        }
+                    },
+                    "details": [
+                        "3-5 Bedrooms",
+                        "3-4 full 1 half Baths",
+                        "2-Car Garage"
+                    ],
+                    "fpVersions": [],
+                    "zillow": {
+                        "Type": "MultiFamily",
+                        "PlanTypeName": "Townhome",
+                        "MasterBedLocation": "Up",
+                        "LivingArea": ["LivingRoom", "FamilyRoom", "GuestRoom", "DiningRoom", "Loft"],
+                        "Basement": false,
+                        "PlanAmenity": ["WalkInClosets","GreenConstruction","VaultedCeilings"],
+                        "PlanOpenAmenity": "No Open Amenities",
+                        "Description": "Now Selling 55+ Active Adult ELEVATOR Townhomes Off-Site! 3-5 Bedrooms | 3-4 full 1-2 half Baths | 2-Car Garage | Private Elevator",
+                        "ArchitectureStyle": "Modern",
+                        "Attic": false,
+                        "CoolingSystems": ["Central"],
+                        "Deck": false,
+                        "Dock": false,
+                        "DoublePaneWindows": true,
+                        "ExteriorTypes": ["Brick","Stone","Vinyl"],
+                        "HeatingFuel": ["Gas"],
+                        "HeatingSystems": ["ForcedAir"],
+                        "ParkingTypes": ["GarageAttached"],
+                        "Patio": false,
+                        "Porch": false,
+                        "RoofTypes": ["Asphalt"],
+                        "Skylight": true,
+                        "SprinklerSystem": true,
+                        "Wetbar": false,
+                        "Wired": true
+                    }
+                },          
                 {
                     "name": "The Westfield",
                     "statusInput": ["live", "sold"],

@@ -1760,7 +1760,7 @@
                 "btnText": "white", 
                 "welcomeBackground": "bg-welcome.jpg"
             },
-            "headerInput1": "3-Level Townhome from Low $700s<br>4-Level Townhome from Mid $700s<br>Visit Our NEW DESIGN and Model Features!",
+            "headerInput1": "3-Level Townhome from Upper $600s<br>4-Level Townhome from Mid $700s<br>Visit Our NEW DESIGN and Model Features!",
             "headerInput2": "",
             "gallery": [
                 [1, "The Retreat at Westfield in Chantilly, VA", "2-Car Garage Townhomes in Fairfax County, VA, The Retreat at Westfields by Craftmark Homes"],
@@ -2513,7 +2513,7 @@
                 "welcomeBackground": "bg-welcome.jpg"
             },
             "headerInput1": "<b>New Townhomes and Condominiums</b>",
-            "headerInput2": "New 20’ Townhomes Now Selling from the $800s<br>Townhome Condominiums Coming Soon from the $600s<br>Elevator Townhomes Coming Soon from the $900s",
+            "headerInput2": "The Westmore Townhome Now Selling from the Mid $800s<br>The Seneca Elevator Townhomes Now Selling from the Upper $900s<br>The Avery & Travilah Townhome Condominiums Coming Soon from the $600s",
             "gallery": [
                 [1, "New Townhomes and Townhome-Style Condominiums for Sale in Rockville, MD"],
                 [2, "New Townhomes and Townhome-Style Condominiums for Sale in Rockville, MD"], 
@@ -2552,7 +2552,7 @@
                 "hours": "*Now Selling Off-Site from Cabin Branch: <a href='https://goo.gl/maps/uQFH3yabGEaZ4WhR8' target='_blank'>22327 Cabin Branch Avenue, Clarksburg, MD 20871</a>"
             },
             "priceInfo": {
-                "label": "From the",
+                "label": "From the Mid",
                 "price": "800"
             },
             "address": {
@@ -2583,6 +2583,11 @@
             "floorplans": [{
                 "fpName": "The Westmore",
                 "fpUrl": "westmore",
+                "model": false
+            },
+            {
+                "fpName": "The Seneca at The Grove",
+                "fpUrl": "seneca-at-grove",
                 "model": false
             }],
             "sitePlans": [
